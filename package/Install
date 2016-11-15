@@ -1,0 +1,31 @@
+; EAB WHDLoad Demos AGA Menu Package Install Script
+; -------------------------------------------------
+;
+; Author: Henrik Noerfjand Stengaard
+; Date: 2016-11-15
+;
+; This script extracts and installs zip archives for EAB WHDLoad Demos AGA Menu Package.
+
+echo "Installing HstWB Demos..."
+unzip -qq -o -x PACKAGEDIR:hstwb-demos.zip -d SYSTEMDIR:Demos/
+
+echo "Installing Menu and WHDLoad drawers..."
+unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
+
+echo "Installing AGS2 Demos Menu..."
+unzip -qq -o -x PACKAGEDIR:ags2demos-menu.zip -d WORKDIR:Menu/AGS2Demos/
+
+echo "Installing iGame WHDLoad Demos Screenshots..."
+unzip -qq -o -x PACKAGEDIR:igame-screenshots.zip -d WORKDIR:WHDLoad/Demos/
+
+; Add A-Demos to user-assign, if it doesn't exist
+search SYSTEMDIR:S/User-Assign "A-Demos:" >NIL:
+IF WARN
+	echo "Assign A-Demos: DH1:WHDLoad/Demos" >>SYSTEMDIR:S/User-Assign
+ENDIF
+
+; Add ags2demospath to user env, if it doesn't exist
+search SYSTEMDIR:S/User-Env "ags2demospath" >NIL:
+IF WARN
+	echo "setenv ags2demospath *"DH1:Menu/AGS2Demos*"" >>SYSTEMDIR:S/User-Env
+ENDIF

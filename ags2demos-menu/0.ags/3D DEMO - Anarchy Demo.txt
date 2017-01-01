@@ -1,4 +1,5 @@
 Name    : 3D DEMO
+Version : Demo
 Groups  : Anarchy
 Type    : Demo
 Party   : The Party 1991

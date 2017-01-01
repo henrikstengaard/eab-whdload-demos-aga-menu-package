@@ -1,4 +1,5 @@
 Name    : Iraq
+Version : Demo
 Groups  : Animators
 Type    : Demo
 Party   : Vision/Mirage X-Mas Party 1990

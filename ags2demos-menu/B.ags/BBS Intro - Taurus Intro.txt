@@ -1,4 +1,5 @@
 Name    : BBS Intro
+Version : Intro
 Groups  : Taurus
 Type    : Bbstro
 Party   : The Party 1992

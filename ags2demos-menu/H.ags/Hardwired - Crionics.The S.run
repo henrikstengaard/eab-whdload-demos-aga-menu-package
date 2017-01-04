@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:T/TuneShow2/TuneShow2.Slave
+;RunFile=A-Demos:H/Hardwired/Hardwired.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "T" "Tuneshow II - Prophets AGT"
+  execute S:AGS2Favourites "H" "Hardwired - Crionics.The S"
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:T/TuneShow2/"
+cd "A-Demos:H/Hardwired/"
 IF EXISTS ENV:whdloadargs
-  whdload "TuneShow2.Slave" $whdloadargs
+  whdload "Hardwired.Slave" $whdloadargs
 ELSE
-  whdload "TuneShow2.Slave"
+  whdload "Hardwired.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:F/FullMoon/FullMoon.Slave
+;RunFile=A-Demos:D/DiggyPiggys/DiggyPiggys.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "F" "Fullmoon - Virtual DreamsF"
+  execute S:AGS2Favourites "D" "Diggy Piggys - Channel 42."
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:F/FullMoon/"
+cd "A-Demos:D/DiggyPiggys/"
 IF EXISTS ENV:whdloadargs
-  whdload "FullMoon.Slave" $whdloadargs
+  whdload "DiggyPiggys.Slave" $whdloadargs
 ELSE
-  whdload "FullMoon.Slave"
+  whdload "DiggyPiggys.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

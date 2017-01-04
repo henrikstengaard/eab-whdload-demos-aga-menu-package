@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:W/WildAGA/WildAGA.Slave
+;RunFile=A-Demos:G/GigaDemo3/GigaDemo3.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "W" "Wild - AnaduneNah-Kolor V2"
+  execute S:AGS2Favourites "G" "Gigademo 3 - Triangle.The"
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:W/WildAGA/"
+cd "A-Demos:G/GigaDemo3/"
 IF EXISTS ENV:whdloadargs
-  whdload "WildAGA.Slave" $whdloadargs
+  whdload "GigaDemo3.Slave" $whdloadargs
 ELSE
-  whdload "WildAGA.Slave"
+  whdload "GigaDemo3.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

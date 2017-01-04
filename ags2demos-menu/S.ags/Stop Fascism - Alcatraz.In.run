@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:S/SumeaAGA/SumeaAGA.Slave
+;RunFile=A-Demos:S/StopFascism/StopFascism.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "S" "Sumea - Virtual DreamsFair"
+  execute S:AGS2Favourites "S" "Stop Fascism - Alcatraz.In"
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:S/SumeaAGA/"
+cd "A-Demos:S/StopFascism/"
 IF EXISTS ENV:whdloadargs
-  whdload "SumeaAGA.Slave" $whdloadargs
+  whdload "StopFascism.Slave" $whdloadargs
 ELSE
-  whdload "SumeaAGA.Slave"
+  whdload "StopFascism.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

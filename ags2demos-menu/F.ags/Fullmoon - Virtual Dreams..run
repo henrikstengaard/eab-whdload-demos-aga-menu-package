@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:H/Hardwired/Hardwired.Slave
+;RunFile=A-Demos:F/FullMoon/FullMoon.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "H" "Hardwired - CrionicsThe Si"
+  execute S:AGS2Favourites "F" "Fullmoon - Virtual Dreams."
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:H/Hardwired/"
+cd "A-Demos:F/FullMoon/"
 IF EXISTS ENV:whdloadargs
-  whdload "Hardwired.Slave" $whdloadargs
+  whdload "FullMoon.Slave" $whdloadargs
 ELSE
-  whdload "Hardwired.Slave"
+  whdload "FullMoon.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

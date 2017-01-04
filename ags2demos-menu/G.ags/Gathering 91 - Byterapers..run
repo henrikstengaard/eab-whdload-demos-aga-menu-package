@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:F/Faktory/Faktory.Slave
+;RunFile=A-Demos:G/Gathering91Slideshow/Gathering91Slideshow.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "F" "Faktory - Virtual DreamsFa"
+  execute S:AGS2Favourites "G" "Gathering 91 - Byterapers."
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:F/Faktory/"
+cd "A-Demos:G/Gathering91Slideshow/"
 IF EXISTS ENV:whdloadargs
-  whdload "Faktory.Slave" $whdloadargs
+  whdload "Gathering91Slideshow.Slave" $whdloadargs
 ELSE
-  whdload "Faktory.Slave"
+  whdload "Gathering91Slideshow.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

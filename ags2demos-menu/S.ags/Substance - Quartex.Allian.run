@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:G/GigaDemo3/GigaDemo3.Slave
+;RunFile=A-Demos:S/Substance/Substance.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "G" "Gigademo 3 - TriangleThe G"
+  execute S:AGS2Favourites "S" "Substance - Quartex.Allian"
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:G/GigaDemo3/"
+cd "A-Demos:S/Substance/"
 IF EXISTS ENV:whdloadargs
-  whdload "GigaDemo3.Slave" $whdloadargs
+  whdload "Substance.Slave" $whdloadargs
 ELSE
-  whdload "GigaDemo3.Slave"
+  whdload "Substance.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:O/Overload2/Overload2.Slave
+;RunFile=A-Demos:W/WildAGA/WildAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-  execute S:AGS2Favourites "O" "Overload 2 - Skid RowJetse"
+  execute S:AGS2Favourites "W" "Wild - Anadune.Nah-Kolo V2"
   IF $favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:O/Overload2/"
+cd "A-Demos:W/WildAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Overload2.Slave" $whdloadargs
+  whdload "WildAGA.Slave" $whdloadargs
 ELSE
-  whdload "Overload2.Slave"
+  whdload "WildAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

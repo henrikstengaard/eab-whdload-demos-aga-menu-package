@@ -20,9 +20,9 @@ protect >NIL: WORKDIR:Menu/AGS2Demos/AGS2Menu +rwe
 IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/Music"
   makedir "WORKDIR:Menu/AGS2Demos/Music" >NIL:
 ENDIF
-IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ags"
-  IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ag_"
-    makedir "WORKDIR:Menu/AGS2Games/.Favourites.ag_" >NIL:
+IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/.Favourites.ags"
+  IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/.Favourites.ag_"
+    makedir "WORKDIR:Menu/AGS2Demos/.Favourites.ag_" >NIL:
   ENDIF
 ENDIF
 

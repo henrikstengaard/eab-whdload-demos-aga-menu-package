@@ -40,3 +40,9 @@ search SYSTEMDIR:S/AGS2Menu.data "AGS2DemosMenuDir=" >NIL:
 IF WARN 
 	echo "AGS2DemosMenuDir=DH1:Menu/AGS2Demos" >>SYSTEMDIR:S/AGS2Menu.data
 ENDIF
+
+; Add igame demos menu dir to igamemenu.data, if it doesn't exist
+search SYSTEMDIR:S/iGameMenu.data "iGameDemosMenuDir=" >NIL:
+IF WARN 
+	echo "iGameDemosMenuDir=DH0:Demos" >>SYSTEMDIR:S/iGameMenu.data
+ENDIF

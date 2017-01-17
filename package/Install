@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-01-06
+; Date: 2017-01-17
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Demos AGA Menu Package.
 
@@ -10,24 +10,24 @@ echo "Installing HstWB Demos..."
 unzip -qq -o -x PACKAGEDIR:hstwb-demos.zip -d SYSTEMDIR:Demos/
 
 echo "Installing Menu and WHDLoad drawers..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
+unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WHDLOADDIR:
 
 echo "Installing AGS2 Demos Menu..."
-unzip -qq -o -x PACKAGEDIR:ags2demos-menu.zip -d WORKDIR:Menu/AGS2Demos/
-protect >NIL: WORKDIR:Menu/AGS2Demos/AGS2 +rwe
-protect >NIL: WORKDIR:Menu/AGS2Demos/AGS2Helper +rwe
-protect >NIL: WORKDIR:Menu/AGS2Demos/AGS2Menu +rwe
-IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/Music"
-  makedir "WORKDIR:Menu/AGS2Demos/Music" >NIL:
+unzip -qq -o -x PACKAGEDIR:ags2demos-menu.zip -d WHDLOADDIR:Menu/AGS2Demos/
+protect >NIL: WHDLOADDIR:Menu/AGS2Demos/AGS2 +rwe
+protect >NIL: WHDLOADDIR:Menu/AGS2Demos/AGS2Helper +rwe
+protect >NIL: WHDLOADDIR:Menu/AGS2Demos/AGS2Menu +rwe
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/Music"
+  makedir "WHDLOADDIR:Menu/AGS2Demos/Music" >NIL:
 ENDIF
-IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/.Favourites.ags"
-  IF NOT EXISTS "WORKDIR:Menu/AGS2Demos/.Favourites.ag_"
-    makedir "WORKDIR:Menu/AGS2Demos/.Favourites.ag_" >NIL:
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ags"
+  IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ag_"
+    makedir "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ag_" >NIL:
   ENDIF
 ENDIF
 
 echo "Installing Menu WHDLoad Content..." 
-unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Demos/
+unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WHDLOADDIR:WHDLoad/Demos/
 
 ; Add A-Demos to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Demos:" >NIL:

@@ -4,7 +4,7 @@
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "A" "Aquarium - Carillon & Cybe"
+  execute S:AGS2Favourites "A" "Aquarium - Carillon Cyberi"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF

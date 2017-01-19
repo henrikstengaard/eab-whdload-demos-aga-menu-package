@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:D/Drums&Reverbs/Drums&Reverbs.Slave
+;RunFile=A-Demos:S/SonicAttack/SonicAttack.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "D" "Drums & Reverbs - Chryseis"
+  execute S:AGS2Favourites "S" "Sonic Attack - Dual Crew S"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:D/Drums&Reverbs/"
+cd "A-Demos:S/SonicAttack/"
 IF EXISTS ENV:whdloadargs
-  whdload "Drums&Reverbs.Slave" $whdloadargs
+  whdload "SonicAttack.Slave" $whdloadargs
 ELSE
-  whdload "Drums&Reverbs.Slave"
+  whdload "SonicAttack.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

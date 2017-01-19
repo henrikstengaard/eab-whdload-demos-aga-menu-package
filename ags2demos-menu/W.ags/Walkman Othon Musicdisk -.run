@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:C/Chromagic/Chromagic.Slave
+;RunFile=A-Demos:M/MusicDiskArmada&It/MusicDiskArmada&It.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "C" "Chromagic - Dual Crew & Sh"
+  execute S:AGS2Favourites "W" "Walkman Othon Musicdisk -"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:C/Chromagic/"
+cd "A-Demos:M/MusicDiskArmada&It/"
 IF EXISTS ENV:whdloadargs
-  whdload "Chromagic.Slave" $whdloadargs
+  whdload "MusicDiskArmada&It.Slave" $whdloadargs
 ELSE
-  whdload "Chromagic.Slave"
+  whdload "MusicDiskArmada&It.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

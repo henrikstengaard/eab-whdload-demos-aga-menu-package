@@ -4,7 +4,7 @@
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "H" "Honeycomb - Tristar & Red"
+  execute S:AGS2Favourites "H" "Honeycomb - Tristar Red Se"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF

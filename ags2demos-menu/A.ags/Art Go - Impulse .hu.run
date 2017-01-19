@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:A/Alpha&Omega/Alpha&Omega.Slave
+;RunFile=A-Demos:A/Art&Go/Art&Go.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "A" "Alpha & Omega - Pure Metal"
+  execute S:AGS2Favourites "A" "Art Go - Impulse .hu"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:A/Alpha&Omega/"
+cd "A-Demos:A/Art&Go/"
 IF EXISTS ENV:whdloadargs
-  whdload "Alpha&Omega.Slave" $whdloadargs
+  whdload "Art&Go.Slave" $whdloadargs
 ELSE
-  whdload "Alpha&Omega.Slave"
+  whdload "Art&Go.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

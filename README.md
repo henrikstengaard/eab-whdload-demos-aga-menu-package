@@ -49,7 +49,7 @@ This assign is required for AGS2 to work as run files use it to start demos.
 
 For AGS2 following features had been added in ".Settings" folder:
 
-- Favourites mode: Add or remove demos to ".Favourites" folder in AGS2 menu.
+- Favourites mode: Add or remove demos in ".Favourites" folder in AGS2 menu.
 - Music: Turn music on and off for AGS2 menus.
 - WHDLoad Preload: Turn Preload option on or off.
 - Settings: View and save settings for Favourites mode, Music and WHDLoad Preload.
@@ -204,7 +204,7 @@ This can be used each time demos are installed or deleted to update AGS2 menu.
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .run and .ru_ files in WHDLOADDIR:Menu/AGS2Demos or WHDLOADDIR:Menu/AGS2Demos and check if it's "RunFile" exists. 
+Configure menus iterates through all .run and .ru_ files in WHDLOADDIR:Menu/AGS2Demos and check if it's "RunFile" exists. 
 This is typically a full path to WHDLoad slave like "A-Demos:S/StateOfTheArt/StateOfTheArt.Slave" for the demo State of the Art. 
 Since .run files are AmigaDOS scripts the "RunFile" is added as a comment, so it doesn't disturb the script.
 Here an example what the "RunFile" looks like in a .run script.

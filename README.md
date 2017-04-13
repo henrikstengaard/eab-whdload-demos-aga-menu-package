@@ -1,6 +1,8 @@
 # EAB WHDLoad Demos AGA Menu Package
 
-EAB WHDLoad Demos AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA demos currently available in English Board Amiga WHDLoad packs with update 2.6 applied. 
+EAB WHDLoad Demos AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA demos currently available in English Board Amiga WHDLoad packs with update 2.6 applied.
+
+**Note that this package only supports English Board Amiga WHDLoad packs as paths to start demos are specifically generated for English Board Amiga WHDLoad packs.**
 
 ## Requirements
 

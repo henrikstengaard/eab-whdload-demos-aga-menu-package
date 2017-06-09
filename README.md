@@ -6,7 +6,7 @@ EAB WHDLoad Demos AGA Menu package contains menus for AGS2 and iGame with screen
 
 ## Requirements
 
-EAB WHDLoad Demos AGA Menu package can be installed on any Amiga with Workbench 3.1 (or better) and about 40MB free space on a harddrive.
+EAB WHDLoad Demos AGA Menu package can be installed on any Amiga with Workbench 3.1 (or better) and about 40MB free space on a harddrive for installation.
 
 For EAB WHDLoad Demos AGA Menu package to work properly, it requires following applications and libraries are installed:
 - MUI: Install MUI from http://aminet.net/util/libs/mui38usr.lha.

@@ -1,4 +1,4 @@
 Name    : Rainheart Project
 Groups  : BAD COMPANY
 Type    : Musicdisk
-Whdload : RainheartProject.Slave
+Whdload : RainheartProject.slave

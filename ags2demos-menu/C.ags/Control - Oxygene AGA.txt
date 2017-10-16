@@ -4,4 +4,4 @@ Groups  : Oxygene
 Type    : Demo
 Party   : Gasp 1995
 Rank    : 1st
-Whdload : Control.slave
+Whdload : ControlAGA.slave

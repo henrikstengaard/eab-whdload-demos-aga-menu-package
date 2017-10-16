@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:N/Nexus7/Nexus7.Slave
+;RunFile=A-Demos:N/Nexus7AGA/Nexus7AGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:N/Nexus7/"
+cd "A-Demos:N/Nexus7AGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Nexus7.Slave" $whdloadargs
+  whdload "Nexus7AGA.Slave" $whdloadargs
 ELSE
-  whdload "Nexus7.Slave"
+  whdload "Nexus7AGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

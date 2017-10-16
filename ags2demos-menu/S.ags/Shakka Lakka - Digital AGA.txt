@@ -2,4 +2,4 @@ Name    : Shakka Lakka
 Version : AGA
 Groups  : Digital
 Type    : Demo
-Whdload : ShakkaLakka.Slave
+Whdload : ShakkaLakkaAGA.Slave

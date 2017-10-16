@@ -4,4 +4,4 @@ Groups  : Bomb
 Type    : Demo
 Party   : The Party 1994
 Rank    : 3rd
-Whdload : Motion.slave
+Whdload : MotionAGA.slave

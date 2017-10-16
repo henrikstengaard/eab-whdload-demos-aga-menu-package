@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:R/RainheartProject/"
 IF EXISTS ENV:whdloadargs
-	whdload "RainheartProject.Slave" $whdloadargs
+	whdload "RainheartProject.slave" $whdloadargs
 ELSE
-	whdload "RainheartProject.Slave"
+	whdload "RainheartProject.slave"
 ENDIF

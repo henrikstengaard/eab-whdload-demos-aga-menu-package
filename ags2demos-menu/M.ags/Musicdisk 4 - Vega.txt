@@ -1,0 +1,4 @@
+Name    : Musicdisk 4
+Groups  : Vega
+Type    : Musicdisk
+Whdload : MusicDisk4Vega.Slave

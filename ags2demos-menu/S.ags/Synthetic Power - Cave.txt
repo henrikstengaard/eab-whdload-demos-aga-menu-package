@@ -1,0 +1,4 @@
+Name    : Synthetic Power
+Groups  : Cave
+Type    : Musicdisk
+Whdload : SyntheticPower.Slave

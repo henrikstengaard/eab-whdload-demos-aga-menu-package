@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:Q/Que/Que.Slave
+;RunFile=A-Demos:Q/QueAGA/QueAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:Q/Que/"
+cd "A-Demos:Q/QueAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Que.Slave" $whdloadargs
+  whdload "QueAGA.Slave" $whdloadargs
 ELSE
-  whdload "Que.Slave"
+  whdload "QueAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

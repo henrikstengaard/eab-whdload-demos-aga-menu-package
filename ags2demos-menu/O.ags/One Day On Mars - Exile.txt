@@ -1,0 +1,4 @@
+Name    : One Day On Mars
+Groups  : Exile
+Type    : Musicdisk
+Whdload : OneDayOnMars.Slave

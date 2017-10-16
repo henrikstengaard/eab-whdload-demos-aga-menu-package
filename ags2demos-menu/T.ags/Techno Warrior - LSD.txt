@@ -1,4 +1,4 @@
 Name    : Techno Warrior
 Groups  : LSD
 Type    : Musicdisk
-Whdload : TechnoWarrior.Slave
+Whdload : TechnoWarrior.slave

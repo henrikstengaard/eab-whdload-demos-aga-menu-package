@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:P/PeeWee/PeeWee.Slave
+;RunFile=A-Demos:P/PeeWeeAGA/PeeWeeAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:P/PeeWee/"
+cd "A-Demos:P/PeeWeeAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "PeeWee.Slave" $whdloadargs
+  whdload "PeeWeeAGA.Slave" $whdloadargs
 ELSE
-  whdload "PeeWee.Slave"
+  whdload "PeeWeeAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:H/Hymn633/Hymn633.Slave
+;RunFile=A-Demos:H/Hymn633/Hymn633.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:H/Hymn633/"
 IF EXISTS ENV:whdloadargs
-  whdload "Hymn633.Slave" $whdloadargs
+  whdload "Hymn633.slave" $whdloadargs
 ELSE
-  whdload "Hymn633.Slave"
+  whdload "Hymn633.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

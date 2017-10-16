@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:P/PlanetGroove/PlanetGroove.slave
+;RunFile=A-Demos:P/PlanetGrooveAGA/PlanetGrooveAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:P/PlanetGroove/"
+cd "A-Demos:P/PlanetGrooveAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "PlanetGroove.slave" $whdloadargs
+  whdload "PlanetGrooveAGA.slave" $whdloadargs
 ELSE
-  whdload "PlanetGroove.slave"
+  whdload "PlanetGrooveAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

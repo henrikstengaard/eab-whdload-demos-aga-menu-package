@@ -1,0 +1,4 @@
+Name    : The White Room
+Groups  : Genesis (AFL)
+Type    : Trackmo
+Whdload : WhiteRoom.Slave

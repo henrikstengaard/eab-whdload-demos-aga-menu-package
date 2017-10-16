@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:M/MrMonkey/MrMonkey.Slave
+;RunFile=A-Demos:M/MrMonkeyAGA/MrMonkeyAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:M/MrMonkey/"
+cd "A-Demos:M/MrMonkeyAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "MrMonkey.Slave" $whdloadargs
+  whdload "MrMonkeyAGA.Slave" $whdloadargs
 ELSE
-  whdload "MrMonkey.Slave"
+  whdload "MrMonkeyAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

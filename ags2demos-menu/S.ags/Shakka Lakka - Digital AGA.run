@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:S/ShakkaLakka/ShakkaLakka.Slave
+;RunFile=A-Demos:S/ShakkaLakkaAGA/ShakkaLakkaAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:S/ShakkaLakka/"
+cd "A-Demos:S/ShakkaLakkaAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "ShakkaLakka.Slave" $whdloadargs
+  whdload "ShakkaLakkaAGA.Slave" $whdloadargs
 ELSE
-  whdload "ShakkaLakka.Slave"
+  whdload "ShakkaLakkaAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

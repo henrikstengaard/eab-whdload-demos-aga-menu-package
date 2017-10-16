@@ -1,7 +1,7 @@
 ; Whdload
-cd "A-Demos:M/MegademoJoy&MGF&TJC/"
+cd "A-Demos:M/MegaDemoJoy&MGF&TJC/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegademoJoy&MGF&TJC.Slave" $whdloadargs
+	whdload "MegaDemoJoy&MGF&TJC.slave" $whdloadargs
 ELSE
-	whdload "MegademoJoy&MGF&TJC.Slave"
+	whdload "MegaDemoJoy&MGF&TJC.slave"
 ENDIF

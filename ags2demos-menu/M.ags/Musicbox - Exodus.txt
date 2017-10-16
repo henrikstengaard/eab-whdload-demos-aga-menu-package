@@ -1,0 +1,4 @@
+Name    : Musicbox
+Groups  : Exodus
+Type    : Musicdisk
+Whdload : MusicBoxExodus.Slave

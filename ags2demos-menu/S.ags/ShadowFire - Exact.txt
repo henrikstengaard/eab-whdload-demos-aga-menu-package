@@ -1,0 +1,4 @@
+Name    : ShadowFire
+Groups  : Exact
+Type    : Demo
+Whdload : ShadowFire.Slave

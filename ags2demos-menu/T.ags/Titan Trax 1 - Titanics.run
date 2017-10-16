@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:T/TitanTrax/TitanTrax.slave
+;RunFile=A-Demos:T/TitanTrax/TitanTrax.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:T/TitanTrax/"
 IF EXISTS ENV:whdloadargs
-  whdload "TitanTrax.slave" $whdloadargs
+  whdload "TitanTrax.Slave" $whdloadargs
 ELSE
-  whdload "TitanTrax.slave"
+  whdload "TitanTrax.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,5 @@
+Name    : First demo
+Version : Demo
+Groups  : Exact
+Type    : Demo
+Whdload : FirstDemo.Slave

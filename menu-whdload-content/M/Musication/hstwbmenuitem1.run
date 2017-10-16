@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:M/Musication/"
 IF EXISTS ENV:whdloadargs
-	whdload "Musication.slave" $whdloadargs
+	whdload "Musication.Slave" $whdloadargs
 ELSE
-	whdload "Musication.slave"
+	whdload "Musication.Slave"
 ENDIF

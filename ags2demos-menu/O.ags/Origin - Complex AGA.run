@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:O/Origin/Origin.slave
+;RunFile=A-Demos:O/OriginAGA/OriginAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:O/Origin/"
+cd "A-Demos:O/OriginAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Origin.slave" $whdloadargs
+  whdload "OriginAGA.slave" $whdloadargs
 ELSE
-  whdload "Origin.slave"
+  whdload "OriginAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

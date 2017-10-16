@@ -1,0 +1,4 @@
+Name    : Strange Dream #1
+Groups  : Willow (Amiga)
+Type    : Demopack
+Whdload : StrangeMusic1.Slave

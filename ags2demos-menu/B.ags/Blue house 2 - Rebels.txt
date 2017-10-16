@@ -3,4 +3,4 @@ Groups  : Rebels
 Type    : Demo
 Party   : The Party 1991
 Rank    : N/a
-Whdload : BlueHouse2.Slave
+Whdload : BlueHouse2.slave

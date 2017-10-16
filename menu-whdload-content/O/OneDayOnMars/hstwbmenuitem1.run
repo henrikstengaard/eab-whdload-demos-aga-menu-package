@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/OneDayOnMars/"
+IF EXISTS ENV:whdloadargs
+	whdload "OneDayOnMars.Slave" $whdloadargs
+ELSE
+	whdload "OneDayOnMars.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Love songs
+Groups  : Crime Devils
+Type    : Musicdisk
+Whdload : Lovesongs.Slave

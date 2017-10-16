@@ -1,0 +1,4 @@
+Name    : It's Just the Beginning
+Groups  : Paragon (Amiga)
+Type    : Musicdisk
+Whdload : ItsJustTheBeginning.Slave

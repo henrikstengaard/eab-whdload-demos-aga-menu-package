@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:S/SiliconGraphics2/SiliconGraphics2.Slave
+;RunFile=A-Demos:S/SiliconGraphics2AGA/SiliconGraphics2AGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:S/SiliconGraphics2/"
+cd "A-Demos:S/SiliconGraphics2AGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SiliconGraphics2.Slave" $whdloadargs
+  whdload "SiliconGraphics2AGA.Slave" $whdloadargs
 ELSE
-  whdload "SiliconGraphics2.Slave"
+  whdload "SiliconGraphics2AGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

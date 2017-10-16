@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:S/SeeingIsBelieving/"
 IF EXISTS ENV:whdloadargs
-	whdload "SeeingIsBelieving.slave" $whdloadargs
+	whdload "SeeingIsBelieving.Slave" $whdloadargs
 ELSE
-	whdload "SeeingIsBelieving.slave"
+	whdload "SeeingIsBelieving.Slave"
 ENDIF

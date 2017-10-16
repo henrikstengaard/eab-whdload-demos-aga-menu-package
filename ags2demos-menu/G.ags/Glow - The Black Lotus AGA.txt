@@ -4,4 +4,4 @@ Groups  : The Black Lotus
 Type    : Demo
 Party   : Icing 1996
 Rank    : 2nd
-Whdload : Glow.slave
+Whdload : GlowAGA.slave

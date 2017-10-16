@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:C/Control/Control.slave
+;RunFile=A-Demos:C/ControlAGA/ControlAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:C/Control/"
+cd "A-Demos:C/ControlAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Control.slave" $whdloadargs
+  whdload "ControlAGA.slave" $whdloadargs
 ELSE
-  whdload "Control.slave"
+  whdload "ControlAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

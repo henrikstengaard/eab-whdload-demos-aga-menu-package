@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:B/Breathtaker/Breathtaker.Slave
+;RunFile=A-Demos:B/BreathtakerAGA/BreathtakerAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:B/Breathtaker/"
+cd "A-Demos:B/BreathtakerAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Breathtaker.Slave" $whdloadargs
+  whdload "BreathtakerAGA.Slave" $whdloadargs
 ELSE
-  whdload "Breathtaker.Slave"
+  whdload "BreathtakerAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

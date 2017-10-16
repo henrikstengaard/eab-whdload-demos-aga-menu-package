@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:M/Makaveli/Makaveli.Slave
+;RunFile=A-Demos:M/MakaveliAGA/MakaveliAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:M/Makaveli/"
+cd "A-Demos:M/MakaveliAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Makaveli.Slave" $whdloadargs
+  whdload "MakaveliAGA.Slave" $whdloadargs
 ELSE
-  whdload "Makaveli.Slave"
+  whdload "MakaveliAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

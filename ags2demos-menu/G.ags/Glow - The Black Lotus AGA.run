@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:G/Glow/Glow.slave
+;RunFile=A-Demos:G/GlowAGA/GlowAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:G/Glow/"
+cd "A-Demos:G/GlowAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Glow.slave" $whdloadargs
+  whdload "GlowAGA.slave" $whdloadargs
 ELSE
-  whdload "Glow.slave"
+  whdload "GlowAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

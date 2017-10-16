@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:C/CopperMaster/"
 IF EXISTS ENV:whdloadargs
-	whdload "CopperMaster.Slave" $whdloadargs
+	whdload "CopperMaster.slave" $whdloadargs
 ELSE
-	whdload "CopperMaster.Slave"
+	whdload "CopperMaster.slave"
 ENDIF

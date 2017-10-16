@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:P/PsygnosisMusicPictureDisc/"
 IF EXISTS ENV:whdloadargs
-	whdload "PsygnosisMusicPictureDis.Slave" $whdloadargs
+	whdload "PsygnosisMusicPictureDi0.Slave" $whdloadargs
 ELSE
-	whdload "PsygnosisMusicPictureDis.Slave"
+	whdload "PsygnosisMusicPictureDi0.Slave"
 ENDIF

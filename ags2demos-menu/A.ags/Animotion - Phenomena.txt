@@ -3,4 +3,4 @@ Groups  : Phenomena
 Type    : Demo
 Party   : Dexion X-Mas Conference 1990
 Rank    : 1st
-Whdload : Animotion.Slave
+Whdload : Animotion.slave

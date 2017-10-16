@@ -1,0 +1,4 @@
+Name    : Music Collection
+Groups  : Exocet
+Type    : Musicdisk
+Whdload : MusicCollectionExocet.Slave

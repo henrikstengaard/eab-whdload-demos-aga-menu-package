@@ -1,0 +1,4 @@
+Name    : Rock Box 1
+Groups  : Avoid
+Type    : Musicdisk
+Whdload : RockBox1.Slave

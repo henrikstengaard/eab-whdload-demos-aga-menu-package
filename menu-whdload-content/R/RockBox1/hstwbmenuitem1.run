@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RockBox1/"
+IF EXISTS ENV:whdloadargs
+	whdload "RockBox1.Slave" $whdloadargs
+ELSE
+	whdload "RockBox1.Slave"
+ENDIF

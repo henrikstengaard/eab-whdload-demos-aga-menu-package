@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:H/HumanTarget/"
 IF EXISTS ENV:whdloadargs
-	whdload "HumanTarget.slave" $whdloadargs
+	whdload "HumanTarget.Slave" $whdloadargs
 ELSE
-	whdload "HumanTarget.slave"
+	whdload "HumanTarget.Slave"
 ENDIF

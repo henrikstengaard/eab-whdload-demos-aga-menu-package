@@ -4,4 +4,4 @@ Groups  : Skarla
 Type    : Demo
 Party   : The Party 1995
 Rank    : Disqualified
-Whdload : Authentik.Slave
+Whdload : AuthentikAGA.Slave

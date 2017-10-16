@@ -1,0 +1,5 @@
+Name    : Sound Erection
+Groups  : Shining 8
+Type    : Musicdisk
+Party   : Amiga Expo
+Whdload : SoundErection.Slave

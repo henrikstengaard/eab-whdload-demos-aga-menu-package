@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:M/MusicParty1990/"
 IF EXISTS ENV:whdloadargs
-	whdload "MusicParty1990.Slave" $whdloadargs
+	whdload "MusicParty1990.slave" $whdloadargs
 ELSE
-	whdload "MusicParty1990.Slave"
+	whdload "MusicParty1990.slave"
 ENDIF

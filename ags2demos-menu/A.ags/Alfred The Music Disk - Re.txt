@@ -1,4 +1,4 @@
 Name    : Alfred The Music Disk
 Groups  : Relay
 Type    : Musicdisk
-Whdload : AlfredTheMusicDisk.Slave
+Whdload : AlfredTheMusicDisk.slave

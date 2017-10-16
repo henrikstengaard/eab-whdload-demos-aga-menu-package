@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:C/CapturedDreams/CapturedDreams.Slave
+;RunFile=A-Demos:C/CapturedDreamsAGA/CapturedDreamsAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:C/CapturedDreams/"
+cd "A-Demos:C/CapturedDreamsAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "CapturedDreams.Slave" $whdloadargs
+  whdload "CapturedDreamsAGA.Slave" $whdloadargs
 ELSE
-  whdload "CapturedDreams.Slave"
+  whdload "CapturedDreamsAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

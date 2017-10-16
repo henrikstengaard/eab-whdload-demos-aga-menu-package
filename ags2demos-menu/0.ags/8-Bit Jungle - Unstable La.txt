@@ -3,4 +3,4 @@ Groups  : Unstable Label
 Type    : Musicdisk
 Party   : Sunrise 2011
 Rank    : 2nd
-Whdload : 8BitJungle.Slave
+Whdload : 8BitJungle.slave

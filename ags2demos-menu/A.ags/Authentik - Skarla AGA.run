@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:A/Authentik/Authentik.Slave
+;RunFile=A-Demos:A/AuthentikAGA/AuthentikAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:A/Authentik/"
+cd "A-Demos:A/AuthentikAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Authentik.Slave" $whdloadargs
+  whdload "AuthentikAGA.Slave" $whdloadargs
 ELSE
-  whdload "Authentik.Slave"
+  whdload "AuthentikAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

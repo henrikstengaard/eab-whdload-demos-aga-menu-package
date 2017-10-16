@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:P/PastelVanilla/"
 IF EXISTS ENV:whdloadargs
-	whdload "PastelVanilla.Slave" $whdloadargs
+	whdload "PastelVanilla.slave" $whdloadargs
 ELSE
-	whdload "PastelVanilla.Slave"
+	whdload "PastelVanilla.slave"
 ENDIF

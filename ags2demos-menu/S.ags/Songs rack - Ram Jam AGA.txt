@@ -1,0 +1,5 @@
+Name    : Songs rack
+Version : AGA
+Groups  : Ram Jam
+Type    : Musicdisk
+Whdload : SongsRackAGA.Slave

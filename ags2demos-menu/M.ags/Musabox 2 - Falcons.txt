@@ -1,0 +1,4 @@
+Name    : Musabox #2
+Groups  : Falcons
+Type    : Musicdisk
+Whdload : Musabox.Slave

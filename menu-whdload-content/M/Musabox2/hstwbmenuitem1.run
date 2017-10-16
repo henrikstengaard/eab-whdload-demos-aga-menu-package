@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Musabox2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Musabox2.Slave" $whdloadargs
+ELSE
+	whdload "Musabox2.Slave"
+ENDIF

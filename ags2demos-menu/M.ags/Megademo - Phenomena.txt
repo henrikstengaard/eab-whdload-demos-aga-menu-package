@@ -3,4 +3,4 @@ Groups  : Phenomena
 Type    : Demo
 Party   : Equinox and Horizon Party 1989
 Rank    : 1st
-Whdload : MegademoPhenomena.Slave
+Whdload : MegademoPhenomena.slave

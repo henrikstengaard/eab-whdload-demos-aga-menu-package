@@ -4,4 +4,4 @@ Groups  : Skarla
 Type    : Demo
 Party   : Saturne 1996
 Rank    : 1st
-Whdload : Atome.Slave
+Whdload : AtomeAGA.Slave

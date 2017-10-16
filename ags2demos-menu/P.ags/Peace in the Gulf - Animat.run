@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:P/PeaceInTheGulf/PeaceInTheGulf.Slave
+;RunFile=A-Demos:P/PeaceInTheGulf/PeaceInTheGulf.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:P/PeaceInTheGulf/"
 IF EXISTS ENV:whdloadargs
-  whdload "PeaceInTheGulf.Slave" $whdloadargs
+  whdload "PeaceInTheGulf.slave" $whdloadargs
 ELSE
-  whdload "PeaceInTheGulf.Slave"
+  whdload "PeaceInTheGulf.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

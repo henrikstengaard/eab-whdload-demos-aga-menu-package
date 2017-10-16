@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:T/TotalKaos/TotalKaos.Slave
+;RunFile=A-Demos:T/TotalKaos/TotalKaos.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:T/TotalKaos/"
 IF EXISTS ENV:whdloadargs
-  whdload "TotalKaos.Slave" $whdloadargs
+  whdload "TotalKaos.slave" $whdloadargs
 ELSE
-  whdload "TotalKaos.Slave"
+  whdload "TotalKaos.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

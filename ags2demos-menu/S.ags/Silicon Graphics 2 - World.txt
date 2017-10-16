@@ -4,4 +4,4 @@ Groups  : World Federation of Mad Hackers
 Type    : Demo
 Party   : Intel Outside 1995
 Rank    : 4th
-Whdload : SiliconGraphics2.Slave
+Whdload : SiliconGraphics2AGA.Slave

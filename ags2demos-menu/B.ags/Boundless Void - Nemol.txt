@@ -3,4 +3,4 @@ Groups  : Nemol
 Type    : Demo
 Party   : The Computer Crossroad 1993
 Rank    : 6th
-Whdload : BoundlessVoid.Slave
+Whdload : BoundlessVoid.slave

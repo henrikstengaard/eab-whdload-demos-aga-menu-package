@@ -1,0 +1,4 @@
+Name    : Banging Raves 2
+Groups  : Intuition
+Type    : Musicdisk
+Whdload : BangingRaves2.Slave

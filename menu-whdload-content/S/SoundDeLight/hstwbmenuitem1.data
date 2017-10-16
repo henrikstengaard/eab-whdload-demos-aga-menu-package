@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Sound De Light - Software Of Sweden
-RunFile=SoundDeLight.Slave
+RunFile=SoundDeLight.slave
 AGS2Name=Sound De Light - Software
 iGameName=Sound De Light - Software Of Sweden

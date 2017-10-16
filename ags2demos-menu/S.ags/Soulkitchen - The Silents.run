@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:S/SoulKitchen/SoulKitchen.slave
+;RunFile=A-Demos:S/SoulKitchenAGA/SoulKitchenAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:S/SoulKitchen/"
+cd "A-Demos:S/SoulKitchenAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoulKitchen.slave" $whdloadargs
+  whdload "SoulKitchenAGA.slave" $whdloadargs
 ELSE
-  whdload "SoulKitchen.slave"
+  whdload "SoulKitchenAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

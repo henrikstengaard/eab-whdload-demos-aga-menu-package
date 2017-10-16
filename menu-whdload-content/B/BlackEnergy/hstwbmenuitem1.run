@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BlackEnergy/"
+IF EXISTS ENV:whdloadargs
+	whdload "BlackEnergy.Slave" $whdloadargs
+ELSE
+	whdload "BlackEnergy.Slave"
+ENDIF

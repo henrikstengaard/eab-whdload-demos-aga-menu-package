@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/HereWeAre/"
+IF EXISTS ENV:whdloadargs
+	whdload "HereWeAre.Slave" $whdloadargs
+ELSE
+	whdload "HereWeAre.Slave"
+ENDIF

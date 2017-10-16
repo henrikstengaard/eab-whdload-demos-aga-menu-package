@@ -1,0 +1,4 @@
+Name    : Creamy Cranium 1
+Groups  : Strangers
+Type    : Musicdisk
+Whdload : CreamyCranium1.Slave

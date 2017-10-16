@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:M/MusicDiskActionForce/"
 IF EXISTS ENV:whdloadargs
-	whdload "MusicDiskActionForce.Slave" $whdloadargs
+	whdload "MusicDiskActionForce.slave" $whdloadargs
 ELSE
-	whdload "MusicDiskActionForce.Slave"
+	whdload "MusicDiskActionForce.slave"
 ENDIF

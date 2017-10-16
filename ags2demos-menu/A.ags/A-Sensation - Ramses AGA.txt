@@ -4,4 +4,4 @@ Groups  : Ramses
 Type    : Demo
 Party   : Volcanic 1998
 Rank    : 3rd
-Whdload : Sensation.Slave
+Whdload : SensationAGA.Slave

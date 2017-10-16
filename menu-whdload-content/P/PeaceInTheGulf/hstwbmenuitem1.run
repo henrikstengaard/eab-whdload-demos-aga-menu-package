@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:P/PeaceInTheGulf/"
 IF EXISTS ENV:whdloadargs
-	whdload "PeaceInTheGulf.Slave" $whdloadargs
+	whdload "PeaceInTheGulf.slave" $whdloadargs
 ELSE
-	whdload "PeaceInTheGulf.Slave"
+	whdload "PeaceInTheGulf.slave"
 ENDIF

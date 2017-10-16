@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:C/CopperMaster/CopperMaster.Slave
+;RunFile=A-Demos:C/CopperMaster/CopperMaster.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:C/CopperMaster/"
 IF EXISTS ENV:whdloadargs
-  whdload "CopperMaster.Slave" $whdloadargs
+  whdload "CopperMaster.slave" $whdloadargs
 ELSE
-  whdload "CopperMaster.Slave"
+  whdload "CopperMaster.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

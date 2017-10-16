@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Extension - Pygmy projects
-RunFile=Extension.Slave
+RunFile=Extension.slave
 AGS2Name=Extension - Pygmy projects
 iGameName=Extension - Pygmy projects

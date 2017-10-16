@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:L/LegaliseIt/LegaliseIt.slave
+;RunFile=A-Demos:L/LegaliseIt/LegaliseIt.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:L/LegaliseIt/"
 IF EXISTS ENV:whdloadargs
-  whdload "LegaliseIt.slave" $whdloadargs
+  whdload "LegaliseIt.Slave" $whdloadargs
 ELSE
-  whdload "LegaliseIt.slave"
+  whdload "LegaliseIt.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

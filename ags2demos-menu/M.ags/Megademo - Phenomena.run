@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:M/MegademoPhenomena/MegademoPhenomena.Slave
+;RunFile=A-Demos:M/MegademoPhenomena/MegademoPhenomena.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:M/MegademoPhenomena/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegademoPhenomena.Slave" $whdloadargs
+  whdload "MegademoPhenomena.slave" $whdloadargs
 ELSE
-  whdload "MegademoPhenomena.Slave"
+  whdload "MegademoPhenomena.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

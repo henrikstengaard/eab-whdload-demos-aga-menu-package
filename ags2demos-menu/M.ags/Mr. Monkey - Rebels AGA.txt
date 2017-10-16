@@ -4,4 +4,4 @@ Groups  : Rebels
 Type    : Demo
 Party   : South Sealand Party 1994
 Rank    : 3rd
-Whdload : MrMonkey.Slave
+Whdload : MrMonkeyAGA.Slave

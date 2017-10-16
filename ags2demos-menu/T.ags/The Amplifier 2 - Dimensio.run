@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:A/Amplifier2/Amplifier2.Slave
+;RunFile=A-Demos:A/Amplifier2/Amplifier2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:A/Amplifier2/"
 IF EXISTS ENV:whdloadargs
-  whdload "Amplifier2.Slave" $whdloadargs
+  whdload "Amplifier2.slave" $whdloadargs
 ELSE
-  whdload "Amplifier2.Slave"
+  whdload "Amplifier2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

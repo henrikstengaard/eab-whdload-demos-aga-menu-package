@@ -1,0 +1,5 @@
+Name    : Boulder Demo
+Version : Demo
+Groups  : Tristar
+Type    : Demo
+Whdload : BoulderDemo.Slave

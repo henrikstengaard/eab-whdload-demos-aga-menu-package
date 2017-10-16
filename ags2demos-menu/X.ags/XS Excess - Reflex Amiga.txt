@@ -1,0 +1,6 @@
+Name    : XS Excess
+Groups  : Reflex (Amiga)
+Type    : Demo
+Party   : ECC 1993
+Rank    : 4th
+Whdload : Excess.Slave

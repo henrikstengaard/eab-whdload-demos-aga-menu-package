@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:T/TuneShow2/TuneShow2.Slave
+;RunFile=A-Demos:T/TuneShow2/TuneShow2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:T/TuneShow2/"
 IF EXISTS ENV:whdloadargs
-  whdload "TuneShow2.Slave" $whdloadargs
+  whdload "TuneShow2.slave" $whdloadargs
 ELSE
-  whdload "TuneShow2.Slave"
+  whdload "TuneShow2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

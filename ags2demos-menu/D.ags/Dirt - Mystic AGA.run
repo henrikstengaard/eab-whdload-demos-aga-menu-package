@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:D/Dirt/Dirt.Slave
+;RunFile=A-Demos:D/DirtAGA/DirtAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Demos:D/Dirt/"
+cd "A-Demos:D/DirtAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Dirt.Slave" $whdloadargs
+  whdload "DirtAGA.Slave" $whdloadargs
 ELSE
-  whdload "Dirt.Slave"
+  whdload "DirtAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

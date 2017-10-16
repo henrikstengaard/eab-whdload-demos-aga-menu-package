@@ -3,4 +3,4 @@ Groups  : Animators
 Type    : Demo
 Party   : RAF Conference 1991
 Rank    : N/a
-Whdload : PeaceInTheGulf.Slave
+Whdload : PeaceInTheGulf.slave

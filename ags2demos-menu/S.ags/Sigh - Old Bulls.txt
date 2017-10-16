@@ -1,0 +1,4 @@
+Name    : Sigh
+Groups  : Old Bulls
+Type    : Musicdisk
+Whdload : Sigh.Slave

@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Demos:M/MegademoPhenomena/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegademoPhenomena.Slave" $whdloadargs
+	whdload "MegademoPhenomena.slave" $whdloadargs
 ELSE
-	whdload "MegademoPhenomena.Slave"
+	whdload "MegademoPhenomena.slave"
 ENDIF

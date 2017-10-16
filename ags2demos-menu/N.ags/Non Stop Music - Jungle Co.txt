@@ -1,0 +1,5 @@
+Name    : Non Stop Music
+Groups  : Jungle Command
+Type    : Musicdisk
+Party   : Jungle Command Third International Amiga Party 89
+Whdload : NonStopMusic.Slave

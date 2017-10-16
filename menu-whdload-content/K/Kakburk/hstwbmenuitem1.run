@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:K/Kakburk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kakburk.Slave" $whdloadargs
+ELSE
+	whdload "Kakburk.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Cebit'89
+Groups  : Exact
+Type    : Demo
+Whdload : Cebit89.Slave

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:P/PsygnosisMusicPictureDisc/PsygnosisMusicPictureDi0.Slave
+;RunFile=A-Demos:P/PsygnosisMusicPictureDisc/PsygnosisMusicPictureDis.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:P/PsygnosisMusicPictureDisc/"
 IF EXISTS ENV:whdloadargs
-  whdload "PsygnosisMusicPictureDi0.Slave" $whdloadargs
+  whdload "PsygnosisMusicPictureDis.Slave" $whdloadargs
 ELSE
-  whdload "PsygnosisMusicPictureDi0.Slave"
+  whdload "PsygnosisMusicPictureDis.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

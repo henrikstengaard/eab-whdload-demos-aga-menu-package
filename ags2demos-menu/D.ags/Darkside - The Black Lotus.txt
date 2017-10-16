@@ -4,4 +4,4 @@ Groups  : The Black Lotus
 Type    : Demo
 Party   : Remedy 1996
 Rank    : 1st
-Whdload : Darkside.Slave
+Whdload : DarksideAGA.Slave

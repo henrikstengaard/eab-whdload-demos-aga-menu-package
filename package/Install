@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-10-06
+; Date: 2017-11-08
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Demos AGA Menu Package.
 
@@ -154,7 +154,7 @@ echo "Configuring ClassicWB..."
 
 
 ; Add or update A-Demos to user-assign
-set demospath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "WHDLoad/Demos"`"
+set demospath "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "WHDLoad/Demos"`"
 search SYSTEMDIR:S/Assign-Startup "A-Demos:" >NIL:
 IF WARN  
 	echo "Assign >NIL: A-Demos: $demospath" >>SYSTEMDIR:S/Assign-Startup
@@ -190,7 +190,7 @@ IF WARN
 ENDIF
 
 ; Add or update A-Demos to user-assign
-set demospath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "WHDLoad/Demos"`"
+set demospath "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "WHDLoad/Demos"`"
 search SYSTEMDIR:S/User-Assign "A-Demos:" >NIL:
 IF WARN 
 	echo "Assign >NIL: A-Demos: $demospath" >>SYSTEMDIR:S/User-Assign
@@ -210,7 +210,7 @@ ENDIF
 LAB configuremenus
 
 ; Add or update ags2 demos menu dir to ags2menu.data
-set ags2demosmenupath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "Menu/AGS2Demos"`"
+set ags2demosmenupath "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Demos"`"
 search SYSTEMDIR:S/AGS2Menu.data "AGS2DemosMenuDir=" >NIL:
 IF WARN 
 	echo "AGS2DemosMenuDir=$ags2demosmenupath" >>SYSTEMDIR:S/AGS2Menu.data
@@ -219,7 +219,7 @@ ELSE
 ENDIF
 
 ; Add or update igame demos menu dir to igamemenu.data
-set igamedemosmenupath "`execute PACKAGESDIR:CombinePath "$SYSTEMDIR" "Demos"`"
+set igamedemosmenupath "`execute INSTALLDIR:S/CombinePath "$SYSTEMDIR" "Demos"`"
 search SYSTEMDIR:S/iGameMenu.data "iGameDemosMenuDir=" >NIL:
 IF WARN 
 	echo "iGameDemosMenuDir=$igamedemosmenupath" >>SYSTEMDIR:S/iGameMenu.data

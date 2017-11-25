@@ -2,4 +2,4 @@ Name    : Jesus on E's
 Groups  : LSD
 Type    : Trackmo
 Party   : Digital Symposium 1992
-Whdload : JesusOnEs.slave
+RunFile : JesusOnEs.slave

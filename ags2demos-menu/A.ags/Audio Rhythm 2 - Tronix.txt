@@ -1,4 +1,4 @@
 Name    : Audio Rhythm 2
 Groups  : Tronix
 Type    : Musicdisk
-Whdload : AudioRhythm2.Slave
+RunFile : AudioRhythm2.Slave

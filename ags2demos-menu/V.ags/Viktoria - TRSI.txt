@@ -1,4 +1,4 @@
 Name    : Viktoria
 Groups  : TRSI
 Type    : Musicdisk
-Whdload : Viktoria.Slave
+RunFile : Viktoria.Slave

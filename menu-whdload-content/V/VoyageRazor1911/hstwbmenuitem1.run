@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:V/VoyageRazor1911/"
 IF EXISTS ENV:whdloadargs
-	whdload "VoyageRazor1911.Slave" $whdloadargs
+  whdload "VoyageRazor1911.Slave" $whdloadargs
 ELSE
-	whdload "VoyageRazor1911.Slave"
+  whdload "VoyageRazor1911.Slave"
 ENDIF

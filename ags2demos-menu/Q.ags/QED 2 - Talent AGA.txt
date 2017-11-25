@@ -4,4 +4,4 @@ Groups  : Talent
 Type    : Demo
 Party   : The Gathering 1994
 Rank    : 4th
-Whdload : QED2AGA.Slave
+RunFile : QED2AGA.Slave

@@ -3,4 +3,4 @@ Groups  : Carillon & Cyberiad
 Type    : Demo
 Party   : ECC 1993
 Rank    : 6th
-Whdload : Aquarium.Slave
+RunFile : Aquarium.Slave

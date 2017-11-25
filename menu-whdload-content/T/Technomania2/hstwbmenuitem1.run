@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/Technomania2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Technomania2.Slave" $whdloadargs
+  whdload "Technomania2.Slave" $whdloadargs
 ELSE
-	whdload "Technomania2.Slave"
+  whdload "Technomania2.Slave"
 ENDIF

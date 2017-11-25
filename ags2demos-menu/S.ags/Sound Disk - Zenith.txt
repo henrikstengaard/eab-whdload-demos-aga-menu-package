@@ -1,4 +1,4 @@
 Name    : Sound Disk
 Groups  : Zenith
 Type    : Musicdisk
-Whdload : SoundDisk.slave
+RunFile : SoundDisk.slave

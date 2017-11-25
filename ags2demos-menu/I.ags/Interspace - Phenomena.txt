@@ -1,4 +1,4 @@
 Name    : Interspace
 Groups  : Phenomena
 Type    : Demo
-Whdload : Interspace.Slave
+RunFile : Interspace.Slave

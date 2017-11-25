@@ -3,4 +3,4 @@ Groups  : Analogy
 Type    : Demo
 Party   : Aggressive 1993
 Rank    : 3rd
-Whdload : Dyspepsia.Slave
+RunFile : Dyspepsia.Slave

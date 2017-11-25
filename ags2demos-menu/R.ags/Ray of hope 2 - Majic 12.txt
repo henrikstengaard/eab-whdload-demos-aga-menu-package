@@ -3,4 +3,4 @@ Groups  : Majic 12
 Type    : Demo
 Party   : Chromance Party 1991
 Rank    : 1st
-Whdload : RayOfHope2.slave
+RunFile : RayOfHope2.slave

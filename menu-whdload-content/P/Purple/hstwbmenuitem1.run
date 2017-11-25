@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/Purple/"
 IF EXISTS ENV:whdloadargs
-	whdload "Purple.Slave" $whdloadargs
+  whdload "Purple.Slave" $whdloadargs
 ELSE
-	whdload "Purple.Slave"
+  whdload "Purple.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/RootsAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "RootsAGA.slave" $whdloadargs
+  whdload "RootsAGA.slave" $whdloadargs
 ELSE
-	whdload "RootsAGA.slave"
+  whdload "RootsAGA.slave"
 ENDIF

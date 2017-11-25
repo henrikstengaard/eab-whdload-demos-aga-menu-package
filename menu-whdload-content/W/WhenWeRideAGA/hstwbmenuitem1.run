@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:W/WhenWeRideAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "WhenWeRideAGA.slave" $whdloadargs
+  whdload "WhenWeRideAGA.slave" $whdloadargs
 ELSE
-	whdload "WhenWeRideAGA.slave"
+  whdload "WhenWeRideAGA.slave"
 ENDIF

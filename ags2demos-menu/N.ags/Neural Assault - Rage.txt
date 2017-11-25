@@ -3,4 +3,4 @@ Groups  : Rage
 Type    : Demo
 Party   : ECC 1993
 Rank    : 1st
-Whdload : NeuralAssault.Slave
+RunFile : NeuralAssault.Slave

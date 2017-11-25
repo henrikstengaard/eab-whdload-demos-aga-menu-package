@@ -1,4 +1,4 @@
 Name    : Ottifanten
 Groups  : Thrust
 Type    : Intro
-Whdload : Ottifanten.Slave
+RunFile : Ottifanten.Slave

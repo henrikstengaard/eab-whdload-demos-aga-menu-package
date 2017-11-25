@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:F/FallingUp/"
 IF EXISTS ENV:whdloadargs
-	whdload "FallingUp.Slave" $whdloadargs
+  whdload "FallingUp.Slave" $whdloadargs
 ELSE
-	whdload "FallingUp.Slave"
+  whdload "FallingUp.Slave"
 ENDIF

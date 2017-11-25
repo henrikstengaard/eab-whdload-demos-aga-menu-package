@@ -3,4 +3,4 @@ Groups  : Virtual Dreams,Fairlight
 Type    : Demo
 Party   : The Party 1992
 Rank    : 6th
-Whdload : AbsoluteInebriation.Slave
+RunFile : AbsoluteInebriation.Slave

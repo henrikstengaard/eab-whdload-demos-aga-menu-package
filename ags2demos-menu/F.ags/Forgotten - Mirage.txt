@@ -3,4 +3,4 @@ Groups  : Mirage
 Type    : Slideshow
 Party   : Prime 1992
 Rank    : N/a
-Whdload : Forgotten.Slave
+RunFile : Forgotten.Slave

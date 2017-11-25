@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MusicBoxCopyride/"
 IF EXISTS ENV:whdloadargs
-	whdload "MusicBoxCopyride.Slave" $whdloadargs
+  whdload "MusicBoxCopyride.Slave" $whdloadargs
 ELSE
-	whdload "MusicBoxCopyride.Slave"
+  whdload "MusicBoxCopyride.Slave"
 ENDIF

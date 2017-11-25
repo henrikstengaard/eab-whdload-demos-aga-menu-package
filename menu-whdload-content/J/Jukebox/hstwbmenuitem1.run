@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:J/Jukebox/"
 IF EXISTS ENV:whdloadargs
-	whdload "Jukebox.Slave" $whdloadargs
+  whdload "Jukebox.Slave" $whdloadargs
 ELSE
-	whdload "Jukebox.Slave"
+  whdload "Jukebox.Slave"
 ENDIF

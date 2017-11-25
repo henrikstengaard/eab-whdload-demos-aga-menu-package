@@ -3,4 +3,4 @@ Groups  : Magnetic Fields
 Type    : Musicdisk
 Party   : Share and Enjoy Party 1989
 Rank    : N/a
-Whdload : SoundAtaxVol2.Slave
+RunFile : SoundAtaxVol2.Slave

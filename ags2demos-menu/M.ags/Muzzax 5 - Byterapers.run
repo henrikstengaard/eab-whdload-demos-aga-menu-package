@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/Muzzax5/"
 IF EXISTS ENV:whdloadargs
   whdload "Muzzax5.Slave" $whdloadargs

@@ -1,4 +1,4 @@
 Name    : Old Tunes
 Groups  : Chrome
 Type    : Musicdisk
-Whdload : OldTunes.Slave
+RunFile : OldTunes.Slave

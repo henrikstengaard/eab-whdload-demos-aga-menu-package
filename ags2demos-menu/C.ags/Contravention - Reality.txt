@@ -1,4 +1,4 @@
 Name    : Contravention
 Groups  : Reality
 Type    : Demo
-Whdload : Contravention.Slave
+RunFile : Contravention.Slave

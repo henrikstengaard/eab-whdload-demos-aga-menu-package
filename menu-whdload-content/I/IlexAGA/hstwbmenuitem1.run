@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:I/IlexAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "IlexAGA.Slave" $whdloadargs
+  whdload "IlexAGA.Slave" $whdloadargs
 ELSE
-	whdload "IlexAGA.Slave"
+  whdload "IlexAGA.Slave"
 ENDIF

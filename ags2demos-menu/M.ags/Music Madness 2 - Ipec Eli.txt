@@ -1,4 +1,4 @@
 Name    : Music Madness 2
 Groups  : Ipec Elite
 Type    : Musicdisk
-Whdload : MusicDisk2Elite.Slave
+RunFile : MusicDisk2Elite.Slave

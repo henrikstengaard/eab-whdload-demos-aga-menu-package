@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:C/Cutcreations/"
 IF EXISTS ENV:whdloadargs
-	whdload "Cutcreations.Slave" $whdloadargs
+  whdload "Cutcreations.Slave" $whdloadargs
 ELSE
-	whdload "Cutcreations.Slave"
+  whdload "Cutcreations.Slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name    : Pack van pee #3
 Groups  : Jetset
 Type    : Musicdisk
-Whdload : PackVanPee3.Slave
+RunFile : PackVanPee3.Slave

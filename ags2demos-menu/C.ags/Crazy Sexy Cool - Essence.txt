@@ -4,4 +4,4 @@ Groups  : Essence
 Type    : Demo
 Party   : The Party 1995
 Rank    : 5th
-Whdload : CrazySexyCoolAGA.Slave
+RunFile : CrazySexyCoolAGA.Slave

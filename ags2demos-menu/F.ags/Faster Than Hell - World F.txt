@@ -3,4 +3,4 @@ Groups  : World Federation of Mad Hackers
 Type    : Demo
 Party   : Warszawa 1992
 Rank    : 3rd
-Whdload : FasterThanHell.Slave
+RunFile : FasterThanHell.Slave

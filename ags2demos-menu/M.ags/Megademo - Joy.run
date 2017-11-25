@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MegaDemoJoy&MGF&TJC/"
 IF EXISTS ENV:whdloadargs
   whdload "MegaDemoJoy&MGF&TJC.slave" $whdloadargs

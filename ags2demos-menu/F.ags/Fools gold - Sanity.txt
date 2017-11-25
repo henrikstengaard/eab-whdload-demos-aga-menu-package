@@ -3,4 +3,4 @@ Groups  : Sanity
 Type    : Musicdisk
 Party   : CeBIT Demo Competition 1991
 Rank    : N/a
-Whdload : FoolsGold.Slave
+RunFile : FoolsGold.Slave

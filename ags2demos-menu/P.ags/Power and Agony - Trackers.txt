@@ -3,4 +3,4 @@ Groups  : Trackers
 Type    : Demo
 Party   : The Party 1991
 Rank    : N/a
-Whdload : PowerAndAgony.Slave
+RunFile : PowerAndAgony.Slave

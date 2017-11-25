@@ -1,4 +1,4 @@
 Name    : Sound Disk 1
 Groups  : Mygon
 Type    : Musicdisk
-Whdload : SoundDisk1.Slave
+RunFile : SoundDisk1.Slave

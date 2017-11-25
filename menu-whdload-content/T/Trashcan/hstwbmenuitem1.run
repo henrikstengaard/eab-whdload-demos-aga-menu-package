@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/Trashcan/"
 IF EXISTS ENV:whdloadargs
-	whdload "Trashcan.Slave" $whdloadargs
+  whdload "Trashcan.Slave" $whdloadargs
 ELSE
-	whdload "Trashcan.Slave"
+  whdload "Trashcan.Slave"
 ENDIF

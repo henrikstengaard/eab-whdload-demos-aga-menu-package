@@ -1,4 +1,4 @@
 Name    : Mindriot
 Groups  : Andromeda
 Type    : Demo
-Whdload : MindRiot.Slave
+RunFile : MindRiot.Slave

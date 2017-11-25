@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/RaytracedDreams/"
 IF EXISTS ENV:whdloadargs
-	whdload "RaytracedDreams.Slave" $whdloadargs
+  whdload "RaytracedDreams.Slave" $whdloadargs
 ELSE
-	whdload "RaytracedDreams.Slave"
+  whdload "RaytracedDreams.Slave"
 ENDIF

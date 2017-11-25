@@ -1,4 +1,4 @@
 Name    : Megademo 2
 Groups  : Northstar
 Type    : Megademo
-Whdload : MegaDemo2NorthStar.Slave
+RunFile : MegaDemo2NorthStar.Slave

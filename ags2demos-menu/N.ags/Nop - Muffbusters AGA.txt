@@ -2,4 +2,4 @@ Name    : Nop
 Version : AGA
 Groups  : Muffbusters
 Type    : Demo
-Whdload : NopAGA.Slave
+RunFile : NopAGA.Slave

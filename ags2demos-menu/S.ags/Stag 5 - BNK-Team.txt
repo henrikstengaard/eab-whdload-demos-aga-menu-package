@@ -1,4 +1,4 @@
 Name    : Stag 5
 Groups  : BNK-Team
 Type    : Slideshow
-Whdload : Stag5.slave
+RunFile : Stag5.slave

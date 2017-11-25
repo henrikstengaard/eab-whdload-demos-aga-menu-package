@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/ManicRaves2/"
 IF EXISTS ENV:whdloadargs
-	whdload "ManicRaves2.slave" $whdloadargs
+  whdload "ManicRaves2.slave" $whdloadargs
 ELSE
-	whdload "ManicRaves2.slave"
+  whdload "ManicRaves2.slave"
 ENDIF

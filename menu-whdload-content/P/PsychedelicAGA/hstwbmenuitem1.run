@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/PsychedelicAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "PsychedelicAGA.Slave" $whdloadargs
+  whdload "PsychedelicAGA.Slave" $whdloadargs
 ELSE
-	whdload "PsychedelicAGA.Slave"
+  whdload "PsychedelicAGA.Slave"
 ENDIF

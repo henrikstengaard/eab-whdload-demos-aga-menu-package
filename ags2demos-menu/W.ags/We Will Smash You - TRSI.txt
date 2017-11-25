@@ -2,4 +2,4 @@ Name    : We Will Smash You
 Groups  : TRSI
 Type    : Demo
 Party   : The Party 1994
-Whdload : WeWillSmashYou.Slave
+RunFile : WeWillSmashYou.Slave

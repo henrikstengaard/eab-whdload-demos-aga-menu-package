@@ -1,4 +1,4 @@
 Name    : Pixeled Pleasures
 Groups  : Them
 Type    : Trackmo
-Whdload : PixeledPleasures.Slave
+RunFile : PixeledPleasures.Slave

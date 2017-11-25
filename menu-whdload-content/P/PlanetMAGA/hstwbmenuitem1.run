@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/PlanetMAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "PlanetMAGA.Slave" $whdloadargs
+  whdload "PlanetMAGA.Slave" $whdloadargs
 ELSE
-	whdload "PlanetMAGA.Slave"
+  whdload "PlanetMAGA.Slave"
 ENDIF

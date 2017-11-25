@@ -1,4 +1,4 @@
 Name    : Hail the Engineer
 Groups  : Jetset
 Type    : Musicdisk
-Whdload : HailTheEngineer.Slave
+RunFile : HailTheEngineer.Slave

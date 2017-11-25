@@ -1,4 +1,4 @@
 Name    : Museum
 Groups  : Alcatraz
 Type    : Slideshow
-Whdload : Museum.Slave
+RunFile : Museum.Slave

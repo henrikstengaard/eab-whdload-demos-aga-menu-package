@@ -3,4 +3,4 @@ Groups  : Amnesia
 Type    : Musicdisk
 Party   : The Party 1992
 Rank    : N/a
-Whdload : Epilepsia2.Slave
+RunFile : Epilepsia2.Slave

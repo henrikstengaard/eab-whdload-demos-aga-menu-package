@@ -1,4 +1,4 @@
 Name    : No Tech
 Groups  : Bass
 Type    : Trackmo
-Whdload : NoTech.Slave
+RunFile : NoTech.Slave

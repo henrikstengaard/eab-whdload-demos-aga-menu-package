@@ -1,4 +1,4 @@
 Name    : Project Beat
 Groups  : Crusaders
 Type    : Musicdisk
-Whdload : ProjectBeat.Slave
+RunFile : ProjectBeat.Slave

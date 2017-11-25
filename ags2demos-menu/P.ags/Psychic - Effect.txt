@@ -1,4 +1,4 @@
 Name    : Psychic
 Groups  : Effect
 Type    : Musicdisk
-Whdload : Psychic.Slave
+RunFile : Psychic.Slave

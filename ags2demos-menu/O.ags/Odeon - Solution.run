@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:O/Odeon/"
 IF EXISTS ENV:whdloadargs
   whdload "Odeon.Slave" $whdloadargs

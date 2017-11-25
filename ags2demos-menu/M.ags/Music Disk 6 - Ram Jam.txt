@@ -1,4 +1,4 @@
 Name    : Music Disk 6
 Groups  : Ram Jam
 Type    : Musicdisk
-Whdload : MusicDisk6RamJam.Slave
+RunFile : MusicDisk6RamJam.Slave

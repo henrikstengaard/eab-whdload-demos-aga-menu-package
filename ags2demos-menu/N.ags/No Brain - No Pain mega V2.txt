@@ -3,4 +3,4 @@ Groups  : Flash Production
 Type    : Demo
 Party   : Amiga Conference 1990
 Rank    : 4th
-Whdload : NoBrainNoPainFlashProd.Slave
+RunFile : NoBrainNoPainFlashProd.Slave

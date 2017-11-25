@@ -1,4 +1,4 @@
 Name    : P.o.n.d (sploosh 1.5)
 Groups  : Anthrox
 Type    : Musicdisk
-Whdload : Sploosh15Pond.Slave
+RunFile : Sploosh15Pond.Slave

@@ -2,4 +2,4 @@ Name    : Stereo Sounds
 Groups  : Eon
 Type    : Musicdisk
 Party   : Amega Party
-Whdload : StereoSounds.Slave
+RunFile : StereoSounds.Slave

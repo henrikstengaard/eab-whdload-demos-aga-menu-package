@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/EmptyheadAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "EmptyheadAGA.Slave" $whdloadargs
+  whdload "EmptyheadAGA.Slave" $whdloadargs
 ELSE
-	whdload "EmptyheadAGA.Slave"
+  whdload "EmptyheadAGA.Slave"
 ENDIF

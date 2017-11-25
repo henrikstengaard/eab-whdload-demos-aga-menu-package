@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/StateOfTheArt/"
 IF EXISTS ENV:whdloadargs
-	whdload "StateOfTheArt.Slave" $whdloadargs
+  whdload "StateOfTheArt.Slave" $whdloadargs
 ELSE
-	whdload "StateOfTheArt.Slave"
+  whdload "StateOfTheArt.Slave"
 ENDIF

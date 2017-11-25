@@ -4,4 +4,4 @@ Groups  : Polka brothers
 Type    : Demo
 Party   : The Party 1994
 Rank    : 2nd
-Whdload : TwistedAGA.Slave
+RunFile : TwistedAGA.Slave

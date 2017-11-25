@@ -2,4 +2,4 @@ Name    : Music Box
 Groups  : Copyride
 Type    : Musicdisk
 Party   : Amiga Summit Convention
-Whdload : MusicBoxCopyride.Slave
+RunFile : MusicBoxCopyride.Slave

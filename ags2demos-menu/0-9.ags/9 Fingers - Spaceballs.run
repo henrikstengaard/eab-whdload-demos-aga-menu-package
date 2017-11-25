@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:0-9/24HourEFix/24HourEFix.Slave
+;RunFile=A-Demos:0-9/9Fingers/9Fingers.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "24 Hour E Fix - Quartz Fix"
+  execute S:AGS2Favourites "0-9" "9 Fingers - Spaceballs"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Demos:0-9/24HourEFix/"
+; Run WHDLoad
+cd "A-Demos:0-9/9Fingers/"
 IF EXISTS ENV:whdloadargs
-  whdload "24HourEFix.Slave" $whdloadargs
+  whdload "9Fingers.Slave" $whdloadargs
 ELSE
-  whdload "24HourEFix.Slave"
+  whdload "9Fingers.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,4 +1,4 @@
 Name    : Musicland
 Groups  : Brainstorm
 Type    : Musicdisk
-Whdload : Musicland.slave
+RunFile : Musicland.slave

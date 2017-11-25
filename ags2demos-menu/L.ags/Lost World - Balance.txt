@@ -3,4 +3,4 @@ Groups  : Balance
 Type    : Demo
 Party   : The Party 1992
 Rank    : 14th
-Whdload : LostWorld.Slave
+RunFile : LostWorld.Slave

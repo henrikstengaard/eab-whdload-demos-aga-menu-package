@@ -1,4 +1,4 @@
 Name    : Musicdisk
 Groups  : Inzzest
 Type    : Musicdisk
-Whdload : MusicDiskInzzest.Slave
+RunFile : MusicDiskInzzest.Slave

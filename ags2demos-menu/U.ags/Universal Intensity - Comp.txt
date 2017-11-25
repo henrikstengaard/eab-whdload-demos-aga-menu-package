@@ -3,4 +3,4 @@ Groups  : Complex
 Type    : Demo
 Party   : Society Summer Party 1991
 Rank    : 3rd
-Whdload : UniversalIntensity.Slave
+RunFile : UniversalIntensity.Slave

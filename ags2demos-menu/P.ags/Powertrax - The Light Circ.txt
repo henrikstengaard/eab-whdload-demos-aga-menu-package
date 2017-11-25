@@ -1,4 +1,4 @@
 Name    : Powertrax
 Groups  : The Light Circle
 Type    : Musicdisk
-Whdload : Powertrax.Slave
+RunFile : Powertrax.Slave

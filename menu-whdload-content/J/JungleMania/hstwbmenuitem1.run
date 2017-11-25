@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:J/JungleMania/"
 IF EXISTS ENV:whdloadargs
-	whdload "JungleMania.slave" $whdloadargs
+  whdload "JungleMania.slave" $whdloadargs
 ELSE
-	whdload "JungleMania.slave"
+  whdload "JungleMania.slave"
 ENDIF

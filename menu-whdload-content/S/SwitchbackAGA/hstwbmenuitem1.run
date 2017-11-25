@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SwitchbackAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "SwitchbackAGA.Slave" $whdloadargs
+  whdload "SwitchbackAGA.Slave" $whdloadargs
 ELSE
-	whdload "SwitchbackAGA.Slave"
+  whdload "SwitchbackAGA.Slave"
 ENDIF

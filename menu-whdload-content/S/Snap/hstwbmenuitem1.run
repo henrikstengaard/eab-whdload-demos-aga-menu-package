@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/Snap/"
 IF EXISTS ENV:whdloadargs
-	whdload "Snap.slave" $whdloadargs
+  whdload "Snap.slave" $whdloadargs
 ELSE
-	whdload "Snap.slave"
+  whdload "Snap.slave"
 ENDIF

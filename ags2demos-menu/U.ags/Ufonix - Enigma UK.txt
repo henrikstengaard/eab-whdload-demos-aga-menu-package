@@ -1,4 +1,4 @@
 Name    : Ufonix
 Groups  : Enigma (UK)
 Type    : Musicdisk
-Whdload : Ufonix.Slave
+RunFile : Ufonix.Slave

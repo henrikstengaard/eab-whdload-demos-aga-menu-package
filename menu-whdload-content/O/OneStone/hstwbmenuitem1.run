@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:O/OneStone/"
 IF EXISTS ENV:whdloadargs
-	whdload "OneStone.slave" $whdloadargs
+  whdload "OneStone.slave" $whdloadargs
 ELSE
-	whdload "OneStone.slave"
+  whdload "OneStone.slave"
 ENDIF

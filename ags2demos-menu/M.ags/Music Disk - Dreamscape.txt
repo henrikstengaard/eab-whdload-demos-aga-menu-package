@@ -1,4 +1,4 @@
 Name    : Music Disk
 Groups  : Dreamscape
 Type    : Musicdisk
-Whdload : MusicDiskDreamscape.Slave
+RunFile : MusicDiskDreamscape.Slave

@@ -4,4 +4,4 @@ Groups  : Infect
 Type    : Demo
 Party   : The Party 1993
 Rank    : 5th
-Whdload : HarmagedonAGA.Slave
+RunFile : HarmagedonAGA.Slave

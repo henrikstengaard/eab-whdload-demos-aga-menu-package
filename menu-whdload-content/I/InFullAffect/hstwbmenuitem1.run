@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:I/InFullAffect/"
 IF EXISTS ENV:whdloadargs
-	whdload "InFullAffect.Slave" $whdloadargs
+  whdload "InFullAffect.Slave" $whdloadargs
 ELSE
-	whdload "InFullAffect.Slave"
+  whdload "InFullAffect.Slave"
 ENDIF

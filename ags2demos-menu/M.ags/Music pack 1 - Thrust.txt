@@ -1,4 +1,4 @@
 Name    : Music pack 1
 Groups  : Thrust
 Type    : Musicdisk
-Whdload : MusicDiskThrust.Slave
+RunFile : MusicDiskThrust.Slave

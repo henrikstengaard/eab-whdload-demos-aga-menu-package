@@ -3,4 +3,4 @@ Groups  : Decay
 Type    : Demo
 Party   : Mystix Party 1991
 Rank    : N/a
-Whdload : Simpsons.Slave
+RunFile : Simpsons.Slave

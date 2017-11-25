@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Mad monks
 Type    : Demo
-Whdload : MegademoMadMonks.Slave
+RunFile : MegademoMadMonks.Slave

@@ -1,4 +1,4 @@
 Name    : Sweet music
 Groups  : Crusaders
 Type    : Musicdisk
-Whdload : SweetMusic.slave
+RunFile : SweetMusic.slave

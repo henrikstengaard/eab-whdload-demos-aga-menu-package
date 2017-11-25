@@ -1,4 +1,4 @@
 Name    : Bard in a box
 Groups  : Academy
 Type    : Musicdisk
-Whdload : BardInABox.slave
+RunFile : BardInABox.slave

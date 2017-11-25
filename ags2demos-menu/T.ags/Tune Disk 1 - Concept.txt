@@ -1,4 +1,4 @@
 Name    : Tune Disk 1
 Groups  : Concept
 Type    : Musicdisk
-Whdload : TuneDisk1.Slave
+RunFile : TuneDisk1.Slave

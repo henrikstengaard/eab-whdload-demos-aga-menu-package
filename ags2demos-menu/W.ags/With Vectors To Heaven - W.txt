@@ -1,4 +1,4 @@
 Name    : With Vectors To Heaven
 Groups  : World Federation of Mad Hackers
 Type    : Demo
-Whdload : WithVectorsToHeaven.Slave
+RunFile : WithVectorsToHeaven.Slave

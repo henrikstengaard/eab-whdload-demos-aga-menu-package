@@ -1,4 +1,4 @@
 Name    : Titan Trax 1
 Groups  : Titanics
 Type    : Musicdisk
-Whdload : TitanTrax.Slave
+RunFile : TitanTrax.Slave

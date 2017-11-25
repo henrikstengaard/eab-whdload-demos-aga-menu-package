@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:F/FractalTunes/"
 IF EXISTS ENV:whdloadargs
-	whdload "FractalTunes.Slave" $whdloadargs
+  whdload "FractalTunes.Slave" $whdloadargs
 ELSE
-	whdload "FractalTunes.Slave"
+  whdload "FractalTunes.Slave"
 ENDIF

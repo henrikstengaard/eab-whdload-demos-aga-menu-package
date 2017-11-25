@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MegademoHumanoids/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegademoHumanoids.Slave" $whdloadargs
+  whdload "MegademoHumanoids.Slave" $whdloadargs
 ELSE
-	whdload "MegademoHumanoids.Slave"
+  whdload "MegademoHumanoids.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/ArtOfNoise4/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArtOfNoise4.Slave" $whdloadargs
+  whdload "ArtOfNoise4.Slave" $whdloadargs
 ELSE
-	whdload "ArtOfNoise4.Slave"
+  whdload "ArtOfNoise4.Slave"
 ENDIF

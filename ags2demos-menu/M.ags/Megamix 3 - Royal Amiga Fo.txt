@@ -2,4 +2,4 @@ Name    : Megamix 3
 Groups  : Royal Amiga Force
 Type    : Musicdisk
 Party   : Maximum Pleasure Party
-Whdload : MegaMix3.Slave
+RunFile : MegaMix3.Slave

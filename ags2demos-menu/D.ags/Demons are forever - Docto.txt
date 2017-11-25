@@ -3,4 +3,4 @@ Groups  : Doctor Mabuse Orgasm Crackings
 Type    : Demo
 Party   : DNS &amp
 Rank    : N/a
-Whdload : DemonsAreForever.Slave
+RunFile : DemonsAreForever.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:B/BlackNWhite/"
 IF EXISTS ENV:whdloadargs
-	whdload "BlackNWhite.Slave" $whdloadargs
+  whdload "BlackNWhite.Slave" $whdloadargs
 ELSE
-	whdload "BlackNWhite.Slave"
+  whdload "BlackNWhite.Slave"
 ENDIF

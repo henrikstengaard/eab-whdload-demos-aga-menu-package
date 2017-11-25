@@ -2,4 +2,4 @@ Name    : 242
 Groups  : Virtual Dreams
 Type    : Demo
 Party   : Assembly 1993
-Whdload : 242.Slave
+RunFile : 242.Slave

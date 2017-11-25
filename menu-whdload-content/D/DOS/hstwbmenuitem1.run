@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DOS/"
 IF EXISTS ENV:whdloadargs
-	whdload "DOS.Slave" $whdloadargs
+  whdload "DOS.Slave" $whdloadargs
 ELSE
-	whdload "DOS.Slave"
+  whdload "DOS.Slave"
 ENDIF

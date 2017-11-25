@@ -3,4 +3,4 @@ Groups  : Kefrens
 Type    : Demo
 Party   : Lowlife Party (Static Bytes &amp
 Rank    : 1st
-Whdload : GuardianDragon.slave
+RunFile : GuardianDragon.slave

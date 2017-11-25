@@ -1,4 +1,4 @@
 Name    : The Fantastic Art Of Tobias Richter
 Groups  : Crusaders
 Type    : Slideshow
-Whdload : FantasticArt.slave
+RunFile : FantasticArt.slave

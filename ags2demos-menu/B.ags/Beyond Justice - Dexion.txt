@@ -1,4 +1,4 @@
 Name    : Beyond Justice
 Groups  : Dexion
 Type    : Demo
-Whdload : BeyondJustice.Slave
+RunFile : BeyondJustice.Slave

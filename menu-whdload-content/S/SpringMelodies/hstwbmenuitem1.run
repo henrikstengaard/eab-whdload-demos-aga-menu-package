@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SpringMelodies/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpringMelodies.slave" $whdloadargs
+  whdload "SpringMelodies.slave" $whdloadargs
 ELSE
-	whdload "SpringMelodies.slave"
+  whdload "SpringMelodies.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/EssentialClassics/"
 IF EXISTS ENV:whdloadargs
-	whdload "EssentialClassics.Slave" $whdloadargs
+  whdload "EssentialClassics.Slave" $whdloadargs
 ELSE
-	whdload "EssentialClassics.Slave"
+  whdload "EssentialClassics.Slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name    : Metamorphosis
 Groups  : Brainstorm
 Type    : Demo
-Whdload : Metamorphosis.Slave
+RunFile : Metamorphosis.Slave

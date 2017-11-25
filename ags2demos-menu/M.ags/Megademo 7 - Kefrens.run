@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MegaDemo7Kefrens/"
 IF EXISTS ENV:whdloadargs
   whdload "MegaDemo7Kefrens.Slave" $whdloadargs

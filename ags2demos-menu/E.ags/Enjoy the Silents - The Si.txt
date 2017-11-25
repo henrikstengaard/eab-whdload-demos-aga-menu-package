@@ -3,4 +3,4 @@ Groups  : The Silents
 Type    : Demo
 Party   : Digital Symposium 1992
 Rank    : 2nd
-Whdload : EnjoyTheSilents.Slave
+RunFile : EnjoyTheSilents.Slave

@@ -4,4 +4,4 @@ Groups  : Virtual Dreams,Fairlight
 Type    : Demo
 Party   : Assembly 1994
 Rank    : 2nd
-Whdload : BreathtakerAGA.Slave
+RunFile : BreathtakerAGA.Slave

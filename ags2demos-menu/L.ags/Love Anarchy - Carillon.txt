@@ -1,4 +1,4 @@
 Name    : Love & Anarchy
 Groups  : Carillon
 Type    : Demo
-Whdload : Love&Anarchy.slave
+RunFile : Love&Anarchy.slave

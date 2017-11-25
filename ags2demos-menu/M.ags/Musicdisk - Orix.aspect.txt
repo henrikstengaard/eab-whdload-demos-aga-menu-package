@@ -1,4 +1,4 @@
 Name    : Musicdisk
 Groups  : Orix,aspect
 Type    : Musicdisk
-Whdload : MusicDiskAspect&Orix.Slave
+RunFile : MusicDiskAspect&Orix.Slave

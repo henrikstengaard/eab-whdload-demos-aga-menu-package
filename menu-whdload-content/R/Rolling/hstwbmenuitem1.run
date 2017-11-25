@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/Rolling/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rolling.Slave" $whdloadargs
+  whdload "Rolling.Slave" $whdloadargs
 ELSE
-	whdload "Rolling.Slave"
+  whdload "Rolling.Slave"
 ENDIF

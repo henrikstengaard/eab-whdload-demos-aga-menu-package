@@ -1,4 +1,4 @@
 Name    : Chords
 Groups  : Foundation
 Type    : Musicdisk
-Whdload : Chords.Slave
+RunFile : Chords.Slave

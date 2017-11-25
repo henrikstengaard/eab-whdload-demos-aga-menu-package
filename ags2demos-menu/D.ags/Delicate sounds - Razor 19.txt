@@ -1,4 +1,4 @@
 Name    : Delicate sounds
 Groups  : Razor 1911
 Type    : Musicdisk
-Whdload : DelicateSounds.Slave
+RunFile : DelicateSounds.Slave

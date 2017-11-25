@@ -1,4 +1,4 @@
 Name    : Sound Barrier
 Groups  : Balance
 Type    : Musicdisk
-Whdload : SoundBarrier.Slave
+RunFile : SoundBarrier.Slave

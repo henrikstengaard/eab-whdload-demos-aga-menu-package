@@ -1,4 +1,4 @@
 Name    : MusicDisk
 Groups  : Cryptic
 Type    : Musicdisk
-Whdload : MusicDiskCryptic.Slave
+RunFile : MusicDiskCryptic.Slave

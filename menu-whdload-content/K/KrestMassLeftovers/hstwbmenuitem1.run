@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:K/KrestMassLeftovers/"
 IF EXISTS ENV:whdloadargs
-	whdload "KrestMassLeftovers.slave" $whdloadargs
+  whdload "KrestMassLeftovers.slave" $whdloadargs
 ELSE
-	whdload "KrestMassLeftovers.slave"
+  whdload "KrestMassLeftovers.slave"
 ENDIF

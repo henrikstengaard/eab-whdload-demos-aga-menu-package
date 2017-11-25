@@ -3,4 +3,4 @@ Groups  : Budbrain
 Type    : Demo
 Party   : Dexion X-Mas Conference 1990
 Rank    : 2nd
-Whdload : MegaDemo2Budbrain.slave
+RunFile : MegaDemo2Budbrain.slave

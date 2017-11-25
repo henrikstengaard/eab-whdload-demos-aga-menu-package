@@ -1,4 +1,4 @@
 Name    : Vectordance 2
 Groups  : Cult
 Type    : Demo
-Whdload : VectorDance2.Slave
+RunFile : VectorDance2.Slave

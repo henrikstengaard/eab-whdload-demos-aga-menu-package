@@ -1,4 +1,4 @@
 Name    : Clapping World
 Groups  : Subway
 Type    : Musicdisk
-Whdload : ClappingWorld.Slave
+RunFile : ClappingWorld.Slave

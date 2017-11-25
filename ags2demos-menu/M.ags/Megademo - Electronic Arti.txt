@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Electronic Artists
 Type    : Demo
-Whdload : MegademoEOA.Slave
+RunFile : MegademoEOA.Slave

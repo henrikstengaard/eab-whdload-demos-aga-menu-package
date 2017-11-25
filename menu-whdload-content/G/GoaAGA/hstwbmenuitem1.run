@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:G/GoaAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "GoaAGA.Slave" $whdloadargs
+  whdload "GoaAGA.Slave" $whdloadargs
 ELSE
-	whdload "GoaAGA.Slave"
+  whdload "GoaAGA.Slave"
 ENDIF

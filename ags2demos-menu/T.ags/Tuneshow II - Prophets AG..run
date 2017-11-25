@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/TuneShow2/"
 IF EXISTS ENV:whdloadargs
   whdload "TuneShow2.slave" $whdloadargs

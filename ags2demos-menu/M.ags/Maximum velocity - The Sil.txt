@@ -1,4 +1,4 @@
 Name    : Maximum velocity
 Groups  : The Silents
 Type    : Demo
-Whdload : MaximumVelocity.Slave
+RunFile : MaximumVelocity.Slave

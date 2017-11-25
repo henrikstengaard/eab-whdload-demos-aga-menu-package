@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MegaDemoDragons/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegaDemoDragons.slave" $whdloadargs
+  whdload "MegaDemoDragons.slave" $whdloadargs
 ELSE
-	whdload "MegaDemoDragons.slave"
+  whdload "MegaDemoDragons.slave"
 ENDIF

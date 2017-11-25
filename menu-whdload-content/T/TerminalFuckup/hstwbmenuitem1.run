@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/TerminalFuckup/"
 IF EXISTS ENV:whdloadargs
-	whdload "TerminalFuckup.Slave" $whdloadargs
+  whdload "TerminalFuckup.Slave" $whdloadargs
 ELSE
-	whdload "TerminalFuckup.Slave"
+  whdload "TerminalFuckup.Slave"
 ENDIF

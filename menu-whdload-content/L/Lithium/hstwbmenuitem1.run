@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:L/Lithium/"
 IF EXISTS ENV:whdloadargs
-	whdload "Lithium.Slave" $whdloadargs
+  whdload "Lithium.Slave" $whdloadargs
 ELSE
-	whdload "Lithium.Slave"
+  whdload "Lithium.Slave"
 ENDIF

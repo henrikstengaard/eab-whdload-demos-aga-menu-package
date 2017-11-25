@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/AlternativeReality/"
 IF EXISTS ENV:whdloadargs
-	whdload "AlternativeReality.Slave" $whdloadargs
+  whdload "AlternativeReality.Slave" $whdloadargs
 ELSE
-	whdload "AlternativeReality.Slave"
+  whdload "AlternativeReality.Slave"
 ENDIF

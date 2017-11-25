@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/Reflex/"
 IF EXISTS ENV:whdloadargs
-	whdload "Reflex.slave" $whdloadargs
+  whdload "Reflex.slave" $whdloadargs
 ELSE
-	whdload "Reflex.slave"
+  whdload "Reflex.slave"
 ENDIF

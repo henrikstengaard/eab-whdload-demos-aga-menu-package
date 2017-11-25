@@ -3,4 +3,4 @@ Groups  : Nuance
 Type    : Demo
 Party   : 680xx Convention 1993
 Rank    : 2nd
-Whdload : SubtleShades.Slave
+RunFile : SubtleShades.Slave

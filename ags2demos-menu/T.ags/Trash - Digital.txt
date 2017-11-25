@@ -3,4 +3,4 @@ Groups  : Digital
 Type    : Demo
 Party   : Anarchy Easter Party 1992
 Rank    : 2nd
-Whdload : Trash.Slave
+RunFile : Trash.Slave

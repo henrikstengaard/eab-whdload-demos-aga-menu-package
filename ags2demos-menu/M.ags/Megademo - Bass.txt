@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Bass
 Type    : Demo
-Whdload : MegademoBass.slave
+RunFile : MegademoBass.slave

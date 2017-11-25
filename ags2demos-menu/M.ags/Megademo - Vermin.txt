@@ -2,4 +2,4 @@ Name    : Megademo
 Groups  : Vermin
 Type    : Megademo
 Party   : Vision and Mirage X-Mas Party
-Whdload : MegademoVermin.Slave
+RunFile : MegademoVermin.Slave

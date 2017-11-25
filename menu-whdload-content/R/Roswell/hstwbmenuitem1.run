@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/Roswell/"
 IF EXISTS ENV:whdloadargs
-	whdload "Roswell.Slave" $whdloadargs
+  whdload "Roswell.Slave" $whdloadargs
 ELSE
-	whdload "Roswell.Slave"
+  whdload "Roswell.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Groups  : Andromeda
 Type    : Intro
 Party   : The Party 1991
 Rank    : N/a
-Whdload : Spellcheck.Slave
+RunFile : Spellcheck.Slave

@@ -1,4 +1,4 @@
 Name    : Black'n White Slide
 Groups  : Drifters,Pentagon (Amiga)
 Type    : Slideshow
-Whdload : BlackNWhite.Slave
+RunFile : BlackNWhite.Slave

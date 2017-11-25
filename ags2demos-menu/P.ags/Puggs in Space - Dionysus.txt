@@ -1,4 +1,4 @@
 Name    : Puggs in Space
 Groups  : Dionysus
 Type    : Demo
-Whdload : PuggsInSpace.Slave
+RunFile : PuggsInSpace.Slave

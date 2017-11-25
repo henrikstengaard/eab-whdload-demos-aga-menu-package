@@ -1,4 +1,4 @@
 Name    : Essential Beats Volume 3
 Groups  : Quote
 Type    : Musicdisk
-Whdload : EssentialBeats3.Slave
+RunFile : EssentialBeats3.Slave

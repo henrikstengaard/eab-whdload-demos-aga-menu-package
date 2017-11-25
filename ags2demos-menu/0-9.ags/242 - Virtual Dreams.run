@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:0-9/3DNetAnalyzer/3DNetAnalyzer.Slave
+;RunFile=A-Demos:0-9/242/242.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "3D-Net-Analyzer - Doctor M"
+  execute S:AGS2Favourites "0-9" "242 - Virtual Dreams"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Demos:0-9/3DNetAnalyzer/"
+; Run WHDLoad
+cd "A-Demos:0-9/242/"
 IF EXISTS ENV:whdloadargs
-  whdload "3DNetAnalyzer.Slave" $whdloadargs
+  whdload "242.Slave" $whdloadargs
 ELSE
-  whdload "3DNetAnalyzer.Slave"
+  whdload "242.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

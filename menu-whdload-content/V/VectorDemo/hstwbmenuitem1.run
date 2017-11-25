@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:V/VectorDemo/"
 IF EXISTS ENV:whdloadargs
-	whdload "VectorDemo.Slave" $whdloadargs
+  whdload "VectorDemo.Slave" $whdloadargs
 ELSE
-	whdload "VectorDemo.Slave"
+  whdload "VectorDemo.Slave"
 ENDIF

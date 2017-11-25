@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:I/Interspace/"
 IF EXISTS ENV:whdloadargs
-	whdload "Interspace.Slave" $whdloadargs
+  whdload "Interspace.Slave" $whdloadargs
 ELSE
-	whdload "Interspace.Slave"
+  whdload "Interspace.Slave"
 ENDIF

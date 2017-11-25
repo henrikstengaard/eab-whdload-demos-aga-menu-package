@@ -2,4 +2,4 @@ Name    : Vector
 Version : Demo
 Groups  : Dual Crew
 Type    : Intro
-Whdload : VectorBobDemo.slave
+RunFile : VectorBobDemo.slave

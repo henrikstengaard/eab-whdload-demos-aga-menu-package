@@ -3,4 +3,4 @@ Groups  : Gods
 Type    : Demo
 Party   : Abstract - Oxygen Summer Conference 1992
 Rank    : N/a
-Whdload : Apocalypse.Slave
+RunFile : Apocalypse.Slave

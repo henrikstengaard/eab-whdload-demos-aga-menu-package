@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:C/CircleScroller/"
 IF EXISTS ENV:whdloadargs
-	whdload "CircleScroller.Slave" $whdloadargs
+  whdload "CircleScroller.Slave" $whdloadargs
 ELSE
-	whdload "CircleScroller.Slave"
+  whdload "CircleScroller.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/Amplifier2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Amplifier2.slave" $whdloadargs
+  whdload "Amplifier2.slave" $whdloadargs
 ELSE
-	whdload "Amplifier2.slave"
+  whdload "Amplifier2.slave"
 ENDIF

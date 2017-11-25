@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:W/WorldOfCommodore/"
 IF EXISTS ENV:whdloadargs
-	whdload "WorldOfCommodore.slave" $whdloadargs
+  whdload "WorldOfCommodore.slave" $whdloadargs
 ELSE
-	whdload "WorldOfCommodore.slave"
+  whdload "WorldOfCommodore.slave"
 ENDIF

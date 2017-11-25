@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Vision
 Type    : Demo
-Whdload : MegademoVision.Slave
+RunFile : MegademoVision.Slave

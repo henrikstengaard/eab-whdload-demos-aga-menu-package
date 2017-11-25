@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/Muzzax3/"
 IF EXISTS ENV:whdloadargs
-	whdload "Muzzax3.Slave" $whdloadargs
+  whdload "Muzzax3.Slave" $whdloadargs
 ELSE
-	whdload "Muzzax3.Slave"
+  whdload "Muzzax3.Slave"
 ENDIF

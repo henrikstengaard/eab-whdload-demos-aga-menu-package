@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:N/NewAge/"
 IF EXISTS ENV:whdloadargs
-	whdload "NewAge.Slave" $whdloadargs
+  whdload "NewAge.Slave" $whdloadargs
 ELSE
-	whdload "NewAge.Slave"
+  whdload "NewAge.Slave"
 ENDIF

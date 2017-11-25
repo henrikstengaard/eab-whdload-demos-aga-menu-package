@@ -3,4 +3,4 @@ Groups  : Andromeda
 Type    : Demo
 Party   : Amega 1991
 Rank    : 4th
-Whdload : DecayingParadise.Slave
+RunFile : DecayingParadise.Slave

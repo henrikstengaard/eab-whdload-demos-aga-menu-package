@@ -3,4 +3,4 @@ Groups  : Kefrens
 Type    : Demo
 Party   : Ikari + Zargon Party 1989
 Rank    : N/a
-Whdload : Megademo6Kefrens.Slave
+RunFile : Megademo6Kefrens.Slave

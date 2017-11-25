@@ -1,4 +1,4 @@
 Name    : Sane Sound
 Groups  : Academy
 Type    : Musicdisk
-Whdload : SaneSounds.slave
+RunFile : SaneSounds.slave

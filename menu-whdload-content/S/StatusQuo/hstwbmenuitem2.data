@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Status quo - Mad elks Fast
-RunFile=StatusQuoFast.Slave
-AGS2Name=Status quo - Mad elks Fast
-iGameName=Status quo - Mad elks Fast
+Name=Status quo - Mad elks
+RunFile=StatusQuo.Slave
+AGS2Name=Status quo - Mad elks
+iGameName=Status quo - Mad elks

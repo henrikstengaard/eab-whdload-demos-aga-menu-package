@@ -1,4 +1,4 @@
 Name    : Bandit's Radio
 Groups  : Mad elks
 Type    : Demo
-Whdload : BanditsRadio.Slave
+RunFile : BanditsRadio.Slave

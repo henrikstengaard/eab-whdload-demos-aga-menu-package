@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MusicDiskCryptic/"
 IF EXISTS ENV:whdloadargs
-	whdload "MusicDiskCryptic.Slave" $whdloadargs
+  whdload "MusicDiskCryptic.Slave" $whdloadargs
 ELSE
-	whdload "MusicDiskCryptic.Slave"
+  whdload "MusicDiskCryptic.Slave"
 ENDIF

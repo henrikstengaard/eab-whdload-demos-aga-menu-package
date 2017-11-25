@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:0-9/100MostRememberedC64Tunes/"
 IF EXISTS ENV:whdloadargs
   whdload "100MostRememberedC64Tunes.Slave" $whdloadargs

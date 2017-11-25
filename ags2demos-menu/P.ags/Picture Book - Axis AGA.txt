@@ -4,4 +4,4 @@ Groups  : Axis
 Type    : Demo
 Party   : Somewhere in Holland 1995
 Rank    : 3rd
-Whdload : PictureBookAGA.Slave
+RunFile : PictureBookAGA.Slave

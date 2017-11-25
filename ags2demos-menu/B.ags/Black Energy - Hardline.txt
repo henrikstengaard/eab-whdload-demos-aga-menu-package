@@ -1,4 +1,4 @@
 Name    : Black Energy
 Groups  : Hardline
 Type    : Musicdisk
-Whdload : BlackEnergy.Slave
+RunFile : BlackEnergy.Slave

@@ -2,4 +2,4 @@ Name    : Coca Cola
 Version : Demo
 Groups  : Fraxion
 Type    : Demo
-Whdload : CocaColaDemo.Slave
+RunFile : CocaColaDemo.Slave

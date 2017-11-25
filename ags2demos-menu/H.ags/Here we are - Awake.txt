@@ -1,4 +1,4 @@
 Name    : Here we are
 Groups  : Awake
 Type    : Demo
-Whdload : HereWeAre.Slave
+RunFile : HereWeAre.Slave

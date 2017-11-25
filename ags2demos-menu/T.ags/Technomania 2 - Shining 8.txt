@@ -1,4 +1,4 @@
 Name    : Technomania 2
 Groups  : Shining 8
 Type    : Musicdisk
-Whdload : Technomania2.Slave
+RunFile : Technomania2.Slave

@@ -2,4 +2,4 @@ Name    : Not AGAin!
 Version : AGA
 Groups  : S.C.A.L.A.
 Type    : Demo
-Whdload : NotAgain.slave
+RunFile : NotAgain.slave

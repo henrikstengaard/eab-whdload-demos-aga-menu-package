@@ -3,4 +3,4 @@ Groups  : The Silents
 Type    : Demo
 Party   : Amiga Summit Convention 1991
 Rank    : 1st
-Whdload : GlobalTrash.Slave
+RunFile : GlobalTrash.Slave

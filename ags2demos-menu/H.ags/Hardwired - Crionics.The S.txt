@@ -3,4 +3,4 @@ Groups  : Crionics,The Silents
 Type    : Demo
 Party   : The Party 1991
 Rank    : 2nd
-Whdload : Hardwired.Slave
+RunFile : Hardwired.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DeliriumDeform/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeliriumDeform.Slave" $whdloadargs
+  whdload "DeliriumDeform.Slave" $whdloadargs
 ELSE
-	whdload "DeliriumDeform.Slave"
+  whdload "DeliriumDeform.Slave"
 ENDIF

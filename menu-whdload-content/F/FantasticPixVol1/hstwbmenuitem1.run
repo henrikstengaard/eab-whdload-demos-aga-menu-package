@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:F/FantasticPixVol1/"
 IF EXISTS ENV:whdloadargs
-	whdload "FantasticPixVol1.Slave" $whdloadargs
+  whdload "FantasticPixVol1.Slave" $whdloadargs
 ELSE
-	whdload "FantasticPixVol1.Slave"
+  whdload "FantasticPixVol1.Slave"
 ENDIF

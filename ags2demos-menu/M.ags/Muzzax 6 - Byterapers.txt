@@ -1,4 +1,4 @@
 Name    : Muzzax 6
 Groups  : Byterapers
 Type    : Musicdisk
-Whdload : Muzzax6.Slave
+RunFile : Muzzax6.Slave

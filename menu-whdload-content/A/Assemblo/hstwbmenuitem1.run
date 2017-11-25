@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/Assemblo/"
 IF EXISTS ENV:whdloadargs
-	whdload "Assemblo.Slave" $whdloadargs
+  whdload "Assemblo.Slave" $whdloadargs
 ELSE
-	whdload "Assemblo.Slave"
+  whdload "Assemblo.Slave"
 ENDIF

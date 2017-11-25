@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:K/Kuglepoelen/"
 IF EXISTS ENV:whdloadargs
   whdload "Kuglepoelen.Slave" $whdloadargs

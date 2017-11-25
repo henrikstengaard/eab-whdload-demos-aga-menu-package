@@ -1,4 +1,4 @@
 Name    : The Wall (Pink Floyd)
 Groups  : Split
 Type    : Demo
-Whdload : WallSplit.slave
+RunFile : WallSplit.slave

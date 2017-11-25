@@ -3,4 +3,4 @@ Groups  : Alchemy
 Type    : Demo
 Party   : Warszawa 1992
 Rank    : 2nd
-Whdload : Marchewki.Slave
+RunFile : Marchewki.Slave

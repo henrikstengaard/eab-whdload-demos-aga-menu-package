@@ -3,4 +3,4 @@ Groups  : Alcatraz
 Type    : Demo
 Party   : The Party 1991
 Rank    : 1st
-Whdload : Odyssey.Slave
+RunFile : Odyssey.Slave

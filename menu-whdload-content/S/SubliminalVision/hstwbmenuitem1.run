@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SubliminalVision/"
 IF EXISTS ENV:whdloadargs
-	whdload "SubliminalVision.Slave" $whdloadargs
+  whdload "SubliminalVision.Slave" $whdloadargs
 ELSE
-	whdload "SubliminalVision.Slave"
+  whdload "SubliminalVision.Slave"
 ENDIF

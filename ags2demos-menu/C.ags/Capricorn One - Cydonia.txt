@@ -1,4 +1,4 @@
 Name    : Capricorn One
 Groups  : Cydonia
 Type    : Demo
-Whdload : CapricornOne.Slave
+RunFile : CapricornOne.Slave

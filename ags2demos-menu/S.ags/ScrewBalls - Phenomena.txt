@@ -1,4 +1,4 @@
 Name    : ScrewBalls
 Groups  : Phenomena
 Type    : Demo
-Whdload : Screwballs.Slave
+RunFile : Screwballs.Slave

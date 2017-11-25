@@ -1,4 +1,4 @@
 Name    : Sensenmann
 Groups  : United Forces
 Type    : Intro
-Whdload : Sensenmann.Slave
+RunFile : Sensenmann.Slave

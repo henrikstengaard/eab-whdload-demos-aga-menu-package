@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/AnarchyParty1991Slideshow/"
 IF EXISTS ENV:whdloadargs
-	whdload "AnarchyPartySlide.Slave" $whdloadargs
+  whdload "AnarchyPartySlide.Slave" $whdloadargs
 ELSE
-	whdload "AnarchyPartySlide.Slave"
+  whdload "AnarchyPartySlide.Slave"
 ENDIF

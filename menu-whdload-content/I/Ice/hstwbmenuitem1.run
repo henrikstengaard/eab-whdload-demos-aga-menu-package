@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:I/Ice/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ice.slave" $whdloadargs
+  whdload "Ice.slave" $whdloadargs
 ELSE
-	whdload "Ice.slave"
+  whdload "Ice.slave"
 ENDIF

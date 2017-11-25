@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Static bytes
 Type    : Demo
-Whdload : MegaDemoStaticBytes.Slave
+RunFile : MegaDemoStaticBytes.Slave

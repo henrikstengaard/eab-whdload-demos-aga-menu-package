@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:0-9/9Fingers/9Fingers.Slave
+;RunFile=A-Demos:0-9/8BitJungle/8BitJungle.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "9 Fingers - Spaceballs"
+  execute S:AGS2Favourites "0-9" "8-Bit Jungle - Unstable La"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Demos:0-9/9Fingers/"
+; Run WHDLoad
+cd "A-Demos:0-9/8BitJungle/"
 IF EXISTS ENV:whdloadargs
-  whdload "9Fingers.Slave" $whdloadargs
+  whdload "8BitJungle.slave" $whdloadargs
 ELSE
-  whdload "9Fingers.Slave"
+  whdload "8BitJungle.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

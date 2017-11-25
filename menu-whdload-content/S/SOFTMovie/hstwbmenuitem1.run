@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SOFTMovie/"
 IF EXISTS ENV:whdloadargs
-	whdload "SOFTMovie.Slave" $whdloadargs
+  whdload "SOFTMovie.Slave" $whdloadargs
 ELSE
-	whdload "SOFTMovie.Slave"
+  whdload "SOFTMovie.Slave"
 ENDIF

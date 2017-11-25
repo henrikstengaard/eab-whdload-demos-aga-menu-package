@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:Q/QueAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "QueAGA.Slave" $whdloadargs
+  whdload "QueAGA.Slave" $whdloadargs
 ELSE
-	whdload "QueAGA.Slave"
+  whdload "QueAGA.Slave"
 ENDIF

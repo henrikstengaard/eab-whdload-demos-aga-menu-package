@@ -1,4 +1,4 @@
 Name    : Celebration
 Groups  : IT
 Type    : Musicdisk
-Whdload : Celebration.Slave
+RunFile : Celebration.Slave

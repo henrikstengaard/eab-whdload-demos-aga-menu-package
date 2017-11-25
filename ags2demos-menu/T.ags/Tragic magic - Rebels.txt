@@ -1,4 +1,4 @@
 Name    : Tragic magic
 Groups  : Rebels
 Type    : Demo
-Whdload : TragicMagic.Slave
+RunFile : TragicMagic.Slave

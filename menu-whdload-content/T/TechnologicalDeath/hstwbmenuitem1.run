@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/TechnologicalDeath/"
 IF EXISTS ENV:whdloadargs
-	whdload "TechnologicalDeath.slave" $whdloadargs
+  whdload "TechnologicalDeath.slave" $whdloadargs
 ELSE
-	whdload "TechnologicalDeath.slave"
+  whdload "TechnologicalDeath.slave"
 ENDIF

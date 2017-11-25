@@ -1,4 +1,4 @@
 Name    : Quick Musique
 Groups  : Oxygen
 Type    : Musicdisk
-Whdload : QuickMusique.Slave
+RunFile : QuickMusique.Slave

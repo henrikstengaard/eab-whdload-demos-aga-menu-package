@@ -2,4 +2,4 @@ Name    : Thalion Sound demo
 Version : Demo
 Groups  : Thalion
 Type    : Musicdisk
-Whdload : SoundDemo.slave
+RunFile : SoundDemo.slave

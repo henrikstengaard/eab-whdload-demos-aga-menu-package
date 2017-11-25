@@ -1,4 +1,4 @@
 Name    : Audio Dreams
 Groups  : Chaos
 Type    : Musicdisk
-Whdload : AudioDreams.Slave
+RunFile : AudioDreams.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/ExplorerAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "ExplorerAGA.slave" $whdloadargs
+  whdload "ExplorerAGA.slave" $whdloadargs
 ELSE
-	whdload "ExplorerAGA.slave"
+  whdload "ExplorerAGA.slave"
 ENDIF

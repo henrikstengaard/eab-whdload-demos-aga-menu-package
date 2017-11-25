@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/Powertrax/"
 IF EXISTS ENV:whdloadargs
-	whdload "Powertrax.Slave" $whdloadargs
+  whdload "Powertrax.Slave" $whdloadargs
 ELSE
-	whdload "Powertrax.Slave"
+  whdload "Powertrax.Slave"
 ENDIF

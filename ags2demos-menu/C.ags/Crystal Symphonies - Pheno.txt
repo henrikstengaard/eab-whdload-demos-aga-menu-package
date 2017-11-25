@@ -1,4 +1,4 @@
 Name    : Crystal Symphonies
 Groups  : Phenomena
 Type    : Musicdisk
-Whdload : CrystalSymphonies.slave
+RunFile : CrystalSymphonies.slave

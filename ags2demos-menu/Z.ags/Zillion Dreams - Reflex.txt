@@ -1,4 +1,4 @@
 Name    : Zillion Dreams
 Groups  : Reflex
 Type    : Musicdisk
-Whdload : ZillionDreams.Slave
+RunFile : ZillionDreams.Slave

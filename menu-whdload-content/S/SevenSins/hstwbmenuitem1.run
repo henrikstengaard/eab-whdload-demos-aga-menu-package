@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SevenSins/"
 IF EXISTS ENV:whdloadargs
-	whdload "SevenSins.Slave" $whdloadargs
+  whdload "SevenSins.Slave" $whdloadargs
 ELSE
-	whdload "SevenSins.Slave"
+  whdload "SevenSins.Slave"
 ENDIF

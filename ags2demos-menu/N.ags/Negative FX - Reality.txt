@@ -2,4 +2,4 @@ Name    : Negative FX
 Groups  : Reality
 Type    : Demo
 Party   : Datastorm 2014
-Whdload : NegativeFX.Slave
+RunFile : NegativeFX.Slave

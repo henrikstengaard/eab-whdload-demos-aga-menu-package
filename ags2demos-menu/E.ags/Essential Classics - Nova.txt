@@ -1,4 +1,4 @@
 Name    : Essential Classics
 Groups  : Nova
 Type    : Musicdisk
-Whdload : EssentialClassics.Slave
+RunFile : EssentialClassics.Slave

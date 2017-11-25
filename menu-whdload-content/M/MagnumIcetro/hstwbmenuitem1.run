@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MagnumIcetro/"
 IF EXISTS ENV:whdloadargs
-	whdload "MagnumIcetro.Slave" $whdloadargs
+  whdload "MagnumIcetro.Slave" $whdloadargs
 ELSE
-	whdload "MagnumIcetro.Slave"
+  whdload "MagnumIcetro.Slave"
 ENDIF

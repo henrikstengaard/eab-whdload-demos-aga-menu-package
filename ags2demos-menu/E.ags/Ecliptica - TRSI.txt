@@ -2,4 +2,4 @@ Name    : Ecliptica
 Groups  : TRSI
 Type    : Trackmo
 Party   : The Party 1992
-Whdload : Ecliptica.Slave
+RunFile : Ecliptica.Slave

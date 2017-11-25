@@ -1,4 +1,4 @@
 Name    : Soundtracker Injury 3
 Groups  : Electronic Artists
 Type    : Musicdisk
-Whdload : SoundtrackerInjury3.Slave
+RunFile : SoundtrackerInjury3.Slave

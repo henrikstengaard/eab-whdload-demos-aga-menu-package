@@ -1,4 +1,4 @@
 Name    : Digital concert 6
 Groups  : Flash Production
 Type    : Musicdisk
-Whdload : DigitalConcert6.Slave
+RunFile : DigitalConcert6.Slave

@@ -1,4 +1,4 @@
 Name    : Eargasm Tunes
 Groups  : The Silents
 Type    : Musicdisk
-Whdload : EargasmTunes.Slave
+RunFile : EargasmTunes.Slave

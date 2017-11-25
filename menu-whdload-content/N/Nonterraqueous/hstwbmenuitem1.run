@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:N/Nonterraqueous/"
 IF EXISTS ENV:whdloadargs
-	whdload "Nonterraqueous.Slave" $whdloadargs
+  whdload "Nonterraqueous.Slave" $whdloadargs
 ELSE
-	whdload "Nonterraqueous.Slave"
+  whdload "Nonterraqueous.Slave"
 ENDIF

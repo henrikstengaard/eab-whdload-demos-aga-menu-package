@@ -1,4 +1,4 @@
 Name    : Songs of Infinity
 Groups  : Pointless
 Type    : Musicdisk
-Whdload : SongsOfInfinity.Slave
+RunFile : SongsOfInfinity.Slave

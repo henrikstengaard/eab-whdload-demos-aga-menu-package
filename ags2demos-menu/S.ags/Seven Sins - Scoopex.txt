@@ -1,4 +1,4 @@
 Name    : Seven Sins
 Groups  : Scoopex
 Type    : Demo
-Whdload : SevenSins.Slave
+RunFile : SevenSins.Slave

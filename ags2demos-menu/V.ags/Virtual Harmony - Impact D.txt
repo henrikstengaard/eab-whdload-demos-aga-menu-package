@@ -1,4 +1,4 @@
 Name    : Virtual Harmony
 Groups  : Impact DK
 Type    : Musicdisk
-Whdload : VirtualHarmony.slave
+RunFile : VirtualHarmony.slave

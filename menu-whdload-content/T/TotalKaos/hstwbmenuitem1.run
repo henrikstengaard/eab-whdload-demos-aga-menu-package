@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/TotalKaos/"
 IF EXISTS ENV:whdloadargs
-	whdload "TotalKaos.slave" $whdloadargs
+  whdload "TotalKaos.slave" $whdloadargs
 ELSE
-	whdload "TotalKaos.slave"
+  whdload "TotalKaos.slave"
 ENDIF

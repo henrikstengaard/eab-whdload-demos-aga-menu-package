@@ -1,4 +1,4 @@
 Name    : Acid In The House
 Groups  : Northstar,The Silents
 Type    : Musicdisk
-Whdload : AcidInTheHouse.Slave
+RunFile : AcidInTheHouse.Slave

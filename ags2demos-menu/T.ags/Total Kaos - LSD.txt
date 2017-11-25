@@ -1,4 +1,4 @@
 Name    : Total Kaos
 Groups  : LSD
 Type    : Musicdisk
-Whdload : TotalKaos.slave
+RunFile : TotalKaos.slave

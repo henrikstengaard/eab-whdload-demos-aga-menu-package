@@ -3,4 +3,4 @@ Groups  : Carillon & Cyberiad,Complex
 Type    : Slideshow
 Party   : The Party 1993
 Rank    : N/a
-Whdload : MorbidVisions3.Slave
+RunFile : MorbidVisions3.Slave

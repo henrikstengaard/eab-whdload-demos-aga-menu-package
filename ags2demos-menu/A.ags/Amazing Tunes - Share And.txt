@@ -1,4 +1,4 @@
 Name    : Amazing Tunes
 Groups  : Share And Enjoy,Megaforce
 Type    : Musicdisk
-Whdload : AmazingTunes.Slave
+RunFile : AmazingTunes.Slave

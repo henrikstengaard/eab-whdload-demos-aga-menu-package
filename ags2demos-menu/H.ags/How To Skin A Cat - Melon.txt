@@ -3,4 +3,4 @@ Groups  : Melon Dezign
 Type    : Demo
 Party   : The Computer Crossroad 1993
 Rank    : 3rd
-Whdload : How2SkinACat.slave
+RunFile : How2SkinACat.slave

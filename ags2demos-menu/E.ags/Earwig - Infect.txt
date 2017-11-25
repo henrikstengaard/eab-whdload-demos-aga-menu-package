@@ -3,4 +3,4 @@ Groups  : Infect
 Type    : Musicdisk
 Party   : Data-Live Conference 1993
 Rank    : N/a
-Whdload : Earwig.Slave
+RunFile : Earwig.Slave

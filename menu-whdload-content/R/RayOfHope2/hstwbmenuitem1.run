@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/RayOfHope2/"
 IF EXISTS ENV:whdloadargs
-	whdload "RayOfHope2.slave" $whdloadargs
+  whdload "RayOfHope2.slave" $whdloadargs
 ELSE
-	whdload "RayOfHope2.slave"
+  whdload "RayOfHope2.slave"
 ENDIF

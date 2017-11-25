@@ -1,4 +1,4 @@
 Name    : Hymn 633
 Groups  : Damage
 Type    : Musicdisk
-Whdload : Hymn633.slave
+RunFile : Hymn633.slave

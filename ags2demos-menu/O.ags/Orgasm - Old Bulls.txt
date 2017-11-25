@@ -1,4 +1,4 @@
 Name    : Orgasm
 Groups  : Old Bulls
 Type    : Musicdisk
-Whdload : Orgasm.Slave
+RunFile : Orgasm.Slave

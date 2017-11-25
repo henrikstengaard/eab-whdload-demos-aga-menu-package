@@ -1,3 +1,3 @@
 Name    : Synthesis
 Groups  : Underground
-Whdload : Synthesis.Slave
+RunFile : Synthesis.Slave

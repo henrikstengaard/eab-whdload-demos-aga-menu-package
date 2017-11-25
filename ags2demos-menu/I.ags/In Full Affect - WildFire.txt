@@ -1,4 +1,4 @@
 Name    : In Full Affect
 Groups  : WildFire Crew
 Type    : Demo
-Whdload : InFullAffect.Slave
+RunFile : InFullAffect.Slave

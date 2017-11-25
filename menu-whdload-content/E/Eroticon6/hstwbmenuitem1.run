@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/Eroticon6/"
 IF EXISTS ENV:whdloadargs
-	whdload "Eroticon6.slave" $whdloadargs
+  whdload "Eroticon6.slave" $whdloadargs
 ELSE
-	whdload "Eroticon6.slave"
+  whdload "Eroticon6.slave"
 ENDIF

@@ -3,4 +3,4 @@ Groups  : TomSoft
 Type    : Demo
 Party   : Amega 1991
 Rank    : 1st
-Whdload : VirtualWorld.Slave
+RunFile : VirtualWorld.Slave

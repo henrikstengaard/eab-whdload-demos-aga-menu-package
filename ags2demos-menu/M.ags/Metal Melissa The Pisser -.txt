@@ -1,4 +1,4 @@
 Name    : Metal Melissa The Pisser
 Groups  : Animators
 Type    : Demo
-Whdload : MetalMelissaThePisser.Slave
+RunFile : MetalMelissaThePisser.Slave

@@ -3,4 +3,4 @@ Groups  : Beastie Boys
 Type    : Demo
 Party   : World of Wonders Copy-Party 1988
 Rank    : N/a
-Whdload : MegademoBeastieBoys.slave
+RunFile : MegademoBeastieBoys.slave

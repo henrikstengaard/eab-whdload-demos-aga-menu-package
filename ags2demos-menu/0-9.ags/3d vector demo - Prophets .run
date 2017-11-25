@@ -4,7 +4,7 @@
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "3d vector demo - Prophets "
+  execute S:AGS2Favourites "0-9" "3d vector demo - Prophets "
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:V/VectorDemoProphetsAG/"
 IF EXISTS ENV:whdloadargs
   whdload "VectorDemoProphetsAG.Slave" $whdloadargs

@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:B/BeatBox/"
 IF EXISTS ENV:whdloadargs
   whdload "BeatBox.Slave" $whdloadargs

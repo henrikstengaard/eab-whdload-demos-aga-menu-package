@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MaximumVelocity/"
 IF EXISTS ENV:whdloadargs
-	whdload "MaximumVelocity.Slave" $whdloadargs
+  whdload "MaximumVelocity.Slave" $whdloadargs
 ELSE
-	whdload "MaximumVelocity.Slave"
+  whdload "MaximumVelocity.Slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name    : Metal
 Groups  : Bundies
 Type    : Intro
-Whdload : Metal&Lace.Slave
+RunFile : Metal&Lace.Slave

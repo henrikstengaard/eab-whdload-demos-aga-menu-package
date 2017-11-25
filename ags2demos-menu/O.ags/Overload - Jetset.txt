@@ -1,4 +1,4 @@
 Name    : Overload
 Groups  : Jetset
 Type    : Musicdisk
-Whdload : Overload.Slave
+RunFile : Overload.Slave

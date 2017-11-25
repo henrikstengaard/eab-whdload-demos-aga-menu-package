@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DANE/"
 IF EXISTS ENV:whdloadargs
-	whdload "DANE.slave" $whdloadargs
+  whdload "DANE.slave" $whdloadargs
 ELSE
-	whdload "DANE.slave"
+  whdload "DANE.slave"
 ENDIF

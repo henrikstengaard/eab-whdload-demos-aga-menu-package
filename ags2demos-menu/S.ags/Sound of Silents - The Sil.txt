@@ -3,4 +3,4 @@ Groups  : The Silents
 Type    : Musicdisk
 Party   : Bounty Copy-Party 1990
 Rank    : N/a
-Whdload : SoundOfSilents.Slave
+RunFile : SoundOfSilents.Slave

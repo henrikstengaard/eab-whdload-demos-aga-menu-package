@@ -4,4 +4,4 @@ Groups  : Chryseis,Poseidon
 Type    : Demo
 Party   : Saturne 1994
 Rank    : 7th
-Whdload : BreathOfTheMuseAGA.Slave
+RunFile : BreathOfTheMuseAGA.Slave

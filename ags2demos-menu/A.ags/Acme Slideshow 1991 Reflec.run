@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/Acme1991Slideshow/"
 IF EXISTS ENV:whdloadargs
   whdload "Acme1991Slideshow.Slave" $whdloadargs

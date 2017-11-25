@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SoundsOfGnome/"
 IF EXISTS ENV:whdloadargs
-	whdload "SoundsOfGnome.slave" $whdloadargs
+  whdload "SoundsOfGnome.slave" $whdloadargs
 ELSE
-	whdload "SoundsOfGnome.slave"
+  whdload "SoundsOfGnome.slave"
 ENDIF

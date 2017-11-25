@@ -3,4 +3,4 @@ Groups  : Phenomena
 Type    : Demo
 Party   : Dexion X-Mas Conference 1990
 Rank    : N/a
-Whdload : ObviousDisaster.Slave
+RunFile : ObviousDisaster.Slave

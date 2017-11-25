@@ -3,4 +3,4 @@ Groups  : Action Direct
 Type    : Demo
 Party   : Warszawa 1992
 Rank    : 5th
-Whdload : HexadecimalPerfection.slave
+RunFile : HexadecimalPerfection.slave

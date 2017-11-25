@@ -3,4 +3,4 @@ Groups  : Sagazity
 Type    : Demo
 Party   : The Party 1993
 Rank    : 11th
-Whdload : EndOfTheMisery.Slave
+RunFile : EndOfTheMisery.Slave

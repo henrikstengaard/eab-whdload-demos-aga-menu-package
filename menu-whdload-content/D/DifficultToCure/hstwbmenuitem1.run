@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DifficultToCure/"
 IF EXISTS ENV:whdloadargs
-	whdload "DifficultToCure.Slave" $whdloadargs
+  whdload "DifficultToCure.Slave" $whdloadargs
 ELSE
-	whdload "DifficultToCure.Slave"
+  whdload "DifficultToCure.Slave"
 ENDIF

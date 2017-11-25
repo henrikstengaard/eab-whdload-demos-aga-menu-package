@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:0-9/3DBalls/3DBalls.Slave
+;RunFile=A-Demos:V/VectorDemo/VectorDemo.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "3D balls - Avenger"
+  execute S:AGS2Favourites "0-9" "3d vector demo - Prophets"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Demos:0-9/3DBalls/"
+; Run WHDLoad
+cd "A-Demos:V/VectorDemo/"
 IF EXISTS ENV:whdloadargs
-  whdload "3DBalls.Slave" $whdloadargs
+  whdload "VectorDemo.Slave" $whdloadargs
 ELSE
-  whdload "3DBalls.Slave"
+  whdload "VectorDemo.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

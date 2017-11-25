@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Dragons
 Type    : Demo
-Whdload : MegaDemoDragons.slave
+RunFile : MegaDemoDragons.slave

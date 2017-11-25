@@ -3,4 +3,4 @@ Groups  : Rebels
 Type    : Demo
 Party   : Amiga Summit Convention 1991
 Rank    : N/a
-Whdload : DetKniber.slave
+RunFile : DetKniber.slave

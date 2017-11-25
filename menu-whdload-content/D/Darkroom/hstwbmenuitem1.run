@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/Darkroom/"
 IF EXISTS ENV:whdloadargs
-	whdload "Darkroom.Slave" $whdloadargs
+  whdload "Darkroom.Slave" $whdloadargs
 ELSE
-	whdload "Darkroom.Slave"
+  whdload "Darkroom.Slave"
 ENDIF

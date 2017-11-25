@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/EssentialBeats3/"
 IF EXISTS ENV:whdloadargs
-	whdload "EssentialBeats3.Slave" $whdloadargs
+  whdload "EssentialBeats3.Slave" $whdloadargs
 ELSE
-	whdload "EssentialBeats3.Slave"
+  whdload "EssentialBeats3.Slave"
 ENDIF

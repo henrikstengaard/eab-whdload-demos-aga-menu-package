@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:V/VirtualHarmony/"
 IF EXISTS ENV:whdloadargs
   whdload "VirtualHarmony.slave" $whdloadargs

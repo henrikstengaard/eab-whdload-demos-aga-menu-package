@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DemonDownload/"
 IF EXISTS ENV:whdloadargs
-	whdload "DemonDownload.Slave" $whdloadargs
+  whdload "DemonDownload.Slave" $whdloadargs
 ELSE
-	whdload "DemonDownload.Slave"
+  whdload "DemonDownload.Slave"
 ENDIF

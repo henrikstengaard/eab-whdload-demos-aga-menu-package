@@ -1,4 +1,4 @@
 Name    : Megablast
 Groups  : Rebels
 Type    : Musicdisk
-Whdload : Megablast.Slave
+RunFile : Megablast.Slave

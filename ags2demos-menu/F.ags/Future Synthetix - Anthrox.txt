@@ -1,4 +1,4 @@
 Name    : Future Synthetix
 Groups  : Anthrox
 Type    : Musicdisk
-Whdload : FutureSynthetix.Slave
+RunFile : FutureSynthetix.Slave

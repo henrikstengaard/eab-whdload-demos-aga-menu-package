@@ -3,4 +3,4 @@ Groups  : Anarchy
 Type    : Musicdisk
 Party   : Eastern Conference 1992
 Rank    : N/a
-Whdload : SpringMelodies.slave
+RunFile : SpringMelodies.slave

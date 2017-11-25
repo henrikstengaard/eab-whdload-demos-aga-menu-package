@@ -4,4 +4,4 @@ Groups  : Rebels
 Type    : Demo
 Party   : Doom&apos
 Rank    : 1st
-Whdload : SwitchbackAGA.Slave
+RunFile : SwitchbackAGA.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/Prism/"
 IF EXISTS ENV:whdloadargs
-	whdload "Prism.Slave" $whdloadargs
+  whdload "Prism.Slave" $whdloadargs
 ELSE
-	whdload "Prism.Slave"
+  whdload "Prism.Slave"
 ENDIF

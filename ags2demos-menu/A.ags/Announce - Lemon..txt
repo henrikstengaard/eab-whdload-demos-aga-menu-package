@@ -1,4 +1,4 @@
 Name    : Announce
 Groups  : Lemon.
 Type    : Demo
-Whdload : Announce.Slave
+RunFile : Announce.Slave

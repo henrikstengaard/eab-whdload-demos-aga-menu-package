@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/PlaybyteCommercial/"
 IF EXISTS ENV:whdloadargs
-	whdload "PlaybyteCommercial.Slave" $whdloadargs
+  whdload "PlaybyteCommercial.Slave" $whdloadargs
 ELSE
-	whdload "PlaybyteCommercial.Slave"
+  whdload "PlaybyteCommercial.Slave"
 ENDIF

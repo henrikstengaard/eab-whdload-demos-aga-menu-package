@@ -1,4 +1,4 @@
 Name    : Rolling
 Groups  : Omega Machine Designers,Ringard
 Type    : Musicdisk
-Whdload : Rolling.Slave
+RunFile : Rolling.Slave

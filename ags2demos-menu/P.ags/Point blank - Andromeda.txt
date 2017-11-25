@@ -3,4 +3,4 @@ Groups  : Andromeda
 Type    : Demo
 Party   : Hurricane &amp
 Rank    : 7th
-Whdload : PointBlank.Slave
+RunFile : PointBlank.Slave

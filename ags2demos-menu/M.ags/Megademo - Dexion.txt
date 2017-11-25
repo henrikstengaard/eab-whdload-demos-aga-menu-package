@@ -2,4 +2,4 @@ Name    : Megademo
 Groups  : Dexion
 Type    : Megademo
 Party   : Bamiga Sector One and Warfalcons Party
-Whdload : MegademoDexion.Slave
+RunFile : MegademoDexion.Slave

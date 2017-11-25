@@ -3,4 +3,4 @@ Groups  : Avenger
 Type    : Demo
 Party   : Piranhas copy party
 Rank    : N/a
-Whdload : 3DBalls.Slave
+RunFile : 3DBalls.Slave

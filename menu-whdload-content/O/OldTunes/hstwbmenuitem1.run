@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:O/OldTunes/"
 IF EXISTS ENV:whdloadargs
-	whdload "OldTunes.Slave" $whdloadargs
+  whdload "OldTunes.Slave" $whdloadargs
 ELSE
-	whdload "OldTunes.Slave"
+  whdload "OldTunes.Slave"
 ENDIF

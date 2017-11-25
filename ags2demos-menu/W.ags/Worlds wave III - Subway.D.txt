@@ -1,4 +1,4 @@
 Name    : World's wave III
 Groups  : Subway,Dream Team
 Type    : Musicdisk
-Whdload : WorldsWave3.Slave
+RunFile : WorldsWave3.Slave

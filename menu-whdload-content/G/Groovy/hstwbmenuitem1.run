@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:G/Groovy/"
 IF EXISTS ENV:whdloadargs
-	whdload "Groovy.slave" $whdloadargs
+  whdload "Groovy.slave" $whdloadargs
 ELSE
-	whdload "Groovy.slave"
+  whdload "Groovy.slave"
 ENDIF

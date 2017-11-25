@@ -4,7 +4,7 @@
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "5 Yards - Vision"
+  execute S:AGS2Favourites "0-9" "5 Yards - Vision"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:0-9/5Yards/"
 IF EXISTS ENV:whdloadargs
   whdload "5Yards.Slave" $whdloadargs

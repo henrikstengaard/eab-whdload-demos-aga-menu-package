@@ -1,4 +1,4 @@
 Name    : Breed CD1
 Groups  : Nightbreed
 Type    : Musicdisk
-Whdload : BreedCD1.Slave
+RunFile : BreedCD1.Slave

@@ -3,4 +3,4 @@ Groups  : Digital
 Type    : Demo
 Party   : Analogy Hitech Party 1992
 Rank    : 1st
-Whdload : DayOfReckoning.Slave
+RunFile : DayOfReckoning.Slave

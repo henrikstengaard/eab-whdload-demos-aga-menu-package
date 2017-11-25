@@ -3,4 +3,4 @@ Groups  : Sanity
 Type    : Demo
 Party   : World of Commodore 1992
 Rank    : 2nd
-Whdload : WorldOfCommodore.slave
+RunFile : WorldOfCommodore.slave

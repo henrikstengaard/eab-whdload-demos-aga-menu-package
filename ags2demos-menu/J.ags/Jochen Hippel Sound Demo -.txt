@@ -4,4 +4,4 @@ Groups  : Axis
 Type    : Musicdisk
 Party   : RAF Conference 1991
 Rank    : N/a
-Whdload : JochenHippelSoundDemo.Slave
+RunFile : JochenHippelSoundDemo.Slave

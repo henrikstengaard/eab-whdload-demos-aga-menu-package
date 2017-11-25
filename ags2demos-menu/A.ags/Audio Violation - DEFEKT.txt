@@ -1,4 +1,4 @@
 Name    : Audio Violation
 Groups  : DEFEKT
 Type    : Musicdisk
-Whdload : AudioViolation.slave
+RunFile : AudioViolation.slave

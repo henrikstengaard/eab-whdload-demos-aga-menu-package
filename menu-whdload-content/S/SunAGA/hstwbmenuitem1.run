@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/SunAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "SunAGA.Slave" $whdloadargs
+  whdload "SunAGA.Slave" $whdloadargs
 ELSE
-	whdload "SunAGA.Slave"
+  whdload "SunAGA.Slave"
 ENDIF

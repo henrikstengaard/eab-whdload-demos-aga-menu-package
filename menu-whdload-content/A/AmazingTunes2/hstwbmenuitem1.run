@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/AmazingTunes2/"
 IF EXISTS ENV:whdloadargs
-	whdload "AmazingTunes2.Slave" $whdloadargs
+  whdload "AmazingTunes2.Slave" $whdloadargs
 ELSE
-	whdload "AmazingTunes2.Slave"
+  whdload "AmazingTunes2.Slave"
 ENDIF

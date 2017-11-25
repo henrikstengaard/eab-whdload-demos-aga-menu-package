@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:B/BorisVallejoSlide/"
 IF EXISTS ENV:whdloadargs
-	whdload "BorisVallejoSlide.Slave" $whdloadargs
+  whdload "BorisVallejoSlide.Slave" $whdloadargs
 ELSE
-	whdload "BorisVallejoSlide.Slave"
+  whdload "BorisVallejoSlide.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/Sensenmann/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sensenmann.Slave" $whdloadargs
+  whdload "Sensenmann.Slave" $whdloadargs
 ELSE
-	whdload "Sensenmann.Slave"
+  whdload "Sensenmann.Slave"
 ENDIF

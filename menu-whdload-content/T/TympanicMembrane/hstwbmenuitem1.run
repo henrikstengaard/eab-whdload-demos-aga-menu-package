@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:T/TympanicMembrane/"
 IF EXISTS ENV:whdloadargs
-	whdload "TympanicMembrane.Slave" $whdloadargs
+  whdload "TympanicMembrane.Slave" $whdloadargs
 ELSE
-	whdload "TympanicMembrane.Slave"
+  whdload "TympanicMembrane.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Groups  : Kgb
 Type    : Demo
 Party   : Amiga Summit Convention 1991
 Rank    : N/a
-Whdload : HitFido.Slave
+RunFile : HitFido.Slave

@@ -1,4 +1,4 @@
 Name    : Roswell
 Version : AGA
 Groups  : NFA
-Whdload : Roswell.Slave
+RunFile : Roswell.Slave

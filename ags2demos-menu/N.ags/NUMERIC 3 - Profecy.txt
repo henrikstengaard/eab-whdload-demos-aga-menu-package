@@ -3,4 +3,4 @@ Groups  : Profecy
 Type    : Musicdisk
 Party   : The Party 1992
 Rank    : 24th
-Whdload : Numeric3.Slave
+RunFile : Numeric3.Slave

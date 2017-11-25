@@ -3,4 +3,4 @@ Groups  : Dexion
 Type    : Demo
 Party   : Bamiga Sector 1 and Warfalcons Party 1989
 Rank    : 1st
-Whdload : MegaDemo2Dexion.Slave
+RunFile : MegaDemo2Dexion.Slave

@@ -1,4 +1,4 @@
 Name    : Sound Mania 2
 Groups  : Pussy
 Type    : Musicdisk
-Whdload : SoundMania2Pussy.Slave
+RunFile : SoundMania2Pussy.Slave

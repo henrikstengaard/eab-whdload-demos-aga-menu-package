@@ -1,4 +1,4 @@
 Name    : Banging Raves
 Groups  : Intuition
 Type    : Musicdisk
-Whdload : BangingRaves.Slave
+RunFile : BangingRaves.Slave

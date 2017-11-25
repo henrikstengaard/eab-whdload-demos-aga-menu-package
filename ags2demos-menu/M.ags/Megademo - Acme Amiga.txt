@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Acme (Amiga)
 Type    : Demo
-Whdload : MegademoAcme.Slave
+RunFile : MegademoAcme.Slave

@@ -1,4 +1,4 @@
 Name    : Big business
 Groups  : Defjam
 Type    : Demo
-Whdload : BigBusiness.Slave
+RunFile : BigBusiness.Slave

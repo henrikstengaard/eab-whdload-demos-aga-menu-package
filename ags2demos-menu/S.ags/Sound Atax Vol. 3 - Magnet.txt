@@ -3,4 +3,4 @@ Groups  : Magnetic Fields
 Type    : Musicdisk
 Party   : Quartex Mayhem Silents Copy Party 1990
 Rank    : N/a
-Whdload : SoundAtaxVol3.Slave
+RunFile : SoundAtaxVol3.Slave

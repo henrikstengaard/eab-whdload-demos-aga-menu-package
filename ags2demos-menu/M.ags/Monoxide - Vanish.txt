@@ -3,4 +3,4 @@ Groups  : Vanish
 Type    : Demo
 Party   : World of Commodore 1992
 Rank    : 3rd
-Whdload : Monoxide.Slave
+RunFile : Monoxide.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:S/Sploosh/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sploosh.Slave" $whdloadargs
+  whdload "Sploosh.Slave" $whdloadargs
 ELSE
-	whdload "Sploosh.Slave"
+  whdload "Sploosh.Slave"
 ENDIF

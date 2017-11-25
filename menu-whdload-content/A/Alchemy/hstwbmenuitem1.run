@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:A/Alchemy/"
 IF EXISTS ENV:whdloadargs
-	whdload "Alchemy.Slave" $whdloadargs
+  whdload "Alchemy.Slave" $whdloadargs
 ELSE
-	whdload "Alchemy.Slave"
+  whdload "Alchemy.Slave"
 ENDIF

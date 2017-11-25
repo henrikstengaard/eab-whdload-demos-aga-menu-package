@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:J/Joyride/"
 IF EXISTS ENV:whdloadargs
   whdload "Joyride.Slave" $whdloadargs

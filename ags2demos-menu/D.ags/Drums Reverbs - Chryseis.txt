@@ -3,4 +3,4 @@ Groups  : Chryseis
 Type    : Musicdisk
 Party   : The Party 1992
 Rank    : N/a
-Whdload : Drums&Reverbs.Slave
+RunFile : Drums&Reverbs.Slave

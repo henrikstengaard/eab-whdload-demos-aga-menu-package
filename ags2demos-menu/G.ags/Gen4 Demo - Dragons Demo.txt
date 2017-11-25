@@ -3,4 +3,4 @@ Version : Demo
 Groups  : Dragons
 Type    : Demo
 Party   : Gen 4 Demo Competition 90
-Whdload : Gen4Demo.Slave
+RunFile : Gen4Demo.Slave

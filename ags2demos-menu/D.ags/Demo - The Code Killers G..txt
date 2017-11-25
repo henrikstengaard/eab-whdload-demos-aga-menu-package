@@ -2,4 +2,4 @@ Name    : Demo
 Version : Intro
 Groups  : The Code Killers G.d.r.
 Type    : Demo
-Whdload : CodeKillersIntro.slave
+RunFile : CodeKillersIntro.slave

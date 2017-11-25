@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/Erazorhead/"
 IF EXISTS ENV:whdloadargs
-	whdload "Erazorhead.Slave" $whdloadargs
+  whdload "Erazorhead.Slave" $whdloadargs
 ELSE
-	whdload "Erazorhead.Slave"
+  whdload "Erazorhead.Slave"
 ENDIF

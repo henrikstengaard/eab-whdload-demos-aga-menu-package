@@ -2,4 +2,4 @@ Name    : Assembly 1992 Slideshow
 Groups  : World Industries
 Type    : Slideshow
 Party   : Assembly 1992
-Whdload : Assembly92Slideshow.Slave
+RunFile : Assembly92Slideshow.Slave

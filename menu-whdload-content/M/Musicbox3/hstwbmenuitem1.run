@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/Musicbox3/"
 IF EXISTS ENV:whdloadargs
-	whdload "Musicbox3.Slave" $whdloadargs
+  whdload "Musicbox3.Slave" $whdloadargs
 ELSE
-	whdload "Musicbox3.Slave"
+  whdload "Musicbox3.Slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name    : Rubbish
 Groups  : Amega Industries
 Type    : Demo
-Whdload : Rubbish.Slave
+RunFile : Rubbish.Slave

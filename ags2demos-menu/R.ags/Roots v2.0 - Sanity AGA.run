@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:R/Roots2AGA/"
 IF EXISTS ENV:whdloadargs
   whdload "Roots2AGA.Slave" $whdloadargs

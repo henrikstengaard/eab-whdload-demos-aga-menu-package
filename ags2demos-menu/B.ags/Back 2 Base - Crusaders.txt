@@ -1,4 +1,4 @@
 Name    : Back 2 Base
 Groups  : Crusaders
 Type    : Musicdisk
-Whdload : Back2Base.Slave
+RunFile : Back2Base.Slave

@@ -3,4 +3,4 @@ Groups  : Flash Production
 Type    : Musicdisk
 Party   : Amiga Conference 1990
 Rank    : N/a
-Whdload : DigitalConcert5.Slave
+RunFile : DigitalConcert5.Slave

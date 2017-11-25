@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:C/ColorCrime/"
 IF EXISTS ENV:whdloadargs
-	whdload "ColorCrime.Slave" $whdloadargs
+  whdload "ColorCrime.Slave" $whdloadargs
 ELSE
-	whdload "ColorCrime.Slave"
+  whdload "ColorCrime.Slave"
 ENDIF

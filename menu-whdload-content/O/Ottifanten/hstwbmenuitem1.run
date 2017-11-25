@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:O/Ottifanten/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ottifanten.Slave" $whdloadargs
+  whdload "Ottifanten.Slave" $whdloadargs
 ELSE
-	whdload "Ottifanten.Slave"
+  whdload "Ottifanten.Slave"
 ENDIF

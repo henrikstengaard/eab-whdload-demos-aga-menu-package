@@ -1,4 +1,4 @@
 Name    : Soundquest 1
 Groups  : Quest
 Type    : Musicdisk
-Whdload : SoundQuest1.Slave
+RunFile : SoundQuest1.Slave

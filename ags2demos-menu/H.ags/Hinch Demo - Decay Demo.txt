@@ -2,4 +2,4 @@ Name    : Hinch Demo
 Version : Demo
 Groups  : Decay
 Type    : Demo
-Whdload : DerrynHinchDemo.Slave
+RunFile : DerrynHinchDemo.Slave

@@ -1,4 +1,4 @@
 Name    : Electric Sound 3
 Groups  : The Goonies 2041
 Type    : Musicdisk
-Whdload : ElectricSound3.Slave
+RunFile : ElectricSound3.Slave

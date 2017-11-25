@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Demos:0-9/1001StolenIdeas/1001StolenIdeas.Slave
+;RunFile=A-Demos:0-9/2D/2D.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "1001 Stolen Ideas - Airwal"
+  execute S:AGS2Favourites "0-9" "2d - Remedy amiga"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Demos:0-9/1001StolenIdeas/"
+; Run WHDLoad
+cd "A-Demos:0-9/2D/"
 IF EXISTS ENV:whdloadargs
-  whdload "1001StolenIdeas.Slave" $whdloadargs
+  whdload "2D.Slave" $whdloadargs
 ELSE
-  whdload "1001StolenIdeas.Slave"
+  whdload "2D.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

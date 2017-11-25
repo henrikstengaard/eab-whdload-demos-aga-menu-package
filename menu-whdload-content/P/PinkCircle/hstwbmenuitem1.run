@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/PinkCircle/"
 IF EXISTS ENV:whdloadargs
-	whdload "PinkCircle.Slave" $whdloadargs
+  whdload "PinkCircle.Slave" $whdloadargs
 ELSE
-	whdload "PinkCircle.Slave"
+  whdload "PinkCircle.Slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name    : Sound Highlights 1
 Groups  : Timex
 Type    : Musicdisk
-Whdload : SoundHighlights1.Slave
+RunFile : SoundHighlights1.Slave

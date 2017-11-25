@@ -1,4 +1,4 @@
 Name    : Overdose
 Groups  : Delight
 Type    : Demo
-Whdload : Overdose.Slave
+RunFile : Overdose.Slave

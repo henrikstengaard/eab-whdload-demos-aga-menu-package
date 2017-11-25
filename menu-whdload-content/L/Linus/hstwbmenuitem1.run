@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:L/Linus/"
 IF EXISTS ENV:whdloadargs
-	whdload "Linus.Slave" $whdloadargs
+  whdload "Linus.Slave" $whdloadargs
 ELSE
-	whdload "Linus.Slave"
+  whdload "Linus.Slave"
 ENDIF

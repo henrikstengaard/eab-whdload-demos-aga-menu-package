@@ -1,4 +1,4 @@
 Name    : The Party II Slideshow
 Groups  : Decnite
 Type    : Slideshow
-Whdload : Party2Slideshow.Slave
+RunFile : Party2Slideshow.Slave

@@ -3,4 +3,4 @@ Groups  : The Silents
 Type    : Demo
 Party   : Consumer Electronics Show 1990
 Rank    : N/a
-Whdload : TropicalSunset.Slave
+RunFile : TropicalSunset.Slave

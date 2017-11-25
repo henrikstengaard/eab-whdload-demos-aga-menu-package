@@ -3,4 +3,4 @@ Groups  : Lemon.
 Type    : Demo
 Party   : Revision 2013
 Rank    : 1st
-Whdload : RinkADinkRedux.Slave
+RunFile : RinkADinkRedux.Slave

@@ -3,4 +3,4 @@ Groups  : Spaceballs
 Type    : Demo
 Party   : The Gathering 1992
 Rank    : 1st
-Whdload : Wayfarer.slave
+RunFile : Wayfarer.slave

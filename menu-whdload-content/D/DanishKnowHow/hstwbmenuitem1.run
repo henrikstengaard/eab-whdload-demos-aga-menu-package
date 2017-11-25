@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:D/DanishKnowHow/"
 IF EXISTS ENV:whdloadargs
-	whdload "DanishKnowHow.Slave" $whdloadargs
+  whdload "DanishKnowHow.Slave" $whdloadargs
 ELSE
-	whdload "DanishKnowHow.Slave"
+  whdload "DanishKnowHow.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Groups  : Noiseless,The Silents
 Type    : Musicdisk
 Party   : The Gathering 1992
 Rank    : N/a
-Whdload : DizzyTunes.Slave
+RunFile : DizzyTunes.Slave

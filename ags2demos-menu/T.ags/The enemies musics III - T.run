@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/Musics3/"
 IF EXISTS ENV:whdloadargs
   whdload "Musics3.Slave" $whdloadargs

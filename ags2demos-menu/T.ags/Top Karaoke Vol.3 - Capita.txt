@@ -2,4 +2,4 @@ Name    : Top Karaoke Vol.3 - Capitaine Flam-
 Version : AGA
 Groups  : Saturne
 Type    : Musicdisk
-Whdload : TopKaraoke3AGA.Slave
+RunFile : TopKaraoke3AGA.Slave

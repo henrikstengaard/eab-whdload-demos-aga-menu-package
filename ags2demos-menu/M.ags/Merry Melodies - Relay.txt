@@ -1,4 +1,4 @@
 Name    : Merry Melodies
 Groups  : Relay
 Type    : Musicdisk
-Whdload : MerryMelodies.Slave
+RunFile : MerryMelodies.Slave

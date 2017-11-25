@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:P/PictureBookAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "PictureBookAGA.Slave" $whdloadargs
+  whdload "PictureBookAGA.Slave" $whdloadargs
 ELSE
-	whdload "PictureBookAGA.Slave"
+  whdload "PictureBookAGA.Slave"
 ENDIF

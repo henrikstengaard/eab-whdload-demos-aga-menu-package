@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Demos:E/EndOfTheMisery/"
 IF EXISTS ENV:whdloadargs
-	whdload "EndOfTheMisery.Slave" $whdloadargs
+  whdload "EndOfTheMisery.Slave" $whdloadargs
 ELSE
-	whdload "EndOfTheMisery.Slave"
+  whdload "EndOfTheMisery.Slave"
 ENDIF

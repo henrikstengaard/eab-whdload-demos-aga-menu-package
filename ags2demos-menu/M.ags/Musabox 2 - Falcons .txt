@@ -1,4 +1,4 @@
 Name    : Musabox #2
 Groups  : Falcons
 Type    : Musicdisk
-Whdload : Musabox2.Slave
+RunFile : Musabox2.Slave

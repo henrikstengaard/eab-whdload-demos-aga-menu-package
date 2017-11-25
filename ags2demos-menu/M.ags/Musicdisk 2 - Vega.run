@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Demos:M/MusicDisk2Vega/"
 IF EXISTS ENV:whdloadargs
   whdload "MusicDisk2Vega.Slave" $whdloadargs

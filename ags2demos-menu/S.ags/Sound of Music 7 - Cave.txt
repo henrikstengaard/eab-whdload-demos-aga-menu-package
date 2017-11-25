@@ -1,4 +1,4 @@
 Name    : Sound of Music 7
 Groups  : Cave
 Type    : Musicdisk
-Whdload : SoundOfMusic7.Slave
+RunFile : SoundOfMusic7.Slave

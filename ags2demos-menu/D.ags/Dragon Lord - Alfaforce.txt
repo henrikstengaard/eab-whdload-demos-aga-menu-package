@@ -1,4 +1,4 @@
 Name    : Dragon Lord
 Groups  : Alfaforce
 Type    : Demo
-Whdload : DragonLord.Slave
+RunFile : DragonLord.Slave

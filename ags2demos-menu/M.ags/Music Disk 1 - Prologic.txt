@@ -1,4 +1,4 @@
 Name    : Music Disk 1
 Groups  : Prologic
 Type    : Musicdisk
-Whdload : MusicDisk1Prologic.Slave
+RunFile : MusicDisk1Prologic.Slave

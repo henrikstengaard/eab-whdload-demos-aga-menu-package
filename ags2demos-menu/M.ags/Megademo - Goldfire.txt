@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Goldfire
-Type    : Demo
-RunFile : MegaDemoGoldfire.Slave

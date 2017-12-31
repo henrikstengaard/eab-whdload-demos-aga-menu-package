@@ -1,4 +1,0 @@
-Name    : Musicdisk #1
-Groups  : The Fantasy Force
-Type    : Musicdisk
-RunFile : MusicDisk1FantasyForce.Slave

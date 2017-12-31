@@ -1,4 +1,0 @@
-Name    : Kuglepølen
-Groups  : Static bytes
-Type    : Musicdisk
-RunFile : Kuglepoelen.Slave

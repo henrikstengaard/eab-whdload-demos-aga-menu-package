@@ -1,5 +1,0 @@
-Name    : Odeon
-Groups  : Solution
-Type    : Musicdisk
-Party   : The Party 1992
-RunFile : Odeon.Slave

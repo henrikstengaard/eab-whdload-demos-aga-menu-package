@@ -1,4 +1,0 @@
-Name    : Beat Box
-Groups  : Warfalcons
-Type    : Musicdisk
-RunFile : BeatBox.Slave

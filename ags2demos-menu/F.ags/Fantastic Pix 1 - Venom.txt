@@ -1,4 +1,0 @@
-Name    : Fantastic Pix 1
-Groups  : Venom
-Type    : Slideshow
-RunFile : FantasticPixVol1.Slave

@@ -1,4 +1,0 @@
-Name    : Music Disk 6
-Groups  : Ram Jam
-Type    : Musicdisk
-RunFile : MusicDisk6RamJam.Slave

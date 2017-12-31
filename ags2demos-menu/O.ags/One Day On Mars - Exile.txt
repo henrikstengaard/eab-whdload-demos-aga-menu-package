@@ -1,4 +1,0 @@
-Name    : One Day On Mars
-Groups  : Exile
-Type    : Musicdisk
-RunFile : OneDayOnMars.Slave

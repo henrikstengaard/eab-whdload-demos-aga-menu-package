@@ -1,4 +1,0 @@
-Name    : AudiOmega
-Groups  : Rebels
-Type    : Musicdisk
-RunFile : AudiOmega.Slave

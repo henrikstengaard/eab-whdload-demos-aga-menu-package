@@ -1,4 +1,0 @@
-Name    : Music Disk
-Groups  : Bass
-Type    : Musicdisk
-RunFile : MusicDisk1Bass.slave

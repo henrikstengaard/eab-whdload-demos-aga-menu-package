@@ -1,4 +1,0 @@
-Name    : Tune Disk 1
-Groups  : Concept
-Type    : Musicdisk
-RunFile : TuneDisk1.Slave

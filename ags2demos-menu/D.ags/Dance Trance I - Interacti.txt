@@ -1,4 +1,0 @@
-Name    : Dance Trance I
-Groups  : Interactive
-Type    : Musicdisk
-RunFile : DanceTrance.Slave

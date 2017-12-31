@@ -1,4 +1,0 @@
-Name    : MusicDisk
-Groups  : Cryptic
-Type    : Musicdisk
-RunFile : MusicDiskCryptic.Slave

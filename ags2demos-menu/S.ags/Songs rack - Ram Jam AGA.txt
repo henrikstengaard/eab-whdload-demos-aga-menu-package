@@ -1,5 +1,0 @@
-Name    : Songs rack
-Version : AGA
-Groups  : Ram Jam
-Type    : Musicdisk
-RunFile : SongsRackAGA.Slave

@@ -1,4 +1,0 @@
-Name    : Banging Raves
-Groups  : Intuition
-Type    : Musicdisk
-RunFile : BangingRaves.Slave

@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Cult
-Type    : Demo
-RunFile : MegademoCult.Slave

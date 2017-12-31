@@ -1,4 +1,0 @@
-Name    : Music Demo
-Groups  : Deform
-Type    : Musicdisk
-RunFile : MusicDemoDeform.Slave

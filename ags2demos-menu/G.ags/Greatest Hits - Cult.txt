@@ -1,4 +1,0 @@
-Name    : Greatest Hits
-Groups  : Cult
-Type    : Musicdisk
-RunFile : GreatestHits.Slave

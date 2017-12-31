@@ -1,4 +1,0 @@
-Name    : Darktro
-Groups  : Darkness
-Type    : Intro
-RunFile : Darktro.Slave

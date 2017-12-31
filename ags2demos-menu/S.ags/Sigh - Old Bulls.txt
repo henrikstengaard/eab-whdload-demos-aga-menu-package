@@ -1,4 +1,0 @@
-Name    : Sigh
-Groups  : Old Bulls
-Type    : Musicdisk
-RunFile : Sigh.Slave

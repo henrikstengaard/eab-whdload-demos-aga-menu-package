@@ -1,4 +1,0 @@
-Name    : Banging Raves 2
-Groups  : Intuition
-Type    : Musicdisk
-RunFile : BangingRaves2.Slave

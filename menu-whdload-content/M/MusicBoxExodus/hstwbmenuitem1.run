@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:MusicBoxExodus/"
-IF EXISTS ENV:whdloadargs
-  whdload "MusicBoxExodus.Slave" $whdloadargs
-ELSE
-  whdload "MusicBoxExodus.Slave"
-ENDIF

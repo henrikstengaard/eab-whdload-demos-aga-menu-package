@@ -1,4 +1,0 @@
-Name    : Musicdisk
-Groups  : Orix,aspect
-Type    : Musicdisk
-RunFile : MusicDiskAspect&Orix.Slave

@@ -1,4 +1,0 @@
-Name    : Seven Sins
-Groups  : Scoopex
-Type    : Demo
-RunFile : SevenSins.Slave

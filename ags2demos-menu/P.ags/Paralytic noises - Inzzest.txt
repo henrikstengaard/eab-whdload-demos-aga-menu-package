@@ -1,4 +1,0 @@
-Name    : Paralytic noises
-Groups  : Inzzest
-Type    : Musicdisk
-RunFile : ParalyticNoises.Slave

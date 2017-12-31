@@ -1,4 +1,0 @@
-Name    : MusicDisk #2
-Groups  : IKS
-Type    : Musicdisk
-RunFile : MusicDisk2IKS.Slave

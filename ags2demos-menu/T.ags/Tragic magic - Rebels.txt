@@ -1,4 +1,0 @@
-Name    : Tragic magic
-Groups  : Rebels
-Type    : Demo
-RunFile : TragicMagic.Slave

@@ -1,4 +1,0 @@
-Name    : Creamy Cranium 1
-Groups  : Strangers
-Type    : Musicdisk
-RunFile : CreamyCranium1.Slave

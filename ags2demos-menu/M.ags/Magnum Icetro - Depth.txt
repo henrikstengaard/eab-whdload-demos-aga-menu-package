@@ -1,4 +1,0 @@
-Name    : Magnum Icetro
-Groups  : Depth
-Type    : Musicdisk
-RunFile : MagnumIcetro.Slave

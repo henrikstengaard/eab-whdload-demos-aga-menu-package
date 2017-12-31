@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:E/Erazorhead/"
-IF EXISTS ENV:whdloadargs
-  whdload "Erazorhead.Slave" $whdloadargs
-ELSE
-  whdload "Erazorhead.Slave"
-ENDIF

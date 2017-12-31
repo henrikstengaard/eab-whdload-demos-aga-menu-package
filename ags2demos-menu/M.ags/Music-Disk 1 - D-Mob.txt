@@ -1,4 +1,0 @@
-Name    : Music-Disk 1
-Groups  : D-Mob
-Type    : Musicdisk
-RunFile : MusicDisk1DMob.Slave

@@ -1,4 +1,0 @@
-Name    : Nugget
-Groups  : The Black Lotus
-Type    : Demo
-RunFile : Nugget.Slave

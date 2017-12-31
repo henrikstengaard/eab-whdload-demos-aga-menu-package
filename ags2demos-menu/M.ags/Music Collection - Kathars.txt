@@ -1,3 +1,0 @@
-Name    : Music Collection
-Groups  : Katharsis
-RunFile : MusicCollection.Slave

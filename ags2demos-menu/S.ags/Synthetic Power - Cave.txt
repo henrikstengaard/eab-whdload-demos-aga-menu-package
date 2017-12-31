@@ -1,4 +1,0 @@
-Name    : Synthetic Power
-Groups  : Cave
-Type    : Musicdisk
-RunFile : SyntheticPower.Slave

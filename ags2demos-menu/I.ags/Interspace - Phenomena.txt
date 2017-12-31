@@ -1,4 +1,0 @@
-Name    : Interspace
-Groups  : Phenomena
-Type    : Demo
-RunFile : Interspace.Slave

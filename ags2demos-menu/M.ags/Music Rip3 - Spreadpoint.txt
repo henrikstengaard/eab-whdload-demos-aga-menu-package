@@ -1,4 +1,0 @@
-Name    : Music Rip3
-Groups  : Spreadpoint
-Type    : Musicdisk
-RunFile : MusicRip3.Slave

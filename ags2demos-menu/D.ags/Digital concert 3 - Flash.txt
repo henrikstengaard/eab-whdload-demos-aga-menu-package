@@ -1,4 +1,0 @@
-Name    : Digital concert 3
-Groups  : Flash Production
-Type    : Musicdisk
-RunFile : DigitalConcert3.Slave

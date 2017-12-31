@@ -1,4 +1,0 @@
-Name    : Dance Trance II
-Groups  : Interactive
-Type    : Musicdisk
-RunFile : DanceTrance2.Slave

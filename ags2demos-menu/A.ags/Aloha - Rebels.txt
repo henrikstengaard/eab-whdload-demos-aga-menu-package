@@ -1,4 +1,0 @@
-Name    : Aloha
-Groups  : Rebels
-Type    : Demo
-RunFile : Aloha.Slave

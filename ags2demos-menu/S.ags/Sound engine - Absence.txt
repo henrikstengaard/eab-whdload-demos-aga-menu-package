@@ -1,4 +1,0 @@
-Name    : Sound engine
-Groups  : Absence
-Type    : Musicdisk
-RunFile : SoundEngine.Slave

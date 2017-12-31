@@ -1,4 +1,0 @@
-Name    : Juggler
-Groups  : Eric Graham
-Type    : Animation
-RunFile : Juggler.Slave

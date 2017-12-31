@@ -1,4 +1,0 @@
-Name    : Extemporized
-Groups  : Digital
-Type    : Musicdisk
-RunFile : Extemporized.Slave

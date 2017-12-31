@@ -1,4 +1,0 @@
-Name    : Copper slave
-Groups  : Ram Jam
-Type    : Demo
-RunFile : CopperSlave.Slave

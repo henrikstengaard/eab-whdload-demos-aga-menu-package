@@ -1,4 +1,0 @@
-Name    : Jesterday
-Groups  : Sanity
-Type    : Musicdisk
-RunFile : Jesterday.slave

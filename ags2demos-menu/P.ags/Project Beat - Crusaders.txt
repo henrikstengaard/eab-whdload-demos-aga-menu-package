@@ -1,4 +1,0 @@
-Name    : Project Beat
-Groups  : Crusaders
-Type    : Musicdisk
-RunFile : ProjectBeat.Slave

@@ -1,4 +1,0 @@
-Name    : His Master's Noise
-Groups  : Mahoney & Kaktus
-Type    : Musicdisk
-RunFile : HisMastersNoise.slave

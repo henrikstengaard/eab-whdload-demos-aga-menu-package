@@ -1,4 +1,0 @@
-Name    : Musicdisk
-Groups  : Inzzest
-Type    : Musicdisk
-RunFile : MusicDiskInzzest.Slave

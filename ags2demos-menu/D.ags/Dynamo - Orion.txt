@@ -1,4 +1,0 @@
-Name    : Dynamo
-Groups  : Orion
-Type    : Musicdisk
-RunFile : Dynamo.Slave

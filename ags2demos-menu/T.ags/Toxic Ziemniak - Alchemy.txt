@@ -1,4 +1,0 @@
-Name    : Toxic Ziemniak
-Groups  : Alchemy
-Type    : Demo
-RunFile : ToxicZiemniak.Slave

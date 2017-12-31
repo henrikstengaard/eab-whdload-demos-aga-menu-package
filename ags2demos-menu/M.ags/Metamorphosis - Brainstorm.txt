@@ -1,4 +1,0 @@
-Name    : Metamorphosis
-Groups  : Brainstorm
-Type    : Demo
-RunFile : Metamorphosis.Slave

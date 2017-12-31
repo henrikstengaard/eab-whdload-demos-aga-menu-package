@@ -1,4 +1,0 @@
-Name    : It's Just the Beginning
-Groups  : Paragon (Amiga)
-Type    : Musicdisk
-RunFile : ItsJustTheBeginning.Slave

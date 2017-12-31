@@ -1,3 +1,0 @@
-Name    : Boris Vallejo
-Groups  : Apocalypse Bay
-RunFile : BorisVallejoSlide.Slave

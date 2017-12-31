@@ -1,4 +1,0 @@
-Name    : Kakburk
-Groups  : Strangers
-Type    : Musicdisk
-RunFile : Kakburk.Slave

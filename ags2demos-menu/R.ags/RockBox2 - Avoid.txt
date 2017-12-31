@@ -1,4 +1,0 @@
-Name    : RockBox2
-Groups  : Avoid
-Type    : Musicdisk
-RunFile : RockBox2.Slave

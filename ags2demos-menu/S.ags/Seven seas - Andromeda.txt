@@ -1,4 +1,0 @@
-Name    : Seven seas
-Groups  : Andromeda
-Type    : Slideshow
-RunFile : SevenSeas.Slave

@@ -1,4 +1,0 @@
-Name    : Music Compilation
-Groups  : Random Access
-Type    : Musicdisk
-RunFile : MusicCompilation.Slave

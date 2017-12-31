@@ -1,4 +1,0 @@
-Name    : Musicdisk
-Groups  : Escape
-Type    : Musicdisk
-RunFile : MusicDiskEscape.Slave

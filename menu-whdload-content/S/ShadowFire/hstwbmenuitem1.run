@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:S/ShadowFire/"
-IF EXISTS ENV:whdloadargs
-  whdload "ShadowFire.Slave" $whdloadargs
-ELSE
-  whdload "ShadowFire.Slave"
-ENDIF

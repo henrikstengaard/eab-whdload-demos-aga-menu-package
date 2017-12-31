@@ -1,4 +1,0 @@
-Name    : Rubbish
-Groups  : Amega Industries
-Type    : Demo
-RunFile : Rubbish.Slave

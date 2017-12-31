@@ -1,5 +1,0 @@
-Name    : Stereo Sounds
-Groups  : Eon
-Type    : Musicdisk
-Party   : Amega Party
-RunFile : StereoSounds.Slave

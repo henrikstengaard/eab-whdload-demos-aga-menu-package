@@ -1,4 +1,0 @@
-Name    : Bass-o-matic
-Groups  : Crusaders
-Type    : Musicdisk
-RunFile : BassOMatic.Slave

@@ -1,4 +1,0 @@
-Name    : The Amplifier 2
-Groups  : Dimension4
-Type    : Musicdisk
-RunFile : Amplifier2.slave

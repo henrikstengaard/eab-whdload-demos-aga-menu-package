@@ -1,4 +1,0 @@
-Name    : Puggs in Space
-Groups  : Dionysus
-Type    : Demo
-RunFile : PuggsInSpace.Slave

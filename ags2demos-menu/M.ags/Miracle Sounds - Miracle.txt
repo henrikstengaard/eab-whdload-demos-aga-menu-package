@@ -1,4 +1,0 @@
-Name    : Miracle Sounds
-Groups  : Miracle
-Type    : Musicdisk
-RunFile : MiracleSounds1.Slave

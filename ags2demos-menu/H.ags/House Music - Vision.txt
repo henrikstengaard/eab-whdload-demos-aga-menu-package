@@ -1,4 +1,0 @@
-Name    : House Music
-Groups  : Vision
-Type    : Musicdisk
-RunFile : HouseMusic.Slave

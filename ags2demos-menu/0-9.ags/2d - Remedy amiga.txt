@@ -1,4 +1,0 @@
-Name    : 2d
-Groups  : Remedy (amiga)
-Type    : Demo
-RunFile : 2D.Slave

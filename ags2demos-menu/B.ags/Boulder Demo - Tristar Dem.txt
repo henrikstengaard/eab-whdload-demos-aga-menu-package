@@ -1,5 +1,0 @@
-Name    : Boulder Demo
-Version : Demo
-Groups  : Tristar
-Type    : Demo
-RunFile : BoulderDemo.Slave

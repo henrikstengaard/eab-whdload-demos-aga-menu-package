@@ -1,5 +1,0 @@
-Name    : First demo
-Version : Demo
-Groups  : Exact
-Type    : Demo
-RunFile : FirstDemo.Slave

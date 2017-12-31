@@ -1,4 +1,0 @@
-Name    : Sound De Light
-Groups  : Software Of Sweden
-Type    : Musicdisk
-RunFile : SoundDeLight.slave

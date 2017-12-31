@@ -1,7 +1,0 @@
-Name    : Shaft7
-Version : AGA
-Groups  : Bomb
-Type    : Demo
-Party   : The Party 1996
-Rank    : 1st
-RunFile : Shaft7AGA.Slave

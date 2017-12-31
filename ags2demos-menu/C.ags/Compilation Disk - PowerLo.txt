@@ -1,3 +1,0 @@
-Name    : Compilation Disk
-Groups  : PowerLords
-RunFile : CompilationDisk.Slave

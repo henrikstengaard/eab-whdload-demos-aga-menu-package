@@ -1,4 +1,0 @@
-Name    : Turrican Musicdisk
-Groups  : Andromeda
-Type    : Musicdisk
-RunFile : TurricanMusicDisk.slave

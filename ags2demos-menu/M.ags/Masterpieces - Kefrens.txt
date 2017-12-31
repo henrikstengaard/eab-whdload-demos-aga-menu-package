@@ -1,4 +1,0 @@
-Name    : Masterpieces
-Groups  : Kefrens
-Type    : Slideshow
-RunFile : Masterpieces.Slave

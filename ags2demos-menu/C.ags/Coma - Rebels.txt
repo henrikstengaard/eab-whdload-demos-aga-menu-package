@@ -1,4 +1,0 @@
-Name    : Coma
-Groups  : Rebels
-Type    : Demo
-RunFile : Coma.Slave

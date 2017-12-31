@@ -1,4 +1,0 @@
-Name    : Muzzax 2
-Groups  : Byterapers
-Type    : Musicdisk
-RunFile : Muzzax2.slave

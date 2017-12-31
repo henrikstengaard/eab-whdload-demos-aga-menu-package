@@ -1,4 +1,0 @@
-Name    : Cebit'89
-Groups  : Exact
-Type    : Demo
-RunFile : Cebit89.Slave

@@ -1,4 +1,0 @@
-Name    : Morbid Visions II
-Groups  : Carillon & Cyberiad
-Type    : Slideshow
-RunFile : MorbidVisions2.Slave

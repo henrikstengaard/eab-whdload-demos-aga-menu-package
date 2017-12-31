@@ -1,4 +1,0 @@
-Name    : Bubonic Plague
-Groups  : Bloodsuckers
-Type    : Intro
-RunFile : BubonicPlague.Slave

@@ -1,4 +1,0 @@
-Name    : Shed Tears
-Groups  : Ozone
-Type    : Slideshow
-RunFile : ShedTears.Slave

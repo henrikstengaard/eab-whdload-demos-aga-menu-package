@@ -1,4 +1,0 @@
-Name    : Musicbox 3
-Groups  : Gate
-Type    : Musicdisk
-RunFile : Musicbox3.Slave

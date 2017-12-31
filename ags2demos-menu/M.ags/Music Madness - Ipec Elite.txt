@@ -1,4 +1,0 @@
-Name    : Music Madness
-Groups  : Ipec Elite
-Type    : Musicdisk
-RunFile : MusicMadness.Slave

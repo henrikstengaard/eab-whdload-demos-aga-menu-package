@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Predators
-Type    : Demo
-RunFile : MegademoPredators.Slave

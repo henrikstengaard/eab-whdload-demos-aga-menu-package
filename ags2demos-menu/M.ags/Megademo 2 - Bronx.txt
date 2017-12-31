@@ -1,4 +1,0 @@
-Name    : Megademo 2
-Groups  : Bronx
-Type    : Demo
-RunFile : MegaDemo2Bronx.Slave

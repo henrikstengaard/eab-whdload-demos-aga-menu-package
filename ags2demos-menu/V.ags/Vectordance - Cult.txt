@@ -1,4 +1,0 @@
-Name    : Vectordance
-Groups  : Cult
-Type    : Demo
-RunFile : Vectordance.Slave

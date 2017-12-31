@@ -1,4 +1,0 @@
-Name    : Musicbox
-Groups  : Exodus
-Type    : Musicdisk
-RunFile : MusicBoxExodus.Slave

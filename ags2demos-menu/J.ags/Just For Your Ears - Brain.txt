@@ -1,4 +1,0 @@
-Name    : Just For Your Ears
-Groups  : Brainwave
-Type    : Musicdisk
-RunFile : Just4YourEars.Slave

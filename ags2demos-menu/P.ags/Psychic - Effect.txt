@@ -1,4 +1,0 @@
-Name    : Psychic
-Groups  : Effect
-Type    : Musicdisk
-RunFile : Psychic.Slave

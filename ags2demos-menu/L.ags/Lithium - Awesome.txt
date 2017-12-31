@@ -1,4 +1,0 @@
-Name    : Lithium
-Groups  : Awesome
-Type    : Demo
-RunFile : Lithium.Slave

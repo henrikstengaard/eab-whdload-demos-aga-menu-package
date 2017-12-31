@@ -1,4 +1,0 @@
-Name    : Chromagic
-Groups  : Dual Crew & Shining
-Type    : Musicdisk
-RunFile : Chromagic.Slave

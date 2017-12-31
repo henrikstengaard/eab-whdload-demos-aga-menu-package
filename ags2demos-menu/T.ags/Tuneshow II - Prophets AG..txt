@@ -1,4 +1,0 @@
-Name    : Tuneshow II
-Groups  : Prophets AG,The Acoustic Revolution
-Type    : Musicdisk
-RunFile : TuneShow2.slave

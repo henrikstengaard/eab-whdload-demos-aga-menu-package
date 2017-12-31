@@ -1,4 +1,0 @@
-Name    : Atmospherical Melodies
-Groups  : Carnage
-Type    : Musicdisk
-RunFile : AtmosphericalMelodies.Slave

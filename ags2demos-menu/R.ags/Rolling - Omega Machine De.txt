@@ -1,4 +1,0 @@
-Name    : Rolling
-Groups  : Omega Machine Designers,Ringard
-Type    : Musicdisk
-RunFile : Rolling.Slave

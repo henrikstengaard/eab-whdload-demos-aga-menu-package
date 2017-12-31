@@ -1,4 +1,0 @@
-Name    : SCR Musax 2
-Groups  : Scrapers
-Type    : Musicdisk
-RunFile : SCRMusax2.Slave

@@ -1,4 +1,0 @@
-Name    : Sploosh
-Groups  : Anthrox
-Type    : Musicdisk
-RunFile : Sploosh.Slave

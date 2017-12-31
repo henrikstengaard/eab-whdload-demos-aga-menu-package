@@ -1,4 +1,0 @@
-Name    : The enemies musics III
-Groups  : The Enemies
-Type    : Musicdisk
-RunFile : Musics3.Slave

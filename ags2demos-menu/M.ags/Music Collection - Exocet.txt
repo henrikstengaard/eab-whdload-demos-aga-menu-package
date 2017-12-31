@@ -1,4 +1,0 @@
-Name    : Music Collection
-Groups  : Exocet
-Type    : Musicdisk
-RunFile : MusicCollectionExocet.Slave

@@ -1,4 +1,0 @@
-Name    : Pixel Nation
-Groups  : Defjam
-Type    : Demo
-RunFile : PixelNation.Slave

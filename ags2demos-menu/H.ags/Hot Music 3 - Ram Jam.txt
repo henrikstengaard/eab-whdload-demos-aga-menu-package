@@ -1,4 +1,0 @@
-Name    : Hot Music 3
-Groups  : Ram Jam
-Type    : Musicdisk
-RunFile : HotMusic3.Slave

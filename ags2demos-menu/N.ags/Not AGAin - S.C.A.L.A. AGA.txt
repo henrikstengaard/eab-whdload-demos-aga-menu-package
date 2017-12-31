@@ -1,5 +1,0 @@
-Name    : Not AGAin!
-Version : AGA
-Groups  : S.C.A.L.A.
-Type    : Demo
-RunFile : NotAgain.slave

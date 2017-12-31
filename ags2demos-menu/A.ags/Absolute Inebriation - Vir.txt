@@ -1,6 +1,0 @@
-Name    : Absolute Inebriation
-Groups  : Virtual Dreams,Fairlight
-Type    : Demo
-Party   : The Party 1992
-Rank    : 6th
-RunFile : AbsoluteInebriation.Slave

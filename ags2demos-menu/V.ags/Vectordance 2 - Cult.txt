@@ -1,4 +1,0 @@
-Name    : Vectordance 2
-Groups  : Cult
-Type    : Demo
-RunFile : VectorDance2.Slave

@@ -1,0 +1,4 @@
+Name    : Musicdisk 1
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+RunFile : MusicDisk1.Slave

@@ -1,0 +1,4 @@
+Name    : Soundbox 2
+Groups  : Alpha Flight 1970,Genesis (Alpha Flight)
+Type    : Musicdisk
+RunFile : Soundbox2.Slave

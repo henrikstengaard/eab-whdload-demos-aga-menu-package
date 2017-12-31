@@ -1,0 +1,4 @@
+Name    : Color Crime
+Groups  : X-Trade
+Type    : Musicdisk
+RunFile : ColorCrime.Slave

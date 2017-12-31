@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:A/AudioViolation/"
+IF EXISTS ENV:whdloadargs
+  whdload "AudioViolation.slave" $whdloadargs
+ELSE
+  whdload "AudioViolation.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Megademo 2
+Groups  : Vision
+Type    : Demo
+Party   : Alpha flight &amp
+Rank    : N/a
+RunFile : Megademo2Vision.Slave

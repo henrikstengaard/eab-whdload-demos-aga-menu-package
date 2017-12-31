@@ -1,0 +1,4 @@
+Name    : Brunos box 3
+Groups  : Anarchy
+Type    : Musicdisk
+RunFile : BrunosMusicBox3.Slave

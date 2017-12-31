@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/Spellcheck/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spellcheck.Slave" $whdloadargs
+ELSE
+  whdload "Spellcheck.Slave"
+ENDIF

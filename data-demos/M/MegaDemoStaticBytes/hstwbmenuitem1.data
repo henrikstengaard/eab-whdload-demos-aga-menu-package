@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Megademo - Static bytes
+RunFile=MegaDemoStaticBytes.Slave
+AGS2Name=Megademo - Static bytes
+iGameName=Megademo - Static bytes

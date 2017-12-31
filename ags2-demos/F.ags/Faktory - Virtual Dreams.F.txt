@@ -1,0 +1,7 @@
+Name    : Faktory
+Version : AGA
+Groups  : Virtual Dreams,Fairlight
+Type    : Demo
+Party   : The Party 1995
+Rank    : 3rd
+RunFile : FaktoryAGA.Slave

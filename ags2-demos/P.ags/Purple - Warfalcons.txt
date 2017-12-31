@@ -1,0 +1,4 @@
+Name    : Purple
+Groups  : Warfalcons
+Type    : Demo
+RunFile : Purple.Slave

@@ -1,0 +1,4 @@
+Name    : Analogia
+Groups  : Analog
+Type    : Demo
+RunFile : Analogia.Slave

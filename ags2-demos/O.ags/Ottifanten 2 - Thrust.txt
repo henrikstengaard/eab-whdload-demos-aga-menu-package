@@ -1,0 +1,4 @@
+Name    : Ottifanten 2
+Groups  : Thrust
+Type    : Intro
+RunFile : Ottifanten2.Slave

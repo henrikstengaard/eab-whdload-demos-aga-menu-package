@@ -1,0 +1,7 @@
+Name    : Numb
+Version : AGA
+Groups  : Movement
+Type    : Demo
+Party   : The Party 1993
+Rank    : N/a
+RunFile : NumbAGA.Slave

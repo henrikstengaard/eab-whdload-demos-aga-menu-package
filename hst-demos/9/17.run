@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:H/HoneyComb/"
+IF EXISTS ENV:whdloadargs
+  whdload "HoneyComb.Slave" $whdloadargs
+ELSE
+  whdload "HoneyComb.Slave"
+ENDIF

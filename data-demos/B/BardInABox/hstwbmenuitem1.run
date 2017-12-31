@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:B/BardInABox/"
+IF EXISTS ENV:whdloadargs
+  whdload "BardInABox.slave" $whdloadargs
+ELSE
+  whdload "BardInABox.slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Dizzy Tunes 2
+Groups  : Spaceballs,noiseless
+Type    : Musicdisk
+RunFile : DizzyTunes2.Slave

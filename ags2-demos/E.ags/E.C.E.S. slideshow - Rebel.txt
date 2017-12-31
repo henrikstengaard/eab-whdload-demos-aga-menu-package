@@ -1,0 +1,7 @@
+Name    : E.C.E.S. slideshow
+Version : AGA
+Groups  : Rebels
+Type    : Slideshow
+Party   : ECES 1991
+Rank    : N/a
+RunFile : ECESSlideshow.slave

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:E/Excess/"
+IF EXISTS ENV:whdloadargs
+  whdload "Excess.Slave" $whdloadargs
+ELSE
+  whdload "Excess.Slave"
+ENDIF

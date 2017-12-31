@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:V/VectorDemoTristanLorach/"
+IF EXISTS ENV:whdloadargs
+  whdload "VectorDemoTristanLorach.Slave" $whdloadargs
+ELSE
+  whdload "VectorDemoTristanLorach.Slave"
+ENDIF

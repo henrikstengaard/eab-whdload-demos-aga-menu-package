@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/SeeingIsBelieving/"
+IF EXISTS ENV:whdloadargs
+  whdload "SeeingIsBelieving.Slave" $whdloadargs
+ELSE
+  whdload "SeeingIsBelieving.Slave"
+ENDIF

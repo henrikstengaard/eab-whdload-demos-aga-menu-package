@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:V/VectorExterminator/"
+IF EXISTS ENV:whdloadargs
+  whdload "VectorExterminator.Slave" $whdloadargs
+ELSE
+  whdload "VectorExterminator.Slave"
+ENDIF

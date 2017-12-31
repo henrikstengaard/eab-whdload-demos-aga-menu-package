@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:P/PastelVanilla/"
+IF EXISTS ENV:whdloadargs
+  whdload "PastelVanilla.slave" $whdloadargs
+ELSE
+  whdload "PastelVanilla.slave"
+ENDIF

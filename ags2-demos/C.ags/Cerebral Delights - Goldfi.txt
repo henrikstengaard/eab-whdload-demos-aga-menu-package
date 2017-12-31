@@ -1,0 +1,4 @@
+Name    : Cerebral Delights
+Groups  : Goldfire
+Type    : Musicdisk
+RunFile : CerebralDelights.Slave

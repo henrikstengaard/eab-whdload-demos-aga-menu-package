@@ -1,0 +1,6 @@
+Name    : Thug Life
+Version : AGA
+Groups  : Essence
+Type    : Demo
+Party   : Mekka Symposium 1997
+RunFile : ThugLifeAGA.Slave

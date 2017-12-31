@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:A/Animotion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Animotion.slave" $whdloadargs
+ELSE
+  whdload "Animotion.slave"
+ENDIF

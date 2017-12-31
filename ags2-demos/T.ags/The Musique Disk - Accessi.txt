@@ -1,0 +1,4 @@
+Name    : The Musique Disk
+Groups  : Accession
+Type    : Musicdisk
+RunFile : MusiqueDisk.Slave

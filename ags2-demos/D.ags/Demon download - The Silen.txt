@@ -1,0 +1,4 @@
+Name    : Demon download
+Groups  : The Silents
+Type    : Demo
+RunFile : DemonDownload.Slave

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Sound Disk - Zenith
+RunFile=SoundDisk.slave
+AGS2Name=Sound Disk - Zenith
+iGameName=Sound Disk - Zenith

@@ -1,0 +1,5 @@
+Name    : Strange Music 2
+Groups  : Strange
+Type    : Musicdisk
+Party   : Hackerence 4 - Mai 1991
+RunFile : StrangeMusic2.Slave

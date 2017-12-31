@@ -1,0 +1,6 @@
+Name    : Roots v2.0
+Version : AGA
+Groups  : Sanity
+Type    : Trackmo
+Party   : Black Box Symposium 95
+RunFile : Roots2AGA.Slave

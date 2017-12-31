@@ -1,0 +1,4 @@
+Name    : Sexvens
+Groups  : Morelove
+Type    : Demo
+RunFile : Sexvens.slave

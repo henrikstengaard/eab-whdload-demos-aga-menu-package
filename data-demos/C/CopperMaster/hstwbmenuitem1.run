@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:C/CopperMaster/"
+IF EXISTS ENV:whdloadargs
+  whdload "CopperMaster.slave" $whdloadargs
+ELSE
+  whdload "CopperMaster.slave"
+ENDIF

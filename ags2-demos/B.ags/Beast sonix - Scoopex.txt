@@ -1,0 +1,4 @@
+Name    : Beast sonix
+Groups  : Scoopex
+Type    : Musicdisk
+RunFile : BeastSonix.Slave

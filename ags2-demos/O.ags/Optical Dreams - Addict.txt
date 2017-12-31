@@ -1,0 +1,4 @@
+Name    : Optical Dreams
+Groups  : Addict
+Type    : Musicdisk
+RunFile : OpticalDreams.Slave

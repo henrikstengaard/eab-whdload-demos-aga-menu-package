@@ -1,0 +1,4 @@
+Name    : Mean Break Machine 2
+Groups  : Tetragon
+Type    : Musicdisk
+RunFile : MeanBreakMachine2.Slave

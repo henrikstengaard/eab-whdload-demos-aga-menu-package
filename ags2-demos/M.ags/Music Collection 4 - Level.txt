@@ -1,0 +1,4 @@
+Name    : Music Collection 4
+Groups  : Level 4
+Type    : Musicdisk
+RunFile : MusicCollection4Zarch.Slave

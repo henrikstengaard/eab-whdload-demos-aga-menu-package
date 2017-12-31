@@ -1,0 +1,4 @@
+Name    : Public Attack
+Groups  : Cult
+Type    : Demo
+RunFile : PublicAttack.Slave

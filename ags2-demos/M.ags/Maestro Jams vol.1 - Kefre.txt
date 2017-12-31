@@ -1,0 +1,4 @@
+Name    : Maestro Jams vol.1
+Groups  : Kefrens
+Type    : Musicdisk
+RunFile : MaestroJamsVol1.Slave

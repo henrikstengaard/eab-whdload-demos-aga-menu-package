@@ -1,0 +1,4 @@
+Name    : Sound Barrier
+Groups  : Balance
+Type    : Musicdisk
+RunFile : SoundBarrier.Slave

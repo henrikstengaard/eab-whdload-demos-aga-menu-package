@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:A/Aloha/"
+IF EXISTS ENV:whdloadargs
+  whdload "Aloha.Slave" $whdloadargs
+ELSE
+  whdload "Aloha.Slave"
+ENDIF

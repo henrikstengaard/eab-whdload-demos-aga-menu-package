@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:H/HisMastersNoise/"
+IF EXISTS ENV:whdloadargs
+  whdload "HisMastersNoise.slave" $whdloadargs
+ELSE
+  whdload "HisMastersNoise.slave"
+ENDIF

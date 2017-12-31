@@ -1,0 +1,5 @@
+Name    : Megamix 3
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+Party   : Maximum Pleasure Party
+RunFile : MegaMix3.Slave

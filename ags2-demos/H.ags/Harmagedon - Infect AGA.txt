@@ -1,0 +1,7 @@
+Name    : Harmagedon
+Version : AGA
+Groups  : Infect
+Type    : Demo
+Party   : The Party 1993
+Rank    : 5th
+RunFile : HarmagedonAGA.Slave

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:W/WhiteRoom/"
+IF EXISTS ENV:whdloadargs
+  whdload "WhiteRoom.Slave" $whdloadargs
+ELSE
+  whdload "WhiteRoom.Slave"
+ENDIF

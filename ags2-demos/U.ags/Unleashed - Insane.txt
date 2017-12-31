@@ -1,0 +1,4 @@
+Name    : Unleashed
+Groups  : Insane
+Type    : Musicdisk
+RunFile : Unleashed.Slave

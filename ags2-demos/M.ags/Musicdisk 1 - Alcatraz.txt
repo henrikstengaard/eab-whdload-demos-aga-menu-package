@@ -1,0 +1,4 @@
+Name    : Musicdisk 1
+Groups  : Alcatraz
+Type    : Musicdisk
+RunFile : MusicDisk1Alcatraz.Slave

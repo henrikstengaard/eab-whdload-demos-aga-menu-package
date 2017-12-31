@@ -1,0 +1,4 @@
+Name    : Zillion Dreams
+Groups  : Reflex
+Type    : Musicdisk
+RunFile : ZillionDreams.Slave

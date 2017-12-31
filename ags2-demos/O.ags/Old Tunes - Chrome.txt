@@ -1,0 +1,4 @@
+Name    : Old Tunes
+Groups  : Chrome
+Type    : Musicdisk
+RunFile : OldTunes.Slave

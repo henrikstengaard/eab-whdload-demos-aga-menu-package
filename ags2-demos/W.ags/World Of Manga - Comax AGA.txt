@@ -1,0 +1,5 @@
+Name    : World Of Manga
+Version : AGA
+Groups  : Comax
+Type    : Slideshow
+RunFile : WorldOfMangaAGA.Slave

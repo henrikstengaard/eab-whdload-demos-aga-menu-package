@@ -1,0 +1,4 @@
+Name    : Muzaks Disk 1
+Groups  : Securitate
+Type    : Musicdisk
+RunFile : MuzaksDisk1.Slave

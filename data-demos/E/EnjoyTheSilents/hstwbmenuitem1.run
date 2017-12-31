@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:E/EnjoyTheSilents/"
+IF EXISTS ENV:whdloadargs
+  whdload "EnjoyTheSilents.Slave" $whdloadargs
+ELSE
+  whdload "EnjoyTheSilents.Slave"
+ENDIF

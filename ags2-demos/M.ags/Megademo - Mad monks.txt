@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Mad monks
+Type    : Demo
+RunFile : MegademoMadMonks.Slave

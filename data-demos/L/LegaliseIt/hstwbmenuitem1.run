@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:L/LegaliseIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegaliseIt.Slave" $whdloadargs
+ELSE
+  whdload "LegaliseIt.Slave"
+ENDIF

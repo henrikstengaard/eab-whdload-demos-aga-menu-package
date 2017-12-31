@@ -1,0 +1,4 @@
+Name    : Audio Dreams
+Groups  : Chaos
+Type    : Musicdisk
+RunFile : AudioDreams.Slave

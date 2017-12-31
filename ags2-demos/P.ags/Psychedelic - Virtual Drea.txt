@@ -1,0 +1,7 @@
+Name    : Psychedelic
+Version : AGA
+Groups  : Virtual Dreams,Fairlight
+Type    : Demo
+Party   : The Party 1994
+Rank    : 2nd
+RunFile : PsychedelicAGA.Slave

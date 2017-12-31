@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:A/AmazingTunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "AmazingTunes.Slave" $whdloadargs
+ELSE
+  whdload "AmazingTunes.Slave"
+ENDIF

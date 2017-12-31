@@ -1,0 +1,7 @@
+Name    : The Prey
+Version : AGA
+Groups  : Polka brothers
+Type    : Demo
+Party   : The Party 1994
+Rank    : 6th
+RunFile : PreyAGA.Slave

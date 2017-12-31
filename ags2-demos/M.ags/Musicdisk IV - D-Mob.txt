@@ -1,0 +1,4 @@
+Name    : Musicdisk IV
+Groups  : D-Mob
+Type    : Musicdisk
+RunFile : MusicDisk4.Slave

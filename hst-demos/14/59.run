@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MegademoPhenomena/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegademoPhenomena.slave" $whdloadargs
+ELSE
+  whdload "MegademoPhenomena.slave"
+ENDIF

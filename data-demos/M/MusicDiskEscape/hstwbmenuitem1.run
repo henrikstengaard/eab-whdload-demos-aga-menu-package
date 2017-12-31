@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MusicDiskEscape/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicDiskEscape.Slave" $whdloadargs
+ELSE
+  whdload "MusicDiskEscape.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:F/FantasticDream/"
+IF EXISTS ENV:whdloadargs
+  whdload "FantasticDream.Slave" $whdloadargs
+ELSE
+  whdload "FantasticDream.Slave"
+ENDIF

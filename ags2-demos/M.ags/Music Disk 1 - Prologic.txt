@@ -1,0 +1,4 @@
+Name    : Music Disk 1
+Groups  : Prologic
+Type    : Musicdisk
+RunFile : MusicDisk1Prologic.Slave

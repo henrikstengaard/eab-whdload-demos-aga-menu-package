@@ -1,0 +1,4 @@
+Name    : Sozzled somersault
+Groups  : The Silents
+Type    : Demo
+RunFile : SozzledSomersault.Slave

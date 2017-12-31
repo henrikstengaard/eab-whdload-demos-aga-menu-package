@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Static bytes
+Type    : Demo
+RunFile : MegaDemoStaticBytes.Slave

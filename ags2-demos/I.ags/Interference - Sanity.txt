@@ -1,0 +1,4 @@
+Name    : Interference
+Groups  : Sanity
+Type    : Dentro
+RunFile : Interference.Slave

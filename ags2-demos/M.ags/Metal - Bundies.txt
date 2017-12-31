@@ -1,0 +1,4 @@
+Name    : Metal
+Groups  : Bundies
+Type    : Intro
+RunFile : Metal&Lace.Slave

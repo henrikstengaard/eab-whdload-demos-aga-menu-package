@@ -1,0 +1,7 @@
+Name    : Captured Dreams
+Version : AGA
+Groups  : The Black Lotus
+Type    : Demo
+Party   : The Gathering 1997
+Rank    : 1st
+RunFile : CapturedDreamsAGA.Slave

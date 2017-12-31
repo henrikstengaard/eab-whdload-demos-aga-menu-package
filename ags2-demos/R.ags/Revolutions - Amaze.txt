@@ -1,0 +1,4 @@
+Name    : Revolutions
+Groups  : Amaze
+Type    : Musicdisk
+RunFile : Revolutions.Slave

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:G/GladiatorMusic/"
+IF EXISTS ENV:whdloadargs
+  whdload "GladiatorMusic.Slave" $whdloadargs
+ELSE
+  whdload "GladiatorMusic.Slave"
+ENDIF

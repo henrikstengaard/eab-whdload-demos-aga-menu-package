@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/SoundVision/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundVision.Slave" $whdloadargs
+ELSE
+  whdload "SoundVision.Slave"
+ENDIF

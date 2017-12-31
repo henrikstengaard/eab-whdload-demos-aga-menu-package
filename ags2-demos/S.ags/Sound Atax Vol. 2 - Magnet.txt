@@ -1,0 +1,6 @@
+Name    : Sound Atax Vol. 2
+Groups  : Magnetic Fields
+Type    : Musicdisk
+Party   : Share and Enjoy Party 1989
+Rank    : N/a
+RunFile : SoundAtaxVol2.Slave

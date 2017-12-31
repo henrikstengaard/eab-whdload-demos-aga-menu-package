@@ -1,0 +1,5 @@
+Name    : Official Commodore France A1200 demo
+Version : AGA Demo
+Groups  : Digital
+Type    : Demo
+RunFile : A1200DemoAGA.slave

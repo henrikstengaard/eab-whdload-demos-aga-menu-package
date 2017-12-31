@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:I/ItsJustTheBeginning/"
+IF EXISTS ENV:whdloadargs
+  whdload "ItsJustTheBeginning.Slave" $whdloadargs
+ELSE
+  whdload "ItsJustTheBeginning.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Merry Melodies
+Groups  : Relay
+Type    : Musicdisk
+RunFile : MerryMelodies.Slave

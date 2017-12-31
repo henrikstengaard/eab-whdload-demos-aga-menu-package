@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=First demo - Exact Demo
+RunFile=FirstDemo.Slave
+AGS2Name=First demo - Exact Demo
+iGameName=First demo - Exact Demo

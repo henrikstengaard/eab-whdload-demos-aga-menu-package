@@ -1,0 +1,4 @@
+Name    : Soundrevolution 6
+Groups  : Celtic
+Type    : Musicdisk
+RunFile : Soundrevolution6.Slave

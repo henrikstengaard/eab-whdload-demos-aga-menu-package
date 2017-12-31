@@ -1,0 +1,4 @@
+Name    : Musicdisk 4
+Groups  : Vega
+Type    : Musicdisk
+RunFile : MusicDisk4Vega.Slave

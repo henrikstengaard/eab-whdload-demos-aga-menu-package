@@ -1,0 +1,4 @@
+Name    : Demon's Rage
+Groups  : Nerve Axis
+Type    : Demo
+RunFile : DemonsRage.slave

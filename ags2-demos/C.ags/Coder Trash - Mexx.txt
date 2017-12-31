@@ -1,0 +1,4 @@
+Name    : Coder Trash
+Groups  : Mexx
+Type    : Demo
+RunFile : Codertrash.Slave

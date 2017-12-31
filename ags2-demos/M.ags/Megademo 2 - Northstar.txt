@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Northstar
+Type    : Megademo
+RunFile : MegaDemo2NorthStar.Slave

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:W/WallKefrens/"
+IF EXISTS ENV:whdloadargs
+  whdload "WallKefrens.Slave" $whdloadargs
+ELSE
+  whdload "WallKefrens.Slave"
+ENDIF

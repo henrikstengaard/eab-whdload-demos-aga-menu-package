@@ -1,0 +1,4 @@
+Name    : Legoland
+Groups  : Desire
+Type    : Musicdisk
+RunFile : Legoland.Slave

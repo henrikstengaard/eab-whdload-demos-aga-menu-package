@@ -1,0 +1,4 @@
+Name    : Ode to Ramon 2
+Groups  : The Digital Force
+Type    : Musicdisk
+RunFile : OdeToRamon2.Slave

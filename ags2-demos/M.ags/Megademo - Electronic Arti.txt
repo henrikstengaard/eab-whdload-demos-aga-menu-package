@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Electronic Artists
+Type    : Demo
+RunFile : MegademoEOA.Slave

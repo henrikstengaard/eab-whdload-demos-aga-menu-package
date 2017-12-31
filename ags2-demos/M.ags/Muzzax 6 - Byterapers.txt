@@ -1,0 +1,4 @@
+Name    : Muzzax 6
+Groups  : Byterapers
+Type    : Musicdisk
+RunFile : Muzzax6.Slave

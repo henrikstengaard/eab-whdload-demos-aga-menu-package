@@ -1,0 +1,4 @@
+Name    : Stag 2
+Groups  : The BNK Team
+Type    : Slideshow
+RunFile : Stag2.slave

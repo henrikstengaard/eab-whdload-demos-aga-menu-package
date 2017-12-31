@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Spellcheck - Andromeda
+RunFile=Spellcheck.Slave
+AGS2Name=Spellcheck - Andromeda
+iGameName=Spellcheck - Andromeda

@@ -1,0 +1,4 @@
+Name    : Gladiator music
+Groups  : Cryptoburners
+Type    : Musicdisk
+RunFile : GladiatorMusic.Slave

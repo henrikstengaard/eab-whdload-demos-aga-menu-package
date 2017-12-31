@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:F/FridayAtEightAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "FridayAtEightAGA.Slave" $whdloadargs
+ELSE
+  whdload "FridayAtEightAGA.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Excellence
+Type    : Demo
+RunFile : MegademoExcellence.Slave

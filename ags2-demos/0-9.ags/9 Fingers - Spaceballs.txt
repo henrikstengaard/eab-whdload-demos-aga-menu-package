@@ -1,0 +1,6 @@
+Name    : 9 Fingers
+Groups  : Spaceballs
+Type    : Demo
+Party   : The Party 1993
+Rank    : 4th
+RunFile : 9Fingers.Slave

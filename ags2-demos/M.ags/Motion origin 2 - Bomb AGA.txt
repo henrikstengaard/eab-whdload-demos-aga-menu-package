@@ -1,0 +1,7 @@
+Name    : Motion (origin 2)
+Version : AGA
+Groups  : Bomb
+Type    : Demo
+Party   : The Party 1994
+Rank    : 3rd
+RunFile : MotionAGA.slave

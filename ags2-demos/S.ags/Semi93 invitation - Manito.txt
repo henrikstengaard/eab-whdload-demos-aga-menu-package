@@ -1,0 +1,4 @@
+Name    : Semi93 invitation
+Groups  : Manitou
+Type    : Invitation
+RunFile : Semi93Invitation.Slave

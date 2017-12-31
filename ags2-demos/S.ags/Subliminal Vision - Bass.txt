@@ -1,0 +1,4 @@
+Name    : Subliminal Vision
+Groups  : Bass
+Type    : Demo
+RunFile : SubliminalVision.Slave

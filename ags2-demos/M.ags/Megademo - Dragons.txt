@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Dragons
+Type    : Demo
+RunFile : MegaDemoDragons.slave

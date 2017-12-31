@@ -1,0 +1,4 @@
+Name    : Muzzax 7
+Groups  : Byterapers
+Type    : Demo
+RunFile : Muzzax7.Slave

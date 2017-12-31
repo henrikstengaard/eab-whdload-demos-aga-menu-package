@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:E/Ecliptica/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ecliptica.Slave" $whdloadargs
+ELSE
+  whdload "Ecliptica.Slave"
+ENDIF

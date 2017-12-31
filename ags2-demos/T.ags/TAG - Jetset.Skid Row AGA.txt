@@ -1,0 +1,5 @@
+Name    : TAG
+Version : AGA
+Groups  : Jetset,Skid Row
+Type    : Demo
+RunFile : TagAGA.Slave

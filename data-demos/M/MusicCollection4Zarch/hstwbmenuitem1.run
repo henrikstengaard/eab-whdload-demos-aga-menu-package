@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MusicCollection4Zarch/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicCollection4Zarch.Slave" $whdloadargs
+ELSE
+  whdload "MusicCollection4Zarch.Slave"
+ENDIF

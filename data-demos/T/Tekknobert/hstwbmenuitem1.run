@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:T/Tekknobert/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tekknobert.Slave" $whdloadargs
+ELSE
+  whdload "Tekknobert.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Love songs
+Groups  : Crime Devils
+Type    : Musicdisk
+RunFile : Lovesongs.Slave

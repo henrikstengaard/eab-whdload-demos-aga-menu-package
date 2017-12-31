@@ -1,0 +1,4 @@
+Name    : Audio Rhythm 2
+Groups  : Tronix
+Type    : Musicdisk
+RunFile : AudioRhythm2.Slave

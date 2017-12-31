@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MeanBreakMachine2/"
+IF EXISTS ENV:whdloadargs
+  whdload "MeanBreakMachine2.Slave" $whdloadargs
+ELSE
+  whdload "MeanBreakMachine2.Slave"
+ENDIF

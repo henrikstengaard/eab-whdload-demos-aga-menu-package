@@ -1,0 +1,4 @@
+Name    : Nonterraqueous
+Groups  : Alarm
+Type    : Demo
+RunFile : Nonterraqueous.Slave

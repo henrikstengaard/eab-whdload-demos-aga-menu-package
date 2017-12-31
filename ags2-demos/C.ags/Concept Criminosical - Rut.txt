@@ -1,0 +1,4 @@
+Name    : Concept Criminosical
+Groups  : Ruthless
+Type    : Musicdisk
+RunFile : ConceptCriminosical.Slave

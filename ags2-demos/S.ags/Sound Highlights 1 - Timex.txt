@@ -1,0 +1,4 @@
+Name    : Sound Highlights 1
+Groups  : Timex
+Type    : Musicdisk
+RunFile : SoundHighlights1.Slave

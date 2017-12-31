@@ -1,0 +1,5 @@
+Name    : Thalion Sound demo
+Version : Demo
+Groups  : Thalion
+Type    : Musicdisk
+RunFile : SoundDemo.slave

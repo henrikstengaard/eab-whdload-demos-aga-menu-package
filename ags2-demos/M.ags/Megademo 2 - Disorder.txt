@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Disorder
+Type    : Demo
+RunFile : Megademo2.Slave

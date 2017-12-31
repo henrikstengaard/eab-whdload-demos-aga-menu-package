@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:I/IveGotThePower/"
+IF EXISTS ENV:whdloadargs
+  whdload "IveGotThePower.Slave" $whdloadargs
+ELSE
+  whdload "IveGotThePower.Slave"
+ENDIF

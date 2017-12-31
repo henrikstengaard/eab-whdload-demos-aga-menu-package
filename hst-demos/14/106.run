@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MrMonkeyAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "MrMonkeyAGA.Slave" $whdloadargs
+ELSE
+  whdload "MrMonkeyAGA.Slave"
+ENDIF

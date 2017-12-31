@@ -1,0 +1,7 @@
+Name    : The Breath Of The Muse
+Version : AGA
+Groups  : Chryseis,Poseidon
+Type    : Demo
+Party   : Saturne 1994
+Rank    : 7th
+RunFile : BreathOfTheMuseAGA.Slave

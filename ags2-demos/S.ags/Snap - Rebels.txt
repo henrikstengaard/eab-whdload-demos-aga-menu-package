@@ -1,0 +1,4 @@
+Name    : Snap!
+Groups  : Rebels
+Type    : Demo
+RunFile : Snap.slave

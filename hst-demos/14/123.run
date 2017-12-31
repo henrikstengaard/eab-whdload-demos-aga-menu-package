@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MusicCollectionExocet/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicCollectionExocet.Slave" $whdloadargs
+ELSE
+  whdload "MusicCollectionExocet.Slave"
+ENDIF

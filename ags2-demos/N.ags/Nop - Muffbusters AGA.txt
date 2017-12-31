@@ -1,0 +1,5 @@
+Name    : Nop
+Version : AGA
+Groups  : Muffbusters
+Type    : Demo
+RunFile : NopAGA.Slave

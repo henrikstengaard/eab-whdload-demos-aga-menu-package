@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Bass
+Type    : Demo
+RunFile : Megademo2Bass.slave

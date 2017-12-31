@@ -1,0 +1,4 @@
+Name    : New age
+Groups  : Ram Jam
+Type    : Musicdisk
+RunFile : NewAge.Slave

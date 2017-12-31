@@ -1,0 +1,4 @@
+Name    : Multi Megamix 3
+Groups  : Kefrens
+Type    : Musicdisk
+RunFile : MultiMegamix3.Slave

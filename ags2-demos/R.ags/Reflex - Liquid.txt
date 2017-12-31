@@ -1,0 +1,4 @@
+Name    : Reflex
+Groups  : Liquid
+Type    : Trackmo
+RunFile : Reflex.slave

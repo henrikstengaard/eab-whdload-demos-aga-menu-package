@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:B/BangingRaves2/"
+IF EXISTS ENV:whdloadargs
+  whdload "BangingRaves2.Slave" $whdloadargs
+ELSE
+  whdload "BangingRaves2.Slave"
+ENDIF

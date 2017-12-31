@@ -1,0 +1,4 @@
+Name    : Tera Tunes II
+Groups  : Team-X
+Type    : Musicdisk
+RunFile : TeraTunes2.Slave

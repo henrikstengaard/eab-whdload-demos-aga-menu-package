@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/SounddiskPossessed/"
+IF EXISTS ENV:whdloadargs
+  whdload "SounddiskPossessed.Slave" $whdloadargs
+ELSE
+  whdload "SounddiskPossessed.Slave"
+ENDIF

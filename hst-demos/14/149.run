@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MusicDiskAspect&Orix/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicDiskAspect&Orix.Slave" $whdloadargs
+ELSE
+  whdload "MusicDiskAspect&Orix.Slave"
+ENDIF

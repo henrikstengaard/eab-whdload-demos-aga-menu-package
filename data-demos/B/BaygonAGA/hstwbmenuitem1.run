@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:B/BaygonAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BaygonAGA.Slave" $whdloadargs
+ELSE
+  whdload "BaygonAGA.Slave"
+ENDIF

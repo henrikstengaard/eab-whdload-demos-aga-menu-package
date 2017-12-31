@@ -1,0 +1,5 @@
+Name    : Megademo
+Groups  : Vermin
+Type    : Megademo
+Party   : Vision and Mirage X-Mas Party
+RunFile : MegademoVermin.Slave

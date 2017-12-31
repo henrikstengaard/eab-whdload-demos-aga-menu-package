@@ -1,0 +1,4 @@
+Name    : Chords
+Groups  : Foundation
+Type    : Musicdisk
+RunFile : Chords.Slave

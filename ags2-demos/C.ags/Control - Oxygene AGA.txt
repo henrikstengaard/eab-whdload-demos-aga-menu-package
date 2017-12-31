@@ -1,0 +1,7 @@
+Name    : Control
+Version : AGA
+Groups  : Oxygene
+Type    : Demo
+Party   : Gasp 1995
+Rank    : 1st
+RunFile : ControlAGA.slave

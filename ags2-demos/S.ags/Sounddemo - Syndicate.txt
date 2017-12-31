@@ -1,0 +1,4 @@
+Name    : Sounddemo
+Groups  : Syndicate
+Type    : Musicdisk
+RunFile : SoundDemoSyndicate.Slave

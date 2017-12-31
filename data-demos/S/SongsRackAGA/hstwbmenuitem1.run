@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/SongsRackAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SongsRackAGA.Slave" $whdloadargs
+ELSE
+  whdload "SongsRackAGA.Slave"
+ENDIF

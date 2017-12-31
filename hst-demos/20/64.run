@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:S/Spasmolytic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spasmolytic.slave" $whdloadargs
+ELSE
+  whdload "Spasmolytic.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:M/MusicCompacting2/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicCompacting2.slave" $whdloadargs
+ELSE
+  whdload "MusicCompacting2.slave"
+ENDIF

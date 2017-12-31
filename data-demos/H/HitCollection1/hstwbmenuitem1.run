@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:H/HitCollection1/"
+IF EXISTS ENV:whdloadargs
+  whdload "HitCollection1.Slave" $whdloadargs
+ELSE
+  whdload "HitCollection1.Slave"
+ENDIF

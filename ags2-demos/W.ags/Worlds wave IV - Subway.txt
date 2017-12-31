@@ -1,0 +1,4 @@
+Name    : World's wave IV
+Groups  : Subway
+Type    : Musicdisk
+RunFile : WorldsWave4.Slave

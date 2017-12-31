@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:L/LethalExit/"
+IF EXISTS ENV:whdloadargs
+  whdload "LethalExit.Slave" $whdloadargs
+ELSE
+  whdload "LethalExit.Slave"
+ENDIF

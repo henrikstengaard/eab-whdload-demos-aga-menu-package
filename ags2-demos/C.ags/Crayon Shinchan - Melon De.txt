@@ -1,0 +1,4 @@
+Name    : Crayon Shinchan
+Groups  : Melon Dezign
+Type    : Demo
+RunFile : CrayonShinchan.Slave

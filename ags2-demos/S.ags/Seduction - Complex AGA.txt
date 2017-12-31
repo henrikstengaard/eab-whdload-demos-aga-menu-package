@@ -1,0 +1,5 @@
+Name    : Seduction
+Version : AGA
+Groups  : Complex
+Type    : Musicdisk
+RunFile : SeductionAGA.Slave

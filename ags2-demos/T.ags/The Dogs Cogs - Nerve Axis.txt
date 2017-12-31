@@ -1,0 +1,5 @@
+Name    : The Dog's Cogs
+Version : AGA
+Groups  : Nerve Axis
+Type    : Musicdisk
+RunFile : DogsCogsAGA.Slave

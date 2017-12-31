@@ -1,0 +1,4 @@
+Name    : Breed CD1
+Groups  : Nightbreed
+Type    : Musicdisk
+RunFile : BreedCD1.Slave

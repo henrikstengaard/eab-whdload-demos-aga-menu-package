@@ -1,0 +1,4 @@
+Name    : Sweet Revenge
+Groups  : Decay
+Type    : Demo
+RunFile : SweetRevenge.Slave

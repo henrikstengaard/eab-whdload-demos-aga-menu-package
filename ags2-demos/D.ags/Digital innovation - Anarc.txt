@@ -1,0 +1,4 @@
+Name    : Digital innovation
+Groups  : Anarchy
+Type    : Demo
+RunFile : DigitalInnovation.slave

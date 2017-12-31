@@ -1,0 +1,4 @@
+Name    : Minor Defects
+Groups  : Grace
+Type    : Musicdisk
+RunFile : MinorDefects.Slave

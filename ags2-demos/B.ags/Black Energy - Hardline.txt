@@ -1,0 +1,4 @@
+Name    : Black Energy
+Groups  : Hardline
+Type    : Musicdisk
+RunFile : BlackEnergy.Slave

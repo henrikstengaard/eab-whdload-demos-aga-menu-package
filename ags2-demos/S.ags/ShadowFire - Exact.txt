@@ -1,0 +1,4 @@
+Name    : ShadowFire
+Groups  : Exact
+Type    : Demo
+RunFile : ShadowFire.Slave

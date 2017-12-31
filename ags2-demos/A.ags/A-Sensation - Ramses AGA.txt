@@ -1,0 +1,7 @@
+Name    : A-Sensation
+Version : AGA
+Groups  : Ramses
+Type    : Demo
+Party   : Volcanic 1998
+Rank    : 3rd
+RunFile : SensationAGA.Slave

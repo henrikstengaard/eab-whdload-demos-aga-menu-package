@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Demos:W/Waterproof/"
+IF EXISTS ENV:whdloadargs
+  whdload "Waterproof.slave" $whdloadargs
+ELSE
+  whdload "Waterproof.slave"
+ENDIF

@@ -1,0 +1,14 @@
+{
+    "name": "EAB WHDLoad Demos AGA Menu",
+    "version": "3.0.0",
+    "assigns":
+    [
+        {
+            "name": "SYSTEMDIR"
+        },
+        {
+            "name": "WHDLOADDIR",
+            "path": "DH1:"
+        }
+    ]
+}

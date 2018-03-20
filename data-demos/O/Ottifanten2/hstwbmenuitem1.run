@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:O/Ottifanten2/"
-IF EXISTS ENV:whdloadargs
-  whdload "Ottifanten2.Slave" $whdloadargs
-ELSE
-  whdload "Ottifanten2.Slave"
-ENDIF

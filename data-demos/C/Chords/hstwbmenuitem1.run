@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:C/Chords/"
-IF EXISTS ENV:whdloadargs
-  whdload "Chords.Slave" $whdloadargs
-ELSE
-  whdload "Chords.Slave"
-ENDIF

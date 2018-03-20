@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:S/Soundbox2/"
-IF EXISTS ENV:whdloadargs
-  whdload "Soundbox2.Slave" $whdloadargs
-ELSE
-  whdload "Soundbox2.Slave"
-ENDIF

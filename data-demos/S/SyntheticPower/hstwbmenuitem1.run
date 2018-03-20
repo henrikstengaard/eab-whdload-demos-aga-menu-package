@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:S/SyntheticPower/"
-IF EXISTS ENV:whdloadargs
-  whdload "SyntheticPower.Slave" $whdloadargs
-ELSE
-  whdload "SyntheticPower.Slave"
-ENDIF

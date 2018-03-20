@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:T/TragicMagic/"
-IF EXISTS ENV:whdloadargs
-  whdload "TragicMagic.Slave" $whdloadargs
-ELSE
-  whdload "TragicMagic.Slave"
-ENDIF

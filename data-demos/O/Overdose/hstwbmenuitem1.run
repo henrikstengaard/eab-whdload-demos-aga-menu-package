@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:O/Overdose/"
-IF EXISTS ENV:whdloadargs
-  whdload "Overdose.Slave" $whdloadargs
-ELSE
-  whdload "Overdose.Slave"
-ENDIF

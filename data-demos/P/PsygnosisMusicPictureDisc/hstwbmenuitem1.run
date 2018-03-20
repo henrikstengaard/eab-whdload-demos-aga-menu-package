@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:P/PsygnosisMusicPictureDisc/"
-IF EXISTS ENV:whdloadargs
-  whdload "PsygnosisMusicPictureDis.Slave" $whdloadargs
-ELSE
-  whdload "PsygnosisMusicPictureDis.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:S/SoundDisk/"
-IF EXISTS ENV:whdloadargs
-  whdload "SoundDisk.slave" $whdloadargs
-ELSE
-  whdload "SoundDisk.slave"
-ENDIF

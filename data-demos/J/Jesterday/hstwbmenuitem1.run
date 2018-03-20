@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:J/Jesterday/"
-IF EXISTS ENV:whdloadargs
-  whdload "Jesterday.slave" $whdloadargs
-ELSE
-  whdload "Jesterday.slave"
-ENDIF

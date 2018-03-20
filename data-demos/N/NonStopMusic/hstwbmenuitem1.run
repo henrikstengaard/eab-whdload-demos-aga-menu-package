@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:N/NonStopMusic/"
-IF EXISTS ENV:whdloadargs
-  whdload "NonStopMusic.Slave" $whdloadargs
-ELSE
-  whdload "NonStopMusic.Slave"
-ENDIF

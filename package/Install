@@ -148,7 +148,7 @@ ENDIF
 
 echo "Installing Frontends Demos..."
 unzip -qq -o -x PACKAGEDIR:frontends-demos.zip -d FRONTENDSDIR:
-echo "Installing Frontends Games All..."
+echo "Installing Frontends Demos All..."
 unzip -qq -o -x PACKAGEDIR:frontends-demos-all.zip -d FRONTENDSDIR:
 
 
@@ -212,7 +212,7 @@ IF NOT "$eabmenuags2" EQ "Yes"
 ENDIF
 
 echo "Installing AGS2 Demos Menu..."
-set ags2demosmenudir "`execute INSTALLDIR:S/CombinePath "MENUSDIR:" "AGS2Demos"`"
+set ags2demosmenudir "`execute INSTALLDIR:S/CombinePath "$MENUSDIR" "AGS2Demos"`"
 IF NOT EXISTS "$ags2demosmenudir"
   MakePath "$ags2demosmenudir" >NIL:
 ENDIF
@@ -261,14 +261,17 @@ IF NOT "$eabmenuhst" EQ "Yes"
 ENDIF
 
 echo "Installing HST Launcher Menu..."
-set hstdemosmenudir "`execute INSTALLDIR:S/CombinePath "MENUSDIR:" "HSTDemos"`"
+set hstdemosmenudir "`execute INSTALLDIR:S/CombinePath "$MENUSDIR" "HSTDemos"`"
 IF NOT EXISTS "$hstdemosmenudir"
   MakePath "$hstdemosmenudir" >NIL:
 ENDIF
 unzip -qq -o -x PACKAGEDIR:hst.zip -d "$hstdemosmenudir"
+IF NOT EXISTS "$hstdemosmenudir/Music"
+  MakePath "$hstdemosmenudir/Music" >NIL:
+ENDIF
 
-echo "Installing HST Games All Menu..."
-unzip -qq -o -x PACKAGEDIR:hst-games-all.zip -d "$hstdemosmenudir"
+echo "Installing HST Demos All Menu..."
+unzip -qq -o -x PACKAGEDIR:hst-demos-all.zip -d "$hstdemosmenudir"
 
 echo "Configuring HST Launcher Menu..."
 

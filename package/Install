@@ -2,10 +2,94 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-20
+; Date: 2018-03-20
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Demos AGA Menu Package.
 
+
+; Reset eab menu
+SET eabmenuags2="Yes"
+SET eabmenuhst="Yes"
+SET eabmenuigame="Yes"
+SET eabmenuwhdload="Yes"
+SET eabmenuigameset="320x128"
+
+
+; Build eab menu
+LAB eabmenu
+
+echo "" NOLINE >"T:_eabmenu"
+echo "Install AGS2 Menu:               $eabmenuags2" >>"T:_eabmenu"
+echo "Install HST Launcher Menu:       $eabmenuhst" >>"T:_eabmenu"
+echo "Install iGame Screenshots:       $eabmenuigame" >>"T:_eabmenu"
+echo "Configure WHDLoad.prefs:         $eabmenuwhdload" >>"T:_eabmenu"
+echo "--------------------------------------------" >>"T:_eabmenu"
+echo "Selected iGame Screenshot Set:   $eabmenuigameset" >>"T:_eabmenu"
+echo "--------------------------------------------" >>"T:_eabmenu"
+echo "Start Installation" >>"T:_eabmenu"
+
+
+; Show eab menu
+set eabmenu "`RequestList TITLE="EAB WHDLoad Demos AGA Menu Package" LISTFILE="T:_eabmenu" WIDTH=480 LINES=16`"
+delete "T:_eabmenu" >NIL:
+
+; Install AGS2 Menu option
+IF "$eabmenu" EQ 1 VAL
+  IF "$eabmenuags2" EQ "Yes"
+    SET eabmenuags2="No"
+  ELSE
+    SET eabmenuags2="Yes"
+  ENDIF
+ENDIF
+
+; Install HST Menu option
+IF "$eabmenu" EQ 2 VAL
+  IF "$eabmenuhst" EQ "Yes"
+    SET eabmenuhst="No"
+  ELSE
+    SET eabmenuhst="Yes"
+  ENDIF
+ENDIF
+
+; Install iGame Screenshots option
+IF "$eabmenu" EQ 3 VAL
+  IF "$eabmenuigame" EQ "Yes"
+    SET eabmenuigame="No"
+  ELSE
+    SET eabmenuigame="Yes"
+  ENDIF
+ENDIF
+
+; Configure WHDLoad.prefs option
+IF "$eabmenu" EQ 4 VAL
+  IF "$eabmenuwhdload" EQ "Yes"
+    SET eabmenuwhdload="No"
+  ELSE
+    SET eabmenuwhdload="Yes"
+  ENDIF
+ENDIF
+
+; Selected iGame Screenshot Set option
+IF "$eabmenu" EQ 6 VAL
+  IF "$eabmenuigameset" EQ "320x128"
+    SET eabmenuigameset="320x256"
+  ELSE
+    SET eabmenuigameset="320x128"
+  ENDIF
+ENDIF
+
+; Start Installation option
+IF "$eabmenu" EQ 8 VAL
+  SKIP install
+ENDIF
+
+SKIP BACK eabmenu
+
+
+; Install
+; -------
+
+LAB install
 
 ; Copy readme and screenshots to locale help for EAB WHDLoad Demos AGA Menu
 IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Demos-AGA-Menu
@@ -39,17 +123,68 @@ ENDIF
 copy >NIL: PACKAGEDIR:screenshots/#?.iff SYSTEMDIR:Locale/Help/EAB-WHDLoad-Demos-AGA-Menu/screenshots
 
 
-; Create systemdir demos directory, if it doesn't exist
-IF NOT EXISTS SYSTEMDIR:Demos
-  MakePath >NIL: SYSTEMDIR:Demos
+; Install system files
+; --------------------
+
+echo "Installing System Files..."
+unzip -qq -o -x PACKAGEDIR:system-files.zip -d SYSTEMDIR:
+
+
+; Configure WHDLoad arguments
+; ---------------------------
+
+; Create systemdir whdload prefs directory, if it doesn't exist
+IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad
+  MakePath >NIL: SYSTEMDIR:Prefs/WHDLoad
 ENDIF
 
-echo "Installing Frontends..."
-unzip -qq -o -x PACKAGEDIR:frontends.zip -d SYSTEMDIR:Demos/ 
+; Create default whdloadargs, if it doesn't exist
+IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad/whdloadargs
+  echo "Preload" >SYSTEMDIR:Prefs/WHDLoad/whdloadargs
+ENDIF
+
+; Install Frontends Demos
+; -----------------------
+
+echo "Installing Frontends Demos..."
+unzip -qq -o -x PACKAGEDIR:frontends-demos.zip -d FRONTENDSDIR:
+echo "Installing Frontends Games All..."
+unzip -qq -o -x PACKAGEDIR:frontends-demos-all.zip -d FRONTENDSDIR:
 
 
-echo "Installing Data Drawers..."
-unzip -qq -o -x PACKAGEDIR:data-drawers.zip -d WHDLOADDIR:
+; Configure drawers
+; -----------------
+
+echo "Configuring Drawers..."
+
+; Add icon for configuration drawer, if it doesn't exist
+IF NOT EXISTS SYSTEMDIR:Programs/Configuration.info
+  rename >NIL: SYSTEMDIR:Programs/Configuration.info.new SYSTEMDIR:Programs/Configuration.info
+ELSE
+  delete >NIL: SYSTEMDIR:Programs/Configuration.info.new
+ENDIF
+
+; Create default folder icon for programs
+IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
+  IF NOT EXISTS SYSTEMDIR:Programs.info
+    copy SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info SYSTEMDIR:Programs.info
+  ENDIF
+ELSE
+  IF EXISTS SYSTEMDIR:System.info
+    IF NOT EXISTS SYSTEMDIR:Programs.info
+      copy SYSTEMDIR:System.info SYSTEMDIR:Programs.info
+    ENDIF
+  ENDIF
+ENDIF
+
+
+; Configure WHDLoad.prefs
+; -----------------------
+
+; Skip to install AGS2, if configure whdload.prefs is set to no
+IF NOT "$eabmenuwhdload" EQ "Yes"
+  SKIP installags2
+ENDIF
 
 echo "Configuring WHDLoad.prefs..."
 IF NOT EXISTS SYSTEMDIR:S
@@ -63,79 +198,38 @@ ENDIF
 rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
 
 ; Set splash deplay in WHDLoad.prefs
-echo "SplashDelay=50" >>S:WHDLoad.prefs 
+echo "SplashDelay=50" >>S:WHDLoad.prefs
 
 
-echo "Installing Base Menus..."
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos"
-  MakePath "WHDLOADDIR:Menu/AGS2Demos" >NIL:
-ENDIF
-unzip -qq -o -x PACKAGEDIR:ags2.zip -d WHDLOADDIR:Menu/AGS2Demos/
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/Music"
-  MakePath "WHDLOADDIR:Menu/AGS2Demos/Music" >NIL:
-ENDIF
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ags"
-  IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ag_"
-    MakePath >NIL: "WHDLOADDIR:Menu/AGS2Demos/.Favourites.ag_"
-  ENDIF
-ENDIF
+; Install AGS2
+; ------------
 
-IF NOT EXISTS "WHDLOADDIR:Menu/HSTDemos"
-  MakePath "WHDLOADDIR:Menu/HSTDemos" >NIL:
-ENDIF
-unzip -qq -o -x PACKAGEDIR:hst.zip -d WHDLOADDIR:Menu/HSTDemos/
+LAB installags2
 
+; Skip to install hst, if install ags2 is set to no
+IF NOT "$eabmenuags2" EQ "Yes"
+  SKIP installhstlauncher
+ENDIF
 
 echo "Installing AGS2 Demos Menu..."
-unzip -qq -o -x PACKAGEDIR:ags2-demos.zip -d WHDLOADDIR:Menu/AGS2Demos/
-echo "Installing HST Demos Menu..."
-unzip -qq -o -x PACKAGEDIR:hst-demos.zip -d WHDLOADDIR:Menu/HSTDemos/
-echo "Installing Demos Frontends..."
-unzip -qq -o -x PACKAGEDIR:frontends-demos.zip -d SYSTEMDIR:Demos/
-echo "Installing Demos Data..."
-unzip -qq -o -x PACKAGEDIR:data-demos.zip -d WHDLOADDIR:WHDLoad/Demos/ 
-
-
-echo "Installing System Files..."
-unzip -qq -o -x PACKAGEDIR:system-files.zip -d SYSTEMDIR:
-
-
-; Add icon for configuration drawer, if it doesn't exist
-IF NOT EXISTS SYSTEMDIR:Programs/Configuration.info
-  rename >NIL: SYSTEMDIR:Programs/Configuration.info.new SYSTEMDIR:Programs/Configuration.info
-ELSE
-  delete >NIL: SYSTEMDIR:Programs/Configuration.info.new
+set ags2demosmenudir "`execute INSTALLDIR:S/CombinePath "MENUSDIR:" "AGS2Demos"`"
+IF NOT EXISTS "$ags2demosmenudir"
+  MakePath "$ags2demosmenudir" >NIL:
 ENDIF
-
-; Create default folder icon for systemdir demos and programs
-IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
-  IF NOT EXISTS SYSTEMDIR:Demos.info
-    copy SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info SYSTEMDIR:Demos.info
-  ENDIF
-  IF NOT EXISTS SYSTEMDIR:Programs.info
-    copy SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info SYSTEMDIR:Programs.info
-  ENDIF
-ELSE
-  IF EXISTS SYSTEMDIR:System.info
-    IF NOT EXISTS SYSTEMDIR:Demos.info
-      copy SYSTEMDIR:System.info SYSTEMDIR:Demos.info
-    ENDIF
-    IF NOT EXISTS SYSTEMDIR:Programs.info
-      copy SYSTEMDIR:System.info SYSTEMDIR:Programs.info
-    ENDIF
+unzip -qq -o -x PACKAGEDIR:ags2.zip -d "$ags2demosmenudir"
+IF NOT EXISTS "$ags2demosmenudir/Music"
+  MakePath "$ags2demosmenudir/Music" >NIL:
+ENDIF
+IF NOT EXISTS "$ags2demosmenudir/.Favourites.ags"
+  IF NOT EXISTS "$ags2demosmenudir/.Favourites.ag_"
+    MakePath >NIL: "$ags2demosmenudir/.Favourites.ag_"
   ENDIF
 ENDIF
 
+echo "Installing AGS2 Demos All Menu..."
+unzip -qq -o -x PACKAGEDIR:ags2-demos-all.zip -d "$ags2demosmenudir"
 
-; Create systemdir whdload prefs directory, if it doesn't exist
-IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad
-  MakePath >NIL: SYSTEMDIR:Prefs/WHDLoad
-ENDIF
-
-; Create default whdloadargs, if it doesn't exist
-IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad/whdloadargs
-  echo "Preload" > SYSTEMDIR:Prefs/WHDLoad/whdloadargs
-ENDIF
+echo "Configuring AGS2 Menu..."
 
 ; Create systemdir ags2 prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/AGS2
@@ -147,19 +241,90 @@ IF NOT EXISTS SYSTEMDIR:Prefs/AGS2/ags2music
   echo "" NOLINE > SYSTEMDIR:Prefs/AGS2/ags2music
 ENDIF
 
+; Add or update AGS2Menus.cfg
+search SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Demos=" >NIL:
+IF WARN
+  echo "AGS2Demos=$ags2demosmenudir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Demos=" "AGS2Demos=$ags2demosmenudir*N; "
+ENDIF
+
+
+; Install HST Launcher
+; --------------------
+
+LAB installhstlauncher
+
+; Skip to install igame, if install hst is set to no
+IF NOT "$eabmenuhst" EQ "Yes"
+  SKIP installigame
+ENDIF
+
+echo "Installing HST Launcher Menu..."
+set hstdemosmenudir "`execute INSTALLDIR:S/CombinePath "MENUSDIR:" "HSTDemos"`"
+IF NOT EXISTS "$hstdemosmenudir"
+  MakePath "$hstdemosmenudir" >NIL:
+ENDIF
+unzip -qq -o -x PACKAGEDIR:hst.zip -d "$hstdemosmenudir"
+
+echo "Installing HST Games All Menu..."
+unzip -qq -o -x PACKAGEDIR:hst-games-all.zip -d "$hstdemosmenudir"
+
+echo "Configuring HST Launcher Menu..."
+
 ; Create systemdir hst launcher prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/HSTLauncher
   MakePath >NIL: SYSTEMDIR:Prefs/HSTLauncher
 ENDIF
+
+; Add or update HSTLauncherMenus.cfg
+search SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTDemos=" >NIL:
+IF WARN
+  echo "HSTDemos=$hstdemosmenudir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTDemos=" "HSTDemos=$hstdemosmenudir*N; "
+ENDIF
+
+ 
+; Install iGame
+; -------------
+
+LAB installigame
+
+; Skip to configure assigns, if install igame is set to no
+IF NOT "$eabmenuigame" EQ "Yes"
+  SKIP configureassigns
+ENDIF
+
+; Install iGame Screenshot Menu
+IF "$eabmenuigameset" EQ "320x128"
+  echo "Installing iGame Demos All 320x128 Screenshots..."
+  unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d DEMOSDIR:
+ELSE
+  echo "Installing iGame Demos All 320x256 Screenshots..."
+  unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d DEMOSDIR:
+ENDIF
+
+echo "Configuring iGame Menu..."
 
 ; Create systemdir igame prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/iGame
   MakePath >NIL: SYSTEMDIR:Prefs/iGame
 ENDIF
 
+; Add or update iGameMenus.cfg
+search SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameDemos=" >NIL:
+IF WARN
+  echo "iGameDemos=$FRONTENDSDIR" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameDemos=" "iGameDemos=$FRONTENDSDIR*N; "
+ENDIF
+ 
 
 ; Configure assigns
 ; -----------------
+
+LAB configureassigns
 
 echo "Configuring Assigns..."
 
@@ -178,53 +343,15 @@ IF WARN
 ENDIF
 
 ; Add or update A-Demos to user-assign
-set demosdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "WHDLoad/Demos"`"
 search SYSTEMDIR:S/Assign-Startup "A-Demos:" >NIL:
 IF WARN  
-	echo "Assign >NIL: A-Demos: $demosdir" >>SYSTEMDIR:S/Assign-Startup
+	echo "Assign >NIL: A-Demos: $DEMOSDIR" >>SYSTEMDIR:S/Assign-Startup
 ELSE
   setenv updateassign `RequestChoice "Update assign" "A-Demos: assign already exists and must be updated to*Npath '$demosdir'.*N*NNote: Updating assign requires a reboot after*Ninstallation is done!*N*NDo you want to update A-Demos: assign?" "Yes|No"`
   IF "$updateassign" EQ "1"
-    echo "$demosdir" >T:_demosdir
-    set demosdir "`sed "s/\//\\\//g" T:_demosdir`"
-    sed "s/\([Aa]-[Dd][Ee][Mm][Oo][Ss]:\)/\1 $demosdir;/" "SYSTEMDIR:S/Assign-Startup" >"T:Assign-Startup"
+    echo "$DEMOSDIR" >T:_demosdir
+    set assigndemosdir "`sed "s/\//\\\//g" T:_demosdir`"
+    sed "s/\([Aa]-[Dd][Ee][Mm][Oo][Ss]:\)/\1 $assigndemosdir;/" "SYSTEMDIR:S/Assign-Startup" >"T:Assign-Startup"
     copy >NIL: "T:Assign-Startup" "SYSTEMDIR:S/Assign-Startup"
   ENDIF   
 ENDIF
-
-
-; Configure menus
-; ---------------
-LAB configuremenus
-
-echo "Configuring Menus..."
-
-; Add or update AGS2Menus.cfg
-set ags2demosdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Demos"`"
-search SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Demos=" >NIL:
-IF WARN
-  echo "AGS2Demos=$ags2demosdir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Demos=" "AGS2Demos=$ags2demosdir*N; "
-ENDIF
-
-; Add or update iGameMenus.cfg
-set igamedemosdir "`execute INSTALLDIR:S/CombinePath "$SYSTEMDIR" "Demos"`"
-search SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameDemos=" >NIL:
-IF WARN
-  echo "iGameDemos=$igamedemosdir" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameDemos=" "iGameDemos=$igamedemosdir*N; "
-ENDIF
-
-; Add or update HSTLauncherMenus.cfg
-set hstdemosdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/HSTDemos"`"
-search SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTDemos=" >NIL:
-IF WARN
-  echo "HSTDemos=$hstdemosdir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTDemos=" "HSTDemos=$hstdemosdir*N; "
-ENDIF
-
-; End
-LAB end

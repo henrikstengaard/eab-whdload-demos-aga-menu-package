@@ -7,8 +7,16 @@
             "name": "SYSTEMDIR"
         },
         {
-            "name": "WHDLOADDIR",
-            "path": "DH1:"
+            "name": "MENUSDIR",
+            "path": "DH1:Menus"
+        },
+        {
+            "name": "FRONTENDSDIR",
+            "path": "SYSTEMDIR:Demos"
+        },
+        {
+            "name": "DEMOSDIR",
+            "path": "DH1:Demos"
         }
     ]
 }

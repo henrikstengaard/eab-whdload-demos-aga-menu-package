@@ -92,6 +92,7 @@ SKIP BACK eabmenu
 LAB install
 
 ; Copy readme and screenshots to locale help for EAB WHDLoad Demos AGA Menu
+echo "Installing Readme..."
 IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Demos-AGA-Menu
   MakePath >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Demos-AGA-Menu
   IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
@@ -340,7 +341,7 @@ IF WARN
   ENDIF
 ENDIF
 
-; Add or update A-Demos to user-assign
+; Add or update A-Demos to assign
 search SYSTEMDIR:S/Assign-Startup "A-Demos:" >NIL:
 IF WARN  
 	echo "Assign >NIL: A-Demos: $DEMOSDIR" >>SYSTEMDIR:S/Assign-Startup

@@ -158,7 +158,7 @@ unzip -qq -o -x PACKAGEDIR:frontends-demos-all.zip -d FRONTENDSDIR:
 ; ---------------
 
 ; Install demos icons
-unzip -qq -o -x PACKAGEDIR:demos-icons.zip -d GAMESDIR:
+unzip -qq -o -x PACKAGEDIR:demos-icons.zip -d DEMOSDIR:
 
 ; Add icon for programs drawer, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Programs.info

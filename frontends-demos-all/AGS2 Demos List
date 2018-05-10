@@ -1,13 +1,14 @@
 Assign     Entry                       RunFile                           AGS2                         Name
 A-Demos:   1001StolenIdeas             1001StolenIdeas.Slave             1001 Stolen Ideas - Airwal   1001 Stolen Ideas - Airwalk AGA
-A-Demos:   100MostRememberedC64Tunes   100MostRememberedC64Tunes.Slave   The 100 most remembered c6   The 100 most remembered c64 game tunes - Sundell & Birk
-A-Demos:   242                         242.Slave                         242 - Virtual Dreams         242 - Virtual Dreams
+A-Demos:   100MostRememberedC64Tunes   100MostRememberedC64Tunes.slave   The 100 most remembered c6   The 100 most remembered c64 game tunes - Sundell & Birk
+A-Demos:   242                         242.slave                         242 - Fairlight.Virtual Dr   242 - Fairlight,Virtual Dreams
 A-Demos:   24HourEFix                  24HourEFix.Slave                  24 Hour E Fix - Quartz Fix   24 Hour E Fix - Quartz Fix
 A-Demos:   2D                          2D.Slave                          2d - Remedy amiga            2d - Remedy (amiga)
 A-Demos:   2Unlimited                  2Unlimited.Slave                  Plays 2 unlimited - Scoope   Plays 2 unlimited - Scoopex
 A-Demos:   2UnlimitedNoLimit           2UnlimitedNoLimit.Slave           2 unlimited No Limit - Pro   2 unlimited No Limit - Project A
 A-Demos:   3DBalls                     3DBalls.Slave                     3D balls - Avenger           3D balls - Avenger
 A-Demos:   3DDemo                      3DDemo.Slave                      3D DEMO - Anarchy Demo       3D DEMO - Anarchy Demo
+A-Demos:   3DDemo2                     3DDemo2.Slave                     3D-DEMO 2 - Anarchy Demo2    3D-DEMO 2 - Anarchy Demo2
 A-Demos:   3DNetAnalyzer               3DNetAnalyzer.Slave               3D-Net-Analyzer - Doctor M   3D-Net-Analyzer - Doctor Mabuse Orgasm Crackings
 A-Demos:   5Yards                      5Yards.Slave                      5 Yards - Vision             5 Yards - Vision
 A-Demos:   8BitJungle                  8BitJungle.slave                  8-Bit Jungle - Unstable La   8-Bit Jungle - Unstable Label
@@ -22,6 +23,7 @@ A-Demos:   Acme1991Slideshow           Acme1991Slideshow.Slave           Acme Sl
 A-Demos:   AFewTunes                   AFewTunes.Slave                   A Few Tunes by Dr. Awesome   A Few Tunes by Dr. Awesome and Fleshbrain - The Crusaders
 A-Demos:   Alchemy                     Alchemy.Slave                     Alchemy - Rage               Alchemy - Rage
 A-Demos:   AlfredTheMusicDisk          AlfredTheMusicDisk.slave          Alfred The Music Disk - Re   Alfred The Music Disk - Relay
+A-Demos:   Algebra                     Algebra.Slave                     Algebra - Dragon Stone       Algebra - Dragon Stone
 A-Demos:   Aloha                       Aloha.Slave                       Aloha - Rebels               Aloha - Rebels
 A-Demos:   Alpha&Omega                 Alpha&Omega.Slave                 Alpha Omega - Pure Metal C   Alpha & Omega - Pure Metal Coders
 A-Demos:   AlternativeReality          AlternativeReality.Slave          Alternative Reality - Susp   Alternative Reality - Suspect
@@ -85,9 +87,8 @@ A-Demos:   BlackNWhite                 BlackNWhite.Slave                 Blackn 
 A-Demos:   Blasting                    Blasting.Slave                    Blasting - Gate              Blasting - Gate
 A-Demos:   BlueHouse2                  BlueHouse2.slave                  Blue house 2 - Rebels        Blue house 2 - Rebels
 A-Demos:   BluesHouse                  BluesHouse.Slave                  Blues House - The Silents    Blues House - The Silents
-A-Demos:   BombTheBaseTuneshow2        BombTheBaseTuneshow2.Slave        Bomb The Bass - Tuneshow 2   Bomb The Bass - Tuneshow 2 - The Top Boys
+A-Demos:   BombTheBassTuneshow2        BombTheBassTuneshow2.Slave        Bomb The Bass - Tuneshow 2   Bomb The Bass - Tuneshow 2 - The Top Boys
 A-Demos:   BookOfSongs                 BookOfSongs.Slave                 Book Of Songs - Complex      Book Of Songs - Complex
-A-Demos:   Boombastic                  Boombastic.slave                  Our definition of a boomba   Our definition of a boombastic demo style - Rebels
 A-Demos:   BorisVallejoSlide           BorisVallejoSlide.Slave           Boris Vallejo - Apocalypse   Boris Vallejo - Apocalypse Bay
 A-Demos:   BoulderDemo                 BoulderDemo.Slave                 Boulder Demo - Tristar Dem   Boulder Demo - Tristar Demo
 A-Demos:   BoundlessVoid               BoundlessVoid.slave               Boundless Void - Nemol       Boundless Void - Nemol
@@ -98,6 +99,7 @@ A-Demos:   BrunosMusicBox2             BrunosMusicBox2.Slave             Brunos 
 A-Demos:   BrunosMusicBox3             BrunosMusicBox3.Slave             Brunos box 3 - Anarchy       Brunos box 3 - Anarchy
 A-Demos:   BubonicPlague               BubonicPlague.Slave               Bubonic Plague - Bloodsuck   Bubonic Plague - Bloodsuckers
 A-Demos:   BurningSpear                BurningSpear.Slave                Burning Spear - The Dark D   Burning Spear - The Dark Demon
+A-Demos:   C64Demos                    C64Demos.Slave                    C-64 - Quadlite Demos        C-64 - Quadlite Demos
 A-Demos:   CanIPlayWithMadness         CanIPlayWithMadness.Slave         Can I Play With Madness -    Can I Play With Madness ? - Defcon One
 A-Demos:   CapricornOne                CapricornOne.Slave                Capricorn One - Cydonia      Capricorn One - Cydonia
 A-Demos:   CapturedDreamsAGA           CapturedDreamsAGA.Slave           Captured Dreams - The Blac   Captured Dreams - The Black Lotus AGA
@@ -115,7 +117,6 @@ A-Demos:   Chromagic                   Chromagic.Slave                   Chromag
 A-Demos:   CircleScroller              CircleScroller.Slave              Circle Scroller - United F   Circle Scroller - United Forces
 A-Demos:   ClappingWorld               ClappingWorld.Slave               Clapping World - Subway      Clapping World - Subway
 A-Demos:   CocaColaDemo                CocaColaDemo.Slave                Coca Cola - Fraxion Demo     Coca Cola - Fraxion Demo
-A-Demos:   CodeKillersIntro            CodeKillersIntro.slave            Demo - The Code Killers G.   Demo - The Code Killers G.d.r. Intro
 A-Demos:   Codertrash                  Codertrash.Slave                  Coder Trash - Mexx           Coder Trash - Mexx
 A-Demos:   ColorCrime                  ColorCrime.Slave                  Color Crime - X-Trade        Color Crime - X-Trade
 A-Demos:   Colors                      Colors.Slave                      Colors - Devils              Colors - Devils
@@ -127,6 +128,7 @@ A-Demos:   ConceptCriminosical         ConceptCriminosical.Slave         Concept
 A-Demos:   ContactIntro                ContactIntro.Slave                Ankara Section Contact Int   Ankara Section Contact Intro - Bronx Intro
 A-Demos:   Contravention               Contravention.Slave               Contravention - Reality      Contravention - Reality
 A-Demos:   ControlAGA                  ControlAGA.slave                  Control - Oxygene AGA        Control - Oxygene AGA
+A-Demos:   CopperCabana                CopperCabana.Slave                Copper cabana - Quadlite     Copper cabana - Quadlite
 A-Demos:   CopperMaster                CopperMaster.slave                Copper master - Angels       Copper master - Angels
 A-Demos:   CopperSlave                 CopperSlave.Slave                 Copper slave - Ram Jam       Copper slave - Ram Jam
 A-Demos:   CrayonShinchan              CrayonShinchan.Slave              Crayon Shinchan - Melon De   Crayon Shinchan - Melon Dezign
@@ -135,6 +137,7 @@ A-Demos:   CrazySounds2                CrazySounds2.Slave                Crazy S
 A-Demos:   CreamyCranium1              CreamyCranium1.Slave              Creamy Cranium 1 - Strange   Creamy Cranium 1 - Strangers
 A-Demos:   CrystalSymphonies           CrystalSymphonies.slave           Crystal Symphonies - Pheno   Crystal Symphonies - Phenomena
 A-Demos:   CrystalSymphonies2          CrystalSymphonies2.slave          Crystal Symphonies 2 - Phe   Crystal Symphonies 2 - Phenomena
+A-Demos:   Curiosity                   Curiosity.Slave                   Curiosity - Pseudodos        Curiosity - Pseudodos
 A-Demos:   Cutcreations                Cutcreations.Slave                Cutcreations - Static byte   Cutcreations - Static bytes
 A-Demos:   CyberSounds                 CyberSounds.Slave                 Cyber Sounds - Bastards      Cyber Sounds - Bastards
 A-Demos:   DanceDiverseVol1            DanceDiverseVol1.Slave            Dance Diverse Vol 1 - Maji   Dance Diverse Vol 1 - Majic 12
@@ -153,9 +156,9 @@ A-Demos:   Deepcore                    Deepcore.Slave                    Deep Co
 A-Demos:   Deformations                Deformations.slave                Deformations - Deform        Deformations - Deform
 A-Demos:   DejaVu                      DejaVu.slave                      Deja Vu - Anarchy            Deja Vu - Anarchy
 A-Demos:   DelicateSounds              DelicateSounds.Slave              Delicate sounds - Razor 19   Delicate sounds - Razor 1911
-A-Demos:   Delirium                    Delirium.Slave                    Delirium - Fraxion           Delirium - Fraxion
 A-Demos:   DeliriumDeform              DeliriumDeform.Slave              Delirium - Deform            Delirium - Deform
 A-Demos:   DeliriumFraxion             DeliriumFraxion.Slave             Delirium - Fraxion           Delirium - Fraxion
+A-Demos:   DeliriumKronical            DeliriumKronical.Slave            Delirium - Kronical          Delirium - Kronical
 A-Demos:   DemoDiskOne                 DemodiskOne.Slave                 Demo Disk 1 - Apology        Demo Disk 1 - Apology
 A-Demos:   DemoDiskQuest               DemoDiskQuest.Slave               Demo-Disk - Quest            Demo-Disk - Quest
 A-Demos:   DemoDiskSubway              DemoDiskSubway.Slave              Demo Disk - Subway           Demo Disk - Subway
@@ -164,11 +167,11 @@ A-Demos:   DemonDownload               DemonDownload.Slave               Demon d
 A-Demos:   DemonsAreForever            DemonsAreForever.Slave            Demons are forever - Docto   Demons are forever - Doctor Mabuse Orgasm Crackings
 A-Demos:   DemonsRage                  DemonsRage.slave                  Demons Rage - Nerve Axis     Demon's Rage - Nerve Axis
 A-Demos:   DerrynHinchDemo             DerrynHinchDemo.Slave             Hinch Demo - Decay Demo      Hinch Demo - Decay Demo
-A-Demos:   DesertDream                 DesertDream.slave                 Desert Dream - Kefrens       Desert Dream - Kefrens
+A-Demos:   DesertDream                 DesertDream.Slave                 Desert Dream - Kefrens       Desert Dream - Kefrens
 A-Demos:   Despair                     Despair.Slave                     Despair - LSD                Despair - LSD
 A-Demos:   DetKniber                   DetKniber.slave                   Det kniber - Rebels          Det kniber - Rebels
 A-Demos:   DevilsKey                   DevilsKey.slave                   Megademo 4 - Devils Key -    Megademo 4 - Devil's Key - Alcatraz
-A-Demos:   DifficultToCure             DifficultToCure.Slave             Difficult To Cure - Analog   Difficult To Cure - Analog
+A-Demos:   DifficultToCureAGA          DifficultToCureAGA.Slave          Difficult To Cure - Analog   Difficult To Cure - Analog (amiga) AGA
 A-Demos:   DiggyPiggys                 DiggyPiggys.Slave                 Diggy Piggys - Channel 42.   Diggy Piggys - Channel 42,The Silents
 A-Demos:   DigitalComplexityCrass      DigitalComplexityCrass.Slave      Digital Complexity - Crass   Digital Complexity - Crass
 A-Demos:   DigitalConcert              DigitalConcert.Slave              Digital concert 1 - Flash    Digital concert 1 - Flash Production
@@ -189,11 +192,12 @@ A-Demos:   DizzyTunes2                 DizzyTunes2.Slave                 Dizzy T
 A-Demos:   DogsCogsAGA                 DogsCogsAGA.Slave                 The Dogs Cogs - Nerve Axis   The Dog's Cogs - Nerve Axis AGA
 A-Demos:   DonMartinMusicDisk          DonMartinMusicDisk.Slave          Don Martin - Hypnosis        Don Martin - Hypnosis
 A-Demos:   DontPanic                   DontPanic.Slave                   Dont Panic - LSD             Don't Panic - LSD
-A-Demos:   DOS                         DOS.Slave                         D.O.S - Andromeda            D.O.S - Andromeda
+A-Demos:   DOS                         DOS.slave                         D.O.S - Andromeda            D.O.S - Andromeda
 A-Demos:   DoTheBartman                DoTheBartman.Slave                Do the Bartman - Freehand    Do the Bartman - Freehand
 A-Demos:   DoubleIntro                 DoubleIntro.Slave                 Double Intro Part1 - Vega    Double Intro Part1 - Vega Intro
 A-Demos:   DragonLord                  DragonLord.Slave                  Dragon Lord - Alfaforce      Dragon Lord - Alfaforce
 A-Demos:   DreamTrippin                DreamTrippin.Slave                Dream Trippin - Digital      Dream Trippin' - Digital
+A-Demos:   Drums&Pipes                 Drums&Pipes.Slave                 Drums Pipes - SurpriseProd   Drums & Pipes - Surprise!Productions,Tristar & Red Sector Inc.
 A-Demos:   Drums&Reverbs               Drums&Reverbs.Slave               Drums Reverbs - Chryseis     Drums & Reverbs - Chryseis
 A-Demos:   DrunkDesertDemo             DrunkDesertDemo.Slave             The drunk desert demo - Pa   The drunk desert demo - Paradox Demo
 A-Demos:   Dynamo                      Dynamo.Slave                      Dynamo - Orion               Dynamo - Orion
@@ -288,7 +292,7 @@ A-Demos:   HymnsFromTheBible3          HymnsFromTheBible3.Slave          Hymns F
 A-Demos:   Ice                         Ice.slave                         Ice - The Silents            Ice - The Silents
 A-Demos:   IlexAGA                     IlexAGA.Slave                     Ilex - Mystic AGA            Ilex - Mystic AGA
 A-Demos:   IlyadAGA                    IlyadAGA.Slave                    Ilyad - Alcatraz AGA         Ilyad - Alcatraz AGA
-A-Demos:   Impulse2                    Impulse2.Slave                    Impulse 2 - Tilt.Old Bulls   Impulse 2 - Tilt,Old Bulls
+A-Demos:   Impulse2                    Impulse2.slave                    Impulse 2 - Tilt.Old Bulls   Impulse 2 - Tilt,Old Bulls
 A-Demos:   InfiniteDreamsLunatics      InfiniteDreamsLunatics.Slave      Infinite Dreams - Lunatics   Infinite Dreams - Lunatics
 A-Demos:   InFullAffect                InFullAffect.Slave                In Full Affect - WildFire    In Full Affect - WildFire Crew
 A-Demos:   InnershipPussy              InnershipPussy.slave              InnerShip - Pussy            InnerShip - Pussy
@@ -298,8 +302,8 @@ A-Demos:   InspirationIsNone           InspirationIsNone.Slave           Inspira
 A-Demos:   Interference                Interference.Slave                Interference - Sanity        Interference - Sanity
 A-Demos:   Interspace                  Interspace.Slave                  Interspace - Phenomena       Interspace - Phenomena
 A-Demos:   InTheKitchen                InTheKitchen.Slave                In the kitchen - Anarchy     In the kitchen - Anarchy
+A-Demos:   IntroCodeKillers            IntroCodeKillers.slave            Kick Off - The Code Killer   Kick Off - The Code Killers
 A-Demos:   IntroDentroMentroDemo       IntroDentroMentroDemo.Slave       Intro Dentro Mentro Demo -   Intro? Dentro? Mentro? Demo? - The Silents Demo
-A-Demos:   Iraq                        Iraq.slave                        Iraq - Animators             Iraq - Animators
 A-Demos:   IraqDemo                    IraqDemo.Slave                    Iraq - Animators Demo        Iraq - Animators Demo
 A-Demos:   IsoAGA                      IsoAGA.slave                      Iso - Scoopex AGA            Iso - Scoopex AGA
 A-Demos:   ItsJustTheBeginning         ItsJustTheBeginning.Slave         Its Just the Beginning - P   It's Just the Beginning - Paragon (Amiga)
@@ -327,6 +331,7 @@ A-Demos:   LegaliseIt                  LegaliseIt.Slave                  Legalis
 A-Demos:   LegalizeIt2                 LegalizeIt2.slave                 Legalize It 2 - Anarchy      Legalize It 2 - Anarchy
 A-Demos:   Legoland                    Legoland.Slave                    Legoland - Desire            Legoland - Desire
 A-Demos:   LethalExit                  LethalExit.Slave                  Lethal Exit - Digital        Lethal Exit - Digital
+A-Demos:   LethalFrequency             LethalFrequency.Slave             Lethal Frequency - Aspect    Lethal Frequency - Aspect
 A-Demos:   Linus                       Linus.Slave                       Linus - Palace               Linus - Palace
 A-Demos:   Lithium                     Lithium.Slave                     Lithium - Awesome            Lithium - Awesome
 A-Demos:   LoonyTunes                  LoonyTunes.Slave                  Loony Tunes 1 - Divine       Loony Tunes #1 - Divine
@@ -348,45 +353,47 @@ A-Demos:   MaximumOverdrive2           MaximumOverdrive2.Slave           Maximum
 A-Demos:   MaximumVelocity             MaximumVelocity.Slave             Maximum velocity - The Sil   Maximum velocity - The Silents
 A-Demos:   MeanBreakMachine2           MeanBreakMachine2.Slave           Mean Break Machine 2 - Tet   Mean Break Machine 2 - Tetragon
 A-Demos:   Megablast                   Megablast.Slave                   Megablast - Rebels           Megablast - Rebels
-A-Demos:   Megademo                    Megademo.Slave                    Megademo - Pseudoplast       Megademo - Pseudoplast
-A-Demos:   Megademo2                   Megademo2.Slave                   Megademo 2 - Disorder        Megademo 2 - Disorder
 A-Demos:   Megademo2Alcatraz           Megademo2Alcatraz.slave           Megademo 2 - Alcatraz        Megademo 2 - Alcatraz
 A-Demos:   Megademo2Bass               Megademo2Bass.slave               Megademo 2 - Bass            Megademo 2 - Bass
-A-Demos:   MegaDemo2Bronx              MegaDemo2Bronx.Slave              Megademo 2 - Bronx           Megademo 2 - Bronx
-A-Demos:   MegaDemo2Budbrain           MegaDemo2Budbrain.slave           Megademo 2 - Budbrain        Megademo 2 - Budbrain
-A-Demos:   Megademo2Darkness           Megademo2Darkness.Slave           Megademo 2 - Darkness        Megademo 2 - Darkness
-A-Demos:   MegaDemo2Dexion             MegaDemo2Dexion.Slave             Megademo 1 - Dexion          Megademo 1 - Dexion
+A-Demos:   Megademo2Bronx              Megademo2Bronx.Slave              Megademo 2 - Bronx           Megademo 2 - Bronx
+A-Demos:   Megademo2Budbrain           Megademo2Budbrain.slave           Megademo 2 - Budbrain        Megademo 2 - Budbrain
+A-Demos:   Megademo2Darkness           Megademo2Darkness.slave           Megademo 2 - Darkness        Megademo 2 - Darkness
+A-Demos:   Megademo2Dexion             Megademo2Dexion.Slave             Megademo 2 - Dexion          Megademo 2 - Dexion
+A-Demos:   Megademo2Disorder           Megademo2Disorder.Slave           Megademo 2 - Disorder        Megademo 2 - Disorder
 A-Demos:   Megademo2Megaforce          Megademo2Megaforce.Slave          Megademo 2 - Megaforce       Megademo 2 - Megaforce
-A-Demos:   MegaDemo2NorthStar          MegaDemo2NorthStar.Slave          Megademo 2 - Northstar       Megademo 2 - Northstar
-A-Demos:   MegaDemo2Rebels             MegaDemo2Rebels.Slave             Megademo 2 - Rebels          Megademo 2 - Rebels
-A-Demos:   MegaDemo2Scoopex            MegaDemo2Scoopex.Slave            Megademo 2 - Scoopex         Megademo 2 - Scoopex
+A-Demos:   Megademo2NorthStar          Megademo2NorthStar.Slave          Megademo 2 - Northstar       Megademo 2 - Northstar
+A-Demos:   Megademo2Rebels             Megademo2Rebels.Slave             Megademo 2 - Rebels          Megademo 2 - Rebels
+A-Demos:   Megademo2Scoopex            Megademo2Scoopex.Slave            Megademo 2 - Scoopex         Megademo 2 - Scoopex
 A-Demos:   Megademo2Vision             Megademo2Vision.Slave             Megademo 2 - Vision          Megademo 2 - Vision
 A-Demos:   Megademo2Vortex42           Megademo2Vortex42.Slave           Megademo 2 - Vortex 42       Megademo 2 - Vortex 42
 A-Demos:   Megademo3Alcatraz           Megademo3Alcatraz.Slave           Megademo 3 - Alcatraz        Megademo 3 - Alcatraz
-A-Demos:   MegaDemo4Vision             MegaDemo4Vision.slave             Megademo 4 - Vision          Megademo 4 - Vision
+A-Demos:   Megademo4Kefrens&7UpCrew    Megademo4Kefrens&7UpCrew.Slave    Megademo 4 - Kefrens.7up C   Megademo 4 - Kefrens,7up Crew
+A-Demos:   Megademo4Vision             Megademo4Vision.slave             Megademo 4 - Vision          Megademo 4 - Vision
+A-Demos:   Megademo5Kefrens            Megademo5Kefrens.Slave            Megademo 5 - Kefrens         Megademo 5 - Kefrens
 A-Demos:   Megademo6Kefrens            Megademo6Kefrens.Slave            Megademo 6 - Kefrens         Megademo 6 - Kefrens
-A-Demos:   MegaDemo7Kefrens            MegaDemo7Kefrens.Slave            Megademo 7 - Kefrens         Megademo 7 - Kefrens
-A-Demos:   MegaDemo8Kefrens            MegaDemo8Kefrens.Slave            Megademo 8 - Kefrens         Megademo 8 - Kefrens
+A-Demos:   Megademo7Kefrens            Megademo7Kefrens.Slave            Megademo 7 - Kefrens         Megademo 7 - Kefrens
+A-Demos:   Megademo8Kefrens            Megademo8Kefrens.Slave            Megademo 8 - Kefrens         Megademo 8 - Kefrens
 A-Demos:   MegademoAcme                MegademoAcme.Slave                Megademo - Acme Amiga        Megademo - Acme (Amiga)
 A-Demos:   MegademoAlcatraz            MegademoAlcatraz.Slave            Megademo - Alcatraz          Megademo - Alcatraz
-A-Demos:   MegaDemoAvenger             MegaDemoAvenger.slave             Megademo - Avenger           Megademo - Avenger
+A-Demos:   MegademoAvenger             MegademoAvenger.slave             Megademo - Avenger           Megademo - Avenger
 A-Demos:   MegademoBass                MegademoBass.slave                Megademo - Bass              Megademo - Bass
 A-Demos:   MegademoBeastieBoys         MegademoBeastieBoys.slave         Megademo - Beastie Boys      Megademo - Beastie Boys
+A-Demos:   MegademoBudbrain            MegademoBudbrain.Slave            Megademo - Budbrain          Megademo - Budbrain
 A-Demos:   MegademoCult                MegademoCult.Slave                Megademo - Cult              Megademo - Cult
-A-Demos:   MegademoDarkness            MegademoDarkness.Slave            Megademo - Darkness          Megademo - Darkness
-A-Demos:   MegademoDeathstar           MegademoDeathstar.Slave           Megademo - Deathstar         Megademo - Deathstar
+A-Demos:   MegademoDarkness            MegademoDarkness.slave            Megademo - Darkness          Megademo - Darkness
+A-Demos:   MegademoDeathstar           MegademoDeathstar.slave           Megademo - Deathstar         Megademo - Deathstar
 A-Demos:   MegademoDexion              MegademoDexion.Slave              Megademo - Dexion            Megademo - Dexion
-A-Demos:   MegaDemoDigitech&IBB        MegaDemoDigitech&IBB.Slave        Megademo - Digitech          Megademo - Digitech
-A-Demos:   MegaDemoDragons             MegaDemoDragons.slave             Megademo - Dragons           Megademo - Dragons
+A-Demos:   MegademoDigitech&IBB        MegademoDigitech&IBB.Slave        Megademo - Digitech          Megademo - Digitech
+A-Demos:   MegademoDragons             MegademoDragons.slave             Megademo - Dragons           Megademo - Dragons
 A-Demos:   MegademoEOA                 MegademoEOA.Slave                 Megademo - Electronic Arti   Megademo - Electronic Artists
 A-Demos:   MegademoExcellence          MegademoExcellence.Slave          Megademo - Excellence        Megademo - Excellence
 A-Demos:   MegademoFreedomForce        MegademoFreedomForce.slave        Megademo - Freedom Force     Megademo - Freedom Force
-A-Demos:   MegaDemoGoldfire            MegaDemoGoldfire.Slave            Megademo - Goldfire          Megademo - Goldfire
+A-Demos:   MegademoGoldfire            MegademoGoldfire.Slave            Megademo - Goldfire          Megademo - Goldfire
 A-Demos:   MegademoHumanoids           MegademoHumanoids.Slave           Megademo - Humanoids         Megademo - Humanoids
 A-Demos:   MegademoIntuition           MegademoIntuition.Slave           Megademo - Intuition         Megademo - Intuition
 A-Demos:   MegademoIt                  MegademoIt.Slave                  Megademo - IT IT             Megademo - IT IT
-A-Demos:   MegaDemoJoy&MGF&TJC         MegaDemoJoy&MGF&TJC.slave         Megademo - Joy               Megademo - Joy
-A-Demos:   MegaDemoKatharsis           MegaDemoKatharsis.Slave           Megademo One - Katharsis     Megademo One - Katharsis
+A-Demos:   MegademoJoy&MGF&TJC         MegademoJoy&MGF&TJC.slave         Megademo - Joy               Megademo - Joy
+A-Demos:   MegademoKatharsis           MegademoKatharsis.Slave           Megademo One - Katharsis     Megademo One - Katharsis
 A-Demos:   MegademoMadMonks            MegademoMadMonks.Slave            Megademo - Mad monks         Megademo - Mad monks
 A-Demos:   MegademoManowar             MegademoManowar.Slave             Megademo one - Manowar       Megademo one - Manowar
 A-Demos:   MegademoMegaforce           MegademoMegaforce.Slave           Megademo - Megaforce         Megademo - Megaforce
@@ -396,11 +403,12 @@ A-Demos:   MegademoPossessed           MegademoPossessed.Slave           Megadem
 A-Demos:   MegademoPowerslaves         MegademoPowerslaves.Slave         Megademo - Powerslaves       Megademo - Powerslaves
 A-Demos:   MegademoPrecise             MegademoPrecise.Slave             Megademo - Precise           Megademo - Precise
 A-Demos:   MegademoPredators           MegademoPredators.Slave           Megademo - Predators         Megademo - Predators
+A-Demos:   MegademoPseudoPlast         MegademoPseudoPlast.Slave         Megademo - Pseudoplast       Megademo - Pseudoplast
 A-Demos:   MegademoRedSectorInc        MegademoRedSectorInc.Slave        Megademo - Red Sector Inc.   Megademo - Red Sector Inc.
-A-Demos:   MegaDemoRoyalAmigaForce     MegaDemoRoyalAmigaForce.slave     Megademo - Royal Amiga For   Megademo - Royal Amiga Force
-A-Demos:   MegaDemoScoopex             MegaDemoScoopex.Slave             Megademo - Scoopex           Megademo - Scoopex
+A-Demos:   MegademoRoyalAmigaForce     MegademoRoyalAmigaForce.slave     Megademo - Royal Amiga For   Megademo - Royal Amiga Force
+A-Demos:   MegademoScoopex             MegademoScoopex.Slave             Megademo - Scoopex           Megademo - Scoopex
 A-Demos:   MegademoSOS                 MegademoSOS.slave                 Megademo - Software Of Swe   Megademo - Software Of Sweden
-A-Demos:   MegaDemoStaticBytes         MegaDemoStaticBytes.Slave         Megademo - Static bytes      Megademo - Static bytes
+A-Demos:   MegademoStaticBytes         MegademoStaticBytes.Slave         Megademo - Static bytes      Megademo - Static bytes
 A-Demos:   MegademoTheLink             MegademoTheLink.Slave             Megademo - The link          Megademo - The link
 A-Demos:   MegademoUnitedForces        MegademoUnitedForces.Slave        Megademo - United Forces     Megademo - United Forces
 A-Demos:   MegademoVermin              MegademoVermin.Slave              Megademo - Vermin            Megademo - Vermin
@@ -410,6 +418,7 @@ A-Demos:   MegademoZeus                MegademoZeus.slave                Megadem
 A-Demos:   MegaMix1                    MegaMix1.Slave                    Megamix 1 - Royal Amiga Fo   Megamix 1 - Royal Amiga Force
 A-Demos:   MegaMix2                    MegaMix2.slave                    Megamix 2 - The Pumpin Tra   Megamix 2 - The Pumpin' Track - Royal Amiga Force
 A-Demos:   MegaMix3                    MegaMix3.Slave                    Megamix 3 - Royal Amiga Fo   Megamix 3 - Royal Amiga Force
+A-Demos:   MegaTraxVol1                MegaTraxVol1.Slave                Khalaan - Inner City         Khalaan - Inner City
 A-Demos:   Melodies                    Melodies.Slave                    Scoopex Melodies - Scoopex   Scoopex Melodies - Scoopex
 A-Demos:   MemorialSongs               MemorialSongs.Slave               Memorial Songs - Alcatraz    Memorial Songs - Alcatraz
 A-Demos:   MentalHangover              MentalHangover.Slave              Mental Hangover - Scoopex    Mental Hangover - Scoopex
@@ -454,13 +463,13 @@ A-Demos:   Musication                  Musication.Slave                  Musicat
 A-Demos:   Musicbox3                   Musicbox3.Slave                   Musicbox 3 - Gate            Musicbox 3 - Gate
 A-Demos:   MusicBoxCopyride            MusicBoxCopyride.Slave            Music Box - Copyride         Music Box - Copyride
 A-Demos:   MusicBoxExodus              MusicBoxExodus.Slave              Musicbox - Exodus            Musicbox - Exodus
-A-Demos:   MusicCollection             MusicCollection.Slave             Music Collection - Kathars   Music Collection - Katharsis
 A-Demos:   MusicCollection4Zarch       MusicCollection4Zarch.Slave       Music Collection 4 - Level   Music Collection 4 - Level 4
 A-Demos:   MusicCollectionExocet       MusicCollectionExocet.Slave       Music Collection - Exocet    Music Collection - Exocet
+A-Demos:   MusicCollectionKatharsis    MusicCollectionKatharsis.Slave    Music Collection - Kathars   Music Collection - Katharsis
 A-Demos:   MusicCompacting2            MusicCompacting2.slave            Music Compacting 2 - Alpha   Music Compacting 2 - Alpha Flight 1970,Zylon
 A-Demos:   MusicCompilation            MusicCompilation.Slave            Music Compilation - Random   Music Compilation - Random Access
 A-Demos:   MusicDemoDeform             MusicDemoDeform.Slave             Music Demo - Deform          Music Demo - Deform
-A-Demos:   MusicDisk1                  MusicDisk1.Slave                  Musicdisk 1 - Royal Amiga    Musicdisk 1 - Royal Amiga Force
+A-Demos:   MusicDiscVol1DiskNet        MusicDiscVol1DiskNet.Slave        Techno music disk vol. 1 -   Techno music disk vol. 1 - Virna
 A-Demos:   MusicDisk181stTrack         MusicDisk181stTrack.Slave         Music Disk 1 - The 81st Tr   Music Disk 1 - The 81st Track
 A-Demos:   MusicDisk1AdamMcCrory       MusicDisk1AdamMcCrory.Slave       Adam McCrory Music Disk 1    Adam McCrory Music Disk 1 - Adam McCrory
 A-Demos:   MusicDisk1Alcatraz          MusicDisk1Alcatraz.Slave          Musicdisk 1 - Alcatraz       Musicdisk 1 - Alcatraz
@@ -468,7 +477,6 @@ A-Demos:   MusicDisk1Bass              MusicDisk1Bass.slave              Music D
 A-Demos:   MusicDisk1DMob              MusicDisk1DMob.Slave              Music-Disk 1 - D-Mob         Music-Disk 1 - D-Mob
 A-Demos:   MusicDisk1FantasyForce      MusicDisk1FantasyForce.Slave      Musicdisk 1 - The Fantasy    Musicdisk #1 - The Fantasy Force
 A-Demos:   MusicDisk1IKS               MusicDisk1IKS.Slave               MusicDisk 1 - IKS            MusicDisk #1 - IKS
-A-Demos:   MusicDisk1IpecElite         MusicDisk1IpecElite.Slave         Music Disk - Ipec Elite      Music Disk - Ipec Elite
 A-Demos:   MusicDisk1Mahoney&Kaktus    MusicDisk1Mahoney&Kaktus.Slave    Musicdisk 1 - Mahoney Kakt   Musicdisk 1 - Mahoney & Kaktus
 A-Demos:   MusicDisk1Prologic          MusicDisk1Prologic.Slave          Music Disk 1 - Prologic      Music Disk 1 - Prologic
 A-Demos:   MusicDisk1Vega              MusicDisk1Vega.Slave              Musicdisk 1 - Vega           Musicdisk 1 - Vega
@@ -478,8 +486,8 @@ A-Demos:   MusicDisk2Darkness          MusicDisk2Darkness.Slave          Musicdi
 A-Demos:   MusicDisk2Elite             MusicDisk2Elite.Slave             Music Madness 2 - Ipec Eli   Music Madness 2 - Ipec Elite
 A-Demos:   MusicDisk2IKS               MusicDisk2IKS.Slave               MusicDisk 2 - IKS            MusicDisk #2 - IKS
 A-Demos:   MusicDisk2Vega              MusicDisk2Vega.Slave              Musicdisk 2 - Vega           Musicdisk 2 - Vega
-A-Demos:   MusicDisk3                  MusicDisk3.Slave                  Mega Musicdisk III - D-Mob   Mega Musicdisk III - D-Mob
-A-Demos:   MusicDisk4                  MusicDisk4.Slave                  Musicdisk IV - D-Mob         Musicdisk IV - D-Mob
+A-Demos:   MusicDisk3DMob              MusicDisk3DMob.Slave              Mega Musicdisk III - D-Mob   Mega Musicdisk III - D-Mob
+A-Demos:   MusicDisk4DMob              MusicDisk4DMob.Slave              Musicdisk IV - D-Mob         Musicdisk IV - D-Mob
 A-Demos:   MusicDisk4Vega              MusicDisk4Vega.Slave              Musicdisk 4 - Vega           Musicdisk 4 - Vega
 A-Demos:   MusicDisk6RamJam            MusicDisk6RamJam.Slave            Music Disk 6 - Ram Jam       Music Disk 6 - Ram Jam
 A-Demos:   MusicDiskActionForce        MusicDiskActionForce.slave        Musicdisk - Action Force     Musicdisk - Action Force
@@ -490,6 +498,8 @@ A-Demos:   MusicDiskDexion             MusicDiskDexion.Slave             Music D
 A-Demos:   MusicDiskDreamscape         MusicDiskDreamscape.Slave         Music Disk - Dreamscape      Music Disk - Dreamscape
 A-Demos:   MusicDiskEscape             MusicDiskEscape.Slave             Musicdisk - Escape           Musicdisk - Escape
 A-Demos:   MusicDiskInzzest            MusicDiskInzzest.Slave            Musicdisk - Inzzest          Musicdisk - Inzzest
+A-Demos:   MusicDiskIpecElite          MusicDiskIpecElite.Slave          Music Disk - Ipec Elite      Music Disk - Ipec Elite
+A-Demos:   MusicDiskTardex             MusicDiskTardex.Slave             MusicDisk - Tardex           MusicDisk - Tardex
 A-Demos:   MusicDiskThrust             MusicDiskThrust.Slave             Music pack 1 - Thrust        Music pack 1 - Thrust
 A-Demos:   MusicDream1                 MusicDream1.Slave                 Music Dream 1 - Phenomena    Music Dream 1 - Phenomena
 A-Demos:   MusicDream2                 MusicDream2.Slave                 Music Dream 2 - Phenomena    Music Dream 2 - Phenomena
@@ -503,6 +513,7 @@ A-Demos:   MusicParty1990              MusicParty1990.slave              Music p
 A-Demos:   MusicRip2                   MusicRip2.Slave                   Music Rip 2 - Silicon Leag   Music Rip #2 - Silicon League
 A-Demos:   MusicRip3                   MusicRip3.Slave                   Music Rip3 - Spreadpoint     Music Rip3 - Spreadpoint
 A-Demos:   Musics3                     Musics3.Slave                     The enemies musics III - T   The enemies musics III - The Enemies
+A-Demos:   MusicSelector               MusicSelector.Slave               Music Selector - Deadlock    Music Selector - Deadlock
 A-Demos:   MusicWithAMessage           MusicWithAMessage.Slave           Music With a Message - Mag   Music With a Message - Magnetic Fields
 A-Demos:   MusiqueDisk                 MusiqueDisk.Slave                 The Musique Disk - Accessi   The Musique Disk - Accession
 A-Demos:   MuzakCompacting1            MuzakCompacting1.Slave            Muzak compacting 1 - Alpha   Muzak compacting 1 - Alpha Flight 1970,Mindwarp
@@ -520,8 +531,7 @@ A-Demos:   NeuralAssault               NeuralAssault.Slave               Neural 
 A-Demos:   NewAge                      NewAge.Slave                      New age - Ram Jam            New age - Ram Jam
 A-Demos:   Nexus7AGA                   Nexus7AGA.Slave                   Nexus-7 - Andromeda AGA      Nexus-7 - Andromeda AGA
 A-Demos:   NightshadesHarmony          NightshadesHarmony.Slave          Nightshades Harmony - Ecst   Nightshade's Harmony - Ecstasy
-A-Demos:   NoBrainNoPain               NoBrainNoPain.Slave               No Brain - No Pain megadem   No Brain - No Pain! (megademo) - Flash Production
-A-Demos:   NoBrainNoPainFlashProd      NoBrainNoPainFlashProd.Slave      No Brain - No Pain mega V2   No Brain - No Pain! (megademo) - Flash Production
+A-Demos:   NoBrainNoPainFlashProd      NoBrainNoPainFlashProd.Slave      No Brain - No Pain megadem   No Brain - No Pain! (megademo) - Flash Production
 A-Demos:   NoBrainNoPainParadise       NoBrainNoPainParadise.Slave       No Brain No Pain - Paradis   No Brain No Pain - Paradise
 A-Demos:   NonStopMusic                NonStopMusic.Slave                Non Stop Music - Jungle Co   Non Stop Music - Jungle Command
 A-Demos:   Nonterraqueous              Nonterraqueous.Slave              Nonterraqueous - Alarm       Nonterraqueous - Alarm
@@ -533,7 +543,7 @@ A-Demos:   NumbAGA                     NumbAGA.Slave                     Numb - 
 A-Demos:   Numeric                     Numeric.Slave                     NUMERIC - Profecy            NUMERIC - Profecy
 A-Demos:   Numeric2                    Numeric2.Slave                    NUMERIC 2 - Profecy          NUMERIC 2 - Profecy
 A-Demos:   Numeric3                    Numeric3.Slave                    NUMERIC 3 - Profecy          NUMERIC 3 - Profecy
-A-Demos:   Oasis                       Oasis.Slave                       Oasis - Stellar              Oasis - Stellar
+A-Demos:   OasisAGA                    OasisAGA.Slave                    Oasis - Stellar AGA          Oasis - Stellar AGA
 A-Demos:   ObliqueInfinity             ObliqueInfinity.Slave             Oblique Infinity - Goldfir   Oblique Infinity - Goldfire
 A-Demos:   ObviousDisaster             ObviousDisaster.Slave             Obvious Disaster - Phenome   Obvious Disaster - Phenomena
 A-Demos:   Odeon                       Odeon.Slave                       Odeon - Solution             Odeon - Solution
@@ -549,6 +559,7 @@ A-Demos:   Orgasm                      Orgasm.Slave                      Orgasm 
 A-Demos:   OriginAGA                   OriginAGA.slave                   Origin - Complex AGA         Origin - Complex AGA
 A-Demos:   Ottifanten                  Ottifanten.Slave                  Ottifanten - Thrust          Ottifanten - Thrust
 A-Demos:   Ottifanten2                 Ottifanten2.Slave                 Ottifanten 2 - Thrust        Ottifanten 2 - Thrust
+A-Demos:   OurDefOfBoombastic          OurDefOfBoombastic.slave          Our definition of a boomba   Our definition of a boombastic demo style - Rebels
 A-Demos:   Overdose                    Overdose.Slave                    Overdose - Delight           Overdose - Delight
 A-Demos:   Overload                    Overload.Slave                    Overload - Jetset            Overload - Jetset
 A-Demos:   Overload2                   Overload2.Slave                   Overload 2 - Skid Row.Jets   Overload 2 - Skid Row,Jetset
@@ -579,10 +590,8 @@ A-Demos:   ProjectTechno               ProjectTechno.Slave               Project
 A-Demos:   ProSIAK                     ProSIAK.slave                     Pro S.I.A.K. - Flying Cows   Pro S.I.A.K. - Flying Cows Inc.
 A-Demos:   PsychedelicAGA              PsychedelicAGA.Slave              Psychedelic - Virtual Drea   Psychedelic - Virtual Dreams,Fairlight AGA
 A-Demos:   Psychic                     Psychic.Slave                     Psychic - Effect             Psychic - Effect
-A-Demos:   Psychotic                   Psychotic.Slave                   Megademo - Budbrain          Megademo - Budbrain
-A-Demos:   PsygnosisMusicPictureDisc   PsygnosisMusicPictureDis.Slave    Psygnosis Musical Picture    Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S PsygnosisMusicPictureDis
-A-Demos:   PsygnosisMusicPictureDisc   PsygnosisMusicPictureDi0.Slave    Psygnosis Musical Picture    Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S PsygnosisMusicPictureDi0
-A-Demos:   PublicAttack                PublicAttack.Slave                Public Attack - Cult         Public Attack - Cult
+A-Demos:   PsygnosisMusicPictureDisc   PsygnosisMusicPictureDisc.Slave   Psygnosis Musical Picture    Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S
+A-Demos:   PublicAttack                PublicAttack.slave                Public Attack - Cult         Public Attack - Cult
 A-Demos:   PuggsInSpace                PuggsInSpace.Slave                Puggs in Space - Dionysus    Puggs in Space - Dionysus
 A-Demos:   Punisher                    Punisher.Slave                    The Punisher - Digital       The Punisher - Digital
 A-Demos:   Purple                      Purple.Slave                      Purple - Warfalcons          Purple - Warfalcons
@@ -609,10 +618,13 @@ A-Demos:   RinkADinkRedux              RinkADinkRedux.Slave              Rink a 
 A-Demos:   RockBox1                    RockBox1.Slave                    Rock Box 1 - Avoid           Rock Box 1 - Avoid
 A-Demos:   RockBox2                    RockBox2.Slave                    RockBox2 - Avoid             RockBox2 - Avoid
 A-Demos:   Rolling                     Rolling.Slave                     Rolling - Omega Machine De   Rolling - Omega Machine Designers,Ringard
+A-Demos:   Roots2                      Roots2.Slave                      Roots v2.0 - Sanity          Roots v2.0 - Sanity
 A-Demos:   Roots2AGA                   Roots2AGA.Slave                   Roots v2.0 - Sanity AGA      Roots v2.0 - Sanity AGA
 A-Demos:   RootsAGA                    RootsAGA.slave                    Roots - Sanity AGA           Roots - Sanity AGA
 A-Demos:   Roswell                     Roswell.Slave                     Roswell - NFA AGA            Roswell - NFA AGA
 A-Demos:   Route66                     Route66.Slave                     Route 66 - D-Mob             Route 66 - D-Mob
+A-Demos:   RoyalMusic                  RoyalMusic.Slave                  Royal Music - The Magic Gu   Royal Music - The Magic Guild
+A-Demos:   RoyalMusic2                 RoyalMusic2.Slave                 Royal Music 2 - The Magic    Royal Music 2 - The Magic Guild
 A-Demos:   Rubbish                     Rubbish.Slave                     Rubbish - Amega Industries   Rubbish - Amega Industries
 A-Demos:   SAGA                        SAGA.Slave                        S - Skarla AGA               S - Skarla AGA
 A-Demos:   SaneSounds                  SaneSounds.slave                  Sane Sound - Academy         Sane Sound - Academy
@@ -634,7 +646,6 @@ A-Demos:   ShedTears                   ShedTears.Slave                   Shed Te
 A-Demos:   Sigh                        Sigh.Slave                        Sigh - Old Bulls             Sigh - Old Bulls
 A-Demos:   SiliconGraphics2AGA         SiliconGraphics2AGA.Slave         Silicon Graphics 2 - World   Silicon Graphics 2 - World Federation of Mad Hackers AGA
 A-Demos:   Simpsons                    Simpsons.Slave                    Simpsons Demo - Decay        Simpsons Demo - Decay
-A-Demos:   SkarlaS                     S.Slave                           S - Skarla S                 S - Skarla S
 A-Demos:   Smau92MusicDisk             Smau92MusicDisk.Slave             Smau 92 Music Disk - Night   Smau 92 Music Disk - Nightfall
 A-Demos:   Snap                        Snap.slave                        Snap - Rebels                Snap! - Rebels
 A-Demos:   SOFTMovie                   SOFTMovie.Slave                   Soft Movie - Genocide        Soft Movie - Genocide
@@ -652,18 +663,17 @@ A-Demos:   SoundAtaxVol3               SoundAtaxVol3.Slave               Sound A
 A-Demos:   SoundBarrier                SoundBarrier.Slave                Sound Barrier - Balance      Sound Barrier - Balance
 A-Demos:   Soundbox2                   Soundbox2.Slave                   Soundbox 2 - Alpha Flight    Soundbox 2 - Alpha Flight 1970,Genesis (Alpha Flight)
 A-Demos:   SoundDeLight                SoundDeLight.slave                Sound De Light - Software    Sound De Light - Software Of Sweden
-A-Demos:   SoundDemo                   SoundDemo.slave                   Thalion Sound demo - Thali   Thalion Sound demo - Thalion Demo
 A-Demos:   SoundDemoSyndicate          SoundDemoSyndicate.Slave          Sounddemo - Syndicate        Sounddemo - Syndicate
-A-Demos:   SoundDisk                   SoundDisk.slave                   Sound Disk - Zenith          Sound Disk - Zenith
 A-Demos:   SoundDisk1                  SoundDisk1.Slave                  Sound Disk 1 - Mygon         Sound Disk 1 - Mygon
 A-Demos:   SoundDisk2                  SoundDisk2.Slave                  Sound Disk 2 - Mygon         Sound Disk 2 - Mygon
-A-Demos:   SounddiskPossessed          SounddiskPossessed.Slave          Sounddisk - Possessed        Sounddisk - Possessed
+A-Demos:   SoundDiskPossessed          SoundDiskPossessed.Slave          Sound Disk - Zenith          Sound Disk - Zenith
+A-Demos:   SoundDiskZenith             SoundDiskZenith.slave             Sound Disk - Zenith          Sound Disk - Zenith
 A-Demos:   SoundEngine                 SoundEngine.Slave                 Sound engine - Absence       Sound engine - Absence
 A-Demos:   SoundEngine2                SoundEngine2.Slave                Sound Engine 2 - Absence     Sound Engine 2 - Absence
 A-Demos:   SoundErection               SoundErection.Slave               Sound Erection - Shining 8   Sound Erection - Shining 8
 A-Demos:   SoundHighlights1            SoundHighlights1.Slave            Sound Highlights 1 - Timex   Sound Highlights 1 - Timex
 A-Demos:   SoundMania2Pussy            SoundMania2Pussy.Slave            Sound Mania 2 - Pussy        Sound Mania 2 - Pussy
-A-Demos:   SoundOfMusic7               SoundOfMusic7.Slave               Sound of Music 7 - Cave      Sound of Music 7 - Cave
+A-Demos:   SoundOfMusic7               SoundOfMusic7.slave               Sound of Music 7 - Cave      Sound of Music 7 - Cave
 A-Demos:   SoundOfSilents              SoundOfSilents.Slave              Sound of Silents - The Sil   Sound of Silents - The Silents
 A-Demos:   SoundQuest1                 SoundQuest1.Slave                 Soundquest 1 - Quest         Soundquest 1 - Quest
 A-Demos:   SoundQuest2                 SoundQuest2.Slave                 Sound Quest 2 - Quest        Sound Quest #2 - Quest
@@ -694,8 +704,8 @@ A-Demos:   StagSeries                  StagSeries.slave                  Stag 1 
 A-Demos:   Stateline                   Stateline.Slave                   Stateline - Complex          Stateline - Complex
 A-Demos:   StateOfTheArt               StateOfTheArt.Slave               State of the Art - Spaceba   State of the Art - Spaceballs
 A-Demos:   StaticChaos                 StaticChaos.Slave                 Static Chaos - The Silents   Static Chaos - The Silents
-A-Demos:   StatusQuo                   StatusQuoFast.Slave               Status quo - Mad elks Fast   Status quo - Mad elks Fast
 A-Demos:   StatusQuo                   StatusQuo.Slave                   Status quo - Mad elks        Status quo - Mad elks
+A-Demos:   StatusQuoFast               StatusQuoFast.Slave               Status quo - Mad elks FAST   Status quo - Mad elks FAST
 A-Demos:   StereoSounds                StereoSounds.Slave                Stereo Sounds - Eon          Stereo Sounds - Eon
 A-Demos:   SteveVizard                 SteveVizard.Slave                 Steve Vizard Demo - Decay    Steve Vizard Demo - Decay
 A-Demos:   StopFascism                 StopFascism.Slave                 Stop Fascism - Alcatraz.In   Stop Fascism - Alcatraz,Interactive
@@ -717,7 +727,9 @@ A-Demos:   SynthesisNetworkAGA         SynthesisNetworkAGA.slave         Synthes
 A-Demos:   SyntheticPower              SyntheticPower.Slave              Synthetic Power - Cave       Synthetic Power - Cave
 A-Demos:   SyntheticVibes              SyntheticVibes.Slave              Synthetic Vibes - Quartz     Synthetic Vibes - Quartz
 A-Demos:   SystemViolation             SystemViolation.Slave             System violation - Anarchy   System violation - Anarchy
+A-Demos:   Tag                         Tag.Slave                         TAG - Jetset.Skid Row        TAG - Jetset,Skid Row
 A-Demos:   TagAGA                      TagAGA.Slave                      TAG - Jetset.Skid Row AGA    TAG - Jetset,Skid Row AGA
+A-Demos:   Talktime1                   Talktime1.Slave                   Talktime 1 - Essence         Talktime 1 - Essence
 A-Demos:   TaylorDayneTITMH            TaylorDayneTITMH.Slave            Taylor Dayne Tell It To My   Taylor Dayne: Tell It To My Heart - Algotech Software
 A-Demos:   Teatime                     TeaTime.slave                     The Long Dark Teatime Of T   The Long Dark Teatime Of The Soul - Leeds Spreading Division
 A-Demos:   TechnologicalDeath          TechnologicalDeath.slave          Technological Death - Mad    Technological Death - Mad elks
@@ -733,6 +745,7 @@ A-Demos:   TeraTunes2                  TeraTunes2.Slave                  Tera Tu
 A-Demos:   TerminalFuckup              TerminalFuckup.Slave              Terminal fuckup - Sanity     Terminal fuckup - Sanity
 A-Demos:   Terminator                  Terminator.Slave                  The Terminator - Status OK   The Terminator - Status OK
 A-Demos:   Testament                   Testament.Slave                   Testament - Katharsis        Testament - Katharsis
+A-Demos:   ThalionSoundDemo            ThalionSoundDemo.slave            Thalion Sound demo - Thali   Thalion Sound demo - Thalion Demo
 A-Demos:   ThirdDimension              ThirdDimension.Slave              Third dimension - Cryptobu   Third dimension - Cryptoburners
 A-Demos:   ThugLifeAGA                 ThugLifeAGA.Slave                 Thug Life - Essence AGA      Thug Life - Essence AGA
 A-Demos:   TintAGA                     TintAGA.Slave                     Tint - The Black Lotus AGA   Tint - The Black Lotus AGA
@@ -763,8 +776,7 @@ A-Demos:   VectorBalls                 VectorBalls.slave                 Vector 
 A-Demos:   VectorBallsDemo             VectorBallsDemo.Slave             Vector-Balls Demo - TomSof   Vector-Balls Demo - TomSoft Demo
 A-Demos:   VectorBobDemo               VectorBobDemo.slave               Vector - Dual Crew Demo      Vector - Dual Crew Demo
 A-Demos:   Vectordance                 Vectordance.Slave                 Vectordance - Cult           Vectordance - Cult
-A-Demos:   VectorDance2                VectorDance2.Slave                Vectordance 2 - Cult         Vectordance 2 - Cult
-A-Demos:   VectorDemo                  VectorDemo.Slave                  3d vector demo - Prophets    3d vector demo - Prophets AG,unicorn Demo
+A-Demos:   Vectordance2                Vectordance2.Slave                Vectordance 2 - Cult         Vectordance 2 - Cult
 A-Demos:   VectorDemoProphetsAG        VectorDemoProphetsAG.Slave        3d vector demo - Prophets    3d vector demo - Prophets AG,unicorn
 A-Demos:   VectorDemoTristanLorach     VectorDemoTristanLorach.Slave     Vector All Times - Tristan   Vector All Times - Tristan Lorach
 A-Demos:   VectorExterminator          VectorExterminator.Slave          Vector Exterminator - Shin   Vector Exterminator - Shining
@@ -798,5 +810,5 @@ A-Demos:   WorldsWave2                 WorldsWave2.Slave                 Worlds 
 A-Demos:   WorldsWave3                 WorldsWave3.Slave                 Worlds wave III - Subway.D   World's wave III - Subway,Dream Team
 A-Demos:   WorldsWave4                 WorldsWave4.Slave                 Worlds wave IV - Subway      World's wave IV - Subway
 A-Demos:   Xenon2MusicRip              Xenon2MusicRip.Slave              Xenon 2 Music Rip - Red Se   Xenon 2 Music Rip - Red Sector Inc.
-A-Demos:   XPose                       XPose.Slave                       Xpose - The Silents          Xpose - The Silents
+A-Demos:   XPose                       XPose.slave                       Xpose - The Silents          Xpose - The Silents
 A-Demos:   ZillionDreams               ZillionDreams.Slave               Zillion Dreams - Reflex      Zillion Dreams - Reflex

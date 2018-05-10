@@ -2,4 +2,4 @@ Name    : Megademo
 Groups  : Joy
 Type    : Megademo
 Party   : Jungle Command Third International Amiga Party 89
-RunFile : MegaDemoJoy&MGF&TJC.slave
+RunFile : MegademoJoy&MGF&TJC.slave

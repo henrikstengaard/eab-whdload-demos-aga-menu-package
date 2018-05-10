@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:M/MegaDemo4Vision/MegaDemo4Vision.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:M/Megademo4Vision/Megademo4Vision.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MegaDemo4Vision/"
+cd "A-Demos:M/Megademo4Vision/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegaDemo4Vision.slave" $whdloadargs
+  whdload "Megademo4Vision.slave" $whdloadargs
 ELSE
-  whdload "MegaDemo4Vision.slave"
+  whdload "Megademo4Vision.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

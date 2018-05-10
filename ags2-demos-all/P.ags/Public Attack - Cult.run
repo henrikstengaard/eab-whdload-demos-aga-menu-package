@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:P/PublicAttack/PublicAttack.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:P/PublicAttack/PublicAttack.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:P/PublicAttack/"
 IF EXISTS ENV:whdloadargs
-  whdload "PublicAttack.Slave" $whdloadargs
+  whdload "PublicAttack.slave" $whdloadargs
 ELSE
-  whdload "PublicAttack.Slave"
+  whdload "PublicAttack.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

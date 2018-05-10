@@ -1,0 +1,4 @@
+Name    : Khalaan
+Groups  : Inner City
+Type    : Cracktro
+RunFile : MegaTraxVol1.Slave

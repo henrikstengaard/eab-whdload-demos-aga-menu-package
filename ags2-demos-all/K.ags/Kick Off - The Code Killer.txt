@@ -1,0 +1,4 @@
+Name    : Kick Off
+Groups  : The Code Killers
+Type    : Cracktro
+RunFile : IntroCodeKillers.slave

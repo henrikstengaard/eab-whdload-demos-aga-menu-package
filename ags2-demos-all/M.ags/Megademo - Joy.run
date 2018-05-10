@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:M/MegaDemoJoy&MGF&TJC/MegaDemoJoy&MGF&TJC.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:M/MegademoJoy&MGF&TJC/MegademoJoy&MGF&TJC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MegaDemoJoy&MGF&TJC/"
+cd "A-Demos:M/MegademoJoy&MGF&TJC/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegaDemoJoy&MGF&TJC.slave" $whdloadargs
+  whdload "MegademoJoy&MGF&TJC.slave" $whdloadargs
 ELSE
-  whdload "MegaDemoJoy&MGF&TJC.slave"
+  whdload "MegademoJoy&MGF&TJC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

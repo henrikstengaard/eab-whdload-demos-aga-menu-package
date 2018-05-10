@@ -3,4 +3,4 @@ Groups  : Rebels
 Type    : Demo
 Party   : Anarchy Easter Party 1991
 Rank    : 5th
-RunFile : Boombastic.slave
+RunFile : OurDefOfBoombastic.slave

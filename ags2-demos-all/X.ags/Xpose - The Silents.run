@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:X/XPose/XPose.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:X/XPose/XPose.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:X/XPose/"
 IF EXISTS ENV:whdloadargs
-  whdload "XPose.Slave" $whdloadargs
+  whdload "XPose.slave" $whdloadargs
 ELSE
-  whdload "XPose.Slave"
+  whdload "XPose.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

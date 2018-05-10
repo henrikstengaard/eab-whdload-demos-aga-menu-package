@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:0-9/100MostRememberedC64Tunes/100MostRememberedC64Tunes.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:0-9/100MostRememberedC64Tunes/100MostRememberedC64Tunes.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:0-9/100MostRememberedC64Tunes/"
 IF EXISTS ENV:whdloadargs
-  whdload "100MostRememberedC64Tunes.Slave" $whdloadargs
+  whdload "100MostRememberedC64Tunes.slave" $whdloadargs
 ELSE
-  whdload "100MostRememberedC64Tunes.Slave"
+  whdload "100MostRememberedC64Tunes.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

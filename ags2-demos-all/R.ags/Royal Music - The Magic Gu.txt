@@ -1,0 +1,5 @@
+Name    : Royal Music
+Groups  : The Magic Guild
+Type    : Musicdisk
+Party   : The Gathering 1992
+RunFile : RoyalMusic.Slave

@@ -1,4 +1,4 @@
 Name    : Megademo 7
 Groups  : Kefrens
 Type    : Demo
-RunFile : MegaDemo7Kefrens.Slave
+RunFile : Megademo7Kefrens.Slave

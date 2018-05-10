@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:S/SoundDemo/SoundDemo.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:T/ThalionSoundDemo/ThalionSoundDemo.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/SoundDemo/"
+cd "A-Demos:T/ThalionSoundDemo/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoundDemo.slave" $whdloadargs
+  whdload "ThalionSoundDemo.slave" $whdloadargs
 ELSE
-  whdload "SoundDemo.slave"
+  whdload "ThalionSoundDemo.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

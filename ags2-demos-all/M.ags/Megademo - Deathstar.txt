@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Deathstar
 Type    : Demo
-RunFile : MegademoDeathstar.Slave
+RunFile : MegademoDeathstar.slave

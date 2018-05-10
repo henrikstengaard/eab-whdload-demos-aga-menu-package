@@ -3,4 +3,4 @@ Groups  : Kefrens
 Type    : Demo
 Party   : The Gathering 1993
 Rank    : 1st
-RunFile : DesertDream.slave
+RunFile : DesertDream.Slave

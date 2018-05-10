@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:M/MegaDemoStaticBytes/MegaDemoStaticBytes.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:M/MegademoStaticBytes/MegademoStaticBytes.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MegaDemoStaticBytes/"
+cd "A-Demos:M/MegademoStaticBytes/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegaDemoStaticBytes.Slave" $whdloadargs
+  whdload "MegademoStaticBytes.Slave" $whdloadargs
 ELSE
-  whdload "MegaDemoStaticBytes.Slave"
+  whdload "MegademoStaticBytes.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

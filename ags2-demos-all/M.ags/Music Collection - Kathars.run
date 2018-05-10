@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:M/MusicCollection/MusicCollection.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:M/MusicCollectionKatharsis/MusicCollectionKatharsis.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MusicCollection/"
+cd "A-Demos:M/MusicCollectionKatharsis/"
 IF EXISTS ENV:whdloadargs
-  whdload "MusicCollection.Slave" $whdloadargs
+  whdload "MusicCollectionKatharsis.Slave" $whdloadargs
 ELSE
-  whdload "MusicCollection.Slave"
+  whdload "MusicCollectionKatharsis.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,4 @@
+Name    : Algebra
+Groups  : Dragon Stone
+Type    : Demo
+RunFile : Algebra.Slave

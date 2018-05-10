@@ -1,0 +1,6 @@
+Name    : 242
+Groups  : Fairlight,Virtual Dreams
+Type    : Demo
+Party   : Assembly 1993
+Rank    : 2nd
+RunFile : 242.slave

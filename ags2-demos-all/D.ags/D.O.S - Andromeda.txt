@@ -3,4 +3,4 @@ Groups  : Andromeda
 Type    : Demo
 Party   : The Gathering 1992
 Rank    : 2nd
-RunFile : DOS.Slave
+RunFile : DOS.slave

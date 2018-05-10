@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:N/NoBrainNoPain/NoBrainNoPain.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:N/NoBrainNoPainFlashProd/NoBrainNoPainFlashProd.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:N/NoBrainNoPain/"
+cd "A-Demos:N/NoBrainNoPainFlashProd/"
 IF EXISTS ENV:whdloadargs
-  whdload "NoBrainNoPain.Slave" $whdloadargs
+  whdload "NoBrainNoPainFlashProd.Slave" $whdloadargs
 ELSE
-  whdload "NoBrainNoPain.Slave"
+  whdload "NoBrainNoPainFlashProd.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

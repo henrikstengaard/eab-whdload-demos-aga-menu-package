@@ -1,0 +1,4 @@
+Name    : Music Selector
+Groups  : Deadlock
+Party   : 1990
+RunFile : MusicSelector.Slave

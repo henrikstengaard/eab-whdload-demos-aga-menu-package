@@ -2,4 +2,4 @@ Name    : Music Disk
 Groups  : Ipec Elite
 Type    : Musicdisk
 Party   : Equinoxe and Horizon Party
-RunFile : MusicDisk1IpecElite.Slave
+RunFile : MusicDiskIpecElite.Slave

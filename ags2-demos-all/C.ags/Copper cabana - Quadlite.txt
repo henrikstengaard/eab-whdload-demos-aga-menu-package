@@ -1,0 +1,6 @@
+Name    : Copper cabana
+Groups  : Quadlite
+Type    : Demo
+Party   : CeBIT Demo Competition 1988
+Rank    : N/a
+RunFile : CopperCabana.Slave

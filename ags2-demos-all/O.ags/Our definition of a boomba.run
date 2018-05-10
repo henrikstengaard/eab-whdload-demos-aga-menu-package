@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:B/Boombastic/Boombastic.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:O/OurDefOfBoombastic/OurDefOfBoombastic.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:B/Boombastic/"
+cd "A-Demos:O/OurDefOfBoombastic/"
 IF EXISTS ENV:whdloadargs
-  whdload "Boombastic.slave" $whdloadargs
+  whdload "OurDefOfBoombastic.slave" $whdloadargs
 ELSE
-  whdload "Boombastic.slave"
+  whdload "OurDefOfBoombastic.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

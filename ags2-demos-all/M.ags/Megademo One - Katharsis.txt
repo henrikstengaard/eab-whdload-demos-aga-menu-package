@@ -1,4 +1,4 @@
 Name    : Megademo One
 Groups  : Katharsis
 Type    : Megademo
-RunFile : MegaDemoKatharsis.Slave
+RunFile : MegademoKatharsis.Slave

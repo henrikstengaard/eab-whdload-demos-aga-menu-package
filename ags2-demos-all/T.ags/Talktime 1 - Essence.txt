@@ -1,0 +1,5 @@
+Name    : Talktime 1
+Groups  : Essence
+Type    : Chip Music Pack
+Party   : Sun N Fun Conference II (1993)
+RunFile : Talktime1.Slave

@@ -1,0 +1,4 @@
+Name    : Delirium
+Groups  : Kronical
+Type    : Musicdisk
+RunFile : DeliriumKronical.Slave

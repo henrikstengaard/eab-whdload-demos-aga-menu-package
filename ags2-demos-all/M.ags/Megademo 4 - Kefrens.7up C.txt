@@ -1,0 +1,6 @@
+Name    : Megademo 4
+Groups  : Kefrens,7up Crew
+Type    : Demo
+Party   : Hexagon Copy Party 1988
+Rank    : N/a
+RunFile : Megademo4Kefrens&7UpCrew.Slave

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:M/MegaDemo2Budbrain/MegaDemo2Budbrain.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:M/Megademo2Budbrain/Megademo2Budbrain.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MegaDemo2Budbrain/"
+cd "A-Demos:M/Megademo2Budbrain/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegaDemo2Budbrain.slave" $whdloadargs
+  whdload "Megademo2Budbrain.slave" $whdloadargs
 ELSE
-  whdload "MegaDemo2Budbrain.slave"
+  whdload "Megademo2Budbrain.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

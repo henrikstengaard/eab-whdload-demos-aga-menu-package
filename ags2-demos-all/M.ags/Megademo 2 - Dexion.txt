@@ -1,0 +1,6 @@
+Name    : Megademo 2
+Groups  : Dexion
+Type    : Demo
+Party   : Dominators/Upfront/Trilogy Christmas Party 1989
+Rank    : 1st
+RunFile : Megademo2Dexion.Slave

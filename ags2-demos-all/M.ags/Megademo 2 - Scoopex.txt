@@ -1,4 +1,4 @@
 Name    : Megademo 2
 Groups  : Scoopex
 Type    : Demo
-RunFile : MegaDemo2Scoopex.Slave
+RunFile : Megademo2Scoopex.Slave

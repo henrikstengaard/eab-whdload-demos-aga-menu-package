@@ -1,0 +1,4 @@
+Name    : Techno music disk vol. 1
+Groups  : Virna
+Type    : Musicdisk
+RunFile : MusicDiscVol1DiskNet.Slave

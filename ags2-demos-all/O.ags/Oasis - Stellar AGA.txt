@@ -1,0 +1,5 @@
+Name    : Oasis
+Version : AGA
+Groups  : Stellar
+Type    : Intro
+RunFile : OasisAGA.Slave

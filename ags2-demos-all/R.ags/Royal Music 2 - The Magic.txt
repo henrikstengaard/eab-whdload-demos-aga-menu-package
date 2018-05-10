@@ -1,0 +1,4 @@
+Name    : Royal Music 2
+Groups  : The Magic Guild
+Type    : Musicdisk
+RunFile : RoyalMusic2.Slave

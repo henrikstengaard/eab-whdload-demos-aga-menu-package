@@ -1,0 +1,4 @@
+Name    : Drums & Pipes
+Groups  : Surprise!Productions,Tristar & Red Sector Inc.
+Type    : Musicdisk
+RunFile : Drums&Pipes.Slave

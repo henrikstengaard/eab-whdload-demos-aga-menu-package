@@ -3,4 +3,4 @@ Groups  : The Silents
 Type    : Demo
 Party   : Hurricane &amp
 Rank    : 3rd
-RunFile : XPose.Slave
+RunFile : XPose.slave

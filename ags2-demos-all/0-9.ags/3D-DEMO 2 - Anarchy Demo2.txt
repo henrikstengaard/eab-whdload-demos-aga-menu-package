@@ -1,0 +1,7 @@
+Name    : 3D-DEMO 2
+Version : Demo2
+Groups  : Anarchy
+Type    : Demo
+Party   : The Party 1992
+Rank    : 2nd
+RunFile : 3DDemo2.Slave

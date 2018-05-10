@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:B/BombTheBaseTuneshow2/BombTheBaseTuneshow2.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:B/BombTheBassTuneshow2/BombTheBassTuneshow2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:B/BombTheBaseTuneshow2/"
+cd "A-Demos:B/BombTheBassTuneshow2/"
 IF EXISTS ENV:whdloadargs
-  whdload "BombTheBaseTuneshow2.Slave" $whdloadargs
+  whdload "BombTheBassTuneshow2.Slave" $whdloadargs
 ELSE
-  whdload "BombTheBaseTuneshow2.Slave"
+  whdload "BombTheBassTuneshow2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

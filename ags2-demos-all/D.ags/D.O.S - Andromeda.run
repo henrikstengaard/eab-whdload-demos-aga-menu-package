@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:D/DOS/DOS.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:D/DOS/DOS.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:D/DOS/"
 IF EXISTS ENV:whdloadargs
-  whdload "DOS.Slave" $whdloadargs
+  whdload "DOS.slave" $whdloadargs
 ELSE
-  whdload "DOS.Slave"
+  whdload "DOS.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

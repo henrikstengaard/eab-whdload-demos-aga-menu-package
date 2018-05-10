@@ -1,4 +1,4 @@
 Name    : Megademo 2
 Groups  : Darkness
 Type    : Demo
-RunFile : Megademo2Darkness.Slave
+RunFile : Megademo2Darkness.slave

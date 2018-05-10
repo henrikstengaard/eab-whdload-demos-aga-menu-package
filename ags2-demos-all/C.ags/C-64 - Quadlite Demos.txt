@@ -1,0 +1,5 @@
+Name    : C-64
+Version : Demos
+Groups  : Quadlite
+Type    : Demo
+RunFile : C64Demos.Slave

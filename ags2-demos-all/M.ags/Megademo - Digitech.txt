@@ -1,4 +1,4 @@
 Name    : Megademo
 Groups  : Digitech
 Type    : Megademo
-RunFile : MegaDemoDigitech&IBB.Slave
+RunFile : MegademoDigitech&IBB.Slave

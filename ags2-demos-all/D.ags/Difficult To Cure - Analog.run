@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Demos:D/DifficultToCure/DifficultToCure.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:D/DifficultToCureAGA/DifficultToCureAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:D/DifficultToCure/"
+cd "A-Demos:D/DifficultToCureAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "DifficultToCure.Slave" $whdloadargs
+  whdload "DifficultToCureAGA.Slave" $whdloadargs
 ELSE
-  whdload "DifficultToCure.Slave"
+  whdload "DifficultToCureAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

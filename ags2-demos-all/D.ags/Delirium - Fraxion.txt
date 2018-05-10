@@ -1,4 +1,4 @@
 Name    : Delirium
 Groups  : Fraxion
 Type    : Demo
-RunFile : Delirium.Slave
+RunFile : DeliriumFraxion.Slave

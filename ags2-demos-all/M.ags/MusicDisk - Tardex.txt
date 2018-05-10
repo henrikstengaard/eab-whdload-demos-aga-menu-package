@@ -1,0 +1,4 @@
+Name    : MusicDisk
+Groups  : Tardex
+Type    : Musicdisk
+RunFile : MusicDiskTardex.Slave

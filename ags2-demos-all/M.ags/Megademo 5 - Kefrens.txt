@@ -1,0 +1,6 @@
+Name    : Megademo 5
+Groups  : Kefrens
+Type    : Demo
+Party   : Bamiga Sector 1 and Warfalcons Party 1989
+Rank    : 3rd
+RunFile : Megademo5Kefrens.Slave

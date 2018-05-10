@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SaneSounds/SaneSounds.slave
+
+; Run WHDLoad
+cd "A-Demos:S/SaneSounds/"
+IF EXISTS ENV:whdloadargs
+  whdload "SaneSounds.slave" $whdloadargs
+ELSE
+  whdload "SaneSounds.slave"
+ENDIF

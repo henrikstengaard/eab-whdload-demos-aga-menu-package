@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:G/GrapevineMegamix/"
-IF EXISTS ENV:whdloadargs
-  whdload "GrapevineMegamix.slave" $whdloadargs
-ELSE
-  whdload "GrapevineMegamix.slave"
-ENDIF

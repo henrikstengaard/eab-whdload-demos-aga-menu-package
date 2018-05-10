@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/TechnoTrance/TechnoTrance.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/TechnoTrance/"
+IF EXISTS ENV:whdloadargs
+  whdload "TechnoTrance.Slave" $whdloadargs
+ELSE
+  whdload "TechnoTrance.Slave"
+ENDIF

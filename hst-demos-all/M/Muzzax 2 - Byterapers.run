@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Muzzax2/Muzzax2.slave
+
+; Run WHDLoad
+cd "A-Demos:M/Muzzax2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Muzzax2.slave" $whdloadargs
+ELSE
+  whdload "Muzzax2.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/Party2Slideshow/Party2Slideshow.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/Party2Slideshow/"
+IF EXISTS ENV:whdloadargs
+  whdload "Party2Slideshow.Slave" $whdloadargs
+ELSE
+  whdload "Party2Slideshow.Slave"
+ENDIF

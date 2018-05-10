@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MentalHangover/MentalHangover.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MentalHangover/"
+IF EXISTS ENV:whdloadargs
+  whdload "MentalHangover.Slave" $whdloadargs
+ELSE
+  whdload "MentalHangover.Slave"
+ENDIF

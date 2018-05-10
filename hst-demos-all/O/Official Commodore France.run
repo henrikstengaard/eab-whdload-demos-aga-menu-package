@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/A1200DemoAGA/A1200DemoAGA.slave
+
+; Run WHDLoad
+cd "A-Demos:A/A1200DemoAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "A1200DemoAGA.slave" $whdloadargs
+ELSE
+  whdload "A1200DemoAGA.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:0-9/24HourEFix/24HourEFix.Slave
+
+; Run WHDLoad
+cd "A-Demos:0-9/24HourEFix/"
+IF EXISTS ENV:whdloadargs
+  whdload "24HourEFix.Slave" $whdloadargs
+ELSE
+  whdload "24HourEFix.Slave"
+ENDIF

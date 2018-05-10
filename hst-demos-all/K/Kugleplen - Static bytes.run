@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:K/Kuglepoelen/Kuglepoelen.Slave
+
+; Run WHDLoad
+cd "A-Demos:K/Kuglepoelen/"
+IF EXISTS ENV:whdloadargs
+  whdload "Kuglepoelen.Slave" $whdloadargs
+ELSE
+  whdload "Kuglepoelen.Slave"
+ENDIF

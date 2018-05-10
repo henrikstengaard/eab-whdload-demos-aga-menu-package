@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:M/MusicDisk2Elite/"
-IF EXISTS ENV:whdloadargs
-  whdload "MusicDisk2Elite.Slave" $whdloadargs
-ELSE
-  whdload "MusicDisk2Elite.Slave"
-ENDIF

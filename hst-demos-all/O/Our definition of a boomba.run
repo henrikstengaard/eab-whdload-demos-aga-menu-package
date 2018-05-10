@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:O/OurDefOfBoombastic/OurDefOfBoombastic.slave
+
+; Run WHDLoad
+cd "A-Demos:O/OurDefOfBoombastic/"
+IF EXISTS ENV:whdloadargs
+  whdload "OurDefOfBoombastic.slave" $whdloadargs
+ELSE
+  whdload "OurDefOfBoombastic.slave"
+ENDIF

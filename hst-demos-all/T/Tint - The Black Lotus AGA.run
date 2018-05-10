@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/TintAGA/TintAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/TintAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "TintAGA.Slave" $whdloadargs
+ELSE
+  whdload "TintAGA.Slave"
+ENDIF

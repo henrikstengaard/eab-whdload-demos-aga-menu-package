@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/Complete/Complete.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/Complete/"
+IF EXISTS ENV:whdloadargs
+  whdload "Complete.Slave" $whdloadargs
+ELSE
+  whdload "Complete.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundAtaxVol2/SoundAtaxVol2.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundAtaxVol2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundAtaxVol2.Slave" $whdloadargs
+ELSE
+  whdload "SoundAtaxVol2.Slave"
+ENDIF

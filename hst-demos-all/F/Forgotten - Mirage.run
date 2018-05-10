@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:F/Forgotten/Forgotten.Slave
+
+; Run WHDLoad
+cd "A-Demos:F/Forgotten/"
+IF EXISTS ENV:whdloadargs
+  whdload "Forgotten.Slave" $whdloadargs
+ELSE
+  whdload "Forgotten.Slave"
+ENDIF

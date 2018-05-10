@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/Impulse2/Impulse2.slave
+
+; Run WHDLoad
+cd "A-Demos:I/Impulse2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Impulse2.slave" $whdloadargs
+ELSE
+  whdload "Impulse2.slave"
+ENDIF

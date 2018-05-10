@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DanishKnowHow/DanishKnowHow.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DanishKnowHow/"
+IF EXISTS ENV:whdloadargs
+  whdload "DanishKnowHow.Slave" $whdloadargs
+ELSE
+  whdload "DanishKnowHow.Slave"
+ENDIF

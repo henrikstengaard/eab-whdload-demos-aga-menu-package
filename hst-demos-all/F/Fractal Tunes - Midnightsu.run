@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:F/FractalTunes/FractalTunes.Slave
+
+; Run WHDLoad
+cd "A-Demos:F/FractalTunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "FractalTunes.Slave" $whdloadargs
+ELSE
+  whdload "FractalTunes.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SubtleShades/SubtleShades.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SubtleShades/"
+IF EXISTS ENV:whdloadargs
+  whdload "SubtleShades.Slave" $whdloadargs
+ELSE
+  whdload "SubtleShades.Slave"
+ENDIF

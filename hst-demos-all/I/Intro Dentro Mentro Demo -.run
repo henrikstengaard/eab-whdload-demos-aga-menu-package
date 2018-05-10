@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/IntroDentroMentroDemo/IntroDentroMentroDemo.Slave
+
+; Run WHDLoad
+cd "A-Demos:I/IntroDentroMentroDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "IntroDentroMentroDemo.Slave" $whdloadargs
+ELSE
+  whdload "IntroDentroMentroDemo.Slave"
+ENDIF

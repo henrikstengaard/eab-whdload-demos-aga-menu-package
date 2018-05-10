@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/Rubbish/Rubbish.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/Rubbish/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rubbish.Slave" $whdloadargs
+ELSE
+  whdload "Rubbish.Slave"
+ENDIF

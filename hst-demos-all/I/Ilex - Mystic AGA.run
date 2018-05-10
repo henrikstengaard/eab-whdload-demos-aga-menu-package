@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/IlexAGA/IlexAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:I/IlexAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "IlexAGA.Slave" $whdloadargs
+ELSE
+  whdload "IlexAGA.Slave"
+ENDIF

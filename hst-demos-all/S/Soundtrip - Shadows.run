@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/Soundtrip/Soundtrip.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/Soundtrip/"
+IF EXISTS ENV:whdloadargs
+  whdload "Soundtrip.Slave" $whdloadargs
+ELSE
+  whdload "Soundtrip.Slave"
+ENDIF

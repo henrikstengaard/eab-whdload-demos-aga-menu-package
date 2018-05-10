@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:L/Lovesongs/"
-IF EXISTS ENV:whdloadargs
-  whdload "Lovesongs.Slave" $whdloadargs
-ELSE
-  whdload "Lovesongs.Slave"
-ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/ShedTears/ShedTears.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/ShedTears/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShedTears.Slave" $whdloadargs
+ELSE
+  whdload "ShedTears.Slave"
+ENDIF

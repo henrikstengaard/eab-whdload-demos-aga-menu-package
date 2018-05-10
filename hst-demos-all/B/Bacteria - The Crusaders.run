@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/Bacteria/Bacteria.slave
+
+; Run WHDLoad
+cd "A-Demos:B/Bacteria/"
+IF EXISTS ENV:whdloadargs
+  whdload "Bacteria.slave" $whdloadargs
+ELSE
+  whdload "Bacteria.slave"
+ENDIF

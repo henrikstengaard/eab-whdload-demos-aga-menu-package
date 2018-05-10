@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Megademo2Bronx/Megademo2Bronx.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Megademo2Bronx/"
+IF EXISTS ENV:whdloadargs
+  whdload "Megademo2Bronx.Slave" $whdloadargs
+ELSE
+  whdload "Megademo2Bronx.Slave"
+ENDIF

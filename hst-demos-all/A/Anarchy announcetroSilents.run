@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AnarchyAnnouncetro/AnarchyAnnouncetro.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AnarchyAnnouncetro/"
+IF EXISTS ENV:whdloadargs
+  whdload "AnarchyAnnouncetro.Slave" $whdloadargs
+ELSE
+  whdload "AnarchyAnnouncetro.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/Revolutions/Revolutions.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/Revolutions/"
+IF EXISTS ENV:whdloadargs
+  whdload "Revolutions.Slave" $whdloadargs
+ELSE
+  whdload "Revolutions.Slave"
+ENDIF

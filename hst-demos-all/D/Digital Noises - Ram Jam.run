@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DigitalNoises/DigitalNoises.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DigitalNoises/"
+IF EXISTS ENV:whdloadargs
+  whdload "DigitalNoises.Slave" $whdloadargs
+ELSE
+  whdload "DigitalNoises.Slave"
+ENDIF

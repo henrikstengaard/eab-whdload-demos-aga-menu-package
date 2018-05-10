@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Mesmerized/Mesmerized.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Mesmerized/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mesmerized.Slave" $whdloadargs
+ELSE
+  whdload "Mesmerized.Slave"
+ENDIF

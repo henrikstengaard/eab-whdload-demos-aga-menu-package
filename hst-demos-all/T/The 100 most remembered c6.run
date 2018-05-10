@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:0-9/100MostRememberedC64Tunes/100MostRememberedC64Tunes.slave
+
+; Run WHDLoad
+cd "A-Demos:0-9/100MostRememberedC64Tunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "100MostRememberedC64Tunes.slave" $whdloadargs
+ELSE
+  whdload "100MostRememberedC64Tunes.slave"
+ENDIF

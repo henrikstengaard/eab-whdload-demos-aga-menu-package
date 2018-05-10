@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Metamorphosis/Metamorphosis.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Metamorphosis/"
+IF EXISTS ENV:whdloadargs
+  whdload "Metamorphosis.Slave" $whdloadargs
+ELSE
+  whdload "Metamorphosis.Slave"
+ENDIF

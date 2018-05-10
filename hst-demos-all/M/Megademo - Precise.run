@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MegademoPrecise/MegademoPrecise.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MegademoPrecise/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegademoPrecise.Slave" $whdloadargs
+ELSE
+  whdload "MegademoPrecise.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/Darktro/Darktro.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/Darktro/"
+IF EXISTS ENV:whdloadargs
+  whdload "Darktro.Slave" $whdloadargs
+ELSE
+  whdload "Darktro.Slave"
+ENDIF

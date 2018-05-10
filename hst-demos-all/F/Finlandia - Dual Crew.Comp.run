@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:F/Finlandia/Finlandia.Slave
+
+; Run WHDLoad
+cd "A-Demos:F/Finlandia/"
+IF EXISTS ENV:whdloadargs
+  whdload "Finlandia.Slave" $whdloadargs
+ELSE
+  whdload "Finlandia.Slave"
+ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:C/ChipMusic/"
-IF EXISTS ENV:whdloadargs
-  whdload "ChipMusic.Slave" $whdloadargs
-ELSE
-  whdload "ChipMusic.Slave"
-ENDIF

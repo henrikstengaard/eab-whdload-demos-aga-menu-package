@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DayOfReckoning/DayOfReckoning.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DayOfReckoning/"
+IF EXISTS ENV:whdloadargs
+  whdload "DayOfReckoning.Slave" $whdloadargs
+ELSE
+  whdload "DayOfReckoning.Slave"
+ENDIF

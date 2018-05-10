@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AuthentikAGA/AuthentikAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AuthentikAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "AuthentikAGA.Slave" $whdloadargs
+ELSE
+  whdload "AuthentikAGA.Slave"
+ENDIF

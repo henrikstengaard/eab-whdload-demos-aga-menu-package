@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundQuest2/SoundQuest2.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundQuest2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundQuest2.Slave" $whdloadargs
+ELSE
+  whdload "SoundQuest2.Slave"
+ENDIF

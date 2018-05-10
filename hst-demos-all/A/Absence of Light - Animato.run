@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AbsenceOfLight/AbsenceOfLight.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AbsenceOfLight/"
+IF EXISTS ENV:whdloadargs
+  whdload "AbsenceOfLight.Slave" $whdloadargs
+ELSE
+  whdload "AbsenceOfLight.Slave"
+ENDIF

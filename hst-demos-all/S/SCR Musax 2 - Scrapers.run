@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SCRMusax2/SCRMusax2.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SCRMusax2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SCRMusax2.Slave" $whdloadargs
+ELSE
+  whdload "SCRMusax2.Slave"
+ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:E/ElectricSound3/"
-IF EXISTS ENV:whdloadargs
-  whdload "ElectricSound3.Slave" $whdloadargs
-ELSE
-  whdload "ElectricSound3.Slave"
-ENDIF

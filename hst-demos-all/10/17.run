@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:I/IsoAGA/"
-IF EXISTS ENV:whdloadargs
-  whdload "IsoAGA.slave" $whdloadargs
-ELSE
-  whdload "IsoAGA.slave"
-ENDIF

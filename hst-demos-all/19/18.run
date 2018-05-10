@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:R/RockBox2/"
-IF EXISTS ENV:whdloadargs
-  whdload "RockBox2.Slave" $whdloadargs
-ELSE
-  whdload "RockBox2.Slave"
-ENDIF

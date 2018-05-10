@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:E/EmptyheadAGA/EmptyheadAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:E/EmptyheadAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "EmptyheadAGA.Slave" $whdloadargs
+ELSE
+  whdload "EmptyheadAGA.Slave"
+ENDIF

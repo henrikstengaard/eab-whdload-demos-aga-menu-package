@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/Dyspepsia/Dyspepsia.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/Dyspepsia/"
+IF EXISTS ENV:whdloadargs
+  whdload "Dyspepsia.Slave" $whdloadargs
+ELSE
+  whdload "Dyspepsia.Slave"
+ENDIF

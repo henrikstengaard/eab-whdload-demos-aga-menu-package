@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:L/LoonyTunes/LoonyTunes.Slave
+
+; Run WHDLoad
+cd "A-Demos:L/LoonyTunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "LoonyTunes.Slave" $whdloadargs
+ELSE
+  whdload "LoonyTunes.Slave"
+ENDIF

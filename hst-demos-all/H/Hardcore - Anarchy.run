@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:H/Hardcore/Hardcore.slave
+
+; Run WHDLoad
+cd "A-Demos:H/Hardcore/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hardcore.slave" $whdloadargs
+ELSE
+  whdload "Hardcore.slave"
+ENDIF

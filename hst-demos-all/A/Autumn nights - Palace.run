@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AutumnNights/AutumnNights.slave
+
+; Run WHDLoad
+cd "A-Demos:A/AutumnNights/"
+IF EXISTS ENV:whdloadargs
+  whdload "AutumnNights.slave" $whdloadargs
+ELSE
+  whdload "AutumnNights.slave"
+ENDIF

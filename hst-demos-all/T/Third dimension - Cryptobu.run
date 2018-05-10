@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/ThirdDimension/ThirdDimension.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/ThirdDimension/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThirdDimension.Slave" $whdloadargs
+ELSE
+  whdload "ThirdDimension.Slave"
+ENDIF

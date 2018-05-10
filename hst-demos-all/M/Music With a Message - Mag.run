@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MusicWithAMessage/MusicWithAMessage.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MusicWithAMessage/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicWithAMessage.Slave" $whdloadargs
+ELSE
+  whdload "MusicWithAMessage.Slave"
+ENDIF

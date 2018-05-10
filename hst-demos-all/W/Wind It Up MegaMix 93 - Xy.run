@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:W/WindItUp/WindItUp.Slave
+
+; Run WHDLoad
+cd "A-Demos:W/WindItUp/"
+IF EXISTS ENV:whdloadargs
+  whdload "WindItUp.Slave" $whdloadargs
+ELSE
+  whdload "WindItUp.Slave"
+ENDIF

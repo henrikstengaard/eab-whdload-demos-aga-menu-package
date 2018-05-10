@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BangingRaves/BangingRaves.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BangingRaves/"
+IF EXISTS ENV:whdloadargs
+  whdload "BangingRaves.Slave" $whdloadargs
+ELSE
+  whdload "BangingRaves.Slave"
+ENDIF

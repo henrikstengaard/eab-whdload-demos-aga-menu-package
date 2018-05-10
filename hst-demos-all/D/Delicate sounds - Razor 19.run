@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DelicateSounds/DelicateSounds.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DelicateSounds/"
+IF EXISTS ENV:whdloadargs
+  whdload "DelicateSounds.Slave" $whdloadargs
+ELSE
+  whdload "DelicateSounds.Slave"
+ENDIF

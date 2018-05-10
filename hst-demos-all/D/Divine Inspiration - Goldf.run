@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DivineInspiration/DivineInspiration.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DivineInspiration/"
+IF EXISTS ENV:whdloadargs
+  whdload "DivineInspiration.Slave" $whdloadargs
+ELSE
+  whdload "DivineInspiration.Slave"
+ENDIF

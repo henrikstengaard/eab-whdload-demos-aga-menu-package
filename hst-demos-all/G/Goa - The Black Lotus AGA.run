@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:G/GoaAGA/GoaAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:G/GoaAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoaAGA.Slave" $whdloadargs
+ELSE
+  whdload "GoaAGA.Slave"
+ENDIF

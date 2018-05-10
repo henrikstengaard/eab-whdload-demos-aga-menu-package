@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:J/JiggleIt/JiggleIt.Slave
+
+; Run WHDLoad
+cd "A-Demos:J/JiggleIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "JiggleIt.Slave" $whdloadargs
+ELSE
+  whdload "JiggleIt.Slave"
+ENDIF

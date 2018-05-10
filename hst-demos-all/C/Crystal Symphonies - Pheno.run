@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/CrystalSymphonies/CrystalSymphonies.slave
+
+; Run WHDLoad
+cd "A-Demos:C/CrystalSymphonies/"
+IF EXISTS ENV:whdloadargs
+  whdload "CrystalSymphonies.slave" $whdloadargs
+ELSE
+  whdload "CrystalSymphonies.slave"
+ENDIF

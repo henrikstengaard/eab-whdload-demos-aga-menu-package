@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Madness2/Madness2.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Madness2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Madness2.Slave" $whdloadargs
+ELSE
+  whdload "Madness2.Slave"
+ENDIF

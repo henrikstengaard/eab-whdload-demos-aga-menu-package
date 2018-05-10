@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/InspirationIsNone/InspirationIsNone.Slave
+
+; Run WHDLoad
+cd "A-Demos:I/InspirationIsNone/"
+IF EXISTS ENV:whdloadargs
+  whdload "InspirationIsNone.Slave" $whdloadargs
+ELSE
+  whdload "InspirationIsNone.Slave"
+ENDIF

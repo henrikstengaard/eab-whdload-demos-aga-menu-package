@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/Screwballs/Screwballs.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/Screwballs/"
+IF EXISTS ENV:whdloadargs
+  whdload "Screwballs.Slave" $whdloadargs
+ELSE
+  whdload "Screwballs.Slave"
+ENDIF

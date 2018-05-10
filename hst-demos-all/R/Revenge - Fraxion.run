@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/Revenge/Revenge.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/Revenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "Revenge.Slave" $whdloadargs
+ELSE
+  whdload "Revenge.Slave"
+ENDIF

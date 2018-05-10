@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:G/GroovyJives3/GroovyJives3.slave
+
+; Run WHDLoad
+cd "A-Demos:G/GroovyJives3/"
+IF EXISTS ENV:whdloadargs
+  whdload "GroovyJives3.slave" $whdloadargs
+ELSE
+  whdload "GroovyJives3.slave"
+ENDIF

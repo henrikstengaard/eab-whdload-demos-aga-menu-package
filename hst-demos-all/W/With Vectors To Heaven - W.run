@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:W/WithVectorsToHeaven/WithVectorsToHeaven.Slave
+
+; Run WHDLoad
+cd "A-Demos:W/WithVectorsToHeaven/"
+IF EXISTS ENV:whdloadargs
+  whdload "WithVectorsToHeaven.Slave" $whdloadargs
+ELSE
+  whdload "WithVectorsToHeaven.Slave"
+ENDIF

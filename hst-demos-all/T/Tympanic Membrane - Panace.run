@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/TympanicMembrane/TympanicMembrane.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/TympanicMembrane/"
+IF EXISTS ENV:whdloadargs
+  whdload "TympanicMembrane.Slave" $whdloadargs
+ELSE
+  whdload "TympanicMembrane.Slave"
+ENDIF

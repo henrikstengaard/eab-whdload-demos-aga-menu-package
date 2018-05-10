@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PuggsInSpace/PuggsInSpace.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/PuggsInSpace/"
+IF EXISTS ENV:whdloadargs
+  whdload "PuggsInSpace.Slave" $whdloadargs
+ELSE
+  whdload "PuggsInSpace.Slave"
+ENDIF

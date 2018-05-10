@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/Numeric/Numeric.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/Numeric/"
+IF EXISTS ENV:whdloadargs
+  whdload "Numeric.Slave" $whdloadargs
+ELSE
+  whdload "Numeric.Slave"
+ENDIF

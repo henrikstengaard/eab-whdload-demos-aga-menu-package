@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:O/OldTunes/OldTunes.Slave
+
+; Run WHDLoad
+cd "A-Demos:O/OldTunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "OldTunes.Slave" $whdloadargs
+ELSE
+  whdload "OldTunes.Slave"
+ENDIF

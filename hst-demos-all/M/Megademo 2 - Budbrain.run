@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Megademo2Budbrain/Megademo2Budbrain.slave
+
+; Run WHDLoad
+cd "A-Demos:M/Megademo2Budbrain/"
+IF EXISTS ENV:whdloadargs
+  whdload "Megademo2Budbrain.slave" $whdloadargs
+ELSE
+  whdload "Megademo2Budbrain.slave"
+ENDIF

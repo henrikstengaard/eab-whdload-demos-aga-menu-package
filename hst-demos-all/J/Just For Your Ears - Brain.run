@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:J/Just4YourEars/Just4YourEars.Slave
+
+; Run WHDLoad
+cd "A-Demos:J/Just4YourEars/"
+IF EXISTS ENV:whdloadargs
+  whdload "Just4YourEars.Slave" $whdloadargs
+ELSE
+  whdload "Just4YourEars.Slave"
+ENDIF

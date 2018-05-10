@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/TerminalFuckup/TerminalFuckup.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/TerminalFuckup/"
+IF EXISTS ENV:whdloadargs
+  whdload "TerminalFuckup.Slave" $whdloadargs
+ELSE
+  whdload "TerminalFuckup.Slave"
+ENDIF

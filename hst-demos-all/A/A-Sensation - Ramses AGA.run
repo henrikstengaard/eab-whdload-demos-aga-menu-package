@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SensationAGA/SensationAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SensationAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SensationAGA.Slave" $whdloadargs
+ELSE
+  whdload "SensationAGA.Slave"
+ENDIF

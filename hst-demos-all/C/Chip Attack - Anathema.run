@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/ChipAttack/ChipAttack.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/ChipAttack/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChipAttack.Slave" $whdloadargs
+ELSE
+  whdload "ChipAttack.Slave"
+ENDIF

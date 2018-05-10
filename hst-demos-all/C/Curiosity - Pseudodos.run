@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/Curiosity/Curiosity.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/Curiosity/"
+IF EXISTS ENV:whdloadargs
+  whdload "Curiosity.Slave" $whdloadargs
+ELSE
+  whdload "Curiosity.Slave"
+ENDIF

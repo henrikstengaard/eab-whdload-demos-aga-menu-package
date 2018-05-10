@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BeachVolleyDemo/BeachVolleyDemo.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BeachVolleyDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "BeachVolleyDemo.Slave" $whdloadargs
+ELSE
+  whdload "BeachVolleyDemo.Slave"
+ENDIF

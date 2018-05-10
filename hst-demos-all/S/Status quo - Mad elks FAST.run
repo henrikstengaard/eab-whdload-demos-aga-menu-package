@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/StatusQuoFast/StatusQuoFast.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/StatusQuoFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "StatusQuoFast.Slave" $whdloadargs
+ELSE
+  whdload "StatusQuoFast.Slave"
+ENDIF

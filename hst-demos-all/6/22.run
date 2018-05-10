@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:E/Expressions/"
-IF EXISTS ENV:whdloadargs
-  whdload "Expressions.Slave" $whdloadargs
-ELSE
-  whdload "Expressions.Slave"
-ENDIF

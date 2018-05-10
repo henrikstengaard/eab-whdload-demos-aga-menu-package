@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:J/Joyride/Joyride.Slave
+
+; Run WHDLoad
+cd "A-Demos:J/Joyride/"
+IF EXISTS ENV:whdloadargs
+  whdload "Joyride.Slave" $whdloadargs
+ELSE
+  whdload "Joyride.Slave"
+ENDIF

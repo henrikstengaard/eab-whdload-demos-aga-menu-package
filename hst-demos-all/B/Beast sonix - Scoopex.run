@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BeastSonix/BeastSonix.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BeastSonix/"
+IF EXISTS ENV:whdloadargs
+  whdload "BeastSonix.Slave" $whdloadargs
+ELSE
+  whdload "BeastSonix.Slave"
+ENDIF

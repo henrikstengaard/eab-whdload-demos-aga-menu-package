@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MegademoPseudoPlast/MegademoPseudoPlast.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MegademoPseudoPlast/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegademoPseudoPlast.Slave" $whdloadargs
+ELSE
+  whdload "MegademoPseudoPlast.Slave"
+ENDIF

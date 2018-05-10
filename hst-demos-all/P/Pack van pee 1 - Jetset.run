@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PackVanPee1/PackVanPee1.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/PackVanPee1/"
+IF EXISTS ENV:whdloadargs
+  whdload "PackVanPee1.Slave" $whdloadargs
+ELSE
+  whdload "PackVanPee1.Slave"
+ENDIF

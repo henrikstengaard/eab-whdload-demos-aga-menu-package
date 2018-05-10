@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/Rampage/Rampage.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/Rampage/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rampage.Slave" $whdloadargs
+ELSE
+  whdload "Rampage.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/NegativeFX/NegativeFX.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/NegativeFX/"
+IF EXISTS ENV:whdloadargs
+  whdload "NegativeFX.Slave" $whdloadargs
+ELSE
+  whdload "NegativeFX.Slave"
+ENDIF

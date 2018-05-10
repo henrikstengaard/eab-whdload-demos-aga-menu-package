@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MagnumIcetro/MagnumIcetro.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MagnumIcetro/"
+IF EXISTS ENV:whdloadargs
+  whdload "MagnumIcetro.Slave" $whdloadargs
+ELSE
+  whdload "MagnumIcetro.Slave"
+ENDIF

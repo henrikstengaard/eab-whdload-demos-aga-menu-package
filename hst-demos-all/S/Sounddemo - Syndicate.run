@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundDemoSyndicate/SoundDemoSyndicate.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundDemoSyndicate/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundDemoSyndicate.Slave" $whdloadargs
+ELSE
+  whdload "SoundDemoSyndicate.Slave"
+ENDIF

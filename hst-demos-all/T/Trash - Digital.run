@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/Trash/Trash.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/Trash/"
+IF EXISTS ENV:whdloadargs
+  whdload "Trash.Slave" $whdloadargs
+ELSE
+  whdload "Trash.Slave"
+ENDIF

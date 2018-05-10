@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PublicAttack/PublicAttack.slave
+
+; Run WHDLoad
+cd "A-Demos:P/PublicAttack/"
+IF EXISTS ENV:whdloadargs
+  whdload "PublicAttack.slave" $whdloadargs
+ELSE
+  whdload "PublicAttack.slave"
+ENDIF

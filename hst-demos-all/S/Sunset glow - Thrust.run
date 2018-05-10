@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SunsetGlow/SunsetGlow.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SunsetGlow/"
+IF EXISTS ENV:whdloadargs
+  whdload "SunsetGlow.Slave" $whdloadargs
+ELSE
+  whdload "SunsetGlow.Slave"
+ENDIF

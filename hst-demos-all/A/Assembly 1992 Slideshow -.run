@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/Assembly92Slideshow/Assembly92Slideshow.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/Assembly92Slideshow/"
+IF EXISTS ENV:whdloadargs
+  whdload "Assembly92Slideshow.Slave" $whdloadargs
+ELSE
+  whdload "Assembly92Slideshow.Slave"
+ENDIF

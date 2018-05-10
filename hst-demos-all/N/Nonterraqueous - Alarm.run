@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/Nonterraqueous/Nonterraqueous.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/Nonterraqueous/"
+IF EXISTS ENV:whdloadargs
+  whdload "Nonterraqueous.Slave" $whdloadargs
+ELSE
+  whdload "Nonterraqueous.Slave"
+ENDIF

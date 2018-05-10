@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:M/MegademoFreedomForce/"
-IF EXISTS ENV:whdloadargs
-  whdload "MegademoFreedomForce.slave" $whdloadargs
-ELSE
-  whdload "MegademoFreedomForce.slave"
-ENDIF

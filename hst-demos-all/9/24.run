@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Demos:H/Hymn633/"
-IF EXISTS ENV:whdloadargs
-  whdload "Hymn633.slave" $whdloadargs
-ELSE
-  whdload "Hymn633.slave"
-ENDIF

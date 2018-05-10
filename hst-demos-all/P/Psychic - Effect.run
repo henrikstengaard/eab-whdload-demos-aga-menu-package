@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/Psychic/Psychic.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/Psychic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Psychic.Slave" $whdloadargs
+ELSE
+  whdload "Psychic.Slave"
+ENDIF

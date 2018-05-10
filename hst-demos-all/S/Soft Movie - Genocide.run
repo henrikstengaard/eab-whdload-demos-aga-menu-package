@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SOFTMovie/SOFTMovie.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SOFTMovie/"
+IF EXISTS ENV:whdloadargs
+  whdload "SOFTMovie.Slave" $whdloadargs
+ELSE
+  whdload "SOFTMovie.Slave"
+ENDIF

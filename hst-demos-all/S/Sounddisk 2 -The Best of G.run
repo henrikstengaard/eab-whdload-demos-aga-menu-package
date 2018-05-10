@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BestOfGrubi/BestOfGrubi.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BestOfGrubi/"
+IF EXISTS ENV:whdloadargs
+  whdload "BestOfGrubi.Slave" $whdloadargs
+ELSE
+  whdload "BestOfGrubi.Slave"
+ENDIF

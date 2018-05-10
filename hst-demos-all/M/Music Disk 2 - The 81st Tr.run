@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MusicDisk281stTrack/MusicDisk281stTrack.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MusicDisk281stTrack/"
+IF EXISTS ENV:whdloadargs
+  whdload "MusicDisk281stTrack.Slave" $whdloadargs
+ELSE
+  whdload "MusicDisk281stTrack.Slave"
+ENDIF

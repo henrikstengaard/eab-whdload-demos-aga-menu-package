@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AtomeAGA/AtomeAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AtomeAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "AtomeAGA.Slave" $whdloadargs
+ELSE
+  whdload "AtomeAGA.Slave"
+ENDIF

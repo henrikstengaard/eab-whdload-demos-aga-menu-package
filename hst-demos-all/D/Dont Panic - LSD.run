@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DontPanic/DontPanic.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DontPanic/"
+IF EXISTS ENV:whdloadargs
+  whdload "DontPanic.Slave" $whdloadargs
+ELSE
+  whdload "DontPanic.Slave"
+ENDIF

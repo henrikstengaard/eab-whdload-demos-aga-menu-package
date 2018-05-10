@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MindRiot/MindRiot.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MindRiot/"
+IF EXISTS ENV:whdloadargs
+  whdload "MindRiot.Slave" $whdloadargs
+ELSE
+  whdload "MindRiot.Slave"
+ENDIF

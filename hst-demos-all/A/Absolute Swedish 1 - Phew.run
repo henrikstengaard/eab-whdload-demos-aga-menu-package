@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AbsoluteSwedish/AbsoluteSwedish.slave
+
+; Run WHDLoad
+cd "A-Demos:A/AbsoluteSwedish/"
+IF EXISTS ENV:whdloadargs
+  whdload "AbsoluteSwedish.slave" $whdloadargs
+ELSE
+  whdload "AbsoluteSwedish.slave"
+ENDIF

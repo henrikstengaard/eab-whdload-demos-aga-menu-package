@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DemoDiskOne/DemodiskOne.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DemoDiskOne/"
+IF EXISTS ENV:whdloadargs
+  whdload "DemodiskOne.Slave" $whdloadargs
+ELSE
+  whdload "DemodiskOne.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:G/GreatBytesInFire/GreatBytesInFire.Slave
+
+; Run WHDLoad
+cd "A-Demos:G/GreatBytesInFire/"
+IF EXISTS ENV:whdloadargs
+  whdload "GreatBytesInFire.Slave" $whdloadargs
+ELSE
+  whdload "GreatBytesInFire.Slave"
+ENDIF

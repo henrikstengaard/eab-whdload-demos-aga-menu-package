@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:0-9/9Fingers/9Fingers.Slave
+
+; Run WHDLoad
+cd "A-Demos:0-9/9Fingers/"
+IF EXISTS ENV:whdloadargs
+  whdload "9Fingers.Slave" $whdloadargs
+ELSE
+  whdload "9Fingers.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PlanetMAGA/PlanetMAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/PlanetMAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlanetMAGA.Slave" $whdloadargs
+ELSE
+  whdload "PlanetMAGA.Slave"
+ENDIF

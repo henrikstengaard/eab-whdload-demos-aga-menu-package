@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/Powertrax/Powertrax.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/Powertrax/"
+IF EXISTS ENV:whdloadargs
+  whdload "Powertrax.Slave" $whdloadargs
+ELSE
+  whdload "Powertrax.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SozzledSomersault/SozzledSomersault.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SozzledSomersault/"
+IF EXISTS ENV:whdloadargs
+  whdload "SozzledSomersault.Slave" $whdloadargs
+ELSE
+  whdload "SozzledSomersault.Slave"
+ENDIF

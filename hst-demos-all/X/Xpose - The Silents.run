@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:X/XPose/XPose.slave
+
+; Run WHDLoad
+cd "A-Demos:X/XPose/"
+IF EXISTS ENV:whdloadargs
+  whdload "XPose.slave" $whdloadargs
+ELSE
+  whdload "XPose.slave"
+ENDIF

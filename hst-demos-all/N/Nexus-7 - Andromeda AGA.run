@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/Nexus7AGA/Nexus7AGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/Nexus7AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "Nexus7AGA.Slave" $whdloadargs
+ELSE
+  whdload "Nexus7AGA.Slave"
+ENDIF

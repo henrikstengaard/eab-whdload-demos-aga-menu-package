@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/Spaceship/Spaceship.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/Spaceship/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spaceship.Slave" $whdloadargs
+ELSE
+  whdload "Spaceship.Slave"
+ENDIF

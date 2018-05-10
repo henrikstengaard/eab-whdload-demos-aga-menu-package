@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoulKitchenAGA/SoulKitchenAGA.slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoulKitchenAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoulKitchenAGA.slave" $whdloadargs
+ELSE
+  whdload "SoulKitchenAGA.slave"
+ENDIF

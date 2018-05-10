@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/Teatime/TeaTime.slave
+
+; Run WHDLoad
+cd "A-Demos:T/Teatime/"
+IF EXISTS ENV:whdloadargs
+  whdload "TeaTime.slave" $whdloadargs
+ELSE
+  whdload "TeaTime.slave"
+ENDIF

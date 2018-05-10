@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundDeLight/SoundDeLight.slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundDeLight/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundDeLight.slave" $whdloadargs
+ELSE
+  whdload "SoundDeLight.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SiliconGraphics2AGA/SiliconGraphics2AGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SiliconGraphics2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SiliconGraphics2AGA.Slave" $whdloadargs
+ELSE
+  whdload "SiliconGraphics2AGA.Slave"
+ENDIF

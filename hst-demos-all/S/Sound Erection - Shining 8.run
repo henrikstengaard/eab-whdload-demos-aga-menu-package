@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundErection/SoundErection.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundErection/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundErection.Slave" $whdloadargs
+ELSE
+  whdload "SoundErection.Slave"
+ENDIF

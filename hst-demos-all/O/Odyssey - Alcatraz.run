@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:O/Odyssey/Odyssey.Slave
+
+; Run WHDLoad
+cd "A-Demos:O/Odyssey/"
+IF EXISTS ENV:whdloadargs
+  whdload "Odyssey.Slave" $whdloadargs
+ELSE
+  whdload "Odyssey.Slave"
+ENDIF

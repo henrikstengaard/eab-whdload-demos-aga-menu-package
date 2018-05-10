@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Megademo2Vortex42/Megademo2Vortex42.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Megademo2Vortex42/"
+IF EXISTS ENV:whdloadargs
+  whdload "Megademo2Vortex42.Slave" $whdloadargs
+ELSE
+  whdload "Megademo2Vortex42.Slave"
+ENDIF

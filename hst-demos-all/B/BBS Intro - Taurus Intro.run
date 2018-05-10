@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BBSIntro/BBSIntro.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BBSIntro/"
+IF EXISTS ENV:whdloadargs
+  whdload "BBSIntro.Slave" $whdloadargs
+ELSE
+  whdload "BBSIntro.Slave"
+ENDIF

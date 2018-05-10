@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/CanIPlayWithMadness/CanIPlayWithMadness.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/CanIPlayWithMadness/"
+IF EXISTS ENV:whdloadargs
+  whdload "CanIPlayWithMadness.Slave" $whdloadargs
+ELSE
+  whdload "CanIPlayWithMadness.Slave"
+ENDIF

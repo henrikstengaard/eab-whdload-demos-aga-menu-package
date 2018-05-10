@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:F/FollowMe/FollowMe.Slave
+
+; Run WHDLoad
+cd "A-Demos:F/FollowMe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FollowMe.Slave" $whdloadargs
+ELSE
+  whdload "FollowMe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:V/VectorBalls/VectorBalls.slave
+
+; Run WHDLoad
+cd "A-Demos:V/VectorBalls/"
+IF EXISTS ENV:whdloadargs
+  whdload "VectorBalls.slave" $whdloadargs
+ELSE
+  whdload "VectorBalls.slave"
+ENDIF

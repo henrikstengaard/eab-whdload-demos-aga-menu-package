@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:E/Enigma/Enigma.slave
+
+; Run WHDLoad
+cd "A-Demos:E/Enigma/"
+IF EXISTS ENV:whdloadargs
+  whdload "Enigma.slave" $whdloadargs
+ELSE
+  whdload "Enigma.slave"
+ENDIF

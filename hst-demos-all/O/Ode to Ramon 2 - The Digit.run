@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:O/OdeToRamon2/OdeToRamon2.Slave
+
+; Run WHDLoad
+cd "A-Demos:O/OdeToRamon2/"
+IF EXISTS ENV:whdloadargs
+  whdload "OdeToRamon2.Slave" $whdloadargs
+ELSE
+  whdload "OdeToRamon2.Slave"
+ENDIF

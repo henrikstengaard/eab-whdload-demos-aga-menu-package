@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MeanBreakMachine2/MeanBreakMachine2.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MeanBreakMachine2/"
+IF EXISTS ENV:whdloadargs
+  whdload "MeanBreakMachine2.Slave" $whdloadargs
+ELSE
+  whdload "MeanBreakMachine2.Slave"
+ENDIF

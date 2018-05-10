@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/ProjectBeat/ProjectBeat.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/ProjectBeat/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProjectBeat.Slave" $whdloadargs
+ELSE
+  whdload "ProjectBeat.Slave"
+ENDIF

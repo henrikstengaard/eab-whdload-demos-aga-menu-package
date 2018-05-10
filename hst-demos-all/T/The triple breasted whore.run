@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:E/Eroticon6/Eroticon6.slave
+
+; Run WHDLoad
+cd "A-Demos:E/Eroticon6/"
+IF EXISTS ENV:whdloadargs
+  whdload "Eroticon6.slave" $whdloadargs
+ELSE
+  whdload "Eroticon6.slave"
+ENDIF

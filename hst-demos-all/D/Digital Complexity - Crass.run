@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DigitalComplexityCrass/DigitalComplexityCrass.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DigitalComplexityCrass/"
+IF EXISTS ENV:whdloadargs
+  whdload "DigitalComplexityCrass.Slave" $whdloadargs
+ELSE
+  whdload "DigitalComplexityCrass.Slave"
+ENDIF

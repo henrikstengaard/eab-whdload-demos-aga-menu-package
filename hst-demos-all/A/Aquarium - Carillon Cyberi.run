@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/Aquarium/Aquarium.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/Aquarium/"
+IF EXISTS ENV:whdloadargs
+  whdload "Aquarium.Slave" $whdloadargs
+ELSE
+  whdload "Aquarium.Slave"
+ENDIF

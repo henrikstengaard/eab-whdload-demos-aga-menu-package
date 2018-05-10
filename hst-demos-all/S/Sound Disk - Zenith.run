@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundDiskPossessed/SoundDiskPossessed.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundDiskPossessed/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundDiskPossessed.Slave" $whdloadargs
+ELSE
+  whdload "SoundDiskPossessed.Slave"
+ENDIF

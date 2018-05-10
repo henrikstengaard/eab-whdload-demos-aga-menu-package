@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/Cebit89/Cebit89.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/Cebit89/"
+IF EXISTS ENV:whdloadargs
+  whdload "Cebit89.Slave" $whdloadargs
+ELSE
+  whdload "Cebit89.Slave"
+ENDIF

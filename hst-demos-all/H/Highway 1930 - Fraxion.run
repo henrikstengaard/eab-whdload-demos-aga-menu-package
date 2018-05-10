@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:H/Highway1930/Highway1930.Slave
+
+; Run WHDLoad
+cd "A-Demos:H/Highway1930/"
+IF EXISTS ENV:whdloadargs
+  whdload "Highway1930.Slave" $whdloadargs
+ELSE
+  whdload "Highway1930.Slave"
+ENDIF

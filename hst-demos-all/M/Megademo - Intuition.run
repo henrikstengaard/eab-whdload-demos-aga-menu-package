@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MegademoIntuition/MegademoIntuition.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MegademoIntuition/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegademoIntuition.Slave" $whdloadargs
+ELSE
+  whdload "MegademoIntuition.Slave"
+ENDIF

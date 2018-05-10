@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:L/Love&Anarchy/Love&Anarchy.slave
+
+; Run WHDLoad
+cd "A-Demos:L/Love&Anarchy/"
+IF EXISTS ENV:whdloadargs
+  whdload "Love&Anarchy.slave" $whdloadargs
+ELSE
+  whdload "Love&Anarchy.slave"
+ENDIF

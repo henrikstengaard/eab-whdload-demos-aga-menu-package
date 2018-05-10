@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:Q/QuickMusique/QuickMusique.Slave
+
+; Run WHDLoad
+cd "A-Demos:Q/QuickMusique/"
+IF EXISTS ENV:whdloadargs
+  whdload "QuickMusique.Slave" $whdloadargs
+ELSE
+  whdload "QuickMusique.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:T/TeraTunes/TeraTunes.Slave
+
+; Run WHDLoad
+cd "A-Demos:T/TeraTunes/"
+IF EXISTS ENV:whdloadargs
+  whdload "TeraTunes.Slave" $whdloadargs
+ELSE
+  whdload "TeraTunes.Slave"
+ENDIF

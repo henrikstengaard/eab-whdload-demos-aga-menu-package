@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PeaceInTheGulf/PeaceInTheGulf.slave
+
+; Run WHDLoad
+cd "A-Demos:P/PeaceInTheGulf/"
+IF EXISTS ENV:whdloadargs
+  whdload "PeaceInTheGulf.slave" $whdloadargs
+ELSE
+  whdload "PeaceInTheGulf.slave"
+ENDIF

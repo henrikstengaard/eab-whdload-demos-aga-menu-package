@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:U/Unleashed/Unleashed.Slave
+
+; Run WHDLoad
+cd "A-Demos:U/Unleashed/"
+IF EXISTS ENV:whdloadargs
+  whdload "Unleashed.Slave" $whdloadargs
+ELSE
+  whdload "Unleashed.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/Sequential/Sequential.slave
+
+; Run WHDLoad
+cd "A-Demos:S/Sequential/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sequential.slave" $whdloadargs
+ELSE
+  whdload "Sequential.slave"
+ENDIF

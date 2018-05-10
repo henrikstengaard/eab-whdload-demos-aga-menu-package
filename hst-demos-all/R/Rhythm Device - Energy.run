@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/RhythmDevice/RhythmDevice.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/RhythmDevice/"
+IF EXISTS ENV:whdloadargs
+  whdload "RhythmDevice.Slave" $whdloadargs
+ELSE
+  whdload "RhythmDevice.Slave"
+ENDIF

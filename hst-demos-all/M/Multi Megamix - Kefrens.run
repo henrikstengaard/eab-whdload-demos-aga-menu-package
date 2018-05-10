@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MultiMegamix/MultiMegamix.slave
+
+; Run WHDLoad
+cd "A-Demos:M/MultiMegamix/"
+IF EXISTS ENV:whdloadargs
+  whdload "MultiMegamix.slave" $whdloadargs
+ELSE
+  whdload "MultiMegamix.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BlackNWhite/BlackNWhite.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BlackNWhite/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlackNWhite.Slave" $whdloadargs
+ELSE
+  whdload "BlackNWhite.Slave"
+ENDIF

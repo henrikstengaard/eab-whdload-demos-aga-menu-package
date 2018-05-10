@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SevenSins/SevenSins.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SevenSins/"
+IF EXISTS ENV:whdloadargs
+  whdload "SevenSins.Slave" $whdloadargs
+ELSE
+  whdload "SevenSins.Slave"
+ENDIF

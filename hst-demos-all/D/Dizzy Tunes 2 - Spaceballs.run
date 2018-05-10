@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DizzyTunes2/DizzyTunes2.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DizzyTunes2/"
+IF EXISTS ENV:whdloadargs
+  whdload "DizzyTunes2.Slave" $whdloadargs
+ELSE
+  whdload "DizzyTunes2.Slave"
+ENDIF

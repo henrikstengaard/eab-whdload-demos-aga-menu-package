@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:R/RoyalMusic2/RoyalMusic2.Slave
+
+; Run WHDLoad
+cd "A-Demos:R/RoyalMusic2/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoyalMusic2.Slave" $whdloadargs
+ELSE
+  whdload "RoyalMusic2.Slave"
+ENDIF

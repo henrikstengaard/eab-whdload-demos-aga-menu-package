@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DirtAGA/DirtAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DirtAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "DirtAGA.Slave" $whdloadargs
+ELSE
+  whdload "DirtAGA.Slave"
+ENDIF

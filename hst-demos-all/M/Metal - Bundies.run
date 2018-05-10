@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Metal&Lace/Metal&Lace.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/Metal&Lace/"
+IF EXISTS ENV:whdloadargs
+  whdload "Metal&Lace.Slave" $whdloadargs
+ELSE
+  whdload "Metal&Lace.Slave"
+ENDIF

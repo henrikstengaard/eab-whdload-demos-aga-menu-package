@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MotionAGA/MotionAGA.slave
+
+; Run WHDLoad
+cd "A-Demos:M/MotionAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "MotionAGA.slave" $whdloadargs
+ELSE
+  whdload "MotionAGA.slave"
+ENDIF

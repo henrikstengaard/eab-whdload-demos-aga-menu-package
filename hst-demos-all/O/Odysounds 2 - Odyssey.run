@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:O/OdySounds2/OdySounds2.Slave
+
+; Run WHDLoad
+cd "A-Demos:O/OdySounds2/"
+IF EXISTS ENV:whdloadargs
+  whdload "OdySounds2.Slave" $whdloadargs
+ELSE
+  whdload "OdySounds2.Slave"
+ENDIF

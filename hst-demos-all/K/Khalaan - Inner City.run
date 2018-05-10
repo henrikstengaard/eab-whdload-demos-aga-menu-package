@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/MegaTraxVol1/MegaTraxVol1.Slave
+
+; Run WHDLoad
+cd "A-Demos:M/MegaTraxVol1/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaTraxVol1.Slave" $whdloadargs
+ELSE
+  whdload "MegaTraxVol1.Slave"
+ENDIF

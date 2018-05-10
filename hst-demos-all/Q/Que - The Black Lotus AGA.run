@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:Q/QueAGA/QueAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:Q/QueAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "QueAGA.Slave" $whdloadargs
+ELSE
+  whdload "QueAGA.Slave"
+ENDIF

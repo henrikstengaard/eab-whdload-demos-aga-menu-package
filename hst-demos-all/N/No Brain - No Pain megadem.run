@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/NoBrainNoPainFlashProd/NoBrainNoPainFlashProd.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/NoBrainNoPainFlashProd/"
+IF EXISTS ENV:whdloadargs
+  whdload "NoBrainNoPainFlashProd.Slave" $whdloadargs
+ELSE
+  whdload "NoBrainNoPainFlashProd.Slave"
+ENDIF

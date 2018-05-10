@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:L/Lithium/Lithium.Slave
+
+; Run WHDLoad
+cd "A-Demos:L/Lithium/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lithium.Slave" $whdloadargs
+ELSE
+  whdload "Lithium.Slave"
+ENDIF

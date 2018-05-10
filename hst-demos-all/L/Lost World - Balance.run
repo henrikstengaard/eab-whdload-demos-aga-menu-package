@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:L/LostWorld/LostWorld.Slave
+
+; Run WHDLoad
+cd "A-Demos:L/LostWorld/"
+IF EXISTS ENV:whdloadargs
+  whdload "LostWorld.Slave" $whdloadargs
+ELSE
+  whdload "LostWorld.Slave"
+ENDIF

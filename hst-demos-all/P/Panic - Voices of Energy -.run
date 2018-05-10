@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:P/PanicVoicesOfEnergy/PanicVoicesOfEnergy.Slave
+
+; Run WHDLoad
+cd "A-Demos:P/PanicVoicesOfEnergy/"
+IF EXISTS ENV:whdloadargs
+  whdload "PanicVoicesOfEnergy.Slave" $whdloadargs
+ELSE
+  whdload "PanicVoicesOfEnergy.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/Sexvens/Sexvens.slave
+
+; Run WHDLoad
+cd "A-Demos:S/Sexvens/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sexvens.slave" $whdloadargs
+ELSE
+  whdload "Sexvens.slave"
+ENDIF

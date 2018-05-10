@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/IraqDemo/IraqDemo.Slave
+
+; Run WHDLoad
+cd "A-Demos:I/IraqDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "IraqDemo.Slave" $whdloadargs
+ELSE
+  whdload "IraqDemo.Slave"
+ENDIF

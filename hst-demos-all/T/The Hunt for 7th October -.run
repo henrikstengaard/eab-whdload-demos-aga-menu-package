@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:H/HuntFor7thOctober/HuntFor7thOctober.Slave
+
+; Run WHDLoad
+cd "A-Demos:H/HuntFor7thOctober/"
+IF EXISTS ENV:whdloadargs
+  whdload "HuntFor7thOctober.Slave" $whdloadargs
+ELSE
+  whdload "HuntFor7thOctober.Slave"
+ENDIF

@@ -1,6 +1,7 @@
 {
     "name": "EAB WHDLoad Demos AGA Menu",
     "version": "3.0.0",
+    "priority": 1000,
     "assigns":
     [
         {

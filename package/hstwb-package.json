@@ -13,7 +13,7 @@
         },
         {
             "name": "FRONTENDSDIR",
-            "path": "SYSTEMDIR:Demos"
+            "path": "DH1:"
         },
         {
             "name": "DEMOSDIR",

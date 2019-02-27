@@ -2,7 +2,7 @@
 
 EAB WHDLoad Demos AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA demos currently available in Retroplay's WHDLoad packs at English Amiga Board. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
-Screenshots and details for all AGA demos are based on Retroplay's WHDLoad packs downloaded February 27th 2019.
+Screenshots and details for all AGA demos are based on Retroplay's WHDLoad packs downloaded February 26th 2019.
 
 **Note that this package only supports Retroplay's WHDLoad packs at English Amiga Board as paths to start demos are specifically generated for Retroplay's WHDLoad packs.**
 

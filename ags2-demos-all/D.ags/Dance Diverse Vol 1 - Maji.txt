@@ -1,4 +1,4 @@
 Name    : Dance Diverse Vol 1
 Groups  : Majic 12
 Type    : Musicdisk
-RunFile : DanceDiverseVol1.Slave
+RunFile : DanceDiverseVol1.slave

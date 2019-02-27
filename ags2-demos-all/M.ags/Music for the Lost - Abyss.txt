@@ -1,0 +1,4 @@
+Name    : Music for the Lost
+Groups  : Abyss
+Type    : Musicdisk
+RunFile : MusicForTheLost.Slave

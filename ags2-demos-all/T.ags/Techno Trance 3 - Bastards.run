@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:T/TechnoTrance3/TechnoTrance3.Slave
+;RunFile=A-Demos:T/TechnoTrance3/TechnoTrance3.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:T/TechnoTrance3/"
 IF EXISTS ENV:whdloadargs
-  whdload "TechnoTrance3.Slave" $whdloadargs
+  whdload "TechnoTrance3.slave" $whdloadargs
 ELSE
-  whdload "TechnoTrance3.Slave"
+  whdload "TechnoTrance3.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

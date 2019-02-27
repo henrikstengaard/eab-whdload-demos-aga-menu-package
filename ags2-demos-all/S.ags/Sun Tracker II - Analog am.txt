@@ -1,0 +1,4 @@
+Name    : Sun Tracker II
+Groups  : Analog (amiga),Powerlords,Demons (amiga)
+Type    : Musicdisk
+RunFile : SunTracker2.Slave

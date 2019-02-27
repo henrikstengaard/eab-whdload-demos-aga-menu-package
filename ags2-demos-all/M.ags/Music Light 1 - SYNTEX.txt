@@ -1,0 +1,4 @@
+Name    : Music Light #1
+Groups  : SYNTEX
+Type    : Musicdisk
+RunFile : MusicThingy.slave

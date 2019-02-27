@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SunTracker2/SunTracker2.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SunTracker2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SunTracker2.Slave" $whdloadargs
+ELSE
+  whdload "SunTracker2.Slave"
+ENDIF

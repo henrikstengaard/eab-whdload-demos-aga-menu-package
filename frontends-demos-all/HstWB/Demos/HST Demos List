@@ -139,12 +139,14 @@ A-Demos:   CrystalSymphonies           CrystalSymphonies.slave           Crystal
 A-Demos:   CrystalSymphonies2          CrystalSymphonies2.slave          Crystal Symphonies 2 - Phenomena
 A-Demos:   Curiosity                   Curiosity.Slave                   Curiosity - Pseudodos
 A-Demos:   Cutcreations                Cutcreations.Slave                Cutcreations - Static bytes
+A-Demos:   CuzcoAGA                    CuzcoAGA.Slave                    Cuzco - Oxygene AGA
 A-Demos:   CyberSounds                 CyberSounds.Slave                 Cyber Sounds - Bastards
-A-Demos:   DanceDiverseVol1            DanceDiverseVol1.Slave            Dance Diverse Vol 1 - Majic 12
+A-Demos:   DanceDiverseVol1            DanceDiverseVol1.slave            Dance Diverse Vol 1 - Majic 12
 A-Demos:   DanceTrance                 DanceTrance.Slave                 Dance Trance I - Interactive
 A-Demos:   DanceTrance2                DanceTrance2.Slave                Dance Trance II - Interactive
 A-Demos:   DANE                        DANE.slave                        D.A.N.E - Kefrens
 A-Demos:   DanishKnowHow               DanishKnowHow.Slave               Danish Know How - Flash Production
+A-Demos:   DarkHellBBSTrackmo          DarkHellBBSTrackmo.Slave          BBS Trackmo - Atomic (.no)
 A-Demos:   Darkroom                    Darkroom.Slave                    Darkroom - Stellar
 A-Demos:   DarksideAGA                 DarksideAGA.Slave                 Darkside - The Black Lotus AGA
 A-Demos:   Darktro                     Darktro.Slave                     Darktro - Darkness
@@ -167,7 +169,7 @@ A-Demos:   DemonDownload               DemonDownload.Slave               Demon d
 A-Demos:   DemonsAreForever            DemonsAreForever.Slave            Demons are forever - Doctor Mabuse Orgasm Crackings
 A-Demos:   DemonsRage                  DemonsRage.slave                  Demon's Rage - Nerve Axis
 A-Demos:   DerrynHinchDemo             DerrynHinchDemo.Slave             Hinch Demo - Decay Demo
-A-Demos:   DesertDream                 DesertDream.Slave                 Desert Dream - Kefrens
+A-Demos:   DesertDream                 DesertDream.slave                 Desert Dream - Kefrens
 A-Demos:   Despair                     Despair.Slave                     Despair - LSD
 A-Demos:   DetKniber                   DetKniber.slave                   Det kniber - Rebels
 A-Demos:   DevilsKey                   DevilsKey.slave                   Megademo 4 - Devil's Key - Alcatraz
@@ -197,6 +199,7 @@ A-Demos:   DoTheBartman                DoTheBartman.Slave                Do the 
 A-Demos:   DoubleIntro                 DoubleIntro.Slave                 Double Intro Part1 - Vega Intro
 A-Demos:   DragonLord                  DragonLord.Slave                  Dragon Lord - Alfaforce
 A-Demos:   DreamTrippin                DreamTrippin.Slave                Dream Trippin' - Digital
+A-Demos:   Drugstore                   Drugstore.Slave                   Drugstore - Abyss
 A-Demos:   Drums&Pipes                 Drums&Pipes.Slave                 Drums & Pipes - Surprise!Productions,Tristar & Red Sector Inc.
 A-Demos:   Drums&Reverbs               Drums&Reverbs.Slave               Drums & Reverbs - Chryseis
 A-Demos:   DrunkDesertDemo             DrunkDesertDemo.Slave             The drunk desert demo - Paradox Demo
@@ -222,8 +225,10 @@ A-Demos:   Eroticon6                   Eroticon6.slave                   The tri
 A-Demos:   EssentialBeats3             EssentialBeats3.Slave             Essential Beats Volume 3 - Quote
 A-Demos:   EssentialClassics           EssentialClassics.Slave           Essential Classics - Nova
 A-Demos:   EstprobalMastic             EstprobalMastic.Slave             Estprobal Mastic - Imagine
+A-Demos:   EvolutionDesire             EvolutionDesire.Slave             Evolution - Desire
 A-Demos:   Exage                       Exage.Slave                       Exage 1 - Burning Independence
 A-Demos:   Excess                      Excess.Slave                      XS Excess - Reflex (Amiga)
+A-Demos:   Exile                       Exile.Slave                       Exile - Desire
 A-Demos:   Experiment                  Experiment.Slave                  Experiment - Ram Jam
 A-Demos:   ExplorerAGA                 ExplorerAGA.slave                 Explorer - Delight AGA
 A-Demos:   Expressions                 Expressions.Slave                 Expressions - Timecircle
@@ -266,7 +271,7 @@ A-Demos:   GuardianDragon              GuardianDragon.slave              Guardia
 A-Demos:   GuardianDragon2             GuardianDragon2.slave             Guardian Dragon 2 - Kefrens
 A-Demos:   HailTheEngineer             HailTheEngineer.Slave             Hail the Engineer - Jetset
 A-Demos:   Hallu&DreamsPrvKatharsis    Hallu&DreamsPrvKatharsis.Slave    Hallucinations and dreams - preview - Katharsis
-A-Demos:   Hallucinations&Dreams       Hallucinations&Dreams.Slave       Hallucinations and Dreams - Union
+A-Demos:   Hallucinations&Dreams       Hallucinations&Dreams.slave       Hallucinations and Dreams - Union
 A-Demos:   Hammer                      Hammer.Slave                      Hammer - Amaze
 A-Demos:   Hardcore                    Hardcore.slave                    Hardcore - Anarchy
 A-Demos:   Hardwired                   Hardwired.Slave                   Hardwired - Crionics,The Silents
@@ -314,6 +319,7 @@ A-Demos:   JesusOnEs                   JesusOnEs.slave                   Jesus o
 A-Demos:   JesusWasADemomakerAGA       JesusWasADemomakerAGA.Slave       Jesus was a demomaker - Ramses AGA
 A-Demos:   JiggleIt                    JiggleIt.Slave                    Jiggle It - Palace IT
 A-Demos:   JochenHippelSoundDemo       JochenHippelSoundDemo.Slave       Jochen Hippel Sound Demo - Axis Demo
+A-Demos:   JOESlideshow2               JOESlideshow2.Slave               J.O.E. slideshow II - Scoopex
 A-Demos:   Joyride                     Joyride.Slave                     Joyride - Phenomena
 A-Demos:   Juggler                     Juggler.Slave                     Juggler - Eric Graham
 A-Demos:   Jukebox                     Jukebox.Slave                     Jukebox - Kefrens
@@ -327,8 +333,9 @@ A-Demos:   KiwiCrap                    KiwiCrap.Slave                    Kiwi Cr
 A-Demos:   KrestMassLeftovers          KrestMassLeftovers.slave          Krest Mass Leftovers - Anarchy
 A-Demos:   Kuglepoelen                 Kuglepoelen.Slave                 Kuglepølen - Static bytes
 A-Demos:   LastSun                     LastSun.Slave                     The Last Sun - Ackerlight
+A-Demos:   LaternaMagica               LaternaMagica.Slave               Laterna Magica - Surprise!Productions
 A-Demos:   LegaliseIt                  LegaliseIt.Slave                  Legalise It... - Anarchy IT
-A-Demos:   LegalizeIt2                 LegalizeIt2.slave                 Legalize It 2 - Anarchy
+A-Demos:   LegalizeIt2                 LegalizeIt2.slave                 Legalise It 2 - Anarchy
 A-Demos:   Legoland                    Legoland.Slave                    Legoland - Desire
 A-Demos:   LethalExit                  LethalExit.Slave                  Lethal Exit - Digital
 A-Demos:   LethalFrequency             LethalFrequency.Slave             Lethal Frequency - Aspect
@@ -504,6 +511,7 @@ A-Demos:   MusicDiskThrust             MusicDiskThrust.Slave             Music p
 A-Demos:   MusicDream1                 MusicDream1.Slave                 Music Dream 1 - Phenomena
 A-Demos:   MusicDream2                 MusicDream2.Slave                 Music Dream 2 - Phenomena
 A-Demos:   MusicForFools               MusicForFools.Slave               Music for fools - Ghost
+A-Demos:   MusicForTheLost             MusicForTheLost.Slave             Music for the Lost - Abyss
 A-Demos:   Musicland                   Musicland.slave                   Musicland - Brainstorm
 A-Demos:   Musicland2                  Musicland2.slave                  Musicland 2 - Brainstorm
 A-Demos:   MusicMadness                MusicMadness.Slave                Music Madness - Ipec Elite
@@ -514,6 +522,7 @@ A-Demos:   MusicRip2                   MusicRip2.Slave                   Music R
 A-Demos:   MusicRip3                   MusicRip3.Slave                   Music Rip3 - Spreadpoint
 A-Demos:   Musics3                     Musics3.Slave                     The enemies musics III - The Enemies
 A-Demos:   MusicSelector               MusicSelector.Slave               Music Selector - Deadlock
+A-Demos:   MusicThingy                 MusicThingy.slave                 Music Light #1 - SYNTEX
 A-Demos:   MusicWithAMessage           MusicWithAMessage.Slave           Music With a Message - Magnetic Fields
 A-Demos:   MusiqueDisk                 MusiqueDisk.Slave                 The Musique Disk - Accession
 A-Demos:   MuzakCompacting1            MuzakCompacting1.Slave            Muzak compacting 1 - Alpha Flight 1970,Mindwarp
@@ -533,6 +542,7 @@ A-Demos:   Nexus7AGA                   Nexus7AGA.Slave                   Nexus-7
 A-Demos:   NightshadesHarmony          NightshadesHarmony.Slave          Nightshade's Harmony - Ecstasy
 A-Demos:   NoBrainNoPainFlashProd      NoBrainNoPainFlashProd.Slave      No Brain - No Pain! (megademo) - Flash Production
 A-Demos:   NoBrainNoPainParadise       NoBrainNoPainParadise.Slave       No Brain No Pain - Paradise
+A-Demos:   NoisesOfPansy               NoisesOfPansy.Slave               Noises Of Pansy - Erotic
 A-Demos:   NonStopMusic                NonStopMusic.Slave                Non Stop Music - Jungle Command
 A-Demos:   Nonterraqueous              Nonterraqueous.Slave              Nonterraqueous - Alarm
 A-Demos:   NopAGA                      NopAGA.Slave                      Nop - Muffbusters AGA
@@ -547,8 +557,8 @@ A-Demos:   OasisAGA                    OasisAGA.Slave                    Oasis -
 A-Demos:   ObliqueInfinity             ObliqueInfinity.Slave             Oblique Infinity - Goldfire
 A-Demos:   ObviousDisaster             ObviousDisaster.Slave             Obvious Disaster - Phenomena
 A-Demos:   Odeon                       Odeon.Slave                       Odeon - Solution
-A-Demos:   OdeToRamon                  OdeToRamon.Slave                  Ode To Ramon - Digital Force
-A-Demos:   OdeToRamon2                 OdeToRamon2.Slave                 Ode to Ramon 2 - The Digital Force
+A-Demos:   OdeToRamon                  OdeToRamon.slave                  Ode To Ramon - Digital Force
+A-Demos:   OdeToRamon2                 OdeToRamon2.slave                 Ode to Ramon 2 - The Digital Force
 A-Demos:   OdySounds2                  OdySounds2.Slave                  Odysounds 2 - Odyssey
 A-Demos:   Odyssey                     Odyssey.Slave                     Odyssey - Alcatraz
 A-Demos:   OldTunes                    OldTunes.Slave                    Old Tunes - Chrome
@@ -650,6 +660,7 @@ A-Demos:   Smau92MusicDisk             Smau92MusicDisk.Slave             Smau 92
 A-Demos:   Snap                        Snap.slave                        Snap! - Rebels
 A-Demos:   SOFTMovie                   SOFTMovie.Slave                   Soft Movie - Genocide
 A-Demos:   Software                    Software.Slave                    Software - World Federation of Mad Hackers
+A-Demos:   SohoAGA                     SohoAGA.Slave                     Soho - Nova AGA
 A-Demos:   SongsOfInfinity             SongsOfInfinity.Slave             Songs of Infinity - Pointless
 A-Demos:   SongsRackAGA                SongsRackAGA.Slave                Songs rack - Ram Jam AGA
 A-Demos:   SonicalFantasia             SonicalFantasia.Slave             Sonical Fantasia - Equinox
@@ -657,6 +668,7 @@ A-Demos:   SonicAttack                 SonicAttack.Slave                 Sonic A
 A-Demos:   SOS                         SOS.Slave                         Smell Of Shit (S.O.S) - Melon Dezign
 A-Demos:   SoulKitchenAGA              SoulKitchenAGA.slave              Soulkitchen - The Silents AGA
 A-Demos:   SoundAndVision              SoundAndVision.Slave              Sound and Vision - Rebels
+A-Demos:   SoundAndVision2             SoundAndVision2.Slave             Sound & Vision - Rebels
 A-Demos:   SoundAtaxVol1               SoundAtaxVol1.Slave               Sound Atax Vol. 1 - Magnetic Fields
 A-Demos:   SoundAtaxVol2               SoundAtaxVol2.Slave               Sound Atax Vol. 2 - Magnetic Fields
 A-Demos:   SoundAtaxVol3               SoundAtaxVol3.Slave               Sound Atax Vol. 3 - Magnetic Fields
@@ -718,6 +730,7 @@ A-Demos:   SubtleShades                SubtleShades.Slave                Subtle 
 A-Demos:   SumeaAGA                    SumeaAGA.Slave                    Sumea - Virtual Dreams,Fairlight AGA
 A-Demos:   SunAGA                      SunAGA.Slave                      Sun - TRSI AGA
 A-Demos:   SunsetGlow                  SunsetGlow.Slave                  Sunset glow - Thrust
+A-Demos:   SunTracker2                 SunTracker2.Slave                 Sun Tracker II - Analog (amiga),Powerlords,Demons (amiga)
 A-Demos:   SweetMusic                  SweetMusic.slave                  Sweet music - Crusaders
 A-Demos:   SweetRevenge                SweetRevenge.Slave                Sweet Revenge - Decay
 A-Demos:   SwelteringForest            SwelteringForest.Slave            Sweltering Forest - Apocalypse Bay
@@ -735,8 +748,8 @@ A-Demos:   Teatime                     TeaTime.slave                     The Lon
 A-Demos:   TechnologicalDeath          TechnologicalDeath.slave          Technological Death - Mad elks
 A-Demos:   Technomania                 Technomania.Slave                 Technomania - Shining 8
 A-Demos:   Technomania2                Technomania2.Slave                Technomania 2 - Shining 8
-A-Demos:   TechnoTrance                TechnoTrance.Slave                Techno Trance - Bastards
-A-Demos:   TechnoTrance3               TechnoTrance3.Slave               Techno Trance 3 - Bastards
+A-Demos:   TechnoTrance                TechnoTrance.slave                Techno Trance - Bastards
+A-Demos:   TechnoTrance3               TechnoTrance3.slave               Techno Trance 3 - Bastards
 A-Demos:   TechnoWarrior               TechnoWarrior.slave               Techno Warrior - LSD
 A-Demos:   Techtech                    Techtech.Slave                    TechTech - Sodan,Magician 42
 A-Demos:   Tekknobert                  Tekknobert.Slave                  Tekkno Bert -The Final Collapse- - Wildfire
@@ -769,6 +782,7 @@ A-Demos:   TwistedAGA                  TwistedAGA.Slave                  Twisted
 A-Demos:   TympanicMembrane            TympanicMembrane.Slave            Tympanic Membrane - Panacea
 A-Demos:   Ufonix                      Ufonix.Slave                      Ufonix - Enigma (UK)
 A-Demos:   UltimateGameBoySimulator    UltimateGameBoySimulator.Slave    The Ultimate Gameboy Simulator - Tetris - Symbiosis
+A-Demos:   Unbelievable                Unbelievable.Slave                Unbelievable - Atomic
 A-Demos:   UniversalIntensity          UniversalIntensity.Slave          Universal Intensity - Complex
 A-Demos:   Unleashed                   Unleashed.Slave                   Unleashed - Insane
 A-Demos:   VaginalMassacre             VaginalMassacre.slave             Vaginal Massacre - U.d.o.

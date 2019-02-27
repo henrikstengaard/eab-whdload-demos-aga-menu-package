@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:L/LegalizeIt2/LegalizeIt2.slave
+;RunFile=A-Demos:S/SohoAGA/SohoAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "L" "Legalize It 2 - Anarchy"
+  execute S:AGS2Favourites "S" "Soho - Nova AGA"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:L/LegalizeIt2/"
+cd "A-Demos:S/SohoAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "LegalizeIt2.slave" $whdloadargs
+  whdload "SohoAGA.Slave" $whdloadargs
 ELSE
-  whdload "LegalizeIt2.slave"
+  whdload "SohoAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

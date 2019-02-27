@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:D/DanceDiverseVol1/DanceDiverseVol1.Slave
+;RunFile=A-Demos:D/DanceDiverseVol1/DanceDiverseVol1.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:D/DanceDiverseVol1/"
 IF EXISTS ENV:whdloadargs
-  whdload "DanceDiverseVol1.Slave" $whdloadargs
+  whdload "DanceDiverseVol1.slave" $whdloadargs
 ELSE
-  whdload "DanceDiverseVol1.Slave"
+  whdload "DanceDiverseVol1.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

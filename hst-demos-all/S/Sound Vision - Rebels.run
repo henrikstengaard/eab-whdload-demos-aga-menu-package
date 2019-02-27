@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundAndVision2/SoundAndVision2.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundAndVision2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundAndVision2.Slave" $whdloadargs
+ELSE
+  whdload "SoundAndVision2.Slave"
+ENDIF

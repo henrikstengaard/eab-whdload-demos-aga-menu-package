@@ -1,0 +1,4 @@
+Name    : Exile
+Groups  : Desire
+Type    : Demo
+RunFile : Exile.Slave

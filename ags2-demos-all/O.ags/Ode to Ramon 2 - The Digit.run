@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:O/OdeToRamon2/OdeToRamon2.Slave
+;RunFile=A-Demos:O/OdeToRamon2/OdeToRamon2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:O/OdeToRamon2/"
 IF EXISTS ENV:whdloadargs
-  whdload "OdeToRamon2.Slave" $whdloadargs
+  whdload "OdeToRamon2.slave" $whdloadargs
 ELSE
-  whdload "OdeToRamon2.Slave"
+  whdload "OdeToRamon2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

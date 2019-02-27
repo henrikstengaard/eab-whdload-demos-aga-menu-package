@@ -1,0 +1,4 @@
+Name    : BBS Trackmo
+Groups  : Atomic (.no)
+Type    : Bbstro
+RunFile : DarkHellBBSTrackmo.Slave

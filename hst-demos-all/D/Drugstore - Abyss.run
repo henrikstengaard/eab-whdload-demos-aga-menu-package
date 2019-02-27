@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/Drugstore/Drugstore.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/Drugstore/"
+IF EXISTS ENV:whdloadargs
+  whdload "Drugstore.Slave" $whdloadargs
+ELSE
+  whdload "Drugstore.Slave"
+ENDIF

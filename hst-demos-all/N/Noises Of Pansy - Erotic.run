@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:N/NoisesOfPansy/NoisesOfPansy.Slave
+
+; Run WHDLoad
+cd "A-Demos:N/NoisesOfPansy/"
+IF EXISTS ENV:whdloadargs
+  whdload "NoisesOfPansy.Slave" $whdloadargs
+ELSE
+  whdload "NoisesOfPansy.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:D/DarkHellBBSTrackmo/DarkHellBBSTrackmo.Slave
+
+; Run WHDLoad
+cd "A-Demos:D/DarkHellBBSTrackmo/"
+IF EXISTS ENV:whdloadargs
+  whdload "DarkHellBBSTrackmo.Slave" $whdloadargs
+ELSE
+  whdload "DarkHellBBSTrackmo.Slave"
+ENDIF

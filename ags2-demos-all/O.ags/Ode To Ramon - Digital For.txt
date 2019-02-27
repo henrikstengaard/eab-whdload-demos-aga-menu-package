@@ -1,4 +1,4 @@
 Name    : Ode To Ramon
 Groups  : Digital Force
 Type    : Musicdisk
-RunFile : OdeToRamon.Slave
+RunFile : OdeToRamon.slave

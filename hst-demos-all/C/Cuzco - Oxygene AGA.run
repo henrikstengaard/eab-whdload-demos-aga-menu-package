@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/CuzcoAGA/CuzcoAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/CuzcoAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "CuzcoAGA.Slave" $whdloadargs
+ELSE
+  whdload "CuzcoAGA.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Evolution
+Groups  : Desire
+Type    : Dentro
+RunFile : EvolutionDesire.Slave

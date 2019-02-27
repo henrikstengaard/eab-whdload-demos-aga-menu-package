@@ -1,0 +1,6 @@
+Name    : J.O.E. slideshow II
+Groups  : Scoopex
+Type    : Slideshow
+Party   : Digitech - IBB Summer Conference 1989
+Rank    : N/a
+RunFile : JOESlideshow2.Slave

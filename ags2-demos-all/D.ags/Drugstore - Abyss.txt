@@ -1,0 +1,4 @@
+Name    : Drugstore
+Groups  : Abyss
+Type    : Demo
+RunFile : Drugstore.Slave

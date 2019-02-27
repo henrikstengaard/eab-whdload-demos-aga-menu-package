@@ -1,0 +1,7 @@
+Name    : Cuzco
+Version : AGA
+Groups  : Oxygene
+Type    : Demo
+Party   : Saturne 1994
+Rank    : 3rd
+RunFile : CuzcoAGA.Slave

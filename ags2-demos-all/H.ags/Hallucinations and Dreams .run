@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:H/Hallucinations&Dreams/Hallucinations&Dreams.Slave
+;RunFile=A-Demos:H/Hallucinations&Dreams/Hallucinations&Dreams.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:H/Hallucinations&Dreams/"
 IF EXISTS ENV:whdloadargs
-  whdload "Hallucinations&Dreams.Slave" $whdloadargs
+  whdload "Hallucinations&Dreams.slave" $whdloadargs
 ELSE
-  whdload "Hallucinations&Dreams.Slave"
+  whdload "Hallucinations&Dreams.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

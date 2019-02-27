@@ -1,0 +1,4 @@
+Name    : Laterna Magica
+Groups  : Surprise!Productions
+Type    : Slideshow
+RunFile : LaternaMagica.Slave

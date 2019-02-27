@@ -1,0 +1,7 @@
+Name    : Soho
+Version : AGA
+Groups  : Nova
+Type    : Demo
+Party   : Saturne 1994
+Rank    : 6th
+RunFile : SohoAGA.Slave

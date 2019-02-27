@@ -1,4 +1,4 @@
 Name    : Techno Trance 3
 Groups  : Bastards
 Type    : Musicdisk
-RunFile : TechnoTrance3.Slave
+RunFile : TechnoTrance3.slave

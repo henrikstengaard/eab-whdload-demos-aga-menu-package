@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:U/Unbelievable/Unbelievable.Slave
+
+; Run WHDLoad
+cd "A-Demos:U/Unbelievable/"
+IF EXISTS ENV:whdloadargs
+  whdload "Unbelievable.Slave" $whdloadargs
+ELSE
+  whdload "Unbelievable.Slave"
+ENDIF

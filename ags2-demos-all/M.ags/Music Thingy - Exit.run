@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:M/MusicDiscVol1DiskNet/MusicDiscVol1DiskNet.Slave
+;RunFile=A-Demos:M/MusicThingy/MusicThingy.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "T" "Techno music disk vol. 1 -"
+  execute S:AGS2Favourites "M" "Music Thingy - Exit"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MusicDiscVol1DiskNet/"
+cd "A-Demos:M/MusicThingy/"
 IF EXISTS ENV:whdloadargs
-  whdload "MusicDiscVol1DiskNet.Slave" $whdloadargs
+  whdload "MusicThingy.slave" $whdloadargs
 ELSE
-  whdload "MusicDiscVol1DiskNet.Slave"
+  whdload "MusicThingy.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

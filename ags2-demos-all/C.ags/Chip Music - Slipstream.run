@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:S/StrangeMusic1/StrangeMusic1.Slave
+;RunFile=A-Demos:C/ChipMusic/ChipMusic.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "S" "Strange Dream 1 - Willow A"
+  execute S:AGS2Favourites "C" "Chip Music - Slipstream"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/StrangeMusic1/"
+cd "A-Demos:C/ChipMusic/"
 IF EXISTS ENV:whdloadargs
-  whdload "StrangeMusic1.Slave" $whdloadargs
+  whdload "ChipMusic.Slave" $whdloadargs
 ELSE
-  whdload "StrangeMusic1.Slave"
+  whdload "ChipMusic.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

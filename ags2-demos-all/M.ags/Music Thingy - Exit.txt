@@ -1,4 +1,4 @@
-Name    : Music Light #1
-Groups  : SYNTEX
+Name    : Music Thingy
+Groups  : Exit
 Type    : Musicdisk
 RunFile : MusicThingy.slave

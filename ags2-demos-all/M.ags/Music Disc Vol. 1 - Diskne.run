@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:C/ChipMusicFestival/ChipMusicFestival.Slave
+;RunFile=A-Demos:M/MusicDiscVol1DiskNet/MusicDiscVol1DiskNet.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "C" "Chip Music Festival - M V2"
+  execute S:AGS2Favourites "M" "Music Disc Vol. 1 - Diskne"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:C/ChipMusicFestival/"
+cd "A-Demos:M/MusicDiscVol1DiskNet/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChipMusicFestival.Slave" $whdloadargs
+  whdload "MusicDiscVol1DiskNet.Slave" $whdloadargs
 ELSE
-  whdload "ChipMusicFestival.Slave"
+  whdload "MusicDiscVol1DiskNet.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

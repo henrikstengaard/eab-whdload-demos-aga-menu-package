@@ -1,0 +1,4 @@
+Name    : Strange Music
+Groups  : Strange
+Type    : Musicdisk
+RunFile : StrangeMusic1.Slave

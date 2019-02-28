@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:S/SoundAndVision2/SoundAndVision2.Slave
+;RunFile=A-Demos:I/IntroCodeKillers/IntroCodeKillers.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "S" "Sound Vision - Rebels"
+  execute S:AGS2Favourites "I" "Intro - The Code Killers G"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/SoundAndVision2/"
+cd "A-Demos:I/IntroCodeKillers/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoundAndVision2.Slave" $whdloadargs
+  whdload "IntroCodeKillers.slave" $whdloadargs
 ELSE
-  whdload "SoundAndVision2.Slave"
+  whdload "IntroCodeKillers.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

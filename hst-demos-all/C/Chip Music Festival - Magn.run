@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Demos:C/ChipMusic/ChipMusic.Slave
+;RunFile=A-Demos:C/ChipMusicFestival/ChipMusicFestival.Slave
 
 ; Run WHDLoad
-cd "A-Demos:C/ChipMusic/"
+cd "A-Demos:C/ChipMusicFestival/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChipMusic.Slave" $whdloadargs
+  whdload "ChipMusicFestival.Slave" $whdloadargs
 ELSE
-  whdload "ChipMusic.Slave"
+  whdload "ChipMusicFestival.Slave"
 ENDIF

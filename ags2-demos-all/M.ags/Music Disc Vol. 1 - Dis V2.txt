@@ -1,4 +1,4 @@
-Name    : Music pack 1
-Groups  : Thrust
+Name    : Music Disc Vol. 1
+Groups  : Disknet
 Type    : Musicdisk
 RunFile : MusicDiskThrust.Slave

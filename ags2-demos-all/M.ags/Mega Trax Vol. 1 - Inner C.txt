@@ -1,4 +1,4 @@
-Name    : Khalaan
+Name    : Mega Trax Vol. 1
 Groups  : Inner City
-Type    : Cracktro
+Type    : Musicdisk
 RunFile : MegaTraxVol1.Slave

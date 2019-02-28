@@ -1,0 +1,4 @@
+Name    : Chip Music
+Groups  : Slipstream
+Type    : Music Demo
+RunFile : ChipMusic.Slave

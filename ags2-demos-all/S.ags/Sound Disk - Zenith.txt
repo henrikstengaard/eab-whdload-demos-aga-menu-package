@@ -1,4 +1,4 @@
 Name    : Sound Disk
 Groups  : Zenith
 Type    : Musicdisk
-RunFile : SoundDiskPossessed.Slave
+RunFile : SoundDiskZenith.slave

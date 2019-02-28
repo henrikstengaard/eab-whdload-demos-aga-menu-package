@@ -1,0 +1,4 @@
+Name    : Intro
+Groups  : The Code Killers GDR
+Type    : Intro
+RunFile : IntroCodeKillers.slave

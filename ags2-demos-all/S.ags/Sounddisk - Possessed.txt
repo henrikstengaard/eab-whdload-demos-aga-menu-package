@@ -1,0 +1,4 @@
+Name    : Sounddisk
+Groups  : Possessed
+Type    : Musicdisk
+RunFile : SoundDiskPossessed.Slave

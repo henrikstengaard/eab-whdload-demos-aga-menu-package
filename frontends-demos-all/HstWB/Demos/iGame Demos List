@@ -110,7 +110,7 @@ A-Demos:   CerebralDelights            CerebralDelights.Slave            Cerebra
 A-Demos:   CheckedImplosion            CheckedImplosion.Slave            Checked implosion - Intryx
 A-Demos:   Cherokee                    Cherokee.Slave                    Cherokee - Manitou
 A-Demos:   ChipAttack                  ChipAttack.Slave                  Chip Attack - Anathema
-A-Demos:   ChipMusic                   ChipMusic.Slave                   Chip Music Festival - Magnetic Fields
+A-Demos:   ChipMusic                   ChipMusic.Slave                   Chip Music - Slipstream
 A-Demos:   ChipMusicFestival           ChipMusicFestival.Slave           Chip Music Festival - Magnetic Fields
 A-Demos:   Chords                      Chords.Slave                      Chords - Foundation
 A-Demos:   Chromagic                   Chromagic.Slave                   Chromagic - Dual Crew & Shining
@@ -307,7 +307,7 @@ A-Demos:   InspirationIsNone           InspirationIsNone.Slave           Inspira
 A-Demos:   Interference                Interference.Slave                Interference - Sanity
 A-Demos:   Interspace                  Interspace.Slave                  Interspace - Phenomena
 A-Demos:   InTheKitchen                InTheKitchen.Slave                In the kitchen - Anarchy
-A-Demos:   IntroCodeKillers            IntroCodeKillers.slave            Kick Off - The Code Killers
+A-Demos:   IntroCodeKillers            IntroCodeKillers.slave            Intro - The Code Killers GDR
 A-Demos:   IntroDentroMentroDemo       IntroDentroMentroDemo.Slave       Intro? Dentro? Mentro? Demo? - The Silents Demo
 A-Demos:   IraqDemo                    IraqDemo.Slave                    Iraq - Animators Demo
 A-Demos:   IsoAGA                      IsoAGA.slave                      Iso - Scoopex AGA
@@ -425,7 +425,7 @@ A-Demos:   MegademoZeus                MegademoZeus.slave                Megadem
 A-Demos:   MegaMix1                    MegaMix1.Slave                    Megamix 1 - Royal Amiga Force
 A-Demos:   MegaMix2                    MegaMix2.slave                    Megamix 2 - The Pumpin' Track - Royal Amiga Force
 A-Demos:   MegaMix3                    MegaMix3.Slave                    Megamix 3 - Royal Amiga Force
-A-Demos:   MegaTraxVol1                MegaTraxVol1.Slave                Khalaan - Inner City
+A-Demos:   MegaTraxVol1                MegaTraxVol1.Slave                Mega Trax Vol. 1 - Inner City
 A-Demos:   Melodies                    Melodies.Slave                    Scoopex Melodies - Scoopex
 A-Demos:   MemorialSongs               MemorialSongs.Slave               Memorial Songs - Alcatraz
 A-Demos:   MentalHangover              MentalHangover.Slave              Mental Hangover - Scoopex
@@ -470,13 +470,13 @@ A-Demos:   Musication                  Musication.Slave                  Musicat
 A-Demos:   Musicbox3                   Musicbox3.Slave                   Musicbox 3 - Gate
 A-Demos:   MusicBoxCopyride            MusicBoxCopyride.Slave            Music Box - Copyride
 A-Demos:   MusicBoxExodus              MusicBoxExodus.Slave              Musicbox - Exodus
-A-Demos:   MusicCollection4Zarch       MusicCollection4Zarch.Slave       Music Collection 4 - Level 4
+A-Demos:   MusicCollection4Zarch       MusicCollection4Zarch.Slave       Zarch Music Collection 4 - Zarch
 A-Demos:   MusicCollectionExocet       MusicCollectionExocet.Slave       Music Collection - Exocet
 A-Demos:   MusicCollectionKatharsis    MusicCollectionKatharsis.Slave    Music Collection - Katharsis
 A-Demos:   MusicCompacting2            MusicCompacting2.slave            Music Compacting 2 - Alpha Flight 1970,Zylon
 A-Demos:   MusicCompilation            MusicCompilation.Slave            Music Compilation - Random Access
 A-Demos:   MusicDemoDeform             MusicDemoDeform.Slave             Music Demo - Deform
-A-Demos:   MusicDiscVol1DiskNet        MusicDiscVol1DiskNet.Slave        Techno music disk vol. 1 - Virna
+A-Demos:   MusicDiscVol1DiskNet        MusicDiscVol1DiskNet.Slave        Music Disc Vol. 1 - Disknet
 A-Demos:   MusicDisk181stTrack         MusicDisk181stTrack.Slave         Music Disk 1 - The 81st Track
 A-Demos:   MusicDisk1AdamMcCrory       MusicDisk1AdamMcCrory.Slave       Adam McCrory Music Disk 1 - Adam McCrory
 A-Demos:   MusicDisk1Alcatraz          MusicDisk1Alcatraz.Slave          Musicdisk 1 - Alcatraz
@@ -507,7 +507,7 @@ A-Demos:   MusicDiskEscape             MusicDiskEscape.Slave             Musicdi
 A-Demos:   MusicDiskInzzest            MusicDiskInzzest.Slave            Musicdisk - Inzzest
 A-Demos:   MusicDiskIpecElite          MusicDiskIpecElite.Slave          Music Disk - Ipec Elite
 A-Demos:   MusicDiskTardex             MusicDiskTardex.Slave             MusicDisk - Tardex
-A-Demos:   MusicDiskThrust             MusicDiskThrust.Slave             Music pack 1 - Thrust
+A-Demos:   MusicDiskThrust             MusicDiskThrust.Slave             Music Disc Vol. 1 - Disknet
 A-Demos:   MusicDream1                 MusicDream1.Slave                 Music Dream 1 - Phenomena
 A-Demos:   MusicDream2                 MusicDream2.Slave                 Music Dream 2 - Phenomena
 A-Demos:   MusicForFools               MusicForFools.Slave               Music for fools - Ghost
@@ -522,7 +522,7 @@ A-Demos:   MusicRip2                   MusicRip2.Slave                   Music R
 A-Demos:   MusicRip3                   MusicRip3.Slave                   Music Rip3 - Spreadpoint
 A-Demos:   Musics3                     Musics3.Slave                     The enemies musics III - The Enemies
 A-Demos:   MusicSelector               MusicSelector.Slave               Music Selector - Deadlock
-A-Demos:   MusicThingy                 MusicThingy.slave                 Music Light #1 - SYNTEX
+A-Demos:   MusicThingy                 MusicThingy.slave                 Music Thingy - Exit
 A-Demos:   MusicWithAMessage           MusicWithAMessage.Slave           Music With a Message - Magnetic Fields
 A-Demos:   MusiqueDisk                 MusiqueDisk.Slave                 The Musique Disk - Accession
 A-Demos:   MuzakCompacting1            MuzakCompacting1.Slave            Muzak compacting 1 - Alpha Flight 1970,Mindwarp
@@ -668,7 +668,7 @@ A-Demos:   SonicAttack                 SonicAttack.Slave                 Sonic A
 A-Demos:   SOS                         SOS.Slave                         Smell Of Shit (S.O.S) - Melon Dezign
 A-Demos:   SoulKitchenAGA              SoulKitchenAGA.slave              Soulkitchen - The Silents AGA
 A-Demos:   SoundAndVision              SoundAndVision.Slave              Sound and Vision - Rebels
-A-Demos:   SoundAndVision2             SoundAndVision2.Slave             Sound & Vision - Rebels
+A-Demos:   SoundAndVision2             SoundAndVision2.Slave             Sound and Vision 2 - Rebels
 A-Demos:   SoundAtaxVol1               SoundAtaxVol1.Slave               Sound Atax Vol. 1 - Magnetic Fields
 A-Demos:   SoundAtaxVol2               SoundAtaxVol2.Slave               Sound Atax Vol. 2 - Magnetic Fields
 A-Demos:   SoundAtaxVol3               SoundAtaxVol3.Slave               Sound Atax Vol. 3 - Magnetic Fields
@@ -678,7 +678,7 @@ A-Demos:   SoundDeLight                SoundDeLight.slave                Sound D
 A-Demos:   SoundDemoSyndicate          SoundDemoSyndicate.Slave          Sounddemo - Syndicate
 A-Demos:   SoundDisk1                  SoundDisk1.Slave                  Sound Disk 1 - Mygon
 A-Demos:   SoundDisk2                  SoundDisk2.Slave                  Sound Disk 2 - Mygon
-A-Demos:   SoundDiskPossessed          SoundDiskPossessed.Slave          Sound Disk - Zenith
+A-Demos:   SoundDiskPossessed          SoundDiskPossessed.Slave          Sounddisk - Possessed
 A-Demos:   SoundDiskZenith             SoundDiskZenith.slave             Sound Disk - Zenith
 A-Demos:   SoundEngine                 SoundEngine.Slave                 Sound engine - Absence
 A-Demos:   SoundEngine2                SoundEngine2.Slave                Sound Engine 2 - Absence
@@ -721,7 +721,7 @@ A-Demos:   StatusQuoFast               StatusQuoFast.Slave               Status 
 A-Demos:   StereoSounds                StereoSounds.Slave                Stereo Sounds - Eon
 A-Demos:   SteveVizard                 SteveVizard.Slave                 Steve Vizard Demo - Decay
 A-Demos:   StopFascism                 StopFascism.Slave                 Stop Fascism - Alcatraz,Interactive
-A-Demos:   StrangeMusic1               StrangeMusic1.Slave               Strange Dream #1 - Willow (Amiga)
+A-Demos:   StrangeMusic1               StrangeMusic1.Slave               Strange Music - Strange
 A-Demos:   StrangeMusic2               StrangeMusic2.Slave               Strange Music 2 - Strange
 A-Demos:   StrangeMusic3               StrangeMusic3.Slave               Strange Music 3 - Strange
 A-Demos:   SubliminalVision            SubliminalVision.Slave            Subliminal Vision - Bass

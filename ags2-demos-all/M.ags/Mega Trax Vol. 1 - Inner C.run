@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:M/MusicCollection4Zarch/MusicCollection4Zarch.Slave
+;RunFile=A-Demos:M/MegaTraxVol1/MegaTraxVol1.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "M" "Music Collection 4 - Level"
+  execute S:AGS2Favourites "M" "Mega Trax Vol. 1 - Inner C"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MusicCollection4Zarch/"
+cd "A-Demos:M/MegaTraxVol1/"
 IF EXISTS ENV:whdloadargs
-  whdload "MusicCollection4Zarch.Slave" $whdloadargs
+  whdload "MegaTraxVol1.Slave" $whdloadargs
 ELSE
-  whdload "MusicCollection4Zarch.Slave"
+  whdload "MegaTraxVol1.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

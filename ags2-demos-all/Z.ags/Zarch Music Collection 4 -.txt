@@ -1,4 +1,4 @@
-Name    : Music Collection 4
-Groups  : Level 4
+Name    : Zarch Music Collection 4
+Groups  : Zarch
 Type    : Musicdisk
 RunFile : MusicCollection4Zarch.Slave

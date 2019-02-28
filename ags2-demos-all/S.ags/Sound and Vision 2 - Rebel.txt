@@ -1,4 +1,4 @@
-Name    : Sound & Vision
+Name    : Sound and Vision 2
 Groups  : Rebels
 Type    : Musicdisk
 RunFile : SoundAndVision2.Slave

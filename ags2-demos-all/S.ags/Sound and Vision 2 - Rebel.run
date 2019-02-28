@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:S/SoundDiskZenith/SoundDiskZenith.slave
+;RunFile=A-Demos:S/SoundAndVision2/SoundAndVision2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "S" "Sound Disk - Zenith "
+  execute S:AGS2Favourites "S" "Sound and Vision 2 - Rebel"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/SoundDiskZenith/"
+cd "A-Demos:S/SoundAndVision2/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoundDiskZenith.slave" $whdloadargs
+  whdload "SoundAndVision2.Slave" $whdloadargs
 ELSE
-  whdload "SoundDiskZenith.slave"
+  whdload "SoundAndVision2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

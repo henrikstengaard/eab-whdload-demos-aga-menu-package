@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:M/MegaTraxVol1/MegaTraxVol1.Slave
+;RunFile=A-Demos:S/SoundDiskPossessed/SoundDiskPossessed.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "K" "Khalaan - Inner City"
+  execute S:AGS2Favourites "S" "Sounddisk - Possessed"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:M/MegaTraxVol1/"
+cd "A-Demos:S/SoundDiskPossessed/"
 IF EXISTS ENV:whdloadargs
-  whdload "MegaTraxVol1.Slave" $whdloadargs
+  whdload "SoundDiskPossessed.Slave" $whdloadargs
 ELSE
-  whdload "MegaTraxVol1.Slave"
+  whdload "SoundDiskPossessed.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

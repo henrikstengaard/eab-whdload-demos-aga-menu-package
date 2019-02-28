@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:C/ChipMusic/ChipMusic.Slave
+;RunFile=A-Demos:C/ChipMusicFestival/ChipMusicFestival.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:C/ChipMusic/"
+cd "A-Demos:C/ChipMusicFestival/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChipMusic.Slave" $whdloadargs
+  whdload "ChipMusicFestival.Slave" $whdloadargs
 ELSE
-  whdload "ChipMusic.Slave"
+  whdload "ChipMusicFestival.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

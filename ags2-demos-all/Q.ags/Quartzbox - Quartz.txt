@@ -1,0 +1,4 @@
+Name    : Quartzbox
+Groups  : Quartz
+Type    : Musicdisk
+RunFile : Quartzbox.Slave

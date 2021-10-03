@@ -1,0 +1,5 @@
+Name    : Greatest Bits 2
+Groups  : Pussy
+Type    : Musicdisk
+Party   : Demons Amiga Convention
+RunFile : GreatestBits2.Slave

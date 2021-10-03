@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:L/LostSymphony/LostSymphony.Slave
+
+; Run WHDLoad
+cd "A-Demos:L/LostSymphony/"
+IF EXISTS ENV:whdloadargs
+  whdload "LostSymphony.Slave" $whdloadargs
+ELSE
+  whdload "LostSymphony.Slave"
+ENDIF

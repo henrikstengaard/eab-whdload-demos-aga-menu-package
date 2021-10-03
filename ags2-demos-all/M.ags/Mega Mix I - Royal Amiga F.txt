@@ -1,0 +1,4 @@
+Name    : Mega Mix I
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+RunFile : KraftwerkMegaMix.Slave

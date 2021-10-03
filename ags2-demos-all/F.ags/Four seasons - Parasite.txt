@@ -1,0 +1,4 @@
+Name    : Four seasons
+Groups  : Parasite
+Type    : Musicdisk
+RunFile : FourSeasons.Slave

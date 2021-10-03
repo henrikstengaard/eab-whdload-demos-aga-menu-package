@@ -1,0 +1,4 @@
+Name    : Lost Symphony
+Groups  : Mystic,Pic Saint Loup
+Type    : Musicdisk
+RunFile : LostSymphony.Slave

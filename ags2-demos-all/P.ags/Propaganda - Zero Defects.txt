@@ -1,0 +1,4 @@
+Name    : Propaganda
+Groups  : Zero Defects
+Type    : Musicdisk
+RunFile : PropagandaZeroDefects.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AnarchyPartySlideshow/AnarchyPartySlideshow.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AnarchyPartySlideshow/"
+IF EXISTS ENV:whdloadargs
+  whdload "AnarchyPartySlideshow.Slave" $whdloadargs
+ELSE
+  whdload "AnarchyPartySlideshow.Slave"
+ENDIF

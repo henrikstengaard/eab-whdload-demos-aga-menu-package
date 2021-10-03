@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SiliconSounds/SiliconSounds.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SiliconSounds/"
+IF EXISTS ENV:whdloadargs
+  whdload "SiliconSounds.Slave" $whdloadargs
+ELSE
+  whdload "SiliconSounds.Slave"
+ENDIF

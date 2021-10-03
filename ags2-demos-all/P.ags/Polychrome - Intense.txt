@@ -1,0 +1,4 @@
+Name    : Polychrome
+Groups  : Intense
+Type    : Musicdisk
+RunFile : Polychrome.Slave

@@ -1,0 +1,4 @@
+Name    : Starlight
+Groups  : Mystic,Tristar & Red Sector Inc.
+Type    : Musicdisk
+RunFile : Starlight.Slave

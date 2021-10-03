@@ -1,0 +1,4 @@
+Name    : Go For The Record
+Groups  : Quartz
+Type    : Musicdisk
+RunFile : GoForTheRecord.Slave

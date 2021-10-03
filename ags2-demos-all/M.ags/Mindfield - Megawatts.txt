@@ -1,0 +1,4 @@
+Name    : Mindfield
+Groups  : Megawatts
+Type    : Musicdisk
+RunFile : Mindfield.Slave

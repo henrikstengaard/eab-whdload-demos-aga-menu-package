@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Demos:F/FelixDontYouWantMe/FelixDontYouWantMe.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "F" "Felix Dont you want me - P"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Demos:F/FelixDontYouWantMe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FelixDontYouWantMe.Slave" $whdloadargs
+ELSE
+  whdload "FelixDontYouWantMe.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

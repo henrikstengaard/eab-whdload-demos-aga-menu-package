@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:M/Monolith/Monolith.slave
+
+; Run WHDLoad
+cd "A-Demos:M/Monolith/"
+IF EXISTS ENV:whdloadargs
+  whdload "Monolith.slave" $whdloadargs
+ELSE
+  whdload "Monolith.slave"
+ENDIF

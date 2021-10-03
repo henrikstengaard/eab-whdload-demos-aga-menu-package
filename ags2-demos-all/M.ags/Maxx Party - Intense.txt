@@ -1,0 +1,4 @@
+Name    : Maxx Party
+Groups  : Intense
+Type    : Musicdisk
+RunFile : MaxxParty.Slave

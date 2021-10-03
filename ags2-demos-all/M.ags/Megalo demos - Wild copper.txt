@@ -1,0 +1,5 @@
+Name    : Megalo demos
+Version : Demos
+Groups  : Wild copper
+Type    : Demo
+RunFile : MegaloDemos.Slave

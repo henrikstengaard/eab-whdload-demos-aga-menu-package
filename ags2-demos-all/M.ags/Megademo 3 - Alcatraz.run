@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:M/Megademo3Alcatraz/Megademo3Alcatraz.Slave
+;RunFile=A-Demos:M/Megademo3Alcatraz/Megademo3Alcatraz.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Demos:M/Megademo3Alcatraz/"
 IF EXISTS ENV:whdloadargs
-  whdload "Megademo3Alcatraz.Slave" $whdloadargs
+  whdload "Megademo3Alcatraz.slave" $whdloadargs
 ELSE
-  whdload "Megademo3Alcatraz.Slave"
+  whdload "Megademo3Alcatraz.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

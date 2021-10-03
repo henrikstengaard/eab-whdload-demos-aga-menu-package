@@ -1,0 +1,6 @@
+Name    : Contagion
+Groups  : Appendix
+Type    : Demo
+Party   : Computer art festival 1995
+Rank    : 3rd
+RunFile : Contagion.Slave

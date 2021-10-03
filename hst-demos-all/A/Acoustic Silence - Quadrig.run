@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AcousticSilence/AcousticSilence.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AcousticSilence/"
+IF EXISTS ENV:whdloadargs
+  whdload "AcousticSilence.Slave" $whdloadargs
+ELSE
+  whdload "AcousticSilence.Slave"
+ENDIF

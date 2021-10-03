@@ -1,0 +1,4 @@
+Name    : Monolith
+Groups  : Megawatts
+Type    : Musicdisk
+RunFile : Monolith.slave

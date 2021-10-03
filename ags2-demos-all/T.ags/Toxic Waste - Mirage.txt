@@ -1,0 +1,4 @@
+Name    : Toxic Waste
+Groups  : Mirage
+Type    : Musicdisk
+RunFile : ToxicWaste.Slave

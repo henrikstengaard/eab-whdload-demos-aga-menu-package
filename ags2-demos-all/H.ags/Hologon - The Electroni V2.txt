@@ -1,0 +1,5 @@
+Name    : Hologon
+Version : 512K
+Groups  : The Electronic Knights
+Type    : Trackmo
+RunFile : Hologon512k.slave

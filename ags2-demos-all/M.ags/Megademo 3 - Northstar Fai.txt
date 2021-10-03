@@ -1,0 +1,4 @@
+Name    : Megademo 3
+Groups  : Northstar & Fairlight
+Type    : Megademo
+RunFile : Megademo3NSFLT.slave

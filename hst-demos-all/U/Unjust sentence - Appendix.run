@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:U/UnjustSentence/UnjustSentence.Slave
+
+; Run WHDLoad
+cd "A-Demos:U/UnjustSentence/"
+IF EXISTS ENV:whdloadargs
+  whdload "UnjustSentence.Slave" $whdloadargs
+ELSE
+  whdload "UnjustSentence.Slave"
+ENDIF

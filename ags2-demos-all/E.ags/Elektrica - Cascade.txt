@@ -1,0 +1,4 @@
+Name    : Elektrica
+Groups  : Cascade
+Type    : Musicdisk
+RunFile : Elektrica.Slave

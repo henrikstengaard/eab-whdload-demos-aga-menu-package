@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:C/Contagion/Contagion.Slave
+
+; Run WHDLoad
+cd "A-Demos:C/Contagion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Contagion.Slave" $whdloadargs
+ELSE
+  whdload "Contagion.Slave"
+ENDIF

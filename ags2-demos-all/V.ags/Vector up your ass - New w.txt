@@ -1,0 +1,4 @@
+Name    : Vector up your ass
+Groups  : New wave
+Type    : Musicdisk
+RunFile : VectorUpYourAss.Slave

@@ -1,0 +1,4 @@
+Name    : Call It Wot Ya Want
+Groups  : Magic
+Type    : Musicdisk
+RunFile : CallItWotYaWant.Slave

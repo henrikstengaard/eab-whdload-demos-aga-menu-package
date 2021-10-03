@@ -1,0 +1,4 @@
+Name    : Bohemian
+Groups  : Vectors
+Type    : Slideshow
+RunFile : Bohemian.slave

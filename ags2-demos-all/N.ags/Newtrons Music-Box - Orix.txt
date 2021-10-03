@@ -1,0 +1,4 @@
+Name    : Newtron's Music-Box
+Groups  : Orix
+Type    : Musicdisk
+RunFile : NewtronsMusicBox.Slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/AuralIllusions/AuralIllusions.Slave
+
+; Run WHDLoad
+cd "A-Demos:A/AuralIllusions/"
+IF EXISTS ENV:whdloadargs
+  whdload "AuralIllusions.Slave" $whdloadargs
+ELSE
+  whdload "AuralIllusions.Slave"
+ENDIF

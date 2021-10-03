@@ -1,0 +1,4 @@
+Name    : Felix: Don't you want me?
+Groups  : Project A
+Type    : Demo
+RunFile : FelixDontYouWantMe.Slave

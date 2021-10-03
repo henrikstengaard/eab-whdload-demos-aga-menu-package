@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:B/BluesSymphoniesAGA/BluesSymphoniesAGA.Slave
+
+; Run WHDLoad
+cd "A-Demos:B/BluesSymphoniesAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BluesSymphoniesAGA.Slave" $whdloadargs
+ELSE
+  whdload "BluesSymphoniesAGA.Slave"
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Aural Illusions
+Groups  : Genocide
+Type    : Musicdisk
+RunFile : AuralIllusions.Slave

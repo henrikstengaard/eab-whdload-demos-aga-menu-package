@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:S/SoundtrackerInjury3/SoundtrackerInjury3.Slave
+;RunFile=A-Demos:S/SoundtrackerInjury/SoundtrackerInjury.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/SoundtrackerInjury3/"
+cd "A-Demos:S/SoundtrackerInjury/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoundtrackerInjury3.Slave" $whdloadargs
+  whdload "SoundtrackerInjury.Slave" $whdloadargs
 ELSE
-  whdload "SoundtrackerInjury3.Slave"
+  whdload "SoundtrackerInjury.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

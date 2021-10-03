@@ -1,0 +1,4 @@
+Name    : Hologon
+Groups  : The Electronic Knights
+Type    : Trackmo
+RunFile : Hologon.slave

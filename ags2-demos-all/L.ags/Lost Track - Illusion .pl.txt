@@ -1,0 +1,4 @@
+Name    : Lost Track
+Groups  : Illusion (.pl)
+Type    : Musicdisk
+RunFile : LostTrack.Slave

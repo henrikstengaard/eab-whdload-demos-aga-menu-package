@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Demos:S/SoundMania2Pussy/SoundMania2Pussy.Slave
+;RunFile=A-Demos:S/SoundMania/SoundMania.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Demos:S/SoundMania2Pussy/"
+cd "A-Demos:S/SoundMania/"
 IF EXISTS ENV:whdloadargs
-  whdload "SoundMania2Pussy.Slave" $whdloadargs
+  whdload "SoundMania.Slave" $whdloadargs
 ELSE
-  whdload "SoundMania2Pussy.Slave"
+  whdload "SoundMania.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

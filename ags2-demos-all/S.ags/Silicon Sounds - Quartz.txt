@@ -1,0 +1,4 @@
+Name    : Silicon Sounds
+Groups  : Quartz
+Type    : Musicdisk
+RunFile : SiliconSounds.Slave

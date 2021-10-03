@@ -1,0 +1,4 @@
+Name    : Acoustic Silence
+Groups  : Quadriga
+Type    : Musicdisk
+RunFile : AcousticSilence.Slave

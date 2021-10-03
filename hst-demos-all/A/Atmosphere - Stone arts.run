@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:A/Atmosphere/Atmosphere.slave
+
+; Run WHDLoad
+cd "A-Demos:A/Atmosphere/"
+IF EXISTS ENV:whdloadargs
+  whdload "Atmosphere.slave" $whdloadargs
+ELSE
+  whdload "Atmosphere.slave"
+ENDIF

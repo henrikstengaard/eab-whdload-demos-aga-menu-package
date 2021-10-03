@@ -1,0 +1,4 @@
+Name    : Focused on art
+Groups  : Vision,Anarchy
+Type    : Slideshow
+RunFile : VisionOfTheArt.Slave

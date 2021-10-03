@@ -1,0 +1,4 @@
+Name    : Heliopolis
+Groups  : EMT Design
+Type    : Demo
+RunFile : Heliopolis.Slave

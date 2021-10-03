@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:S/SoundtrackerInjury4/SoundtrackerInjury4.Slave
+
+; Run WHDLoad
+cd "A-Demos:S/SoundtrackerInjury4/"
+IF EXISTS ENV:whdloadargs
+  whdload "SoundtrackerInjury4.Slave" $whdloadargs
+ELSE
+  whdload "SoundtrackerInjury4.Slave"
+ENDIF

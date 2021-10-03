@@ -1,0 +1,4 @@
+Name    : Imperial Tunes
+Groups  : Parasite
+Type    : Musicdisk
+RunFile : ImperialTunes.Slave

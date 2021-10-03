@@ -1,0 +1,4 @@
+Name    : Dance war
+Groups  : Humans
+Type    : Intro
+RunFile : DanceWar.Slave

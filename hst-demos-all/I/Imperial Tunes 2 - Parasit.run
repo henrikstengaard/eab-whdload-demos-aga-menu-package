@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Demos:I/ImperialTunes2/ImperialTunes2.Slave
+
+; Run WHDLoad
+cd "A-Demos:I/ImperialTunes2/"
+IF EXISTS ENV:whdloadargs
+  whdload "ImperialTunes2.Slave" $whdloadargs
+ELSE
+  whdload "ImperialTunes2.Slave"
+ENDIF

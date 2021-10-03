@@ -1,0 +1,5 @@
+Name    : Blues Symphonies
+Version : AGA
+Groups  : Skarla
+Type    : Musicdisk
+RunFile : BluesSymphoniesAGA.Slave

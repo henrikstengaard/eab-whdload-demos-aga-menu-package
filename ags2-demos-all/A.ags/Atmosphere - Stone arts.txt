@@ -1,0 +1,4 @@
+Name    : Atmosphere
+Groups  : Stone arts
+Type    : Demo
+RunFile : Atmosphere.slave

@@ -1,0 +1,4 @@
+Name    : Birthday
+Groups  : Turnips
+Type    : Musicdisk
+RunFile : Birthday.Slave

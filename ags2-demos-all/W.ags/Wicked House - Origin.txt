@@ -1,0 +1,5 @@
+Name    : Wicked House
+Groups  : Origin
+Type    : Musicdisk
+Party   : TRSI Easter Conference 1992
+RunFile : WickedHouse.Slave
